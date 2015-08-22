@@ -24,7 +24,7 @@ Supervisor: Prof. Jong-Soo Seo
 **M.S. in Electrical and Electronic Engineering**     September 2005 - February 2007    
 Yonsei University   Seoul, Korea     
 
-**B.S. in Electrical and Electronic Engineering**, Honors   March 2002 - August 2005    
+**B.S. in Electrical and Electronic Engineering**, *Honors*   March 2002 - August 2005    
 Yonsei University   Seoul, Korea    
 	 
 
