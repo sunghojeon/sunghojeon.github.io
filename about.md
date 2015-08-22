@@ -13,15 +13,18 @@ Korean Broadcasting System (KBS)
 
 ## Education
 
-- **Ph.D. Candidate in Electrical and Electronic Engineering**   March 2011 - Present    
-	- Yonsei University    Seoul, Korea    
+- **Ph.D. Candidate in Electrical and Electronic Engineering**   
+	- March 2011 - Present    
+	- Yonsei University, Seoul, Republic of Korea    
 	- Supervisor: Prof. Jong-Soo Seo    
 	 
-- **M.S. in Electrical and Electronic Engineering**     September 2005 - February 2007    
-	- Yonsei University   Seoul, Korea     
+- **M.S. in Electrical and Electronic Engineering**     
+	- September 2005 - February 2007    
+	- Yonsei University, Seoul, Republic of Korea       
 
-- **B.S. in Electrical and Electronic Engineering**, *Honors*   March 2002 - August 2005    
-	- Yonsei University   Seoul, Korea    
+- **B.S. in Electrical and Electronic Engineering**, *Honors*   
+	- March 2002 - August 2005    
+	- Yonsei University, Seoul, Republic of Korea  
 
 
 ## Honors and Awards
