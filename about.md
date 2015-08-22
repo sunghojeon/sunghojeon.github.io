@@ -34,7 +34,8 @@ Member, The Institute of Electrical and Electronics Engineers (IEEE)
 
 ## Professional Activities
 
-Reviwer, IEEE Transactions on Broadcasting,
+Reviwer, IEEE Transactions on Broadcasting  
+Reviwer, IEEE Communications Letters  
 
 ## Contact me
 
