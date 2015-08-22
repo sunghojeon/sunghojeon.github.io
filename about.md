@@ -4,11 +4,6 @@ title: CV
 permalink: /about/
 ---
 
-This website has downloadable documents for grant applications and consultancy assignments, e.g. a CV and a publications list, and links to recently published papers and lectures as well as some statistical programs. Most of the published papers can be freely downloaded from the respective journal’s website.
-
-This website also includes address information and facilities for making appointments and sending personal messages and computer files (data, study protocols, manuscripts, etc.) securely over the Internet.
-
-
 ## Experience
 
 **Research Engineer**              March 2007 - Present             
@@ -35,9 +30,9 @@ Ph.D candidate...
 
 ## Membership
 
-Member of the Institute of Electrical and Electronics Engineers (IEEE)
+Member, The Institute of Electrical and Electronics Engineers (IEEE)
 
-## Professional Service
+## Professional Activities
 
 Reviwer, IEEE Transactions on Broadcasting,
 
