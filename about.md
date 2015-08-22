@@ -26,18 +26,18 @@ Korean Broadcasting System (KBS)
 
 ## Honors and Awards
 
--Ph.D candidate...
+- Ph.D candidate...
 
 
 ## Membership
 
--Member, The Institute of Electrical and Electronics Engineers (IEEE)
+- Member, The Institute of Electrical and Electronics Engineers (IEEE)
 
 
 ## Professional Activities
 
--Reviwer, IEEE Transactions on Broadcasting  
--Reviwer, IEEE Communications Letters  
+- Reviwer, IEEE Transactions on Broadcasting  
+- Reviwer, IEEE Communications Letters  
 
 
 ### Contact me
