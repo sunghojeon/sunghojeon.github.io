@@ -26,11 +26,6 @@ permalink: /about/
 	- Yonsei University, Seoul, Republic of Korea  
 
 
-## Honors and Awards
-
-- Ph.D candidate...
-
-
 ## Membership
 
 - Member, The Institute of Electrical and Electronics Engineers (IEEE)
