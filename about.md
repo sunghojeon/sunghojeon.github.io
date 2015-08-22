@@ -41,6 +41,6 @@ permalink: /about/
 
 - [Google Citations](https://scholar.google.com/citations?user=K-uP94QAAAAJ&hl=en)
 
-### Contact me
+#### Contact me
 
 [jshrobot@gmail.com](mailto:jshrobot@gmail.com)
