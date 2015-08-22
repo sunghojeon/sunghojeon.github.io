@@ -11,9 +11,9 @@ This website also includes address information and facilities for making appoint
 
 ### Experience
 
-**Research Engineer** \right March 2007 - Present  
-Technical Research Institute    Seoul, Republic of Korea  
-Korean Broadcasting System (KBS)  
+| **Research Engineer**             | March 2007 - Present     | 
+| Technical Research Institute      | Seoul, Republic of Korea | 
+| Korean Broadcasting System (KBS)  |                          |
 
 ### Education
 
