@@ -9,18 +9,22 @@ This website has downloadable documents for grant applications and consultancy a
 This website also includes address information and facilities for making appointments and sending personal messages and computer files (data, study protocols, manuscripts, etc.) securely over the Internet.
 
 
-### Current positions
+### Experience
 
-A place to include any other types of information that you'd like to include about yourself.
+Research Engineer, March 2007 - Present
+Technical Research Institute    Seoul, Republic of Korea
+Korean Broadcasting System (KBS)
+
+### Education
 
 
 ### Academic degrees and professional awards
 
-    Ph.D candidate...
+Ph.D candidate...
 
 ### Professional affiliations
 
-    Member, IEEE
+Member, IEEE
 
 ### Contact me
 
