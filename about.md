@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: CV
 permalink: /about/
 ---
 
@@ -10,13 +10,13 @@ This website also includes address information and facilities for making appoint
 
 
 ## Experience
----------------
+
 Research Engineer, March 2007 - Present  
 Technical Research Institute    Seoul, Republic of Korea  
 Korean Broadcasting System (KBS)  
 
-### Education
----------------
+## Education
+
 Ph.D. in Electrical and Electronic Engineering   Mar. 2007 - Aug. 2010    
 Yonsei University    Seoul, Korea    
 Supervisor: Prof. Jong-Soo Seo    
@@ -28,14 +28,18 @@ B.S. in Electrical and Electronic Engineering, Honors   Mar. 2001 - Aug. 2004
 Yonsei University   Seoul, Korea    
 	 
 
-### Academic degrees and professional awards
+## Honors and Awards
 
 Ph.D candidate...
 
-### Professional affiliations
+## Membership
 
 Member, IEEE
 
-### Contact me
+## Professional Service
+
+Reviwer, IEEE Transactions on Broadcasting,
+
+## Contact me
 
 [jshrobot@gmail.com](mailto:jshrobot@gmail.com)
