@@ -10,13 +10,13 @@ This website also includes address information and facilities for making appoint
 
 
 ## Experience
-
+---------------
 Research Engineer, March 2007 - Present
 Technical Research Institute    Seoul, Republic of Korea
 Korean Broadcasting System (KBS)
 
 ### Education
-
+---------------
 Ph.D. in Electrical and Electronic Engineering   Mar. 2007 - Aug. 2010
 Yonsei University    Seoul, Korea
 Supervisor: Prof. Jong-Soo Seo
