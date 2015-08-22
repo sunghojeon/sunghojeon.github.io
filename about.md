@@ -8,11 +8,8 @@ permalink: /about/
 
 **Research Engineer**              March 2007 - Present             
 Technical Research Institute       Seoul, Republic of Korea       
-Korean Broadcasting System (KBS)                                  
+Korean Broadcasting System (KBS)
 
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
 
 ## Education
 
@@ -31,15 +28,18 @@ Yonsei University   Seoul, Korea
 
 Ph.D candidate...
 
+
 ## Membership
 
 Member, The Institute of Electrical and Electronics Engineers (IEEE)
+
 
 ## Professional Activities
 
 Reviwer, IEEE Transactions on Broadcasting  
 Reviwer, IEEE Communications Letters  
 
-## Contact me
+
+### Contact me
 
 [jshrobot@gmail.com](mailto:jshrobot@gmail.com)
