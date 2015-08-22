@@ -33,8 +33,8 @@ permalink: /about/
 
 ## Professional Activities
 
-- Reviwer, IEEE Transactions on Broadcasting  
-- Reviwer, IEEE Communications Letters  
+- Reviewer, IEEE Transactions on Broadcasting  
+- Reviewer, IEEE Communications Letters  
 
 
 ## Publication
