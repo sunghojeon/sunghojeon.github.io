@@ -6,10 +6,9 @@ permalink: /about/
 
 ## Experience
 
-**Research Engineer**              March 2007 - Present             
-Technical Research Institute       Seoul, Republic of Korea       
-Korean Broadcasting System (KBS)
-
+- **Research Engineer**              
+	- March 2007 - Present             
+	- Technical Research Institute, Korean Broadcasting System (KBS), Seoul, Republic of Korea  
 
 ## Education
 
