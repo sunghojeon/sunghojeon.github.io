@@ -9,13 +9,13 @@ This website has downloadable documents for grant applications and consultancy a
 This website also includes address information and facilities for making appointments and sending personal messages and computer files (data, study protocols, manuscripts, etc.) securely over the Internet.
 
 
-### Experience
+## Experience
 
-| **Research Engineer**             | March 2007 - Present     | 
-| Technical Research Institute      | Seoul, Republic of Korea | 
-| Korean Broadcasting System (KBS)  |                          |
+| **Research Engineer**             | March 2007 - Present     |    
+| Technical Research Institute      | Seoul, Republic of Korea |    
+| Korean Broadcasting System (KBS)  |                          |   
 
-### Education
+## Education
 
 **Ph.D. Candidate in Electrical and Electronic Engineering**   March 2011 - Present    
 Yonsei University    Seoul, Korea    
@@ -28,18 +28,18 @@ Yonsei University   Seoul, Korea
 Yonsei University   Seoul, Korea    
 	 
 
-### Honors and Awards
+## Honors and Awards
 
 Ph.D candidate...
 
-### Membership
+## Membership
 
 Member of the Institute of Electrical and Electronics Engineers (IEEE)
 
-### Professional Service
+## Professional Service
 
 Reviwer, IEEE Transactions on Broadcasting,
 
-### Contact me
+## Contact me
 
 [jshrobot@gmail.com](mailto:jshrobot@gmail.com)
