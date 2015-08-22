@@ -33,8 +33,8 @@ permalink: /about/
 
 ## Professional Activities
 
-- Reviewer, IEEE Transactions on Broadcasting  
-- Reviewer, IEEE Communications Letters  
+- Reviewer, IEEE Transactions on Broadcasting, 2011-   
+- Reviewer, IEEE Communications Letters, 2009-     
 
 
 ## Publication
