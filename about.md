@@ -15,6 +15,7 @@ This website also includes address information and facilities for making appoint
 Technical Research Institute       Seoul, Republic of Korea       
 Korean Broadcasting System (KBS)                                  
 
+
 ## Education
 
 **Ph.D. Candidate in Electrical and Electronic Engineering**   March 2011 - Present    
@@ -26,18 +27,6 @@ Yonsei University   Seoul, Korea
 
 **B.S. in Electrical and Electronic Engineering**, *Honors*   March 2002 - August 2005    
 Yonsei University   Seoul, Korea    
-	 
--------------------------------------------------------------
- Centered   Default           Right Left
-  Header    Aligned         Aligned Aligned
------------ ------- --------------- -------------------------
-   First    row                12.0 Example of a row that
-                                    spans multiple lines.
-
-  Second    row                 5.0 Here's another one. Note
-                                    the blank line between
-                                    rows.
--------------------------------------------------------------
 
 
 ## Honors and Awards
