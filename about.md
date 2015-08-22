@@ -4,12 +4,24 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+This website has downloadable documents for grant applications and consultancy assignments, e.g. a CV and a publications list, and links to recently published papers and lectures as well as some statistical programs. Most of the published papers can be freely downloaded from the respective journal’s website.
 
-### More Information
+This website also includes address information and facilities for making appointments and sending personal messages and computer files (data, study protocols, manuscripts, etc.) securely over the Internet.
+
+
+### Current positions
 
 A place to include any other types of information that you'd like to include about yourself.
 
+
+### Academic degrees and professional awards
+
+    Ph.D candidate...
+
+### Professional affiliations
+
+    Member, IEEE
+
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[jshrobot@gmail.com](mailto:jshrobot@gmail.com)
