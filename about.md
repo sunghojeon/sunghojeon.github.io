@@ -35,7 +35,7 @@ permalink: /about/
 - Bronze Award, IEEE Seoul Section Student Paper Contest 2012.
 - Best Student Paper Award, IEEE BMSB 2014.
 - The First Commended Article award, ABU Technical Review 2013.
-- 
+
 
 ## Professional Activities
 
