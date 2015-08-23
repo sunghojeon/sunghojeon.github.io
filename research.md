@@ -141,11 +141,43 @@ permalink: /research/
 4. Hyungkeuk Lee, **Sungho Jeon**, and Sanghoon Lee, “Cross-Layer Optimization for Downlink Wavelet Image Transmission,” in *IEEE Global Telecommunications Conference* (GLOBECOM 2006), San Francisco, CA, USA, December 2006.
 4. **Sungho Jeon**, and Sanghoon Lee, “A Hierarchical Network Synchronization Technique for Asynchronous Broadband Networks,” in *The Joint International Conference on Optical Internet and Next Generation Network* (COIN-NGNCON 2006), Jeju, Republic of Korea, July 2006. 
 
+### Korean Journal Papers
+
+#### 2015
+
+6. 조인준, 함상진, 김산성, 김병선, 김상훈, 전성호 (2015.1). 지상파 4K UHD 스포츠 라이브 중계방송. 『방송공학회논문지』, 20(1), 26-39.
+
+#### 2014
+
+6. 임중곤, 함상진, 김상훈, 김윤형, 전성호, 김병선 (2014.9). 국내 지상파 UHDTV 표준화와 서비스 추진 동향. 『전자파기술』, 25(5), 3-12.
+
+6. 전성호, 김상훈, 조인준, 김정덕, 김병선, 서종수 (2014.4). 4K UHDTV 송수신 장비 개발 및 실험방송 현황. 『방송공학회지』, 19(2), 27-35.
+
+#### 2013
+
+6. 한재신, 전성호, 최정민 , 서종수 (2013.11). 에너지 효율적 차세대 방송망 구축을 위한 증폭기 특성과 신호 모델. 『방송공학회논문지』, 18(6), 884-894.
+
+6. 이재권, 전성호, 김정현, 서영우, 경일수 (2013.5). 향상된 지상파 DTV 채널 프로파일 측정기술. 『방송공학회논문지』, 18(3), 435-444.
+
+6. 임중곤, 김병선, 함상진, 전성호 (2013.4). 지상파 4K UHDTV 제1차 실험방송 결과와 향후 추진 계획. 『방송공학회지』, 18(2), 7-26.
+
+6. 김현순, 전성호, 이상주, 경일수, 정신일 (2013.1). DMB와 웹의 만남, WebDMB 서비스. 『방송공학회지』, 18(1), 67-73.
+
+
+#### 2010
+
+6. 전성호, 임중곤, 경일수, 김만식 (2010.11). DVB-T2 16K LDPC 부호가 적용된 MIMO-OFDM 시스템에서의 성분 맞교환 기술 이득. 『방송공학회논문지』, 15(6), 749-756.
+
+#### 2009
+
+6. 황순업, 김영기, 전성호, 강우석, 서종수 (2009.7). 채널 부호화된 OFDM 시스템을 위한 공간 변조를 이용한 새로운 전송 기법. 『한국통신학회논문지』, 34(7), 515-522.
+
+
 
 ## Standardization  
 
-5. xx
-5. xx
+8. xx
+8. xx
 
 ## Teaching and Talks
 
