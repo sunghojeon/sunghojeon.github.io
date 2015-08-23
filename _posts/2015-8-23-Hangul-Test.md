@@ -9,8 +9,12 @@ This is a demo of all styled elements in Jekyll Now.
 
 This is a par
 
-```
+```python
+def x
 x = 0
 x = 2 + 2
 what is x
 ```
+
+
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet 
