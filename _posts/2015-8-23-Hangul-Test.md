@@ -14,6 +14,10 @@ This is a par
 def x
 x = 0
 x = 2 + 2
+x = 2 + 2
+x = 2 + 2
+x = 2 + 2
+x = 2 + 2x = 2 + 2x = 2 + 2x = 2 + 2x = 2 + 2x = 2 + 2x = 2 + 2x = 2 + 2x = 2 + 2x = 2 + 2
 what is x
 ```
 
