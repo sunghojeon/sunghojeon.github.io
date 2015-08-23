@@ -1,8 +1,9 @@
 ---
 layout: post
-title: GitHub Pages를 활용한 개인 Blog 만들기 (만드는 중)
+title: abcde
 ---
 
+GitHub Pages를 활용한 개인 Blog 만들기 (만드는 중) 
 This is a demo of all styled elements in Jekyll Now.
 
 [View the markdown used to create this post](https://raw.githubusercontent.com/barryclark/www.jekyllnow.com/gh-pages/_posts/2014-6-19-Markdown-Style-Guide.md).
