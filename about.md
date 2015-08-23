@@ -35,12 +35,3 @@ permalink: /about/
 - Reviewer, IEEE Transactions on Broadcasting, 2011-   
 - Reviewer, IEEE Communications Letters, 2009-     
 
-
-## Publication
-
-- [Google Citations](https://scholar.google.com/citations?user=K-uP94QAAAAJ&hl=en)
-
-## Teaching and Talks
-
-- [SlideShare](http://www.slideshare.net/SunghoJeon)
-
