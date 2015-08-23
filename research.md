@@ -142,6 +142,11 @@ permalink: /research/
 4. **Sungho Jeon**, and Sanghoon Lee, “A Hierarchical Network Synchronization Technique for Asynchronous Broadband Networks,” in *The Joint International Conference on Optical Internet and Next Generation Network* (COIN-NGNCON 2006), Jeju, Republic of Korea, July 2006. 
 
 
+## Standardization  
+
+5. xx
+5. xx
+
 ## Teaching and Talks
 
 - [SlideShare](http://www.slideshare.net/SunghoJeon)
