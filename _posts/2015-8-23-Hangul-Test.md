@@ -16,5 +16,11 @@ x = 2 + 2
 what is x
 ```
 
+```matlab
+def x
+x = 0
+x = 2 + 2
+what is x
+```
 
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet 
