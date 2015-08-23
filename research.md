@@ -23,7 +23,7 @@ permalink: /research/
 2. Jeong-Min Choi, Jae-Shin Han, **Sungho Jeon**, and Jong-Soo Seo, "[Design of Training Sequences and Channel Estimation for Amplify-and-Forward Two-Path Relaying Networks](http://jwcn.eurasipjournals.com/content/2014/1/113)," *EURASIP Journal of Wireless Communications and Networking*, vol. 2014:113, July 2014.
 1. Jae-Shin Han, Jong-Seob Baek, **Sungho Jeon**, and Jong-Soo Seo, "Cooperative networks with amplify-and-forward multiple-full-duplex relays," *IEEE Transactions on Wireless Communications*, vol. 13, no. 4, pp. 2137-2149, April 2014.
 2. **Sungho Jeon**, Jaekwon Lee, Jeong-Min Choi, and Jong-Soo Seo, "Definition and Properties of the Erasure Effect in Single Frequency Network with Two Synchronized Transmitters," *IEEE Antenna and Wireless Propagation Letters*, vol. 13, pp. 439-442 , March 2014. 
-1. **Sungho Jeon**, Jong-Seob Baek, Junghyun Kim, and Jong-Soo Seo, "Analysis on the Network Gains of SISO and MISO Single Frequency Network Broadcast Systems," *IEICE Transactions on Communications*, vol. E97-B, no. 01, pp. 182-189, January 2014. 
+1. **Sungho Jeon**, Jong-Seob Baek, Junghyun Kim, and Jong-Soo Seo, "[Analysis on the Network Gains of SISO and MISO Single Frequency Network Broadcast Systems](http://search.ieice.org/bin/summary.php?id=e97-b_1_182&category=B&lang=E&year=2014&abst=)," *IEICE Transactions on Communications*, vol. E97-B, no. 01, pp. 182-189, January 2014. 
 
 #### 2013
 
@@ -35,7 +35,7 @@ permalink: /research/
 
 1. **Sungho Jeon**, Jin-Yong Choi, Zungkon Yim, and Jong-Soo Seo, "Error Floor Analysis of Signal Space Diversity Schemes under Erasure Effect in Single Frequency Network," *IEEE transactions on Broadcasting*, vol. 58, no.3, pp. 508-513, Sept. 2012.
   
-1. **Sungho Jeon**, Junghyun Kim, Jaekwon Lee, Young-Woo Suh, and Jong-Soo Seo, "Adaptive Digital Predistortion with Iterative Noise Cancelation for Power Amplifier Linearization," *IEICE Transactions on Communications*, vol. E95-B, no.3, pp. 943-949, March 2012.  
+1. **Sungho Jeon**, Junghyun Kim, Jaekwon Lee, Young-Woo Suh, and Jong-Soo Seo, "[Adaptive Digital Predistortion with Iterative Noise Cancelation for Power Amplifier Linearization](http://search.ieice.org/bin/summary.php?id=e95-b_3_943&category=B&lang=E&year=2012&abst=)," *IEICE Transactions on Communications*, vol. E95-B, no.3, pp. 943-949, March 2012.  
 
 #### 2011
 
@@ -43,7 +43,7 @@ permalink: /research/
 
 #### 2010
 
-1. **Sungho Jeon**, Soon Up Hwang, Ilsoo Kyung, and Jong-soo Seo, "On the Distribution of MISO Channel Capacity in the Interference-limited System," *IEICE transactions on Communications*, vol. E93-B, no.02, pp. 377-380, February 2010.
+1. **Sungho Jeon**, Soon Up Hwang, Ilsoo Kyung, and Jong-soo Seo, "[On the Distribution of MISO Channel Capacity in the Interference-limited System](http://search.ieice.org/bin/summary.php?id=e93-b_2_377&category=B&lang=E&year=2010&abst=)," *IEICE transactions on Communications*, vol. E93-B, no.02, pp. 377-380, February 2010.
 
 #### 2009
 
@@ -59,9 +59,9 @@ permalink: /research/
 
 #### 2006
 
-1. **Sungho Jeon**, and Sanghoon Lee, "A Radio Synchronization Technique for Asynchronous Broadband Networks," *IEICE Transactions on Communications*, vol. E89-B, no. 12, pp. 3433-3437, December 2006.
+1. **Sungho Jeon**, and Sanghoon Lee, "[A Radio Synchronization Technique for Asynchronous Broadband Networks](http://search.ieice.org/bin/summary.php?id=e89-b_12_3433&category=B&lang=E&year=2006&abst=)," *IEICE Transactions on Communications*, vol. E89-B, no. 12, pp. 3433-3437, December 2006.
 
-1. Younghyun Jeon, **Sungho Jeon**, and Sanghoon Lee, "Performance Gain Analysis of Dynamic Carrier Allocation using Order Statistics," *IEICE Transactions on Communications*, vol.E89-B, no. 11, pp. 3143-3147, November 2006.
+1. Younghyun Jeon, **Sungho Jeon**, and Sanghoon Lee, "[Performance Gain Analysis of Dynamic Carrier Allocation using Order Statistics](http://search.ieice.org/bin/summary.php?id=e89-b_11_3143&category=B&lang=E&year=2006&abst=)," *IEICE Transactions on Communications*, vol.E89-B, no. 11, pp. 3143-3147, November 2006.
 
 
 ### Articles
