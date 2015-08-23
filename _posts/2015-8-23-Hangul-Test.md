@@ -17,6 +17,7 @@ what is x
 ```
 
 ```matlab
+%% notation
 def x
 x = 0
 x = 2 + 2
