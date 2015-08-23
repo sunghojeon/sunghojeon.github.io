@@ -10,6 +10,7 @@ This is a demo of all styled elements in Jekyll Now.
 This is a par
 
 ```python
+# notation
 def x
 x = 0
 x = 2 + 2
