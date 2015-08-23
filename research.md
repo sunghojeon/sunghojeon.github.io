@@ -219,4 +219,4 @@ permalink: /research/
 
 ## Teaching and Talks
 
-- [SlideShare](http://www.slideshare.net/SunghoJeon)
+- [SlideShare](http://www.slideshare.net/SunghoJeon/presentations)
