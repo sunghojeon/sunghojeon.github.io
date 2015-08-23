@@ -9,11 +9,17 @@ permalink: /research/
 
 ### Journal Papers   
 
-- xx
+1. xx   
+
+1.   
+
 
 ### Conference Papers   
 
-- xx
+1. xx   
+
+1.   
+
 
 ## Teaching and Talks
 
