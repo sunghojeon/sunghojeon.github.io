@@ -64,6 +64,17 @@ permalink: /research/
 1. Younghyun Jeon, Sungho Jeon, and Sanghoon Lee, "Performance Gain Analysis of Dynamic Carrier Allocation using Order Statistics," *IEICE Transactions on Communications*, vol.E89-B, no. 11, pp. 3143-3147, November 2006.
 
 
+### Articles
+
+#### 2015
+
+3. Injoon Cho, Byungsun Kim, Sangjin Hahm, Sanghun Kim, and **Sungho Jeon**, ``Terrestrial 4K UHD Live Broadcasting of Sports Events,'' *ABU Technical Review*, vol. 261, no. 1, pp.2-8, January-March 2015.
+
+#### 2013
+
+3. Zungkon Yim, **Sungho Jeon**, Sanghun Kim, Sangjin Hahm, and Byungsun Kim, "Exprimental Broadcasting of 4K UHDTV via Terrestrial Network in Korea," *ABU Technical Review*, no. 255, pp. 3-8, July-September 2013. _(Best Paper Award)_
+3. Sangjin Hahm, Zungkon Yim, Byungsun Kim, **Sungho Jeon**, and Injoon Cho, "Application of HEVC and DVB-T2 to Terrestrial 4K UHDTV Broadcast Over-the-Air Trials," *The Best of IET and IBC*, vol. 5, pp. 17-23, 2013.
+
 
 ### Conference Papers   
 
