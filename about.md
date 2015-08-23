@@ -30,6 +30,13 @@ permalink: /about/
 - Member, The Institute of Electrical and Electronics Engineers (IEEE)
 
 
+## Awards
+
+- Bronze Award, IEEE Seoul Section Student Paper Contest 2012.
+- Best Student Paper Award, IEEE BMSB 2014.
+- 1st Best Paper Award, ABU Technical Review 2013.
+- 
+
 ## Professional Activities
 
 - Reviewer, IEEE Transactions on Broadcasting, 2011-   
