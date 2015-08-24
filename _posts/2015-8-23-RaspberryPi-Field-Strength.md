@@ -1,7 +1,11 @@
 ---
 layout: post
-title: 한글로 된 게시글 테스트
+title: Raspberry Pi 전파환경 측정기
 ---
+
+Public channel at ThingSpeak
+
+https://thingspeak.com/channels/35203 
 
 This is a demo of all styled elements in Jekyll Now.
 
