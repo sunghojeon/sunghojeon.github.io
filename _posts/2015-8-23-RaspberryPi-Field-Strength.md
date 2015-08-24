@@ -1,36 +1,25 @@
 ---
 layout: post
-title: Raspberry Pi 전파환경 측정기
+title: Raspberry Pi based RTL-SDR Input Level and In-Band Fluctuation Measurement Tool
 ---
 
-Public channel at ThingSpeak
+# Overview
 
-https://thingspeak.com/channels/35203 
-
-This is a demo of all styled elements in Jekyll Now.
-
-[View the markdown used to create this post](https://raw.githubusercontent.com/barryclark/www.jekyllnow.com/gh-pages/_posts/2014-6-19-Markdown-Style-Guide.md).
-
-This is a par
+* 임의의 주파수 대역의 신호를 수신하여 Input Level을 측정
+* In-Band Fluctuation을 판단하는 지표로써 ITU-R BT.0000에서의 정의하고 있는 Standard Deviation 값 측정
 
 
+# Hardware
 
-$$
-\begin{align*}
-  & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
-  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
-  & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
-      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
-      \vdots & \ddots & \vdots \\
-      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
-    \end{array} \right)
-  \left( \begin{array}{c}
-      y_1 \\
-      \vdots \\
-      y_n
-    \end{array} \right)
-\end{align*}
-$$
+* [Raspberry Pi Model B+](https://www.raspberrypi.org/products/model-b-plus/)
+* [Software Defined Radio Receiver USB Stick - RTL2832 w/R820T](https://www.adafruit.com/product/1497)
+* [MCX Jack to SMA RF Cable Adapter](https://www.adafruit.com/products/1532)
+
+# Installation 
+
+
+
+# Implementation
 
 ```python
 # notation
@@ -44,6 +33,8 @@ x = 2 + 2x = 2 + 2x = 2 + 2x = 2 + 2x = 2 + 2x = 2 + 2x = 2 + 2x = 2 + 2x = 2 + 
 what is x
 ```
 
+
+
 ```matlab
 %% notation
 def x
@@ -52,4 +43,8 @@ x = 2 + 2
 what is x
 ```
 
-https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet 
+# Usage 
+
+## Monitoring
+
+* [Public channel at ThingSpeak](http://thingspeak.com/channels/35203)
