@@ -5,14 +5,14 @@ permalink: /about/
 
 ## Experience
 
-- **Research Engineer**              
-	- Technical Research Institute, March 2007 - Present  
+- **Research Engineer**       
+	- [Technical Research Institute](http://office.kbs.co.kr/tri/), March 2007 - Present  
 	- Korean Broadcasting System (KBS), Seoul, Republic of Korea  
 
 ## Education
 
 - **Ph.D. Candidate in Electrical and Electronic Engineering**   
-	- March 2011 - Present    
+	- [Digital Transmission Laboratory](http://web.yonsei.ac.kr/dtlab/), March 2011 - Present    
 	- Yonsei University, Seoul, Republic of Korea    
 	- Supervisor: Prof. Jong-Soo Seo    
 	 
