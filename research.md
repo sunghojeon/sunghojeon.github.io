@@ -121,11 +121,11 @@ permalink: /research/
 
 4. **Sungho Jeon**, Junghyun Kim, Jaekwon Lee, Young-Woo Suh, Ho Jin Ryu, Ha-Kyun Mok and Man-Sik Kim, “[On the Condition of Adaptive Digital Predistorter with Real-Time Update](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5341227),” in *The 9th International Symposium on Communication and Information Technology* (ISCIT 2009), Songdo, Incheon, Republic of Korea, September 2009.
 4. **Sungho Jeon**, Soon Up Hwang, Ilsoo Kyung and Jong-Soo Seo, “[On the Distribution of MISO Channel Capacity in the Noise and Interference-limited Systems](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5378959),” in *the 70th IEEE Semiannual Vehicular Technology Conference* (IEEE VTC 2009-Fall), Anchorage, Alaska, USA, September 2009.
-4. **Sungho Jeon**, Ilsoo Kyung and Man-Sik Kim, “Component-Interleaved Receive MRC with Rotated Constellation for Signal Space Diversity,” in *the 70th IEEE Semiannual Vehicular Technology Conference* (IEEE VTC 2009-Fall), Anchorage, Alaska, USA, September 2009.
-4. Seokjoon Hong, Jin-yong Choi, Soon Up Hwang, **Sungho Jeon**, and Jong-Soo Seo, “Spatial Diversity Technique Combined with Rotated Constellation for MIMO-OFDM Systems,” in *The 20th IEEE International Symposium on Personal, Indoor and Mobile Radio Communications* (IEEE PIMRC2009), Tokyo, Japan, September 2009.
-4. Soon Up Hwang, Jin-Yong Choi, **Sungho Jeon**, Ho Jin Ryu, and Jong-Soo Seo, “Performance Evaluation of MIMO-OFDM with Signal Space Diversity Over Frequency Selective Channels,” in *IEEE International Symposium on Broadband Multimedia System and Broadcasting* (IEEE BMSB 2009), Bilbao, Spain, May 2009.
-4. SeokJoon Hong, Jin-Yong Choi, Soon Up Hwang, **Sungho Jeon**, and Jong-Soo Seo, “Interleaved Spatial Diversity Transmission with Coordinate Interleaver for MIMO-OFDM Systems,” in *IEEE 69th Vehicular Technology Conference 2009* (VTC Spring 2009), Barcelona, Spain, April 2009.
-4. Wooseok Kang, Soon Up Hwang, Jin-Yong Choi, **Sungho Jeon**, and Jong-Soo Seo, “Coordinate Interleaved Hybrid Transmission For MIMO-OFDM Systems,” in *IEEE 69th Vehicular Technology Conference 2009* (VTC Spring 2009), Barcelona, Spain, April 2009.
+4. **Sungho Jeon**, Ilsoo Kyung and Man-Sik Kim, “[Component-Interleaved Receive MRC with Rotated Constellation for Signal Space Diversity](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5379002),” in *the 70th IEEE Semiannual Vehicular Technology Conference* (IEEE VTC 2009-Fall), Anchorage, Alaska, USA, September 2009.
+4. Seokjoon Hong, Jin-yong Choi, Soon Up Hwang, **Sungho Jeon**, and Jong-Soo Seo, “[Spatial Diversity Technique Combined with Rotated Constellation for MIMO-OFDM Systems](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5450227),” in *The 20th IEEE International Symposium on Personal, Indoor and Mobile Radio Communications* (IEEE PIMRC2009), Tokyo, Japan, September 2009.
+4. Soon Up Hwang, Jin-Yong Choi, **Sungho Jeon**, Ho Jin Ryu, and Jong-Soo Seo, “[Performance Evaluation of MIMO-OFDM with Signal Space Diversity Over Frequency Selective Channels](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5133821),” in *IEEE International Symposium on Broadband Multimedia System and Broadcasting* (IEEE BMSB 2009), Bilbao, Spain, May 2009.
+4. SeokJoon Hong, Jin-Yong Choi, Soon Up Hwang, **Sungho Jeon**, and Jong-Soo Seo, “[Interleaved Spatial Diversity Transmission with Coordinate Interleaver for MIMO-OFDM Systems](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5073614),” in *IEEE 69th Vehicular Technology Conference 2009* (VTC Spring 2009), Barcelona, Spain, April 2009.
+4. Wooseok Kang, Soon Up Hwang, Jin-Yong Choi, **Sungho Jeon**, and Jong-Soo Seo, “[Coordinate Interleaved Hybrid Transmission For MIMO-OFDM Systems](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5073472),” in *IEEE 69th Vehicular Technology Conference 2009* (VTC Spring 2009), Barcelona, Spain, April 2009.
 
 #### 2008
 
@@ -137,9 +137,9 @@ permalink: /research/
 
 #### 2006
 
-4. Sungjun Ham, **Sungho Jeon**, Younghyun Jeon, and Sanghoon Lee, “Performance Analysis of Location-based Dynamic Carrier Allocation in OFDM Systems,” in *IEEE Global Telecommunications Conference* (GLOBECOM 2006), San Francisco, CA, USA, December 2006.
+4. Sungjun Ham, **Sungho Jeon**, Younghyun Jeon, and Sanghoon Lee, “[Performance Analysis of Location-based Dynamic Carrier Allocation in OFDM Systems](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=4392433),” in *IEEE Global Telecommunications Conference* (GLOBECOM 2006), San Francisco, CA, USA, December 2006.
 4. Hyungkeuk Lee, **Sungho Jeon**, and Sanghoon Lee, “[Cross-Layer Optimization for Downlink Wavelet Image Transmission](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=4150855),” in *IEEE Global Telecommunications Conference* (GLOBECOM 2006), San Francisco, CA, USA, December 2006.
-4. **Sungho Jeon**, and Sanghoon Lee, “A Hierarchical Network Synchronization Technique for Asynchronous Broadband Networks,” in *The Joint International Conference on Optical Internet and Next Generation Network* (COIN-NGNCON 2006), Jeju, Republic of Korea, July 2006. 
+4. **Sungho Jeon**, and Sanghoon Lee, “[A Hierarchical Network Synchronization Technique for Asynchronous Broadband Networks](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=4454590),” in *The Joint International Conference on Optical Internet and Next Generation Network* (COIN-NGNCON 2006), Jeju, Republic of Korea, July 2006. 
 
 ### Korean Journal Papers
 
