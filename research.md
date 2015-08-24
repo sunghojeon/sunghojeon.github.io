@@ -21,25 +21,25 @@ permalink: /research/
 #### 2014
 
 2. Jeong-Min Choi, Jae-Shin Han, **Sungho Jeon**, and Jong-Soo Seo, "[Design of Training Sequences and Channel Estimation for Amplify-and-Forward Two-Path Relaying Networks](http://jwcn.eurasipjournals.com/content/2014/1/113)," *EURASIP Journal of Wireless Communications and Networking*, vol. 2014:113, July 2014.
-1. Jae-Shin Han, Jong-Seob Baek, **Sungho Jeon**, and Jong-Soo Seo, "Cooperative networks with amplify-and-forward multiple-full-duplex relays," *IEEE Transactions on Wireless Communications*, vol. 13, no. 4, pp. 2137-2149, April 2014.
-2. **Sungho Jeon**, Jaekwon Lee, Jeong-Min Choi, and Jong-Soo Seo, "Definition and Properties of the Erasure Effect in Single Frequency Network with Two Synchronized Transmitters," *IEEE Antenna and Wireless Propagation Letters*, vol. 13, pp. 439-442 , March 2014. 
+1. Jae-Shin Han, Jong-Seob Baek, **Sungho Jeon**, and Jong-Soo Seo, "[Cooperative networks with amplify-and-forward multiple-full-duplex relays](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6760609)," *IEEE Transactions on Wireless Communications*, vol. 13, no. 4, pp. 2137-2149, April 2014.
+2. **Sungho Jeon**, Jaekwon Lee, Jeong-Min Choi, and Jong-Soo Seo, "[Definition and Properties of the Erasure Effect in Single Frequency Network with Two Synchronized Transmitters](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6755499)," *IEEE Antenna and Wireless Propagation Letters*, vol. 13, pp. 439-442 , March 2014. 
 1. **Sungho Jeon**, Jong-Seob Baek, Junghyun Kim, and Jong-Soo Seo, "[Analysis on the Network Gains of SISO and MISO Single Frequency Network Broadcast Systems](http://search.ieice.org/bin/summary.php?id=e97-b_1_182&category=B&lang=E&year=2014&abst=)," *IEICE Transactions on Communications*, vol. E97-B, no. 01, pp. 182-189, January 2014. 
 
 #### 2013
 
-1. Jaekwon Lee, **Sungho Jeon**, Junghyun Kim, and Young-Woo Suh, "Adaptive HPA Linearization Technique for Practical ATSC DTV System," *IEEE Transactions on Broadcasting*, vol. 59, no.2, pp. 376-381, June 2013.
+1. Jaekwon Lee, **Sungho Jeon**, Junghyun Kim, and Young-Woo Suh, "[Adaptive HPA Linearization Technique for Practical ATSC DTV System](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6516520)," *IEEE Transactions on Broadcasting*, vol. 59, no.2, pp. 376-381, June 2013.
 
 #### 2012
 
-2. **Sungho Jeon**, Zungkon Yim, and Jonng-Soo Seo, "Path Loss Model for Coupling Loop Interference with Multiple Reflections over Single Frequency Network," *IETE Technical Review*, vol. 29, no. 6, pp. 499-505, Nov.-Dec. 2012.  
+2. **Sungho Jeon**, Zungkon Yim, and Jonng-Soo Seo, "[Path Loss Model for Coupling Loop Interference with Multiple Reflections over Single Frequency Network](http://www.tandfonline.com/doi/abs/10.4103/0256-4602.105006#.VdpywvTSnJF)," *IETE Technical Review*, vol. 29, no. 6, pp. 499-505, Nov.-Dec. 2012.  
 
-1. **Sungho Jeon**, Jin-Yong Choi, Zungkon Yim, and Jong-Soo Seo, "Error Floor Analysis of Signal Space Diversity Schemes under Erasure Effect in Single Frequency Network," *IEEE transactions on Broadcasting*, vol. 58, no.3, pp. 508-513, Sept. 2012.
+1. **Sungho Jeon**, Jin-Yong Choi, Zungkon Yim, and Jong-Soo Seo, "[Error Floor Analysis of Signal Space Diversity Schemes under Erasure Effect in Single Frequency Network](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6196185)," *IEEE transactions on Broadcasting*, vol. 58, no.3, pp. 508-513, Sept. 2012.
   
 1. **Sungho Jeon**, Junghyun Kim, Jaekwon Lee, Young-Woo Suh, and Jong-Soo Seo, "[Adaptive Digital Predistortion with Iterative Noise Cancelation for Power Amplifier Linearization](http://search.ieice.org/bin/summary.php?id=e95-b_3_943&category=B&lang=E&year=2012&abst=)," *IEICE Transactions on Communications*, vol. E95-B, no.3, pp. 943-949, March 2012.  
 
 #### 2011
 
-1. Zungkon Yim and **Sungho Jeon**, "Normalization Factor of Hierarchically Modulated Symbols for Advanced T-DMB System," *IEEE transactions on Broadcasting*, vol. 57, no. 3, pp. 713-717, September 2011. 
+1. Zungkon Yim and **Sungho Jeon**, "[Normalization Factor of Hierarchically Modulated Symbols for Advanced T-DMB System](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=5759727)," *IEEE transactions on Broadcasting*, vol. 57, no. 3, pp. 713-717, September 2011. 
 
 #### 2010
 
@@ -47,15 +47,15 @@ permalink: /research/
 
 #### 2009
 
-2. Soon Up Hwang, **Sungho Jeon**, Sangjin Lee, and Jong-soo Seo, "Soft-Output ML Detector for Spatial Modulation OFDM Systems," *IEICE Electronics Express*, vol. 6, no.19, pp.1426-1431, 2009.
+2. Soon Up Hwang, **Sungho Jeon**, Sangjin Lee, and Jong-soo Seo, "[Soft-Output ML Detector for Spatial Modulation OFDM Systems]( http://doi.org/10.1587/elex.6.1426)," *IEICE Electronics Express*, vol. 6, no.19, pp.1426-1431, 2009.
 
 #### 2008
 
-2. Hyungkeuk Lee, **Sungho Jeon**, and Sanghoon Lee, "A Cross-Layer Approach for Maximizing Visual Entropy Using Closed-Loop Downlink MIMO," *EURASIP Journal on Advances in Signal Processing*, vol. 2008, Article ID 864606, 14 pages, 2008.
+2. Hyungkeuk Lee, **Sungho Jeon**, and Sanghoon Lee, "[A Cross-Layer Approach for Maximizing Visual Entropy Using Closed-Loop Downlink MIMO]( http://asp.eurasipjournals.com/content/2008/1/864606)," *EURASIP Journal on Advances in Signal Processing*, vol. 2008, Article ID 864606, 14 pages, 2008.
 
 #### 2007
 
-1. **Sungho Jeon**, and Sanghoon Lee, "A Relay-Assisted Handover Technique with Network Coding over Multihop Cellular Networks," *IEEE Communications Letters*, vol.11, no.3, pp.252-254, March 2007.
+1. **Sungho Jeon**, and Sanghoon Lee, "[A Relay-Assisted Handover Technique with Network Coding over Multihop Cellular Networks](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=4133913)," *IEEE Communications Letters*, vol.11, no.3, pp.252-254, March 2007.
 
 #### 2006
 
@@ -68,12 +68,12 @@ permalink: /research/
 
 #### 2015
 
-3. Injoon Cho, Byungsun Kim, Sangjin Hahm, Sanghun Kim, and **Sungho Jeon**, ``Terrestrial 4K UHD Live Broadcasting of Sports Events,'' *ABU Technical Review*, vol. 261, no. 1, pp.2-8, January-March 2015.
+3. Injoon Cho, Byungsun Kim, Sangjin Hahm, Sanghun Kim, and **Sungho Jeon**, ``[Terrestrial 4K UHD Live Broadcasting of Sports Events](data.abu.org.my/technical/tdwebsite/tr/261%20Q1%202015.pdf),'' *ABU Technical Review*, vol. 261, no. 1, pp.2-8, January-March 2015.
 
 #### 2013
 
-3. Zungkon Yim, **Sungho Jeon**, Sanghun Kim, Sangjin Hahm, and Byungsun Kim, "Exprimental Broadcasting of 4K UHDTV via Terrestrial Network in Korea," *ABU Technical Review*, no. 255, pp. 3-8, July-September 2013. _(Best Paper Award)_
-3. Sangjin Hahm, Zungkon Yim, Byungsun Kim, **Sungho Jeon**, and Injoon Cho, "Application of HEVC and DVB-T2 to Terrestrial 4K UHDTV Broadcast Over-the-Air Trials," *The Best of IET and IBC*, vol. 5, pp. 17-23, 2013.
+3. Zungkon Yim, **Sungho Jeon**, Sanghun Kim, Sangjin Hahm, and Byungsun Kim, "[Experimental Broadcasting of 4K UHDTV via Terrestrial Network in Korea](data.abu.org.my/technical/tdwebsite/tr/255%20Q3%202013.pdf)," *ABU Technical Review*, no. 255, pp. 3-8, July-September 2013. _(Best Paper Award)_
+3. Sangjin Hahm, Zungkon Yim, Byungsun Kim, **Sungho Jeon**, and Injoon Cho, "[Application of HEVC and DVB-T2 to Terrestrial 4K UHDTV Broadcast Over-the-Air Trials](http://digital-library.theiet.org/content/conferences/10.1049/ibc.2013.0006)," *The Best of IET and IBC*, vol. 5, pp. 17-23, 2013.
 
 
 ### Conference Papers   
