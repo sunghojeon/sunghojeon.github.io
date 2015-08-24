@@ -38,6 +38,7 @@ permalink: /about/
 
 ## Professional Activities
 
+- Co-Chair, [IEEE BMSB 2015](http://www.wica.intec.ugent.be/bmsb2015/wednesday-june-17#session4), Ghent, Belgium, 17 June 2016.
 - Reviewer, IEEE Transactions on Broadcasting, 2011-   
 - Reviewer, IEEE Communications Letters, 2009-     
 
