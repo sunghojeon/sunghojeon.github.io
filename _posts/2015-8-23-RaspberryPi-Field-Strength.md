@@ -13,6 +13,10 @@ This is a demo of all styled elements in Jekyll Now.
 
 This is a par
 
+
+
+$$I = \int \rho R^{2} dV$$
+
 ```python
 # notation
 def x
