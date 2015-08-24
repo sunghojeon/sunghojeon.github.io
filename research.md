@@ -133,7 +133,7 @@ permalink: /research/
 
 #### 2007
 
-4. **Sungho Jeon**, Younghyun Jeon, and Sanghoon Lee, “Performance Analysis of Location-based Loading Control for Downlink FH-OFDMA Systems,” in *the 4th IEEE International Symposium on Wireless Communication Systems 2007* (ISWCS 2007), Trondheim, Norway, October 2007.
+4. **Sungho Jeon**, Younghyun Jeon, and Sanghoon Lee, “[Performance Analysis of Location-based Loading Control for Downlink FH-OFDMA Systems](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=4392433),” in *the 4th IEEE International Symposium on Wireless Communication Systems 2007* (ISWCS 2007), Trondheim, Norway, October 2007.
 
 #### 2006
 
