@@ -5,6 +5,7 @@ title: Raspberry Pi based RTL-SDR Input Level and In-Band Fluctuation Measuremen
 
 # Overview
 
+* 고가의 장비를 시간율 측정을 위해서 장시간 운용하는 데서 오는 부담과 공간율 측정을 위해서 다수 위치에 설치해야 하는 비용적 부담을 해결하기 위해서, Raspberry Pi를 활용하여 Low-Cost Measurement Tool을 개발하는 데 그 목적이 있음.  
 * 임의의 주파수 대역의 신호를 수신하여 Input Level을 측정
 * In-Band Fluctuation을 판단하는 지표로써 ITU-R BT.0000에서의 정의하고 있는 Standard Deviation 값 측정
 
