@@ -113,8 +113,8 @@ permalink: /research/
 #### 2010
 
 4. Jaekwon Lee, **Sungho Jeon**, Junghyun Kim, Ho Jin Ryu, Young-Woo Suh, Ha-Kyun Mok and Man-Sik Kim, "[An Improved LUT based DPD Technique for Nonlinear HPA in ATSC DTV System](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5463094)," in *2010 IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2010), Shanghai, China, March 2010.
-4. **Sungho Jeon**, Junghyun Kim, Jaekwon Lee, Ho Jin Ryu, Young-Woo Suh, Ha-Kyun Mok and Man-Sik Kim, "An Adaptive Digital Predistorter with Iterative Noise Cancelation," in *2010 IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2010), Shanghai, China, March 2010.
-4. **Sungho Jeon**, Jaekwon Lee, Ilsoo Kyung and Man-Sik Kim, “Component-Interleaved Alamouti Coding with Rotated Constellations for Signal Space Diversity,” in *2010 IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2010), Shanghai, March 2010.
+4. **Sungho Jeon**, Junghyun Kim, Jaekwon Lee, Ho Jin Ryu, Young-Woo Suh, Ha-Kyun Mok and Man-Sik Kim, "[An Adaptive Digital Predistorter with Iterative Noise Cancelation](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5463125)," in *2010 IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2010), Shanghai, China, March 2010.
+4. **Sungho Jeon**, Jaekwon Lee, Ilsoo Kyung and Man-Sik Kim, “[Component-Interleaved Alamouti Coding with Rotated Constellations for Signal Space Diversity](),” in *2010 IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2010), Shanghai, March 2010.
 4. Soon Up Hwang, **Sungho Jeon**, Jin-yong Choi, Jongsoo Seo, “A Layered Spatial Modulation Technique for MIMO-OFDM Systems,” in *2010 IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2010), Shanghai, March 2010.
 
 #### 2009
