@@ -3,57 +3,14 @@ layout: post
 title: Terrestrial 8K-UHDTV Testbed based on Dual-Band Dual-Polarization MIMO-OFDM Systems
 ---
 
-GitHub Pages를 활용한 개인 Blog 만들기 (만드는 중) 
-This is a demo of all styled elements in Jekyll Now.
+세계 최초 지상파 4K-UHDTV 실험방송 사례를 보고서에 등재
 
-[View the markdown used to create this post](https://raw.githubusercontent.com/barryclark/www.jekyllnow.com/gh-pages/_posts/2014-6-19-Markdown-Style-Guide.md).
 
-This is a paragraph, it's surrounded by whitespace. Next up are some headers, they're heavily influenced by GitHub's markdown style.
+신규 제정 중인 보고서에는 4K-UHDTV를 
 
-안녕하세요!!
 
-## Header 2 (H1 is reserved for post titles)##
+2015년 8월 현재, 일본의 8K-UHDTV 전송실험을 제외하고는 모두 DVB-T2 기반으로 실험방송이 이뤄지고 있음.
 
-### Header 3
 
-#### Header 4
 
-A link to [Jekyll Now](http://github.com/barryclark/jekyll-now/). A big ass literal link <http://github.com/barryclark/jekyll-now/>
-
-An image, located within /images
-
-![an image alt text]({{ site.baseurl }}/images/jekyll-logo.png "an image title")
-
-* A bulletted list
-- alternative syntax 1
-+ alternative syntax 2
-  - an indented list item
-
-1. An
-2. ordered
-3. list
-
-Inline markup styles:
-
-- _italics_
-- **bold**
-- `code()`
-
-> Blockquote
->> Nested Blockquote
-
-Syntax highlighting can be used with triple backticks, like so:
-
-```javascript
-/* Some pointless Javascript */
-var rawr = ["r", "a", "w", "r"];
-```
-
-Use two trailing spaces  
-on the right  
-to create linebreak tags  
-
-Finally, horizontal lines
-
-----
-****
+Wikipedia 중 UHDTV 항목 [Field trials of UHDTV over DTT networks](https://en.wikipedia.org/wiki/Ultra-high-definition_television#Field_trials_of_UHDTV_over_DTT_networks) 작성에 기여하고 있음.
