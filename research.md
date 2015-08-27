@@ -11,7 +11,7 @@ permalink: /research/
 
 #### 2015
 
-1. Zifeng Kui, Jae-Shin Han, Jeong-Min Choi, **Sungho Jeon**, Joosung Park, Youngho Oh, and Jong-Soo Seo, “Advanced preamble transmit diversity of polarized DVB-T2 MISO system using hybrid differential modulation," *IEEE Transactions on Broadcasting*, vol. 00, no. 00, pp. 000-000, Xxx 2015. 
+1. Zifeng Kui, Jae-Shin Han, Jeong-Min Choi, **Sungho Jeon**, Joosung Park, Youngho Oh, and Jong-Soo Seo, “[Advanced preamble transmit diversity of polarized DVB-T2 MISO system using hybrid differential modulation](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7222410)," *IEEE Transactions on Broadcasting*, vol. PP, no. 99, to be published.
 1. Jeong-Min Choi, Robin Shrestha, **Sungho Jeon**, and Jong-Soo Seo, “A study on the performance of channel-mismatched equalizations in D-TR-STBC-SC relaying networks,” *IEICE Transactions on Communications*, vol. E00-B, no. 00, pp. 000-000, Xxxxx 2015.
 1. **Sungho Jeon**, Jae-Shin Han, Robin Shrestha, Sung Ik Park, Ha-Kyun Mok, Heung Mook Kim, and Jong-Soo Seo, "[MIMO Cloud Transmission Based on BICM-ID for High Data Rate Local Contents Delivery](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7185362)," *IEEE Transactions on Broadcasting*, vol. PP, no. 99, to be published.
 2. **Sungho Jeon**, Junghyun Kim, Ha-Kyun Mok, and Jong-Soo Seo, "[Formulating the Net Gain of MISO-SFN in the Presence of Self-Interferences](http://www.radioeng.cz/fulltexts/2015/15_02_0643_0649.pdf)," *Radioengineering*, vol. 24, no. 2, pp. 643-649, June 2015.
