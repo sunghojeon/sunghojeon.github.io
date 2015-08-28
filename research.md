@@ -78,6 +78,10 @@ permalink: /research/
 
 ### Conference Papers   
 
+#### 2016
+
+4. **Sungho Jeon**, Junghyun Kim, Jaekwon Lee, Sanghun Kim, Jeong-Deok Kim, Young-Woo Suh, and Zungkon Yim, ``Laboratory Measurement to Provide Threshold of Visibility for Terrestrial 4K-UHDTV Broadcasting Based on HEVC over DVB-T2 in AWGN Channel,'' submitted.
+
 #### 2015
 
 4. **Sungho Jeon**, Junghyun Kim, Jae-Shin Han, Sang-Hun Kim, Jeong-Deok Kim, and Jong-Soo Seo, "[Numerical Analysis on the Net Gross MISO-SFNG in DVB-T2 System](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7177217)," in *The 10th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2015), Ghent, Belgium, June 2015. 
