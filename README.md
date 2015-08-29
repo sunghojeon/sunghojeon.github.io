@@ -1,4 +1,4 @@
-# Sungho Jeon's blog and portal site
+# Sungho Jeon's portal site
 
 * blog
 
