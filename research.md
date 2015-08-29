@@ -7,7 +7,7 @@ permalink: /research/
 ## Publication
 [Google Citations](https://scholar.google.com/citations?user=K-uP94QAAAAJ&hl=en)
 
-### Journal Papers   
+### Journal Papers
 
 #### 2015
 
@@ -15,15 +15,15 @@ permalink: /research/
 1. Jeong-Min Choi, Robin Shrestha, **Sungho Jeon**, and Jong-Soo Seo, “A study on the performance of channel-mismatched equalizations in D-TR-STBC-SC relaying networks,” *IEICE Transactions on Communications*, vol. E00-B, no. 00, pp. 000-000, Xxxxx 2015.
 1. **Sungho Jeon**, Jae-Shin Han, Robin Shrestha, Sung Ik Park, Ha-Kyun Mok, Heung Mook Kim, and Jong-Soo Seo, "[MIMO Cloud Transmission Based on BICM-ID for High Data Rate Local Contents Delivery](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7185362)," *IEEE Transactions on Broadcasting*, vol. PP, no. 99, to be published.
 2. **Sungho Jeon**, Junghyun Kim, Ha-Kyun Mok, and Jong-Soo Seo, "[Formulating the Net Gain of MISO-SFN in the Presence of Self-Interferences](http://www.radioeng.cz/fulltexts/2015/15_02_0643_0649.pdf)," *Radioengineering*, vol. 24, no. 2, pp. 643-649, June 2015.
-1. **Sungho Jeon**, Junghyun Kim, Jae-Shin Han, and Jong-Soo Seo, "[Formulating the Net Gain of an SISO-SFN in the Presence of Erasure Effect](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7047712)," *IEEE Transactions on Broadcasting*, vol. 61, no. 2, pp. 323-326, June 2015. 
+1. **Sungho Jeon**, Junghyun Kim, Jae-Shin Han, and Jong-Soo Seo, "[Formulating the Net Gain of an SISO-SFN in the Presence of Erasure Effect](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7047712)," *IEEE Transactions on Broadcasting*, vol. 61, no. 2, pp. 323-326, June 2015.
 1. **Sungho Jeon**, Jae-Shin Han, Jeong-Min Choi, and Jong-Soo Seo, "[Cooperative Space-Time Block Coded Full-Duplex Relaying over Frequency-Selective Channel](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7095657)," *IET Communications*,  vol. 9, no. 7, pp. 960–968, May 2015.
 
 #### 2014
 
 2. Jeong-Min Choi, Jae-Shin Han, **Sungho Jeon**, and Jong-Soo Seo, "[Design of Training Sequences and Channel Estimation for Amplify-and-Forward Two-Path Relaying Networks](http://jwcn.eurasipjournals.com/content/2014/1/113)," *EURASIP Journal of Wireless Communications and Networking*, vol. 2014:113, July 2014.
 1. Jae-Shin Han, Jong-Seob Baek, **Sungho Jeon**, and Jong-Soo Seo, "[Cooperative networks with amplify-and-forward multiple-full-duplex relays](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6760609)," *IEEE Transactions on Wireless Communications*, vol. 13, no. 4, pp. 2137-2149, April 2014.
-2. **Sungho Jeon**, Jaekwon Lee, Jeong-Min Choi, and Jong-Soo Seo, "[Definition and Properties of the Erasure Effect in Single Frequency Network with Two Synchronized Transmitters](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6755499)," *IEEE Antenna and Wireless Propagation Letters*, vol. 13, pp. 439-442 , March 2014. 
-1. **Sungho Jeon**, Jong-Seob Baek, Junghyun Kim, and Jong-Soo Seo, "[Analysis on the Network Gains of SISO and MISO Single Frequency Network Broadcast Systems](http://search.ieice.org/bin/summary.php?id=e97-b_1_182&category=B&lang=E&year=2014&abst=)," *IEICE Transactions on Communications*, vol. E97-B, no. 01, pp. 182-189, January 2014. 
+2. **Sungho Jeon**, Jaekwon Lee, Jeong-Min Choi, and Jong-Soo Seo, "[Definition and Properties of the Erasure Effect in Single Frequency Network with Two Synchronized Transmitters](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6755499)," *IEEE Antenna and Wireless Propagation Letters*, vol. 13, pp. 439-442 , March 2014.
+1. **Sungho Jeon**, Jong-Seob Baek, Junghyun Kim, and Jong-Soo Seo, "[Analysis on the Network Gains of SISO and MISO Single Frequency Network Broadcast Systems](http://search.ieice.org/bin/summary.php?id=e97-b_1_182&category=B&lang=E&year=2014&abst=)," *IEICE Transactions on Communications*, vol. E97-B, no. 01, pp. 182-189, January 2014.
 
 #### 2013
 
@@ -34,12 +34,12 @@ permalink: /research/
 2. **Sungho Jeon**, Zungkon Yim, and Jonng-Soo Seo, "[Path Loss Model for Coupling Loop Interference with Multiple Reflections over Single Frequency Network](http://www.tandfonline.com/doi/abs/10.4103/0256-4602.105006#.VdpywvTSnJF)," *IETE Technical Review*, vol. 29, no. 6, pp. 499-505, Nov.-Dec. 2012.  
 
 1. **Sungho Jeon**, Jin-Yong Choi, Zungkon Yim, and Jong-Soo Seo, "[Error Floor Analysis of Signal Space Diversity Schemes under Erasure Effect in Single Frequency Network](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6196185)," *IEEE transactions on Broadcasting*, vol. 58, no.3, pp. 508-513, Sept. 2012.
-  
+
 1. **Sungho Jeon**, Junghyun Kim, Jaekwon Lee, Young-Woo Suh, and Jong-Soo Seo, "[Adaptive Digital Predistortion with Iterative Noise Cancelation for Power Amplifier Linearization](http://search.ieice.org/bin/summary.php?id=e95-b_3_943&category=B&lang=E&year=2012&abst=)," *IEICE Transactions on Communications*, vol. E95-B, no.3, pp. 943-949, March 2012.  
 
 #### 2011
 
-1. Zungkon Yim and **Sungho Jeon**, "[Normalization Factor of Hierarchically Modulated Symbols for Advanced T-DMB System](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=5759727)," *IEEE transactions on Broadcasting*, vol. 57, no. 3, pp. 713-717, September 2011. 
+1. Zungkon Yim and **Sungho Jeon**, "[Normalization Factor of Hierarchically Modulated Symbols for Advanced T-DMB System](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=5759727)," *IEEE transactions on Broadcasting*, vol. 57, no. 3, pp. 713-717, September 2011.
 
 #### 2010
 
@@ -76,7 +76,7 @@ permalink: /research/
 3. Sangjin Hahm, Zungkon Yim, Byungsun Kim, **Sungho Jeon**, and Injoon Cho, "[Application of HEVC and DVB-T2 to Terrestrial 4K UHDTV Broadcast Over-the-Air Trials](http://digital-library.theiet.org/content/conferences/10.1049/ibc.2013.0006)," *The Best of IET and IBC*, vol. 5, pp. 17-23, 2013.
 
 
-### Conference Papers   
+### Conference Papers
 
 #### 2016
 
@@ -84,9 +84,9 @@ permalink: /research/
 
 #### 2015
 
-4. **Sungho Jeon**, Junghyun Kim, Jae-Shin Han, Sang-Hun Kim, Jeong-Deok Kim, and Jong-Soo Seo, "[Numerical Analysis on the Net Gross MISO-SFNG in DVB-T2 System](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7177217)," in *The 10th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2015), Ghent, Belgium, June 2015. 
+4. **Sungho Jeon**, Junghyun Kim, Jae-Shin Han, Sang-Hun Kim, Jeong-Deok Kim, and Jong-Soo Seo, "[Numerical Analysis on the Net Gross MISO-SFNG in DVB-T2 System](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7177217)," in *The 10th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2015), Ghent, Belgium, June 2015.
 4. Zifeng Kui, Jae-Shin Han, Jeong-Min Choi, **Sungho Jeon**, Youngho Oh and Jong-Soo Seo, "[Improved Preamble Scheme Utilizing Hybrid Differential Modulation in Polarized DVB-T2 MISO System](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7177210)," in *The 10th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2015), Ghent, Belgium, June 2015.
-4. Jae-Shin Han, Jeong-Min Choi, **Sungho Jeon** and Jong-Soo Seo, "[Interference Suppression and Link Selection for Non-Regenerative Multiple Full Duplex Relaying](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7177201)," in *The 10th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2015), Ghent, Belgium, June 2015. 
+4. Jae-Shin Han, Jeong-Min Choi, **Sungho Jeon** and Jong-Soo Seo, "[Interference Suppression and Link Selection for Non-Regenerative Multiple Full Duplex Relaying](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7177201)," in *The 10th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2015), Ghent, Belgium, June 2015.
 4. Sansung Kim, Byungsun Kim, Sangjin Hahm, Injoon Cho, Sanghoon Kim, and **Sungho Jeon**, "[The New Phase of Terrestrial UHD Service: Live 4K UHD Broadcasting via Terrestrial Channel](http://nab15.mapyourshow.com/6_0/sessions/session-details.cfm?ScheduleID=75)," in *NAB Broadcast Engineer Confernece 2015*, Las Vegas, NV, April 2015.
 
 #### 2014
@@ -133,7 +133,7 @@ permalink: /research/
 
 #### 2008
 
-4. **Sungho Jeon**, Ho Jin Ryu, Ilsoo Kyung, and Man-Sik Kim, “Cooperative Local Area Contents Transmission within a Single Frequency Broadcast Network,” in *The 58th Annual IEEE Broadcast Symposium* (IEEE ABS 2008), Alexandria, VA, USA, October 2008.
+4. **Sungho Jeon**, Ho Jin Ryu, Ilsoo Kyung, and Man-Sik Kim, “[Cooperative Local Area Contents Transmission within a Single Frequency Broadcast Network](https://github.com/sunghojeon/sunghojeon.github.io/blob/master/docs/research/Jeon%20et%20al.%20-%202008%20-%20Cooperative%20Local%20Area%20Contents%20Transmission%20within%20Single%20Frequency%20Broadcast%20Networks.pdf),” in *The 58th Annual IEEE Broadcast Symposium* (IEEE ABS 2008), Alexandria, VA, USA, October 2008.
 
 #### 2007
 
@@ -143,7 +143,7 @@ permalink: /research/
 
 4. Sungjun Ham, **Sungho Jeon**, Younghyun Jeon, and Sanghoon Lee, “[Performance Analysis of Location-based Dynamic Carrier Allocation in OFDM Systems](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=4392433),” in *IEEE Global Telecommunications Conference* (GLOBECOM 2006), San Francisco, CA, USA, December 2006.
 4. Hyungkeuk Lee, **Sungho Jeon**, and Sanghoon Lee, “[Cross-Layer Optimization for Downlink Wavelet Image Transmission](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=4150855),” in *IEEE Global Telecommunications Conference* (GLOBECOM 2006), San Francisco, CA, USA, December 2006.
-4. **Sungho Jeon**, and Sanghoon Lee, “[A Hierarchical Network Synchronization Technique for Asynchronous Broadband Networks](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=4454590),” in *The Joint International Conference on Optical Internet and Next Generation Network* (COIN-NGNCON 2006), Jeju, Republic of Korea, July 2006. 
+4. **Sungho Jeon**, and Sanghoon Lee, “[A Hierarchical Network Synchronization Technique for Asynchronous Broadband Networks](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=4454590),” in *The Joint International Conference on Optical Internet and Next Generation Network* (COIN-NGNCON 2006), Jeju, Republic of Korea, July 2006.
 
 ### Korean Journal Papers
 
@@ -170,7 +170,7 @@ permalink: /research/
 
 #### 2010
 
-6. **전성호**, 임중곤, 경일수, 김만식 (2010.11). [DVB-T2 16K LDPC 부호가 적용된 MIMO-OFDM 시스템에서의 성분 맞교환 기술 이득](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001498806). 『방송공학회논문지』, 15(6), 749-756. 
+6. **전성호**, 임중곤, 경일수, 김만식 (2010.11). [DVB-T2 16K LDPC 부호가 적용된 MIMO-OFDM 시스템에서의 성분 맞교환 기술 이득](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001498806). 『방송공학회논문지』, 15(6), 749-756.
 
 #### 2009
 
