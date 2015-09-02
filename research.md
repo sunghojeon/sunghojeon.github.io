@@ -92,7 +92,7 @@ permalink: /research/
 #### 2014
 
 4. Yuting Tao, Hak-Jin Kim, **Sungho Jeon**, and Jong-Soo Seo, "[Low complexity adaptive soft demapper based on decision criterion for rotated QAM/APSK](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6873525)," in *The 9th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2014), Beijing, China, June 2014. (Best Paper Award)
-4. **Sungho Jeon**, Jae-Shin Han, Hak-Jin Kim, Yuting Tao, Sung Ik Park, Zungkon Yim, Heung Mook Kim, and Jong-Soo Seo, "Multiple-Input [Multiple-Output Cloud Transmission for High Data Rate Contents Delivery](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6873521)," in *The 9th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2014), Beijing, China, June 2014.
+4. **Sungho Jeon**, Jae-Shin Han, Hak-Jin Kim, Yuting Tao, Sung Ik Park, Zungkon Yim, Heung Mook Kim, and Jong-Soo Seo, "[Multiple-Input Multiple-Output Cloud Transmission for High Data Rate Contents Delivery](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6873521)," in *The 9th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2014), Beijing, China, June 2014.
 
 #### 2013
 
