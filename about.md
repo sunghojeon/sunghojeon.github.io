@@ -7,7 +7,7 @@ permalink: /about/
 
 - **Research Engineer**
 	- [Technical Research Institute](http://office.kbs.co.kr/tri/), March 2007 - Present  
-	- Korean Broadcasting System (KBS), Seoul, Republic of Korea  
+	- [Korean Broadcasting System (KBS)](http://www.kbs.co.kr/), Seoul, Republic of Korea  
 
 ## Education
 
