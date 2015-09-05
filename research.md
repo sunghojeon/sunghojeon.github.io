@@ -177,6 +177,12 @@ permalink: /research/
 6. 황순업, 김영기, **전성호**, 강우석, 서종수 (2009.7). [채널 부호화된 OFDM 시스템을 위한 공간 변조를 이용한 새로운 전송 기법](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001367082). 『한국통신학회논문지』, 34(7), 515-522.
 
 
+#### 2007
+
+7. **전성호**, 이형극, 손혁민, 이상훈, [다중 반송파 기반 광대역 네트워크 상에서 마크로스코픽 다이버시티 이득 분석](http://tr.sktelecom.com/tr/kor/journal/articleDetail.jsp?f_from=ResultList&f_journalid=1020&f_jourarticleid=1029&f_page_mode=&f_current_page=1&f_search_result_view=N&f_search_type=2&f_language=KOR&f_author=%EC%A0%84%EC%84%B1%ED%98%B8&f_title=&f_summary=&f_keyword=&f_orderby=1&f_start_publishy=1990&f_start_publishm=01&f_end_publishy=2015&f_end_publishm=09&f_page_per_rows=10), 『Telecommunications Review』, 제17권 2호, 2007년 4월.
+
+
+
 ### Korean Conference Papers
 
 #### 2014
@@ -207,10 +213,6 @@ permalink: /research/
 
 7. 조순기, 황순업, **전성호**, 서종수 (2009.6). [채널 피드백이 있는 환경에서 신호 공간 다이버시티 획득 가능한 전송 기법](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE02088675), 『한국통신학회 학술대회논문집』,1019-1020.
 
-
-#### 2007
-
-7. **전성호**, 이형극, 손혁민, 이상훈, [다중 반송파 기반 광대역 네트워크 상에서 마크로스코픽 다이버시티 이득 분석](http://tr.sktelecom.com/tr/kor/journal/articleDetail.jsp?f_from=ResultList&f_journalid=1020&f_jourarticleid=1029&f_page_mode=&f_current_page=1&f_search_result_view=N&f_search_type=2&f_language=KOR&f_author=%EC%A0%84%EC%84%B1%ED%98%B8&f_title=&f_summary=&f_keyword=&f_orderby=1&f_start_publishy=1990&f_start_publishm=01&f_end_publishy=2015&f_end_publishm=09&f_page_per_rows=10), 『Telecommunications Review』, 제17권 2호, 2007년 4월.
 
 #### 2005
 
