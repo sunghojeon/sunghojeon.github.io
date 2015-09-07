@@ -12,6 +12,8 @@ title: 4K/8K UHDTV based on HEVC over ATSC 3.0
 
 * [LG전자-SBS 차세대 방송규격 실험방송 성공](http://news.sbs.co.kr/news/endPage.do?news_id=N1003150052&plink=SEARCH&cooper=SBSNEWSSEARCH&plink=COPYPASTE&cooper=SBSNEWSEND)
 
+* [ONE Media to Test and Operate Next Generation Broadcast Platform in Washington/Baltimore](http://www.prnewswire.com/news-releases/one-media-to-test-and-operate-next-generation-broadcast-platform-in-washingtonbaltimore-300137593.html)
+
 ### 2015-08-11 
 
 * [지상파 UHD 도입을 위한 방송표준 본격 논의 추진 ](http://www.msip.go.kr/web/msipContents/contentsView.do?cateId=mssw311&artId=1273098)
