@@ -68,7 +68,7 @@ permalink: /research/
 
 #### 2015
 
-3. Injoon Cho, Byungsun Kim, Sangjin Hahm, Sanghun Kim, and **Sungho Jeon**, ``[Terrestrial 4K UHD Live Broadcasting of Sports Events](data.abu.org.my/technical/tdwebsite/tr/261%20Q1%202015.pdf),'' *ABU Technical Review*, vol. 261, no. 1, pp.2-8, January-March 2015. _(The Second Commended Article Prize)_
+3. Injoon Cho, Byungsun Kim, Sangjin Hahm, Sanghun Kim, and **Sungho Jeon**, ``[Terrestrial 4K UHD Live Broadcasting of Sports Events](data.abu.org.my/technical/tdwebsite/tr/261%20Q1%202015.pdf),'' *ABU Technical Review*, vol. 261, no. 1, pp.2-8, January-March 2015. 
 
 #### 2013
 
