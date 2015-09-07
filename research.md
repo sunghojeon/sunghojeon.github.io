@@ -68,11 +68,11 @@ permalink: /research/
 
 #### 2015
 
-3. Injoon Cho, Byungsun Kim, Sangjin Hahm, Sanghun Kim, and **Sungho Jeon**, ``[Terrestrial 4K UHD Live Broadcasting of Sports Events](data.abu.org.my/technical/tdwebsite/tr/261%20Q1%202015.pdf),'' *ABU Technical Review*, vol. 261, no. 1, pp.2-8, January-March 2015.
+3. Injoon Cho, Byungsun Kim, Sangjin Hahm, Sanghun Kim, and **Sungho Jeon**, ``[Terrestrial 4K UHD Live Broadcasting of Sports Events](data.abu.org.my/technical/tdwebsite/tr/261%20Q1%202015.pdf),'' *ABU Technical Review*, vol. 261, no. 1, pp.2-8, January-March 2015. _(The Second Commended Article Prize)_
 
 #### 2013
 
-3. Zungkon Yim, **Sungho Jeon**, Sanghun Kim, Sangjin Hahm, and Byungsun Kim, "[Experimental Broadcasting of 4K UHDTV via Terrestrial Network in Korea](data.abu.org.my/technical/tdwebsite/tr/255%20Q3%202013.pdf)," *ABU Technical Review*, no. 255, pp. 3-8, July-September 2013. _(Best Paper Award)_
+3. Zungkon Yim, **Sungho Jeon**, Sanghun Kim, Sangjin Hahm, and Byungsun Kim, "[Experimental Broadcasting of 4K UHDTV via Terrestrial Network in Korea](data.abu.org.my/technical/tdwebsite/tr/255%20Q3%202013.pdf)," *ABU Technical Review*, no. 255, pp. 3-8, July-September 2013. _(The First Commended Article Prize)_
 3. Sangjin Hahm, Zungkon Yim, Byungsun Kim, **Sungho Jeon**, and Injoon Cho, "[Application of HEVC and DVB-T2 to Terrestrial 4K UHDTV Broadcast Over-the-Air Trials](http://digital-library.theiet.org/content/conferences/10.1049/ibc.2013.0006)," *The Best of IET and IBC*, vol. 5, pp. 17-23, 2013.
 
 
