@@ -23,6 +23,6 @@ title: 4K/8K UHDTV based on HEVC over ATSC 3.0
   * [사진| 지상파 UHD 방송표준방식 협의회](http://www.msip.go.kr/web/msipContents/contentsView.do?cateId=mssw314&artId=1272951)
 
 
-### 2015-
+### 2015-08-27
 
 * [ETRI, 차세대 지상파 방송시스템기술 최초시연 성공](https://etri.re.kr/kor/bbs/view.etri?keyField=&keyWord=&nowPage=1&b_board_id=ETRI06&year_gubun=&b_idx=16115)
