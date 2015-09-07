@@ -72,7 +72,7 @@ permalink: /research/
 
 #### 2013
 
-3. Zungkon Yim, **Sungho Jeon**, Sanghun Kim, Sangjin Hahm, and Byungsun Kim, "[Experimental Broadcasting of 4K UHDTV via Terrestrial Network in Korea](data.abu.org.my/technical/tdwebsite/tr/255%20Q3%202013.pdf)," *ABU Technical Review*, no. 255, pp. 3-8, July-September 2013. _(The First Commended Article Prize)_
+3. Zungkon Yim, **Sungho Jeon**, Sanghun Kim, Sangjin Hahm, and Byungsun Kim, "[Experimental Broadcasting of 4K UHDTV via Terrestrial Network in Korea](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0CCIQFjABahUKEwj5l5LC8-THAhVFFqYKHTRvBcw&url=http%3A%2F%2Fdata.abu.org.my%2Ftechnical%2Ftdwebsite%2Ftr%2F255%2520Q3%25202013.pdf&usg=AFQjCNE0abkd6cF1OBmYQdIUs9-eI7DHsw&sig2=ZvLu7-FU1TT_JoKTgiiWnA)," *ABU Technical Review*, no. 255, pp. 3-8, July-September 2013. _(The First Commended Article Prize)_
 3. Sangjin Hahm, Zungkon Yim, Byungsun Kim, **Sungho Jeon**, and Injoon Cho, "[Application of HEVC and DVB-T2 to Terrestrial 4K UHDTV Broadcast Over-the-Air Trials](http://digital-library.theiet.org/content/conferences/10.1049/ibc.2013.0006)," *The Best of IET and IBC*, vol. 5, pp. 17-23, 2013.
 
 
