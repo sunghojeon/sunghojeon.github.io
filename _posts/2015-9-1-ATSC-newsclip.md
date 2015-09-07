@@ -3,7 +3,7 @@ layout: post
 title: 4K/8K UHDTV based on HEVC over ATSC 3.0
 ---
 
-### 2015-09-06 방송의 날
+### 2015-09-06
 
 * [MBC-삼성전자, 북미 규격 UHD 콘텐츠 송수신 성공](http://imnews.imbc.com//news/2015/econo/article/3766377_14710.html)
 
