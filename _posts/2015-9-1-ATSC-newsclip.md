@@ -17,7 +17,7 @@ title: 4K/8K UHDTV based on HEVC over ATSC 3.0
 ### 2015-08-11 
 
 * [지상파 UHD 도입을 위한 방송표준 본격 논의 추진 ](http://www.msip.go.kr/web/msipContents/contentsView.do?cateId=mssw311&artId=1273098)
-  * [사진|지상파 UHD 방송표준방식 협의회](http://www.msip.go.kr/web/msipContents/contentsView.do?cateId=mssw314&artId=1272951)
+  * [사진| 지상파 UHD 방송표준방식 협의회](http://www.msip.go.kr/web/msipContents/contentsView.do?cateId=mssw314&artId=1272951)
 
 
 ### 2015-
