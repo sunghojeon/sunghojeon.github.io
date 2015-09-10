@@ -17,7 +17,7 @@ permalink: /about/
 	- Supervisor: Prof. Jong-Soo Seo
 
 - **M.S. in Electrical and Electronic Engineering**
-	- September 2005 - February 2007
+	- Wireless Network Laboratory, September 2005 - February 2007
 	- [Yonsei University](http://www.yonsei.ac.kr/), Seoul, Republic of Korea  
 	- Thesis: [Cross layer optimization based on unequal power allocation for closed-loop downlink MIMO systems](http://library.yonsei.ac.kr/search/detail/CAT000000189586)
 
