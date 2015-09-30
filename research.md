@@ -11,6 +11,7 @@ permalink: /research/
 
 #### 2015
 
+2. Soon-Ki Jo, Jae-Shin Han, **Sungho Jeon**, Jeong-Min Choi, and Jong-Soo Seo, "Distributed differential quasi-orthogonal space-time block coded system for multiple-relay networks," *Wireless Personal Communications*, to be published.
 1. Zifeng Kui, Jae-Shin Han, Jeong-Min Choi, **Sungho Jeon**, Joosung Park, Youngho Oh, and Jong-Soo Seo, “[Advanced preamble transmit diversity of polarized DVB-T2 MISO system using hybrid differential modulation](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7222410)," *IEEE Transactions on Broadcasting*, vol. PP, no. 99, to be published.
 1. Jeong-Min Choi, Robin Shrestha, **Sungho Jeon**, and Jong-Soo Seo, “A study on the performance of channel-mismatched equalizations in D-TR-STBC-SC relaying networks,” *IEICE Transactions on Communications*, vol. E00-B, no. 00, pp. 000-000, Xxxxx 2015.
 1. **Sungho Jeon**, Jae-Shin Han, Robin Shrestha, Sung Ik Park, Ha-Kyun Mok, Heung Mook Kim, and Jong-Soo Seo, "[MIMO Cloud Transmission Based on BICM-ID for High Data Rate Local Contents Delivery](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7185362)," *IEEE Transactions on Broadcasting*, vol. PP, no. 99, to be published.
