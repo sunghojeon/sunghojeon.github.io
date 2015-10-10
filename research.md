@@ -9,9 +9,10 @@ permalink: /research/
 
 ### Journal Papers
 
+2. Soon-Ki Jo, [Jae-Shin Han](https://sites.google.com/site/hjs4015/contact), **Sungho Jeon**, [Jeong-Min Choi](https://kr.linkedin.com/pub/jeong-min-choi/8a/a59/93/en), and Jong-Soo Seo, "[Distributed differential quasi-orthogonal space-time block coded system for multiple-relay networks](http://link.springer.com/article/10.1007/s11277-015-3074-y)," *Wireless Personal Communications*, to be published.
+
 #### 2015
 
-2. Soon-Ki Jo, [Jae-Shin Han](https://sites.google.com/site/hjs4015/contact), **Sungho Jeon**, [Jeong-Min Choi](https://kr.linkedin.com/pub/jeong-min-choi/8a/a59/93/en), and Jong-Soo Seo, "[Distributed differential quasi-orthogonal space-time block coded system for multiple-relay networks](http://link.springer.com/article/10.1007/s11277-015-3074-y)," *Wireless Personal Communications*, to be published.
 1. Zifeng Kui, [Jae-Shin Han](https://sites.google.com/site/hjs4015/contact), [Jeong-Min Choi](https://kr.linkedin.com/pub/jeong-min-choi/8a/a59/93/en), **Sungho Jeon**, Joosung Park, Youngho Oh, and Jong-Soo Seo, “[Advanced preamble transmit diversity of polarized DVB-T2 MISO system using hybrid differential modulation](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7222410)," *IEEE Transactions on Broadcasting*, vol. PP, no. 99, to be published.
 1. **Sungho Jeon**, [Jae-Shin Han](https://sites.google.com/site/hjs4015/contact), [Robin Shrestha](https://kr.linkedin.com/pub/robin-shrestha/37/409/757), Sung Ik Park, Ha-Kyun Mok, Heung Mook Kim, and Jong-Soo Seo, "[MIMO Cloud Transmission Based on BICM-ID for High Data Rate Local Contents Delivery](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7185362)," *IEEE Transactions on Broadcasting*, vol. PP, no. 99, to be published.
 1. [Jeong-Min Choi](https://kr.linkedin.com/pub/jeong-min-choi/8a/a59/93/en), [Robin Shrestha](https://kr.linkedin.com/pub/robin-shrestha/37/409/757), **Sungho Jeon**, and Jong-Soo Seo, “[A study on the performance of channel-mismatched equalizations in D-TR-STBC-SC relaying networks](http://search.ieice.org/bin/summary.php?id=e98-b_10_2079&category=B&year=2015&lang=E&abst=),” *IEICE Transactions on Communications*, vol. E98-B, no. 10, pp. 2079-2096, October 2015.
