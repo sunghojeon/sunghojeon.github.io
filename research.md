@@ -82,7 +82,7 @@ permalink: /research/
 
 #### 2016
 
-4. **Sungho Jeon**, Junghyun Kim, Jaekwon Lee, Sanghun Kim, Jeong-Deok Kim, Young-Woo Suh, and Zungkon Yim, ``Laboratory Measurement to Provide Threshold of Visibility for Terrestrial 4K-UHDTV Broadcasting Based on HEVC over DVB-T2 in AWGN Channel,'' in *The 00th International Workshop on Advanced Image Technology* (IWAIT 2016), Busan, Republic of Korea, January 2016.
+4. **Sungho Jeon**, Junghyun Kim, Jaekwon Lee, Sanghun Kim, Jeong-Deok Kim, Young-Woo Suh, and Zungkon Yim, ``Laboratory Measurement to Provide Threshold of Visibility for Terrestrial 4K-UHDTV Broadcasting Based on HEVC over DVB-T2 in AWGN Channel,'' in *The 19th International Workshop on Advanced Image Technology* (IWAIT 2016), Busan, Republic of Korea, January 2016.
 
 #### 2015
 
