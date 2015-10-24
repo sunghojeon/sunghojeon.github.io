@@ -32,7 +32,7 @@ permalink: /about/
 
 
 ## Awards
-
+- The Second Commended Article Prize, ABU Technical Review 2015.
 - Best Student Paper Award, IEEE BMSB 2014.
 - The First Commended Article Prize, ABU Technical Review 2013.
 - Bronze Award, IEEE Seoul Section Student Paper Contest 2012.
