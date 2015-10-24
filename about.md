@@ -14,7 +14,7 @@ permalink: /about/
 - **Ph.D. Candidate in Electrical and Electronic Engineering**
 	- [Digital Transmission Laboratory](http://web.yonsei.ac.kr/dtlab/), March 2011 - Present
 	- [Yonsei University](http://www.yonsei.ac.kr/), Seoul, Republic of Korea
-	- Supervisor: Prof. Jong-Soo Seo
+	- Thesis: Analysis of Net SISO-SFN and MISO-SFN Gains in Single Frequency Broadcast Network
 
 - **M.S. in Electrical and Electronic Engineering**
 	- Wireless Network Laboratory, September 2005 - February 2007
