@@ -32,7 +32,7 @@ permalink: /about/
 
 
 ## Awards
-- The Second Commended Article Prize, ABU Technical Review 2015.
+- [The Second Commended Article Prize](http://www.abu.org.my/Latest_News-@-GA_2015_ABU_Engineering_Awards_%E2%80%93_Winners_announced_in_Istanbul_.aspx), ABU Technical Review 2015.
 - Best Student Paper Award, IEEE BMSB 2014.
 - The First Commended Article Prize, ABU Technical Review 2013.
 - Bronze Award, IEEE Seoul Section Student Paper Contest 2012.
