@@ -30,7 +30,7 @@ permalink: /about/
 
 - Member, The Institute of Electrical and Electronics Engineers (IEEE)
 - Delegate, Republic of Korea (Member States), ITU-R WP6A       
-        - [25 March - 2 April 2014](http://www.itu.int/md/R12-WP6A-C-0413/en), [13-20 February 2015](http://www.itu.int/md/R12-WP6A-C-0561/en)
+	- [25 March - 2 April 2014](http://www.itu.int/md/R12-WP6A-C-0413/en), [13-20 February 2015](http://www.itu.int/md/R12-WP6A-C-0561/en)
 
 ## Awards
 - [The Second Commended Article Prize](http://www.abu.org.my/Latest_News-@-GA_2015_ABU_Engineering_Awards_%E2%80%93_Winners_announced_in_Istanbul_.aspx), ABU Technical Review 2015.
