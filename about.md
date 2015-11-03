@@ -28,7 +28,8 @@ permalink: /about/
 
 ## Membership
 
-- Member, The Institute of Electrical and Electronics Engineers (IEEE)
+- Member, The Institute of Electrical and Electronics Engineers (IEEE)  
+	- March 2007 -
 - Delegate, Republic of Korea (Member States), ITU-R WP6A       
 	- [25 March - 2 April 2014](http://www.itu.int/md/R12-WP6A-C-0413/en), [13-20 February 2015](http://www.itu.int/md/R12-WP6A-C-0561/en)
 
