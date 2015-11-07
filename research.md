@@ -225,7 +225,7 @@ permalink: /research/
 
 ## Standardization  
 
-8. ITU-R WP6A  Contribution 532, ''[Proposed text for the preliminary draft new Report ITU-R BT.[UHDTV-DTT TRIALS] - Status of field trials of UHDTV over DVB-T2 networks in Korea](http://www.itu.int/md/R12-WP6A-C-0532/en),'' February 2015.
+8. ITU-R WP6A  Contribution 532, ''[Proposed text for the preliminary draft new Report ITU-R BT.[UHDTV-DTT TRIALS] - Status of field trials of UHDTV over DVB-T2 networks in Korea](http://www.itu.int/md/R12-WP6A-C-0532/en),'' February 2015. Adopted in [Draft new Report ITU-R BT.[UHDTV-DTT TRIALS] - Collection of field trials of UHDTV over DTT networks](http://www.itu.int/md/R12-SG06-C-0356).
 8. Sanghun Kim, **Sungho Jeon**, Ilsoo Kyung, Geunsoo Park, ''Statement of interest in participating in the Workshop,'' The Third W3C Web and TV workshop, Hollywood, California, USA, September, 2011.
 8. **Sungho Jeon**, Zungkon Yim, Ilsoo Kyung, Man-Sik Kim, "Open-Loop Unitary Precoding with Cross-polarized Antennas for High-order Modulation," DVB-NGH069, February 2010.
 8. **Sungho Jeon**, Zungkon Yim, Ilsoo Kyung, Man-Sik Kim, "Component-Swapping over Transmit Antennas as a Spatial Interleaver," DVB-NGH068, February 2010.
