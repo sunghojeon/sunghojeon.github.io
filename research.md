@@ -82,8 +82,8 @@ permalink: /research/
 
 #### 2016
 
-4. **Sungho Jeon**, Junghyun Kim, Jaekwon Lee, Sanghun Kim, Jeong-Deok Kim, Young-Woo Suh, and Zungkon Yim, ``Laboratory Measurement to Provide Threshold of Visibility for Terrestrial 4K-UHDTV Broadcasting Based on HEVC over DVB-T2 in AWGN Channel,'' in *The 19th International Workshop on Advanced Image Technology* (IWAIT 2016), Busan, Republic of Korea, January 2016.
-4. Young-Woo Suh, Junghyun Kim, **Sungho Jeon**, Zungkon Yim, and Sung-Choon Park, ``Implementation of Integrated Multi-Media Measurement and Monitoring System,'' in *The 19th International Workshop on Advanced Image Technology* (IWAIT 2016), Busan, Republic of Korea, January 2016.
+4. **Sungho Jeon**, Junghyun Kim, Jaekwon Lee, Sanghun Kim, Jeong-Deok Kim, Young-Woo Suh, and Zungkon Yim, ``[Laboratory Measurement to Provide Threshold of Visibility for Terrestrial 4K-UHDTV Broadcasting Based on HEVC over DVB-T2 in AWGN Channel](http://iwait2016.org/conference_program.do),'' in *The 19th International Workshop on Advanced Image Technology* (IWAIT 2016), Busan, Republic of Korea, January 2016.
+4. Young-Woo Suh, Junghyun Kim, **Sungho Jeon**, Zungkon Yim, and Sung-Choon Park, ``[Implementation of Integrated Multi-Media Measurement and Monitoring System](http://iwait2016.org/conference_program.do),'' in *The 19th International Workshop on Advanced Image Technology* (IWAIT 2016), Busan, Republic of Korea, January 2016.
 
 #### 2015
 
