@@ -11,10 +11,10 @@ permalink: /about/
 
 ## Education
 
-- **Ph.D. Candidate in Electrical and Electronic Engineering**
-	- [Digital Transmission Laboratory](http://web.yonsei.ac.kr/dtlab/), March 2011 - Present
+- **Ph.D. in Electrical and Electronic Engineering**
+	- [Digital Transmission Laboratory](http://web.yonsei.ac.kr/dtlab/), March 2011 - February 2016
 	- [Yonsei University](http://www.yonsei.ac.kr/), Seoul, Republic of Korea
-	- Thesis: Analysis of Net SISO-SFN and MISO-SFN Gains in Single Frequency Broadcast Network
+	- Thesis: [Analysis of Net SISO-SFN and MISO-SFN Gains in Single Frequency Broadcast Network](http://dcollection.yonsei.ac.kr/)
 
 - **M.S. in Electrical and Electronic Engineering**
 	- Wireless Network Laboratory, September 2005 - February 2007
