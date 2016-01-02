@@ -6,7 +6,7 @@ permalink: /about/
 ## Experience
 
 - **Research Engineer**
-	- [Technical Research Institute](http://office.kbs.co.kr/tri/), March 2007 - Present  
+	- [Technical Research Institute](http://office.kbs.co.kr/tri/), March 2007 - July 2014 - Present  
 	- [Korean Broadcasting System (KBS)](http://www.kbs.co.kr/), Seoul, Republic of Korea  
 
 ## Education
