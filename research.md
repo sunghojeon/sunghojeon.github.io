@@ -9,6 +9,8 @@ permalink: /research/
 
 ### Journal Papers
 
+#### 2016
+
 2. Soon-Ki Jo, [Jae-Shin Han](https://sites.google.com/site/hjs4015/contact), **Sungho Jeon**, [Jeong-Min Choi](https://kr.linkedin.com/pub/jeong-min-choi/8a/a59/93/en), and Jong-Soo Seo, "[Distributed differential quasi-orthogonal space-time block coded system for multiple-relay networks](http://link.springer.com/article/10.1007/s11277-015-3074-y)," *Wireless Personal Communications*, to be published.
 
 #### 2015
