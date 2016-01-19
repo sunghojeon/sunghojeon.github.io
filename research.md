@@ -35,7 +35,7 @@ permalink: /research/
 
 #### 2012
 
-2. **Sungho Jeon**, Zungkon Yim, and Jonng-Soo Seo, "[Path Loss Model for Coupling Loop Interference with Multiple Reflections over Single Frequency Network](http://www.tandfonline.com/doi/abs/10.4103/0256-4602.105006#.VdpywvTSnJF)," *IETE Technical Review*, vol. 29, no. 6, pp. 499-505, Nov.-Dec. 2012.  
+2. **Sungho Jeon**, Zungkon Yim, and Jong-Soo Seo, "[Path Loss Model for Coupling Loop Interference with Multiple Reflections over Single Frequency Network](http://www.tandfonline.com/doi/abs/10.4103/0256-4602.105006#.VdpywvTSnJF)," *IETE Technical Review*, vol. 29, no. 6, pp. 499-505, Nov.-Dec. 2012.  
 
 1. **Sungho Jeon**, Jin-Yong Choi, Zungkon Yim, and Jong-Soo Seo, "[Error Floor Analysis of Signal Space Diversity Schemes under Erasure Effect in Single Frequency Network](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6196185)," *IEEE transactions on Broadcasting*, vol. 58, no.3, pp. 508-513, Sept. 2012.
 
