@@ -17,12 +17,12 @@ permalink: /about/
 	- Thesis: [Analysis of Net SISO-SFN and MISO-SFN Gains in Single Frequency Broadcast Network](https://drive.google.com/open?id=0B6BaHnN-e1f9QUVIY2JJZ2x4ck0)
 
 - **M.S. in Electrical and Electronic Engineering**
-	- Wireless Network Laboratory, September 2005 - February 2007
+	- Wireless Network Laboratory, September 2005 - February 2007, Early Graduation
 	- [Yonsei University](http://www.yonsei.ac.kr/), Seoul, Republic of Korea  
 	- Thesis: [Cross layer optimization based on unequal power allocation for closed-loop downlink MIMO systems](http://library.yonsei.ac.kr/search/detail/CAT000000189586)
 
 - **B.S. in Electrical and Electronic Engineering**, *Honors*
-	- March 2002 - August 2005
+	- March 2002 - August 2005, Early Graduation
 	- [Yonsei University](http://www.yonsei.ac.kr/), Seoul, Republic of Korea  
 
 
