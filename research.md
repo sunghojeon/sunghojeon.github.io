@@ -186,7 +186,7 @@ permalink: /research/
 
 #### 2007
 
-7. **전성호**, 이형극, 손혁민, 이상훈, [다중 반송파 기반 광대역 네트워크 상에서 마크로스코픽 다이버시티 이득 분석](http://tr.sktelecom.com/tr/kor/journal/articleDetail.jsp?f_from=ResultList&f_journalid=1020&f_jourarticleid=1029&f_page_mode=&f_current_page=1&f_search_result_view=N&f_search_type=2&f_language=KOR&f_author=%EC%A0%84%EC%84%B1%ED%98%B8&f_title=&f_summary=&f_keyword=&f_orderby=1&f_start_publishy=1990&f_start_publishm=01&f_end_publishy=2015&f_end_publishm=09&f_page_per_rows=10), 『Telecommunications Review』, 제17권 2호, 2007년 4월.
+7. **전성호**, 이형극, 손혁민, 이상훈, [다중 반송파 기반 광대역 네트워크 상에서 마크로스코픽 다이버시티 이득 분석](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001051731), 『Telecommunications Review』, 제17권 2호, 2007년 4월.
 
 
 
