@@ -13,7 +13,7 @@ permalink: /research/
 
 1. Yuting Tao, Hak-Jin Kim, **Sungho Jeon**, and Jong-Soo Seo, "[Low Complexity Switched Soft Demapper for Rotated QAM Constellations](http://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4359969)," *IEEE Transactions on Broadcasting*, to be published. 
 
-1. Jaekwon Lee, **Sungho Jeon**, and Dong Ku Kim, "[A Pre-Correction Algorithm for Broadcasting Transmitter](http://dx.doi.org/10.1109/TBC.2016.2540521)," *IEEE Transactions on Broadcasting*, to be published.
+1. Jaekwon Lee, **Sungho Jeon**, and Dong Ku Kim, "[A Pre-Correction Algorithm for Broadcasting Transmitter](http://dx.doi.org/10.1109/TBC.2016.2540521)," *IEEE Transactions on Broadcasting*, vol. 62, no. 2, pp. 487-495, June 2016.
 
 2. Soonki Jo, [Jae-Shin Han](https://sites.google.com/site/hjs4015/contact), **Sungho Jeon**, [Jeong-Min Choi](https://kr.linkedin.com/pub/jeong-min-choi/8a/a59/93/en), and Jong-Soo Seo, "[Distributed differential quasi-orthogonal space-time block coded system for multiple-relay networks](http://link.springer.com/article/10.1007/s11277-015-3074-y)," *Wireless Personal Communications*, vol. 87, no. 4, pp 1401-1414, April 2016.
 
