@@ -10,9 +10,9 @@ title: ATSC3.0 방송장비 동향 / KOBA2016 출품장비를 중심으로
 
 ....
 
-### 엑사이터 Exciter [A321+A322]
+#### 엑사이터 Exciter [A321+A322]
 
 ....
 
 
-### Broadcast Gateway [A324]
+#### Broadcast Gateway [A324]
