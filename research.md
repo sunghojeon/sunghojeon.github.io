@@ -3,6 +3,10 @@ layout: page
 permalink: /research/
 ---
 
+## Teaching and Talks
+
+[SlideShare](http://www.slideshare.net/SunghoJeon/presentations)
+
 
 ## Publication
 [Google Citations](https://scholar.google.com/citations?user=K-uP94QAAAAJ&hl=en)
@@ -252,6 +256,3 @@ permalink: /research/
 8. Sanghun Kim, **Sungho Jeon**, Ilsoo Kyung, Geunsoo Park, ''Statement of interest in participating in the Workshop,'' The Third W3C Web and TV workshop, Hollywood, California, USA, September, 2011.
 
 
-## Teaching and Talks
-
-- [SlideShare](http://www.slideshare.net/SunghoJeon/presentations)
