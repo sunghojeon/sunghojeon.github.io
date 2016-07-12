@@ -157,6 +157,10 @@ permalink: /research/
 
 ### Korean Journal Papers
 
+#### 2016
+
+6. **전성호**, 김상훈, 함상진, 임중곤, 서영우 (2016.0). [HEVC over DVB-T2 기반 지상파 4K-UHDTV 방송을 위한 양시청 기준값 실험실 테스트 결과](https://www.kci.go.kr/). 『방송공학회논문지』, 출판예정
+
 #### 2015
 
 6. 조인준, 함상진, 김산성, 김병선, 김상훈, **전성호** (2015.1). [지상파 4K UHD 스포츠 라이브 중계방송](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001958846). 『방송공학회논문지』, 20(1), 26-39.
