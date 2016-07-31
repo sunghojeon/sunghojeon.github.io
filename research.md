@@ -92,7 +92,7 @@ permalink: /research/
 
 #### 2016
 
-4. **Sungho Jeon**, Sanghun Kim, Jeong-Deok Kim, Zungkon Yim, and Jong-Soo Seo, "[Field Trial Results of 4K-UHD over DVB-T2 Single Frequency Network in Republic of Korea](http://easychair.org/smart-program/BMSB2016/2016-06-02.html#talk:19444)," in *The 11th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2016), Nara, Japan, June 2016.
+4. **Sungho Jeon**, Sanghun Kim, Jeong-Deok Kim, Zungkon Yim, and Jong-Soo Seo, "[Field Trial Results of 4K-UHD over DVB-T2 Single Frequency Network in Republic of Korea](http://dx.doi.org/10.1109/BMSB.2016.7522002)," in *The 11th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2016), Nara, Japan, June 2016.
 4. **Sungho Jeon**, Junghyun Kim, Jaekwon Lee, Sanghun Kim, Jeong-Deok Kim, Young-Woo Suh, and Zungkon Yim, ``[Laboratory Measurement to Provide Threshold of Visibility for Terrestrial 4K-UHDTV Broadcasting Based on HEVC over DVB-T2 in AWGN Channel](https://drive.google.com/open?id=0B6BaHnN-e1f9ZDlRLTlpdTl4bkk),'' in *The 19th International Workshop on Advanced Image Technology* (IWAIT 2016), Busan, Republic of Korea, January 2016.
 4. Young-Woo Suh, Junghyun Kim, **Sungho Jeon**, Zungkon Yim, and Sung-Choon Park, ``[Implementation of Integrated Multi-Media Measurement and Monitoring System](https://drive.google.com/open?id=0B6BaHnN-e1f9ZVZXZV9oWmlSbDQ),'' in *The 19th International Workshop on Advanced Image Technology* (IWAIT 2016), Busan, Republic of Korea, January 2016.
 
@@ -163,7 +163,7 @@ permalink: /research/
 
 #### 2016
 
-6. **전성호**, 김상훈, 함상진, 임중곤, 서영우 (2016.0). [HEVC over DVB-T2 기반 지상파 4K-UHDTV 방송을 위한 양시청 기준값 실험실 테스트 결과](https://www.kci.go.kr/). 『방송공학회논문지』, 출판예정
+6. **전성호**, 김상훈, 함상진, 임중곤, 서영우 (2016.7). [HEVC over DVB-T2 기반 지상파 4K-UHDTV 방송을 위한 양시청 기준값 실험실 테스트 결과](https://www.kci.go.kr/). 『방송공학회논문지』 <특집논문 : IWAIT 2016>, 21(4), 000-000
 
 #### 2015
 
