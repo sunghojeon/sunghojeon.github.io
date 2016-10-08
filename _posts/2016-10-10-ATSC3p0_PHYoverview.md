@@ -5,6 +5,7 @@ title: 방송망 구축을 위한 ATSC 3.0 전송 기술
 
 **[알림] 본 원고는 한국정보통신기술협회 ['TTA 저널 2016년 09월 167호'](http://www.tta.or.kr/data/reporthosulist_view.jsp?kind_num=1&hosu=167)에 출판되었습니다.**
 
+[본문 다운로드](www.tta.or.kr/data/reportDown.jsp?news_num=4619)
 
 ## 1. 머리말
 
@@ -18,4 +19,16 @@ title: 방송망 구축을 위한 ATSC 3.0 전송 기술
 
 ![그림 1](/images/KOBA2016_Equipment_1.JPG)
 
-[본문 다운로드](www.tta.or.kr/data/reportDown.jsp?news_num=4619)
+![표 1]
+| 문서번호 | 문서 이름과 의미                                |
+|----------|-------------------------------------------------|
+| A/321    | System Discovery and Signaling                  |
+|          | aaa                                             |
+| A/322    | Physical Layer Protocol                         |
+|          | bbb                                             |
+| A/324    | Scheduler / Studio to Transmitter Link          |
+|          | ccc                                             |
+| A/325    | Recommended Practice: Lab Performance Test Plan |
+|          | ddd                                             |
+| A/326    | Recommended Practice: Field Test Plan           |
+|          | eee                                             |
