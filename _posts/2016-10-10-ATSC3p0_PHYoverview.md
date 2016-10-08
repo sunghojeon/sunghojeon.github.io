@@ -5,7 +5,7 @@ title: 방송망 구축을 위한 ATSC 3.0 전송 기술
 
 **[알림] 본 원고는 한국정보통신기술협회 ['TTA 저널 2016년 09월 167호'](http://www.tta.or.kr/data/reporthosulist_view.jsp?kind_num=1&hosu=167)에 출판되었습니다.**
 
-[본문 다운로드](www.tta.or.kr/data/reportDown.jsp?news_num=4619)
+[본문 다운로드](http://www.tta.or.kr/data/reportDown.jsp?news_num=4619)
 
 ## 1. 머리말
 
