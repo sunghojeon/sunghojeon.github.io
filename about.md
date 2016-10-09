@@ -14,7 +14,7 @@ permalink: /about/
 - **Ph.D. in Electrical and Electronic Engineering**
 	- [Digital Transmission Laboratory](http://web.yonsei.ac.kr/dtlab/), March 2011 - February 2016
 	- [Yonsei University](http://www.yonsei.ac.kr/), Seoul, Republic of Korea
-	- Thesis: [Analysis of Net SISO-SFN and MISO-SFN Gains in Single Frequency Broadcast Network](http://www.dcollection.net/handler/yonsei/000000422581)
+	- Thesis: [Analysis of Net SISO-SFN and MISO-SFN Gains in Single Frequency Broadcast Network](http://library.yonsei.ac.kr/search/detail/CAT000001779729)
 
 - **M.S. in Electrical and Electronic Engineering**
 	- Wireless Network Laboratory, September 2005 - February 2007, Early Graduation
