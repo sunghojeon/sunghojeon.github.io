@@ -23,11 +23,11 @@ title: 방송망 구축을 위한 ATSC 3.0 전송 기술
 
 | 문서번호  | 문서 이름과 의미                                  |
 |----------|-------------------------------------------------|
-| A/321    | System Discovery and Signaling                  |
+| [A/321](http://atsc.org/atsc-30-standard/a3212016-system-discovery-signaling/)    | System Discovery and Signaling                  |
 |          | ATSC3.0 전송 프레임 시작점 정의                    |
-| A/322    | Physical Layer Protocol                         |
+| [A/322](http://atsc.org/atsc-30-standard/a3222016-physical-layer-protocol/)    | Physical Layer Protocol                         |
 |          | 입력된 BBP 스트림을 OFDM 방식으로 송신하는 Exciter 동작 규격 정의 |
-| A/324    | Scheduler / Studio to Transmitter Link          |
+| [A/324](http://atsc.org/candidate-standard/a324-atsc-candidate-standard-scheduler-studio-transmitter-link/)    | Scheduler / Studio to Transmitter Link          |
 |          | 입력된 ALP 스트림을 BBP로 가공하고, 다수 개의 SFN 송신기를 제어하기 위한 Broadcast Gateway 동작 규격 정의                                             |
 | A/325    | Recommended Practice: Lab Performance Test Plan |
 |          | 수신 성능을 실험실 수준에서 평가하기 위한 측정 항목, 실험 절차 정의                                            |
