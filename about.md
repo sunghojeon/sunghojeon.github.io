@@ -35,7 +35,9 @@ permalink: /about/
 	- [25 March - 2 April 2014](http://www.itu.int/md/R12-WP6A-C-0413/en), [13-20 February 2015](http://www.itu.int/md/R12-WP6A-C-0561/en)
 
 ## Awards
-- [2016 방송기술대상 최우수상](http://www.kobeta.com/notice/?uid=2291&mod=document), 한국방송기술인연합회
+
+- [국립전파연구원장 표창](http://ㅌㅌㅌㅌㅌ), 미래창조과학부/국립전파연구원, 2016년 12월.
+- [2016 방송기술대상 최우수상](http://www.kobeta.com/notice/?uid=2291&mod=document), 한국방송기술인연합회, 2016년 11월.
 - [The Second Commended Article Prize](http://www.abu.org.my/Latest_News-@-GA_2015_ABU_Engineering_Awards_%E2%80%93_Winners_announced_in_Istanbul_.aspx), ABU Technical Review 2015.
 - Best Student Paper Award, IEEE BMSB 2014.
 - The First Commended Article Prize, ABU Technical Review 2013.
@@ -43,8 +45,7 @@ permalink: /about/
 
 ## Professional Activities
 
-- [국립전파연구원장 표창](http://ㅌㅌㅌㅌㅌ), 미래창조과학부/국립전파연구원, 2016년 12월.
-- [2016년도 KOSEN(한민족과학기술자네트워크) 전문가](http://kosen21.org/notice/noticeView.do?noticeSeq=NOT_0000000000025932), 미래창조과학부/한국과학기술정보연구원, 2016년 10월.
+- [2016년도 KOSEN(한민족과학기술자네트워크) 전문가](http://kosen21.org/notice/noticeView.do?noticeSeq=NOT_0000000000025932), 미래창조과학부/한국과학기술정보연구원, 2016년 10월~.
 - Co-Chair, [Session 4: Broadcast systems at IEEE BMSB 2015](http://www.wica.intec.ugent.be/bmsb2015/wednesday-june-17#session4), Ghent, Belgium, 17 June 2015.
 - Reviewer, IEEE Transactions on Broadcasting, 2011 -
 - Reviewer, IEEE Communications Letters, 2009 -
