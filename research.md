@@ -90,6 +90,10 @@ permalink: /research/
 
 ### Conference Papers
 
+#### 2017
+
+4. **Sungho Jeon**, Junghyun Kim, Yoo-Sang Shin, Sanghoon Kim, Sangjin Hahm, Young-Woo Suh, Sung-Ik Park, Jae-young Lee, and Jong-Soo Seo, "[Preliminary Field Trial Results for DVB-T2 Indoor Reception in Seoul: A Single Transmitter Case](http://asdsa)," in *The 12th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2017), *submitted*.
+
 #### 2016
 
 4. **Sungho Jeon**, Sanghun Kim, Jeong-Deok Kim, Zungkon Yim, and Jong-Soo Seo, "[Field Trial Results of 4K-UHD over DVB-T2 Single Frequency Network in Republic of Korea](http://dx.doi.org/10.1109/BMSB.2016.7522002)," in *The 11th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2016), Nara, Japan, June 2016.
