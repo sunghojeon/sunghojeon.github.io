@@ -20,6 +20,10 @@ permalink: /research/
 
 ### Journal Papers
 
+#### 2017
+
+.
+
 #### 2016
 
 1. Yuting Tao, Hak-Jin Kim, **Sungho Jeon**, and Jong-Soo Seo, "[Low Complexity Switched Soft Demapper for Rotated QAM Constellations](http://dx.doi.org/10.1109/TBC.2016.2570007)," *IEEE Transactions on Broadcasting*, vol. 62, no. 3, pp. 532 - 539, September 2016.
