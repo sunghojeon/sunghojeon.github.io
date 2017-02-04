@@ -33,6 +33,8 @@ permalink: /about/
 	- Student Member, September 2005 - February 2007 
 - Delegate, Republic of Korea (Member States), ITU-R WP6A       
 	- [25 March - 2 April 2014](http://www.itu.int/md/R12-WP6A-C-0413/en), [13-20 February 2015](http://www.itu.int/md/R12-WP6A-C-0561/en)
+- 간사, TTA WG8027(지상파UHD RF 정합테스트 실무반)        
+	- 2016.06. ~ 
 
 ## Awards
 
