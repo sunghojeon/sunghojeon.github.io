@@ -14,8 +14,8 @@ permalink: /research/
 
 ### Submitted
 
-4. **Sungho Jeon**, Junghyun Kim, Yoo-Sang Shin, Sanghoon Kim, Sangjin Hahm, Young-Woo Suh, Sung-Ik Park, Jae-young Lee, and Jong-Soo Seo, "[Preliminary Field Trial Results for DVB-T2 Indoor Reception in Seoul: A Single Transmitter Case](http://asdsa)," in *The 12th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2017), *accepted*.
-4. Jae-young Lee, Sung Ik Park, Sunhyoung Kwon, Bo-mi Lim, Heung Mook Kim, Namho Hur, Anthony Pesin, Jean-Claude Chevet, Joan Llach, Alan Stein, **Sungho Jeon**, and Yiyan Wu, "[Scalable HEVC over Layered Division Multiplexing for the Next Generation Terrestrial Broadcasting](http://asdsa)," in *The 12th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2017), *accepted*.
+4. **Sungho Jeon**, Junghyun Kim, Yoo-Sang Shin, Sanghoon Kim, Sangjin Hahm, Young-Woo Suh, Sung-Ik Park, Jae-young Lee, and Jong-Soo Seo, "[Preliminary Field Trial Results for DVB-T2 Indoor Reception in Seoul: A Single Transmitter Case](http://easychair.org/smart-program/BMSB2017/)," in *The 12th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2017), *accepted*.
+4. Jae-young Lee, Sung Ik Park, Sunhyoung Kwon, Bo-mi Lim, Heung Mook Kim, Namho Hur, Anthony Pesin, Jean-Claude Chevet, Joan Llach, Alan Stein, **Sungho Jeon**, and Yiyan Wu, "[Scalable HEVC over Layered Division Multiplexing for the Next Generation Terrestrial Broadcasting](http://easychair.org/smart-program/BMSB2017/)," in *The 12th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2017), *accepted*.
 
 
 ### Journal Papers
