@@ -18,6 +18,6 @@ Global TV Tech Day
 ### Location 
 N260, LVCC (Las Vegas Concention Center) 
 
-[발표자료](http://tech.kobeta.com/%EB%B0%A9%EC%86%A1%EA%B3%BC%EA%B8%B0%EC%88%A0-2016%EB%85%84-7%EC%9B%94%ED%98%B8vol-247-%EC%95%88%EB%82%B4/)
+[발표자료](https://www.slideshare.net/SunghoJeon/the-status-of-atsc-30-broadcasting-in-korea-nab-show-2017)
 
 ![그림 1](/images/NABsession1.JPG)
