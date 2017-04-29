@@ -21,3 +21,7 @@ N260, LVCC (Las Vegas Concention Center)
 [발표자료](https://www.slideshare.net/SunghoJeon/the-status-of-atsc-30-broadcasting-in-korea-nab-show-2017)
 
 ![그림 1](/images/NABsession1.JPG)
+
+### 관련기사
+
+* TVNewsCheck, [ATSC 3.0 Achieves Mainstream Status At NAB](http://www.tvnewscheck.com/article/103642/atsc-30-achieves-mainstream-status-at-nab), April 28, 2017.
