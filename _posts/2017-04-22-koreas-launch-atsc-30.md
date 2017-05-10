@@ -16,7 +16,7 @@ Saturday, April 22, 2017
 Global TV Tech Day
 
 ### Location 
-N260, LVCC (Las Vegas Concention Center) 
+N260, LVCC (Las Vegas Convention Center) 
 
 [발표자료](https://www.slideshare.net/SunghoJeon/the-status-of-atsc-30-broadcasting-in-korea-nab-show-2017)
 
@@ -24,4 +24,4 @@ N260, LVCC (Las Vegas Concention Center)
 
 ### Related Articles
 
-* TVNewsCheck, [ATSC 3.0 Achieves Mainstream Status At NAB](http://www.tvnewscheck.com/article/103642/atsc-30-achieves-mainstream-status-at-nab), April 28, 2017.
+* TVNewsCheck, [ATSC 3.0 Achieves Mainstream Status At NAB](http://www.tvnewscheck.com/article/103642/atsc-30-achieves-mainstream-status-at-nab), April 28, 2017. (ATSC Official Website, Reprinted with permission from TVNewsCheck)
