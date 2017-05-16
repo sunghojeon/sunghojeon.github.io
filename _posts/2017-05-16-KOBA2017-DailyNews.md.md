@@ -36,7 +36,7 @@ SFN을 구성하는 모든 송신 장비들은 정해진 시간에 한 치의 �
 ## 똑같은 데이터를 똑같은 주파수로 똑같은 시간에 발사하는 SFN 신호
 
 SFN을 구성하는 장치를 설치하고 기준시각 동기원을 확보했다면, SFN 신호는 반드시 다음의 조건을 만족시켜야 한다.
-- 데이터 동일성: SFN 방송망 내에는 모든 Exciter에서 똑같은 데이터를 RF 신호로 발사해야 한다. 이를 위해서 개별 Exciter에서 전송 신호를 가공할 경우 발생할 수 있는 오류를 없애기 위해서, Broadcast Gateway에서 일괄적으로 전송 패킷을 생성하고 Exciter에서는 Broadcast Gateway에서 수신된 패킷을 별도의 조작 없이 그대로 RF 신호로 변환한다. 또한, 전달 과정에서 발생할 수 있는 패킷 오류가 발생할 경우 데이터가 달라지므로, SMPTE 2022-1 FEC(Forward Error Correction, 오류정정)기법을 사용하여 Broadcast Gateway에서 Exciter까지 안정적으로 패킷이 전달될 수 있도록 A/324 표준에서 정의하고 있다.
+- **데이터 동일성**: SFN 방송망 내에는 모든 Exciter에서 똑같은 데이터를 RF 신호로 발사해야 한다. 이를 위해서 개별 Exciter에서 전송 신호를 가공할 경우 발생할 수 있는 오류를 없애기 위해서, Broadcast Gateway에서 일괄적으로 전송 패킷을 생성하고 Exciter에서는 Broadcast Gateway에서 수신된 패킷을 별도의 조작 없이 그대로 RF 신호로 변환한다. 또한, 전달 과정에서 발생할 수 있는 패킷 오류가 발생할 경우 데이터가 달라지므로, SMPTE 2022-1 FEC(Forward Error Correction, 오류정정)기법을 사용하여 Broadcast Gateway에서 Exciter까지 안정적으로 패킷이 전달될 수 있도록 A/324 표준에서 정의하고 있다.
 - 시각(타이밍) 동일성: Broadcast Gateway에서는 시각정보는 Timing and Management Stream Packet 내 Bootstrap_Timing_Data()에 나노초(Nano-seconds) 정밀도의 신호 발사(Emission) 시각을 실어서 Exciter로 전달하고, Exciter에서는 동기화된 내장 시계를 사용해서 정해진 시간에 RF 신호를 발사한다. 또한, Broadcast Gateway에서 ATSC3.0 전송프레임 Preamble 부분 L1-Signaling에도 나노초 정밀도의 Wall-clock 시각 정보를 찍어서 Exciter에 전달하고 온에어 함으로써, 수신기에서도 시각을 참조할 수 있도록 하고 있다.
 - 주파수 동일성: 주파수 도메인 상에서 완벽히 신호가 중첩되기 위해서는 정해진 주파수 위치에서 흔들리지 않고 정확한 주파수 위치를 지속적으로 유지해야 한다. 이를 위해서 송신기 Exciter는 GPS로부터 지속적으로 신호를 수신하여 1PPS 신호 또는 10MHz 동기 신호를 생성하고, 이를 기준으로 내부 주파수발생기(Oscillator)와 일치시킨다. 우리나라 ‘방송표준방식 및 방송업무용 무선설비의 기술기준’ 제13조제2항의1에 따르면, SFN을 위한 주파수 편차를 2.1Hz 이내로 규정하고 있는데, 이는 32k-FFT 모드  Subcarrier Spacing 210Hz의 1% 이내를 근거로 삼았다. 
 위조건 중 하나라도 만족시키지 못할 경우에는, SFN 내 다른 송신기 출력 신호에 간섭을 주지 않기 위해서, 문제가 발생한 Exciter는 반드시 Mute 상태로 전환해 RF 신호를 출력하지 않아야 한다.
