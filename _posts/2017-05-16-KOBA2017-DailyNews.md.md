@@ -3,7 +3,7 @@ layout: post
 title: ATSC3.0 기반 UHD 표준과 SFN 구축 방안
 ---
 
-[알림] 본 원고는 제27회 국제 방송·음향·조명기기 전시회 (KOBA 2017) Daily News (2015.05.16.)에 출판되었습니다.
+[알림] 본 원고는 제27회 국제 방송·음향·조명기기 전시회 (KOBA 2017) Daily News (2017.05.16.)에 출판되었습니다.
 
 [발표자료](https://www.slideshare.net/SunghoJeon/atsc-30-uhd-sfn)
 
