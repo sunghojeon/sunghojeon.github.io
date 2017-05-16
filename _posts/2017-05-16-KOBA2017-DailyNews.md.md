@@ -37,17 +37,17 @@ SFN을 구성하는 모든 송신 장비들은 정해진 시간에 한 치의 �
 
 SFN을 구성하는 장치를 설치하고 기준시각 동기원을 확보했다면, SFN 신호는 반드시 다음의 조건을 만족시켜야 한다.
 - **데이터 동일성**: SFN 방송망 내에는 모든 Exciter에서 똑같은 데이터를 RF 신호로 발사해야 한다. 이를 위해서 개별 Exciter에서 전송 신호를 가공할 경우 발생할 수 있는 오류를 없애기 위해서, Broadcast Gateway에서 일괄적으로 전송 패킷을 생성하고 Exciter에서는 Broadcast Gateway에서 수신된 패킷을 별도의 조작 없이 그대로 RF 신호로 변환한다. 또한, 전달 과정에서 발생할 수 있는 패킷 오류가 발생할 경우 데이터가 달라지므로, SMPTE 2022-1 FEC(Forward Error Correction, 오류정정)기법을 사용하여 Broadcast Gateway에서 Exciter까지 안정적으로 패킷이 전달될 수 있도록 A/324 표준에서 정의하고 있다.
-- 시각(타이밍) 동일성: Broadcast Gateway에서는 시각정보는 Timing and Management Stream Packet 내 Bootstrap_Timing_Data()에 나노초(Nano-seconds) 정밀도의 신호 발사(Emission) 시각을 실어서 Exciter로 전달하고, Exciter에서는 동기화된 내장 시계를 사용해서 정해진 시간에 RF 신호를 발사한다. 또한, Broadcast Gateway에서 ATSC3.0 전송프레임 Preamble 부분 L1-Signaling에도 나노초 정밀도의 Wall-clock 시각 정보를 찍어서 Exciter에 전달하고 온에어 함으로써, 수신기에서도 시각을 참조할 수 있도록 하고 있다.
-- 주파수 동일성: 주파수 도메인 상에서 완벽히 신호가 중첩되기 위해서는 정해진 주파수 위치에서 흔들리지 않고 정확한 주파수 위치를 지속적으로 유지해야 한다. 이를 위해서 송신기 Exciter는 GPS로부터 지속적으로 신호를 수신하여 1PPS 신호 또는 10MHz 동기 신호를 생성하고, 이를 기준으로 내부 주파수발생기(Oscillator)와 일치시킨다. 우리나라 ‘방송표준방식 및 방송업무용 무선설비의 기술기준’ 제13조제2항의1에 따르면, SFN을 위한 주파수 편차를 2.1Hz 이내로 규정하고 있는데, 이는 32k-FFT 모드  Subcarrier Spacing 210Hz의 1% 이내를 근거로 삼았다. 
+- **시각(타이밍) 동일성**: Broadcast Gateway에서는 시각정보는 Timing and Management Stream Packet 내 Bootstrap_Timing_Data()에 나노초(Nano-seconds) 정밀도의 신호 발사(Emission) 시각을 실어서 Exciter로 전달하고, Exciter에서는 동기화된 내장 시계를 사용해서 정해진 시간에 RF 신호를 발사한다. 또한, Broadcast Gateway에서 ATSC3.0 전송프레임 Preamble 부분 L1-Signaling에도 나노초 정밀도의 Wall-clock 시각 정보를 찍어서 Exciter에 전달하고 온에어 함으로써, 수신기에서도 시각을 참조할 수 있도록 하고 있다.
+- **주파수 동일성**: 주파수 도메인 상에서 완벽히 신호가 중첩되기 위해서는 정해진 주파수 위치에서 흔들리지 않고 정확한 주파수 위치를 지속적으로 유지해야 한다. 이를 위해서 송신기 Exciter는 GPS로부터 지속적으로 신호를 수신하여 1PPS 신호 또는 10MHz 동기 신호를 생성하고, 이를 기준으로 내부 주파수발생기(Oscillator)와 일치시킨다. 우리나라 ‘방송표준방식 및 방송업무용 무선설비의 기술기준’ 제13조제2항의1에 따르면, SFN을 위한 주파수 편차를 2.1Hz 이내로 규정하고 있는데, 이는 32k-FFT 모드  Subcarrier Spacing 210Hz의 1% 이내를 근거로 삼았다. 
 위조건 중 하나라도 만족시키지 못할 경우에는, SFN 내 다른 송신기 출력 신호에 간섭을 주지 않기 위해서, 문제가 발생한 Exciter는 반드시 Mute 상태로 전환해 RF 신호를 출력하지 않아야 한다.
 
  
 ## SFN 구축, 필드테스트, 그리고 송신기 SFN Delay Offset 조정
 
 송신기 설치를 완료하고 온에어 신호를 발사한 뒤에는, 필드테스트를 통해 아래와 같이 전송 파라미터 최적화 작업을 반복해서 수행해야 한다.
-- 송신기 최대 간격을 고려하여 Guard Interval 설정: ATSC3.0에서는 다양한 경로(Multipath)로 수신되는 신호를 간섭 없이 수신하기 위해서, 매번 OFDM 심볼 가장 앞에 Guard Interval 구간을 두는데, 서로 다른 송신소로부터 발사된 신호들 역시 이 구간 안에 모두 들어와야 한다. Guard Interval 구간이 길어질수록 멀리 떨어진 송신기 신호까지 정상 수신할 수 있으나 그만큼 유효 전송률(Data rate)이 낮아지기 때문에, 송신기 SFN Delay Offset 조정과 연계해서 Guard Interval 길이를 최적화해야 한다.
-- 필드테스트를 통한 CIR 계측값 수집: 방송 구역 내 구석구석을 ATSC3.0 전문가용 계측기를 측정차에 탑재한 뒤 방송구역 구석구석을 돌아다니면서, [그림 3]과 같이 채널 임펄스 응답(CIR, Channel Impulse Response)을 수집해야 한다. 물론, TV 수상기를 함께 가지고 다니면서 화면이 잘 나오는지 양시청 여부도 동시에 확인해야 한다. 
-- 각 송신기마다 SFN Delay Offset 조정: 필드테스트를 통해 수집된 CIR 계측값을 바탕으로, 개별 송신기 고유의 지연 시간 값(Delay Offset)을 결정하고 적용해야 한다. 특히, [그림 4]과 같이 Guard Interval을 넘어서는 송신 신호가 관찰되었다면 반드시 Guard Interval 구간 내에 들어오도록 송신기 Delay 값을 조정해야한다. 
+- **송신기 최대 간격을 고려하여 Guard Interval 설정**: ATSC3.0에서는 다양한 경로(Multipath)로 수신되는 신호를 간섭 없이 수신하기 위해서, 매번 OFDM 심볼 가장 앞에 Guard Interval 구간을 두는데, 서로 다른 송신소로부터 발사된 신호들 역시 이 구간 안에 모두 들어와야 한다. Guard Interval 구간이 길어질수록 멀리 떨어진 송신기 신호까지 정상 수신할 수 있으나 그만큼 유효 전송률(Data rate)이 낮아지기 때문에, 송신기 SFN Delay Offset 조정과 연계해서 Guard Interval 길이를 최적화해야 한다.
+- **필드테스트를 통한 CIR 계측값 수집**: 방송 구역 내 구석구석을 ATSC3.0 전문가용 계측기를 측정차에 탑재한 뒤 방송구역 구석구석을 돌아다니면서, [그림 3]과 같이 채널 임펄스 응답(CIR, Channel Impulse Response)을 수집해야 한다. 물론, TV 수상기를 함께 가지고 다니면서 화면이 잘 나오는지 양시청 여부도 동시에 확인해야 한다. 
+- **각 송신기마다 SFN Delay Offset 조정**: 필드테스트를 통해 수집된 CIR 계측값을 바탕으로, 개별 송신기 고유의 지연 시간 값(Delay Offset)을 결정하고 적용해야 한다. 특히, [그림 4]과 같이 Guard Interval을 넘어서는 송신 신호가 관찰되었다면 반드시 Guard Interval 구간 내에 들어오도록 송신기 Delay 값을 조정해야한다. 
 
 ![그림 3](/images/KOBA2017_Fig3.jpg)
 [그림 3] ATSC3.0 필드테스트 실제 (a) 의정부 소재 경기도 교육청 북부지청 측정점 위치 (b) 측정차를 포함하는 필드테스트 현장 모습 (c) 채널 임펄스 응답(CIR) 계측 화면. 관악, 광교, 용문 신호가 중첩되는 것으로 추정됨.
