@@ -42,7 +42,7 @@ permalink: /research/
 .
 
 
-## Publication (Before December 2016)
+## Publication (Before 2016)
 
 ### Journal Papers
 
