@@ -12,17 +12,39 @@ permalink: /research/
 [Google Citations](https://scholar.google.com/citations?user=K-uP94QAAAAJ&hl=en)
 
 
-### Submitted
-
-4. **Sungho Jeon**, Junghyun Kim, Yoo-Sang Shin, Sanghoon Kim, Sangjin Hahm, Young-Woo Suh, Sung-Ik Park, Jae-young Lee, and Jong-Soo Seo, "[Preliminary Field Trial Results for DVB-T2 Indoor Reception in Seoul: A Single Transmitter Case](http://easychair.org/smart-program/BMSB2017/)," in *The 12th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2017), *accepted*.
-4. Jae-young Lee, Sung Ik Park, Sunhyoung Kwon, Bo-mi Lim, Heung Mook Kim, Namho Hur, Anthony Pesin, Jean-Claude Chevet, Joan Llach, Alan Stein, **Sungho Jeon**, and Yiyan Wu, "[Scalable HEVC over Layered Division Multiplexing for the Next Generation Terrestrial Broadcasting](http://easychair.org/smart-program/BMSB2017/)," in *The 12th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2017), *accepted*.
-
-
 ### Journal Papers
 
 #### 2017
 
 .
+
+
+
+### Conference Papers
+
+#### 2017
+
+4. **Sungho Jeon**, Junghyun Kim, Yoo-Sang Shin, Sanghoon Kim, Sangjin Hahm, Young-Woo Suh, Sung-Ik Park, Jae-young Lee, and Jong-Soo Seo, "[Preliminary Field Trial Results for DVB-T2 Indoor Reception in Seoul: A Single Transmitter Case](http://easychair.org/smart-program/BMSB2017/)," in *The 12th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2017), Cagliari, Italy, June 2017.
+4. Jae-young Lee, Sung Ik Park, Sunhyoung Kwon, Bo-mi Lim, Heung Mook Kim, Namho Hur, Anthony Pesin, Jean-Claude Chevet, Joan Llach, Alan Stein, **Sungho Jeon**, and Yiyan Wu, "[Scalable HEVC over Layered Division Multiplexing for the Next Generation Terrestrial Broadcasting](http://easychair.org/smart-program/BMSB2017/)," in *The 12th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2017), Cagliari, Italy, June 2017.
+
+
+
+### Korean Journal Papers
+
+#### 2017
+
+.
+
+### Korean Conference Papers
+
+#### 2017
+
+.
+
+
+## Publication (Before December 2016)
+
+### Journal Papers
 
 #### 2016
 
@@ -100,10 +122,6 @@ permalink: /research/
 
 
 ### Conference Papers
-
-#### 2017
-
-.
 
 #### 2016
 
