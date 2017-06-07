@@ -7,8 +7,14 @@ title: ATSC3.0 방송장비 동향 / KOBA2017 출품장비를 중심으로
 
 ## 송신장비 동향
 
-2017년 2월 본방송을 위해서는 우선 각 송신소에 설치해야하는 고출력 송신기, 권역별로 단일 주파수 방송망(Single Frequency Network; SFN)을 제어하기 위한 Broadcast Gateway 장비, 그리고 장비들을 이중화하고 개별 장비들의 상태를 실시간으로 모니터링 할 수 있는 장비가 필요하다.
-
 ![그림 1](/images/KOBA2017_Equipment1.jpg)
 
-#### 엑사이터 Exciter [A321+A322]
+#### Broadcast Exciter와 Exciter
+
+#### STPTP 모니터링 장치와 RF 모니터링 장치
+
+![그림 2](/images/KOBA2017_Equipment2.jpg)
+
+## 공시청용 UHD 신호처리기 동향
+
+![그림 3](/images/KOBA2017_Equipment3.jpg)
