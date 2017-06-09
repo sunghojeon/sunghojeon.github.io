@@ -24,8 +24,8 @@ permalink: /research/
 
 #### 2017
 
-4. **Sungho Jeon**, Junghyun Kim, Yoo-Sang Shin, Sanghoon Kim, Sangjin Hahm, Young-Woo Suh, Sung-Ik Park, Jae-young Lee, and Jong-Soo Seo, "[Preliminary Field Trial Results for DVB-T2 Indoor Reception in Seoul: A Single Transmitter Case](http://easychair.org/smart-program/BMSB2017/)," in *The 12th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2017), Cagliari, Italy, June 2017.
-4. Jae-young Lee, Sung Ik Park, Sunhyoung Kwon, Bo-mi Lim, Heung Mook Kim, Namho Hur, Anthony Pesin, Jean-Claude Chevet, Joan Llach, Alan Stein, **Sungho Jeon**, and Yiyan Wu, "[Scalable HEVC over Layered Division Multiplexing for the Next Generation Terrestrial Broadcasting](http://easychair.org/smart-program/BMSB2017/)," in *The 12th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2017), Cagliari, Italy, June 2017.
+4. **Sungho Jeon**, Junghyun Kim, Yoo-Sang Shin, Sanghoon Kim, Sangjin Hahm, Young-Woo Suh, Sung-Ik Park, Jae-young Lee, and Jong-Soo Seo, "[Preliminary Field Trial Results for DVB-T2 Indoor Reception in Seoul: A Single Transmitter Case](http://easychair.org/smart-program/BMSB2017/)," in *The 12th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2017), Cagliari, Italy, June 2017. [[Slide](https://www.slideshare.net/SunghoJeon/bmsb-2017-preliminary-field-trial-results-for-dvbt2-indoor-reception-in-seoul-a-single-transmitter-case)]
+4. Jae-young Lee, Sung Ik Park, Sunhyoung Kwon, Bo-mi Lim, Heung Mook Kim, Namho Hur, Anthony Pesin, Jean-Claude Chevet, Joan Llach, Alan Stein, **Sungho Jeon**, and Yiyan Wu, "[Scalable HEVC over Layered Division Multiplexing for the Next Generation Terrestrial Broadcasting](http://easychair.org/smart-program/BMSB2017/)," in *The 12th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2017), Cagliari, Italy, June 2017. (Best Paper Award)
 
 
 
@@ -138,7 +138,7 @@ permalink: /research/
 
 #### 2014
 
-4. Yuting Tao, Hak-Jin Kim, **Sungho Jeon**, and Jong-Soo Seo, "[Low complexity adaptive soft demapper based on decision criterion for rotated QAM/APSK](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6873525)," in *The 9th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2014), Beijing, China, June 2014. (Best Paper Award)
+4. Yuting Tao, Hak-Jin Kim, **Sungho Jeon**, and Jong-Soo Seo, "[Low complexity adaptive soft demapper based on decision criterion for rotated QAM/APSK](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6873525)," in *The 9th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2014), Beijing, China, June 2014. (Best Student Paper Award)
 4. **Sungho Jeon**, Jae-Shin Han, Hak-Jin Kim, Yuting Tao, Sung Ik Park, Zungkon Yim, Heung Mook Kim, and Jong-Soo Seo, "[Multiple-Input Multiple-Output Cloud Transmission for High Data Rate Contents Delivery](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6873521)," in *The 9th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2014), Beijing, China, June 2014.
 
 #### 2013
