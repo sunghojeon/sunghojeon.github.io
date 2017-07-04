@@ -40,7 +40,7 @@ permalink: /research/
 #### 2017
 
 
-7. **전성호**, 이재권, 신유상, 최우식, 이헌주, 장진영, 오주봉, 이재호, 강대갑, "[ATSC 3.0 기반 지상파 UHD 본방송을 위한 물리계층 필드테스트 결과](http://kosbe.or.kr/bbs/board.php?bo_table=m67&wr_id=134)", 한국방송미디어공학회 2017 하계학술대회, 제주한라대학교 금호세계교육관, 2017년 6월.
+7. **전성호**, 이재권, 신유상, 최우식, 이헌주, 장진영, 오주봉, 이재호, 강대갑, "[ATSC 3.0 기반 지상파 UHD 본방송을 위한 물리계층 필드테스트 결과](http://office.kbs.co.kr/tri/file_down.php?attach=/2017/07/ATSC-3.0-%EA%B8%B0%EB%B0%98-%EC%A7%80%EC%83%81%ED%8C%8C-UHD-%EB%B3%B8%EB%B0%A9%EC%86%A1%EC%9D%84-%EC%9C%84%ED%95%9C-%EB%AC%BC%EB%A6%AC%EA%B3%84%EC%B8%B5-%ED%95%84%EB%93%9C%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B2%B0%EA%B3%BC.pdf)", 한국방송미디어공학회 2017 하계학술대회, 제주한라대학교 금호세계교육관, 2017년 6월.
 
 ## Publication (Before 2016)
 
