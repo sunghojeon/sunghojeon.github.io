@@ -24,8 +24,8 @@ permalink: /research/
 
 #### 2017
 
-4. **Sungho Jeon**, Junghyun Kim, Yoo-Sang Shin, Sanghoon Kim, Sangjin Hahm, Young-Woo Suh, Sung-Ik Park, Jae-young Lee, and Jong-Soo Seo, "[Preliminary Field Trial Results for DVB-T2 Indoor Reception in Seoul: A Single Transmitter Case](http://easychair.org/smart-program/BMSB2017/)," in *The 12th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2017), Cagliari, Italy, June 2017. [[Slide](https://www.slideshare.net/SunghoJeon/bmsb-2017-preliminary-field-trial-results-for-dvbt2-indoor-reception-in-seoul-a-single-transmitter-case)]
-4. Jae-young Lee, Sung Ik Park, Sunhyoung Kwon, Bo-mi Lim, Heung Mook Kim, Namho Hur, Anthony Pesin, Jean-Claude Chevet, Joan Llach, Alan Stein, **Sungho Jeon**, and Yiyan Wu, "[Scalable HEVC over Layered Division Multiplexing for the Next Generation Terrestrial Broadcasting](http://easychair.org/smart-program/BMSB2017/)," in *The 12th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2017), Cagliari, Italy, June 2017. (Best Paper Award)
+4. **Sungho Jeon**, Junghyun Kim, Yoo-Sang Shin, Sanghoon Kim, Sangjin Hahm, Young-Woo Suh, Sung-Ik Park, Jae-young Lee, and Jong-Soo Seo, "[Preliminary Field Trial Results for DVB-T2 Indoor Reception in Seoul: A Single Transmitter Case](https://doi.org/10.1109/BMSB.2017.7986186)," in *The 12th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2017), Cagliari, Italy, June 2017. [[Slide](https://www.slideshare.net/SunghoJeon/bmsb-2017-preliminary-field-trial-results-for-dvbt2-indoor-reception-in-seoul-a-single-transmitter-case)]
+4. Jae-young Lee, Sung Ik Park, Sunhyoung Kwon, Bo-mi Lim, Heung Mook Kim, Namho Hur, Anthony Pesin, Jean-Claude Chevet, Joan Llach, Alan Stein, **Sungho Jeon**, and Yiyan Wu, "[Scalable HEVC over Layered Division Multiplexing for the Next Generation Terrestrial Broadcasting](https://doi.org/10.1109/BMSB.2017.7986176)," in *The 12th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2017), Cagliari, Italy, June 2017. (Best Paper Award)
 
 
 
