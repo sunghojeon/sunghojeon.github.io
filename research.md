@@ -21,6 +21,10 @@ permalink: /research/
 
 ### Conference Papers
 
+#### 2018
+
+4. **Sungho Jeon**, Jaekwon Lee, Sunhyoung Kwon, Bo-Mi Lim, Sungjun Ahn, Yoo-Sang Shin, Jae-Young Lee and Sung-Ik Park, "Field Trial Results for ATSC 3.0 TxID Transmission and Detection in Single Frequency Network of Seoul," in *The 13th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2018), *Submitted*.
+
 #### 2017
 
 4. **Sungho Jeon**, Junghyun Kim, Yoo-Sang Shin, Sanghoon Kim, Sangjin Hahm, Young-Woo Suh, Sung-Ik Park, Jae-young Lee, and Jong-Soo Seo, "[Preliminary Field Trial Results for DVB-T2 Indoor Reception in Seoul: A Single Transmitter Case](https://doi.org/10.1109/BMSB.2017.7986186)," in *The 12th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2017), Cagliari, Italy, June 2017. [[Slide](https://www.slideshare.net/SunghoJeon/bmsb-2017-preliminary-field-trial-results-for-dvbt2-indoor-reception-in-seoul-a-single-transmitter-case)]
