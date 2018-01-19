@@ -23,7 +23,7 @@ permalink: /research/
 
 #### 2018
 
-4. **Sungho Jeon**, Jaekwon Lee, Sunhyoung Kwon, Bo-Mi Lim, Sungjun Ahn, Yoo-Sang Shin, Jae-Young Lee and Sung-Ik Park, "Field Trial Results for ATSC 3.0 TxID Transmission and Detection in Single Frequency Network of Seoul," in *The 13th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2018), *Submitted*.
+4. **Sungho Jeon**, Jaekwon Lee, Sunhyoung Kwon, Bo-Mi Lim, Sungjun Ahn, Yoo-Sang Shin, Jae-Young Lee and Sung-Ik Park, "[Field Trial Results for ATSC 3.0 TxID Transmission and Detection in Single Frequency Network of Seoul](https://www.mcg.upv.es/en/bmsb2018/)," in *The 13th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2018), *Submitted*.
 
 #### 2017
 
