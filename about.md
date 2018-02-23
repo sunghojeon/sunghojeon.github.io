@@ -28,18 +28,19 @@ permalink: /about/
 
 ## Membership
 
-- [Member](https://ieee-collabratec.ieee.org/app/p/SunghoJeon11818), The Institute of Electrical and Electronics Engineers (IEEE)  
-	- Member, March 2007 -
+- The Institute of Electrical and Electronics Engineers (IEEE)  
+	- [Member](https://ieee-collabratec.ieee.org/app/p/SunghoJeon11818), March 2007 -
 	- Student Member, September 2005 - February 2007 
 	
 - Delegate, Republic of Korea (Member States), ITU-R WP6A       
 	- [25 March - 2 April 2014](http://www.itu.int/md/R12-WP6A-C-0413/en), [13-20 February 2015](http://www.itu.int/md/R12-WP6A-C-0561/en)
 	
-- 반원, 한국ITU연구위원회 SG6(방송업무) 연구반       
-	- 2013.11. ~ 현재	
+- 한국ITU연구위원회 SG6(방송업무) 연구반       
+	- 반원, 2013.11. ~ 현재	
 	
-- 간사, TTA WG8027(지상파UHD RF 정합테스트 실무반)        
-	- 2016.06. ~ 현재
+- TTA WG8027(지상파UHD RF 정합테스트 실무반)        
+	- 의장, 2018.02. ~ 현재
+	- 간사, 2016.06. ~ 2018.02
 	
 ## Awards
 
