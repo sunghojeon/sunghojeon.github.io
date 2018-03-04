@@ -17,6 +17,5 @@ The Royale Chulan Kuala Lumpur @ Malaysia
 
 
 
-[발표자료](https://www.slideshare.net/secret/nBdppCQTmnlHRr)
 
 ![그림 1](/images/ABUDBS2018.jpg)
