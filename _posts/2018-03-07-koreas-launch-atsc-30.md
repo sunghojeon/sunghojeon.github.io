@@ -7,10 +7,12 @@ title: ATSC 3.0 based Regular Terrestrial Broadcasting Launch in Korea. 4K-UHD a
 
 ### Session Date and Time 
 Wednesday 7th March, 2017
+
 14:00 — 15:30
 
 ### Location 
 Taming Sari 3 
+
 The Royale Chulan Kuala Lumpur @ Malaysia
 
 
