@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ATSC 3.0 based Regular Terrestrial Broadcasting Launch in Korea: 4K-UHD and UHD-Mobile @ ABU DBS 2018
+title: ATSC 3.0 based Regular Terrestrial Broadcasting Launch in Korea. 4K-UHD and UHD-Mobile @ ABU DBS 2018
 ---
 
 ## [Session 7: Future Technologies for Production and Delivery](http://dbs.abu.org.my/)
