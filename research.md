@@ -39,8 +39,7 @@ permalink: /research/
 ### Korean Journal Papers
 
 #### 2018
-
-.
+신유상, 이재권, 전성호, 박승근, 김재만, 오대겸, 정행운, "[2018 평창 동계올림픽 ATSC 3.0 표준기반 4K-UHD/모바일 HD 방송 추진 결과](https://d)", 한국방송미디어공학회 학회지 제23권 2호 [특집: 2018 평창 동계올림픽 방송], 2018년 4월. 
 
 ### Korean Conference Papers
 
