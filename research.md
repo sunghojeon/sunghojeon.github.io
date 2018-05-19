@@ -57,7 +57,7 @@ permalink: /research/
 #### ITU-R SG6
 
 8. ITU-R WP6A  Contribution 354, ''[Proposed revision of Report ITU-R BT.2343-2 - Collection of field trials of UHDTV over DTT networks](https://www.itu.int/md/R15-WP6A-C-0354/en),'' April 2018.
-
+    - Adopted in [Preliminary draft revision to Report ITU-R BT.2343-2 - Collection of field trials of UHDTV over DTT networks](https://www.itu.int/md/R15-WP6A-C-0387/en).
 
 ## Publication (Before 2016)
 
