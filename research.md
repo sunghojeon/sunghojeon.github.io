@@ -16,7 +16,7 @@ permalink: /research/
 
 #### 2018
 
-1. Jae-young Lee, Sung Ik Park, Sunhyoung Kwon, Bo-mi Lim, Heung Mook Kim, Namho Hur, Anthony Pesin, Jean-Claude Chevet, Joan Llach, Alan Stein, **Sungho Jeon**, and Yiyan Wu, "[Efficient Transmission of Multiple Broadcasting Services Using LDM and SHVC](http://ieeexplore.ieee.org/document/8063347/)," *IEEE Transactions on Broadcasting*, vol. PP, no. 99, pp. 1 - 11, October 2017.
+1. Jae-young Lee, Sung Ik Park, Sunhyoung Kwon, Bo-mi Lim, Heung Mook Kim, Namho Hur, Anthony Pesin, Jean-Claude Chevet, Joan Llach, Alan Stein, **Sungho Jeon**, and Yiyan Wu, "[Efficient Transmission of Multiple Broadcasting Services Using LDM and SHVC](http://ieeexplore.ieee.org/document/8063347/)," *IEEE Transactions on Broadcasting*, vol. 64, no. 2, pp. 177-187, June 2018.
 
 
 ### Conference Papers
