@@ -44,6 +44,11 @@ permalink: /research/
 
 ### Korean Conference Papers
 
+#### 2018
+
+7. 서영우, **전성호**, 서창호, "[UHD 제작 및 송수신 시연을 위한 테스트베드 구축](asdasd)", 2018년 한국방송·미디어공학회 하계학술대회, 제주한라대학교 금호세계교육관, 2018년 6월.
+
+
 #### 2017
 
 7. **전성호**, 임보미, 박성익, 이재권, 장진영, 이권익, "[ATSC 3.0 기반 모바일HD 물리계층 필드테스트 결과: 제주테크노파크 100W 실험국과 제주시내 이동측정을 위주로](http://office.kbs.co.kr/tri/file_down.php?attach=/2017/11/ATSC3.0-%EA%B8%B0%EB%B0%98-%EB%AA%A8%EB%B0%94%EC%9D%BCHD-%EB%AC%BC%EB%A6%AC%EA%B3%84%EC%B8%B5-%ED%95%84%EB%93%9C%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B2%B0%EA%B3%BC.pdf)", 한국방송미디어공학회 2017 추계학술대회, 서울과학기술대학교 100주년기념관, 2017년 11월. [[Slide](https://www.slideshare.net/SunghoJeon/atsc-30-hd-100w-2017)]
