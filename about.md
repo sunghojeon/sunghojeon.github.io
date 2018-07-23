@@ -59,6 +59,9 @@ permalink: /about/
 	- [2016/2017년도 KOSEN(한민족과학기술자네트워크) 전문가](http://kosen21.org/notice/noticeView.do?noticeSeq=NOT_0000000000025932), 2016년 10월~2017년 12월 
 	- [2018년도 KOSEN(한민족과학기술자네트워크) 전문가](http://kosen21.org/notice/noticeView.do?noticeSeq=NOT_0000000000074464), 2018년 1월~2018년 12월 
 
+
+- [방송전송기술연구회](http://kosbe.or.kr/subpage.php?p=m17_4) 위원, 한국방송미디어공학회
+
 - Co-Chair, [Session 4: Broadcast systems at IEEE BMSB 2015](http://www.wica.intec.ugent.be/bmsb2015/wednesday-june-17#session4), Ghent, Belgium, 17 June 2015.
 
 - Reviewer, IEEE Transactions on Broadcasting, 2011 -
