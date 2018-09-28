@@ -16,7 +16,7 @@ permalink: /research/
 
 #### 2018
 
-
+1. Jaekwon Lee, **Sungho Jeon**, Sung-Ik Park, Dong Ku Kim, "[Efficient ATSC 3.0 TxID Signal Detection for Single Frequency Networks](http://abccc)," *IEEE Transactions on Broadcasting*, *Accepted*. 
 
 1. Sung-Ik Park, Jae-young Lee, Sunhyoung Kwon, Bo-mi Lim, Sungjun Ahn, Heung Mook Kim, **Sungho Jeon**, Jaekwon Lee, Michael Simon, Mark Aitken, Kevin Gage, Yiyan Wu, Liang Zhang, Wei Li, and Jeongchang Kim, "[Performance Analysis of All Modulation and Code Combinations in ATSC 3.0 Physical Layer Protocol](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4359969)," *IEEE Transactions on Broasdcasting*, *Accepted*.
 
