@@ -16,9 +16,9 @@ permalink: /research/
 
 #### 2018
 
-1. Jaekwon Lee, **Sungho Jeon**, Sung-Ik Park, Dong Ku Kim, "[Efficient ATSC 3.0 TxID Signal Detection for Single Frequency Networks](http://abccc)," *IEEE Transactions on Broadcasting*, *Accepted*. 
+1. Jaekwon Lee, **Sungho Jeon**, Sung-Ik Park, Dong Ku Kim, "[Efficient ATSC 3.0 TxID Signal Detection for Single Frequency Networks](http://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4359969)," *IEEE Transactions on Broadcasting*, *Accepted*. 
 
-1. Sung-Ik Park, Jae-young Lee, Sunhyoung Kwon, Bo-mi Lim, Sungjun Ahn, Heung Mook Kim, **Sungho Jeon**, Jaekwon Lee, Michael Simon, Mark Aitken, Kevin Gage, Yiyan Wu, Liang Zhang, Wei Li, and Jeongchang Kim, "[Performance Analysis of All Modulation and Code Combinations in ATSC 3.0 Physical Layer Protocol](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4359969)," *IEEE Transactions on Broasdcasting*, *Accepted*.
+1. Sung-Ik Park, Jae-young Lee, Sunhyoung Kwon, Bo-mi Lim, Sungjun Ahn, Heung Mook Kim, **Sungho Jeon**, Jaekwon Lee, Michael Simon, Mark Aitken, Kevin Gage, Yiyan Wu, Liang Zhang, Wei Li, and Jeongchang Kim, "[Performance Analysis of All Modulation and Code Combinations in ATSC 3.0 Physical Layer Protocol](https://doi.org/10.1109/TBC.2018.2871372)," *IEEE Transactions on Broasdcasting*, *Accepted*.
 
 1. Jae-young Lee, Sung Ik Park, Sunhyoung Kwon, Bo-mi Lim, Heung Mook Kim, Namho Hur, Anthony Pesin, Jean-Claude Chevet, Joan Llach, Alan Stein, **Sungho Jeon**, and Yiyan Wu, "[Efficient Transmission of Multiple Broadcasting Services Using LDM and SHVC](http://ieeexplore.ieee.org/document/8063347/)," *IEEE Transactions on Broadcasting*, vol. 64, no. 2, pp. 177-187, June 2018.
 
