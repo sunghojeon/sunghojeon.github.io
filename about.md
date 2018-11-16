@@ -5,8 +5,12 @@ permalink: /about/
 
 ## Experience
 
-- **Research Engineer**
-	- [Technical Research Institute](http://office.kbs.co.kr/tri/), March 2007 - July 2014 - Present  
+- **Team Leader (Terrestrial UHD System)**
+	- TV Transmission & Control Office, November 2018 - Present  
+	- [Korean Broadcasting System (KBS)](http://www.kbs.co.kr/), Seoul, Republic of Korea  
+	
+- **R&D Engineer**
+	- [Technical Research Institute](http://office.kbs.co.kr/tri/), March 2007 - July 2014 - November 2018  
 	- [Korean Broadcasting System (KBS)](http://www.kbs.co.kr/), Seoul, Republic of Korea  
 
 ## Education
