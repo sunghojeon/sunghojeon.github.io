@@ -49,7 +49,8 @@ permalink: /about/
 - KOSEN(한민족과학기술자네트워크) 전문가, 미래창조과학부/한국과학기술정보연구원 
 	- [2016/2017년도 KOSEN(한민족과학기술자네트워크) 전문가](http://kosen21.org/notice/noticeView.do?noticeSeq=NOT_0000000000025932), 2016년 10월~2017년 12월 
 	- [2018년도 KOSEN(한민족과학기술자네트워크) 전문가](http://kosen21.org/notice/noticeView.do?noticeSeq=NOT_0000000000074464), 2018년 1월~2018년 12월 
-
+	- [2019년도 KOSEN(한민족과학기술자네트워크) 전문가](http://www.kosen21.org/notice/noticeView.do?noticeSeq=NOT_0000000000103130), 2019년 1월~2019년 12월 
+	
 - [방송전송기술연구회](http://kosbe.or.kr/subpage.php?p=m17_4) 위원, 한국방송미디어공학회
 	
 ## Awards
