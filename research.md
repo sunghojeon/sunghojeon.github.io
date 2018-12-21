@@ -14,6 +14,7 @@ permalink: /research/
 
 ### Journal Papers
 
+#### 2019
 
 1. Jaekwon Lee, **Sungho Jeon**, Sung-Ik Park, Dong Ku Kim, "[Efficient ATSC 3.0 TxID Signal Detection for Single Frequency Networks](https://doi.org/10.1109/TBC.2018.2874548)," *IEEE Transactions on Broadcasting*, *Accepted*. 
 
