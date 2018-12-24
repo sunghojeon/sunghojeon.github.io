@@ -56,19 +56,13 @@ permalink: /about/
 ## Awards
 
 - [표창패](http://tta.or.kr/news/certify_view.jsp?notice_num=6442), RF 정합 테스트 실무반(WG8027) 우수 위원상, 한국정보통신기술협회(TTA), 2018.12월
-
 - 표창장, 과학기술정보통신부 장관, 2017.12월
 - [Best Paper Award](http://office.kbs.co.kr/tri/archives/3015), IEEE BMSB 2017.
-
 - 국립전파연구원장 표창, 미래창조과학부/국립전파연구원, 2016년 12월.
 - [2016 방송기술대상 최우수상](http://www.kobeta.com/notice/?uid=2291&mod=document), 한국방송기술인연합회, 2016년 11월.
-
 - [The Second Commended Article Prize](http://www.abu.org.my/Latest_News-@-GA_2015_ABU_Engineering_Awards_%E2%80%93_Winners_announced_in_Istanbul_.aspx), ABU Technical Review 2015.
-
 - Best Student Paper Award, IEEE BMSB 2014.
-
 - The First Commended Article Prize, ABU Technical Review 2013.
-
 - Bronze Award, IEEE Seoul Section Student Paper Contest 2012.
 
 ## Professional Activities
