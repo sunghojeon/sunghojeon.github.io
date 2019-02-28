@@ -29,7 +29,7 @@ permalink: /research/
 
 #### 2019
 
-4. **Sungho Jeon**, Jaekwon Lee, Yoosang Shin, Bo-Mi Lim, Sungjun Ahn, Jae-Young Lee, Sung-Ik Park, Sanghun Kim and Ki-Sun Yang, "[Integrated Coverage Prediction and Measurement Data Management Tool for ATSC 3.0 Single Frequency Network," 
+4. **Sungho Jeon**, Jaekwon Lee, Yoosang Shin, Bo-Mi Lim, Sungjun Ahn, Jae-Young Lee, Sung-Ik Park, Sanghun Kim and Ki-Sun Yang, "[Integrated Coverage Prediction and Measurement Data Management Tool for ATSC 3.0 Single Frequency Network](https://)," in *The 14th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2019), Jeju, Republic of Korea, June 2019.
 
 #### 2018
 
