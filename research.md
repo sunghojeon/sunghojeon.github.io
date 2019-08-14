@@ -48,6 +48,10 @@ permalink: /research/
 
 ### Korean Journal Papers
 
+#### 2019
+
+6. 서창호, 임윤혁, **전성호**, 서재현, 최성진, "[ATSC 3.0 기반 UHD, 이동HD, 디지털라디오 통합전송 연구](http://www.kibme.org/resources/journal/20190814141533317.pdf)", 방송공학회논문지 제24권 제4호 643-659쪽, 2019년 7월.
+
 #### 2018
 
 6. 신유상, 이재권, **전성호**, 박승근, 김재만, 오대겸, 정행운, "[2018 평창 동계올림픽 ATSC 3.0 표준기반 4K-UHD/모바일 HD 방송 추진 결과](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07434494)", 한국방송미디어공학회 학회지 제23권 2호(특집: 2018 평창 동계올림픽 방송) 33-42쪽, 2018년 4월. 
