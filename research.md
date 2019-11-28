@@ -5,14 +5,10 @@ permalink: /research/
 
 ## Teaching and Talks
 
-[Speaker Deck](https://speakerdeck.com/sunghojeon)
-
-Presentation materials after October 15, 2019 
+[Speaker Deck](https://speakerdeck.com/sunghojeon) (Presentation materials after October 15, 2019)
 
 
-[SlideShare](http://www.slideshare.net/SunghoJeon/presentations)
-
-Presentation materials until October 15, 2019 
+[SlideShare](http://www.slideshare.net/SunghoJeon/presentations) (Presentation materials until October 15, 2019)
 
 
 ## Publication
