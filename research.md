@@ -29,7 +29,7 @@ permalink: /research/
 
 #### 2019
 
-4. **Sungho Jeon**, Younseok Choi, Yoo-Sang Shin, Jin Sol Nam, Jaekwon Lee, Jahoon Ku, Bo-Mi Lim, Sungjun Ahn, Jae-Young Lee, and Sung-Ik Park, "[Methodology for Analyzing ATSC 3.0 Single Frequency Network Overlapped Area Based on Spatial Interpolation](https://www.bmsb2019.org/conference_program.do)," in *The 14th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2019), Jeju, Republic of Korea, June 2019.
+4. **Sungho Jeon**, Younseok Choi, Yoo-Sang Shin, Jin Sol Nam, Jaekwon Lee, Jahoon Ku, Bo-Mi Lim, Sungjun Ahn, Jae-Young Lee, and Sung-Ik Park, "[Methodology for Analyzing ATSC 3.0 Single Frequency Network Overlapped Area Based on Spatial Interpolation](https://doi.org/10.1109/BMSB47279.2019.8971902)," in *The 14th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2019), Jeju, Republic of Korea, June 2019.
 
 #### 2018
 
