@@ -43,10 +43,10 @@ permalink: /about/
 	- 반원, 2013.11. ~ 현재	
 	
 - TTA PG802(지상파방송 프로젝트 그룹)   
-	- 간사, 2020.02. ~ 현재
+	- 간사, 2020.02. ~ [현재](http://committee.tta.or.kr/standard/general.jsp?commit_code=PG802&firstDepthCode=TC8&secondDepthCode=PG802&thirdDepthCode=)
 	
 - TTA WG8027(지상파UHD RF 정합테스트 실무반)        
-	- 의장, 2018.02. ~ 현재
+	- 의장, 2018.02. ~ [현재](http://committee.tta.or.kr/standard/general.jsp?commit_code=WG8027&firstDepthCode=TC8&secondDepthCode=PG802&thirdDepthCode=WG8027)
 	- 간사, 2016.06. ~ 2018.02
 		
 - KOSEN(한민족과학기술자네트워크) 전문가, 미래창조과학부/한국과학기술정보연구원 
