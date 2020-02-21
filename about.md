@@ -54,7 +54,7 @@ permalink: /about/
 	- [2018년도 KOSEN(한민족과학기술자네트워크) 전문가](http://kosen21.org/notice/noticeView.do?noticeSeq=NOT_0000000000074464), 2018년 1월~2018년 12월 
 	- [2019년도 KOSEN(한민족과학기술자네트워크) 전문가](http://www.kosen21.org/notice/noticeView.do?noticeSeq=NOT_0000000000103130), 2019년 1월~2019년 12월 
 	
-- [방송전송기술연구회](http://kosbe.or.kr/subpage.php?p=m17_4) 위원, 한국방송미디어공학회
+- [방송전송기술연구회](http://www.kibme.org/research/transmissionTech) 위원, 한국방송미디어공학회
 	
 ## Awards
 
