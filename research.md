@@ -132,7 +132,7 @@ permalink: /research/
 
 #### 2008
 
-2. Hyungkeuk Lee, **Sungho Jeon**, and Sanghoon Lee, "[A Cross-Layer Approach for Maximizing Visual Entropy Using Closed-Loop Downlink MIMO]( http://asp.eurasipjournals.com/content/2008/1/864606)," *EURASIP Journal on Advances in Signal Processing*, vol. 2008, Article ID 864606, 14 pages, 2008.
+2. Hyungkeuk Lee, **Sungho Jeon**, and Sanghoon Lee, "[A Cross-Layer Approach for Maximizing Visual Entropy Using Closed-Loop Downlink MIMO](https://doi.org/10.1155/2008/864606)," *EURASIP Journal on Advances in Signal Processing*, vol. 2008, Article ID 864606, 14 pages, 2008.
 
 #### 2007
 
