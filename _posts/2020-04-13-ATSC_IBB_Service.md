@@ -9,5 +9,4 @@ title: 우리나라 TTA표준 '지상파UHD IBB 서비스' 기반 KBS1 채널 �
 
 지상파를 직접 수신하고 인터넷이 연결되어 있는 UHD TV에서 KBS1 UHD 채널을 선택하면 IBB(Integrated Broadcast Broadband) 재난 앱이 자동으로 실행되어 추가로 제공되는 <KBS 뉴스24>, <KBS 1Radio>, <코로나19 국민행동수칙>, <KBS 뉴스홈페이지> 정보를 볼 수 있습니다. 각 서비스를 선택하여 실행하면 서비스를 제공받을 수 있습니다.
 
-
-http://uhdkorea.org/wp-content/uploads/2020/04/%EC%9E%AC%EB%82%9C%EC%A0%95%EB%B3%B4-%EB%B6%80%EA%B0%80-%EC%84%9C%EB%B9%84%EC%8A%A4-1.jpg
+![그림 1](http://uhdkorea.org/wp-content/uploads/2020/04/%EC%9E%AC%EB%82%9C%EC%A0%95%EB%B3%B4-%EB%B6%80%EA%B0%80-%EC%84%9C%EB%B9%84%EC%8A%A4-1.jpg)
