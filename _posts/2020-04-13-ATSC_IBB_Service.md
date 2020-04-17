@@ -12,4 +12,4 @@ title: 우리나라 TTA표준 '지상파UHD IBB 서비스' 기반 KBS1 채널 �
 ![그림 1](http://uhdkorea.org/wp-content/uploads/2020/04/%EC%9E%AC%EB%82%9C%EC%A0%95%EB%B3%B4-%EB%B6%80%EA%B0%80-%EC%84%9C%EB%B9%84%EC%8A%A4-1.jpg)
 
 실제 시청자 사용기는 아래 글들을 참고해 주세요!
-* [<KBS1 UHD> 채널에서 재난정보부가서비스 체험기](https://blog.naver.com/qkrtmddn10/221907432544)
+* [KBS1 UHD 채널에서 재난정보부가서비스 체험기](https://blog.naver.com/qkrtmddn10/221907432544)
