@@ -29,9 +29,9 @@ Exciter 장비의 경우, A/321과 A/322 표준에 따라 구현되는 데, Broa
 
 ![그림 5](/images/KOBA2017_Equipment5.jpg)
 
-### STPTP 모니터링 장치와 RF 모니터링 장치
+### STLTP 모니터링 장치와 RF 모니터링 장치
 
-##### STPTP 모니터링 장치
+##### STLTP 모니터링 장치
 
 STLTP 모니터링 장치의 경우, Broadcast Gateway 출력과 Exciter 입력 인터페이스를 분석, 모니터링 하는 데 사용되는데, 주조종실 출력에 연결하여 Broadcast Gateway 설정에 맞게 정확한 패킷이 생성되는지 분석하거나, 송신소 Exciter 입력부에 연결하여 주조종실에서 송신소 입력까지 전달망을 통해서 신호가 오류 없이 정상적으로 전달되고 있는지 모니터링하기 위해 사용된다. RTP/UDP/IP 패킷형태로 전달되는 STL 스트림의 경우, STL Outer 패킷과 그 속에 내용인 STL Inner 패킷으로 구분되며, STL Inner 패킷 내에는 실제 오디오/비디오 데이터가 전송되는 BB(Baseband) 패킷, 송신기 제어만을 위해 활용되는 Timing&Management 패킷, 그리고 송신기 설정과 수신기 복호를 위한 Preamble 패킷으로 구성된다.
 
