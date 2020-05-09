@@ -5,7 +5,7 @@ title: KBS1 UHD 채널 재난정보 부가서비스(IBB App) 개발
 
 **[알림] 본 원고는 한국방송기술인연합회 ['방송과 기술' 2020년 5월호](http://tech.kobeta.com/%EB%B0%A9%EC%86%A1%EA%B3%BC%EA%B8%B0%EC%88%A0-2020%EB%85%84-5%EC%9B%94%ED%98%B8vol-293/)에 출판되었습니다.**
 
-* 글쓴이 : 정다운, 남진솔, 이우형, 전성호, 이병호 (KBS 미디어송출부)
+* 글쓴이 : 정다운, 남진솔, 이우형, 전성호 팀장, 이병호 부장 (KBS 미디어송출부)
 
 ※ IBB(Integrated Broadcast Broadband)는 사용자가 지상파 UHD 실시간 방송을 시청하면서, 방송망(Broadcast)과 브로드밴드(Broadband)를 통해 풍성한 부가 서비스를 제공하기 위한 서비스 표준임.
 
