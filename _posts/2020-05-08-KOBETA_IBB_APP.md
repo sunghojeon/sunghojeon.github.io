@@ -12,3 +12,5 @@ title: KBS1 UHD 채널 재난정보 부가서비스(IBB App) 개발
   KBS에서는 코로나19 확산 억제를 위해 정확한 정보를 신속하게 전파하기 위한 창구로 IBB 앱을 개발하고 수도권은 4월 6일, 광역시권은 4월 13일부터 서비스를 KBS 1TV를 통해 개시하였다. 지상파 UHD 방송은 IP(Internet Protocol) 기반의 ATSC 3.0 표준을 채택함으로써 ‘방송망(Broadcast)’과 ‘통신망(Broadband)’ 연동이 쉬운데, 특히 국내에서는 TTA ‘지상파 UHD IBB 서비스’ 표준에서 방송망과 통신망을 연동하는 기술을 규정하고 있다.  본 원고는 국내 IBB 표준을 기반으로 개발하고 실제 본방송에 적용한 서비스 개발 내용을 공유하고자 한다.
 
 ![그림 1](/images/KOBETA_202005_1.jpg)
+![그림 2](/images/KOBETA_202005_2.jpg)
+![그림 3](/images/KOBETA_202005_3.jpg)
