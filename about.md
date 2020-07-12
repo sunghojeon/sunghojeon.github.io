@@ -57,6 +57,8 @@ permalink: /about/
 - [정보통신기획평가원(IITP)](http://ezone.iitp.kr/) 평가위원, 2020.02.~ 현재
 	
 - [방송전송기술연구회](http://www.kibme.org/research/transmissionTech) 위원, 한국방송미디어공학회
+
+- 제27대 정책실장, [한국방송기술인연합회](http://www.kobeta.com/organization/), 2020년 7월 1일 ~ 현재
 	
 	
 ## Awards
