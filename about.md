@@ -13,7 +13,7 @@ permalink: /about/
 	- [Technical Research Institute](http://office.kbs.co.kr/tri/), March 2007 - July 2014 - November 2018  
 	- [Korean Broadcasting System (KBS)](http://www.kbs.co.kr/), Seoul, Republic of Korea  
 
-- 제27대 정책실장, [한국방송기술인연합회](http://www.kobeta.com/organization/), 2020년 7월 1일 ~ 현재
+- 제27대 정책실장, [한국방송기술인연합회(KOBETA)](http://www.kobeta.com/organization/), 2020년 7월 1일 ~ 현재
 
 ## Education
 
