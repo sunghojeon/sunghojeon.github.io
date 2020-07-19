@@ -55,7 +55,8 @@ permalink: /about/
 	- [2019년도 KOSEN(한민족과학기술자네트워크) 전문가](http://www.kosen21.org/notice/noticeView.do?noticeSeq=NOT_0000000000103130), 2019년 1월~2019년 12월 
 
 - [정보통신기획평가원(IITP)](http://ezone.iitp.kr/) 평가위원, 2020.02.~ 현재
-	
+- [중소기업기술정보진흥원(SMTECH)]https://smtech.go.kr/front/main/main.do) 평가위원, 2020.07.~ 현재
+
 - [방송전송기술연구회](http://www.kibme.org/research/transmissionTech) 위원, 한국방송미디어공학회
 
 - 제27대 정책실장, [한국방송기술인연합회](http://www.kobeta.com/organization/), 2020년 7월 1일 ~ 현재
