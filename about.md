@@ -32,7 +32,7 @@ permalink: /about/
 
 ## Membership
 
-- The Institute of Electrical and Electronics Engineers (IEEE)  
+- The Institute of Electrical and Electronics Engineers ([IEEE](https://ieeexplore.ieee.org/author/37292893500))  
 	- [Member](https://ieee-collabratec.ieee.org/app/p/SunghoJeon11818), March 2007 -
 	- Student Member, September 2005 - February 2007 
 	
