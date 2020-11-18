@@ -25,7 +25,7 @@ permalink: /about/
 	- [Yonsei University](http://www.yonsei.ac.kr/), Seoul, Republic of Korea  
 	- Thesis: [Cross layer optimization based on unequal power allocation for closed-loop downlink MIMO systems](http://library.yonsei.ac.kr/search/detail/CAT000000189586)
 
-- **B.S. in Electrical and Electronic Engineering**, *Honors*
+- **B.S. in Electrical and Electronic Engineering**, *High Honors*
 	- March 2002 - August 2005, Early Graduation
 	- [Yonsei University](http://www.yonsei.ac.kr/), Seoul, Republic of Korea  
 
