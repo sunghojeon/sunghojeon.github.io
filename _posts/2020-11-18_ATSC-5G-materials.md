@@ -14,6 +14,10 @@ title: ATSC 3.0과 5G 연동, 나아가 5G-Broadcast
 
 ## 2020
 
+* SKT Insight 
+   + (2020.01.13.) [SKT-싱클레어 합작회사, 미국 ATSC3.0 방송 시장을 주도한다](https://www.sktinsight.com/120122)
+   + (2020.04.02.) [카스텔라? 신규 합작 법인 CAST.ERA의 사명 브랜드 개발 스토리](https://www.sktinsight.com/121495)
+
 * 전자신문 (2020.06.07.) [[성기현 교수의 글로벌 미디어 이해하기]〈11〉ATSC 3.0의 NextGen TV: 지상파의 꿈](https://m.etnews.com/20200605000140)
 
 * 정보통신기획평가원(IITP) 주간기술동향 (2020.10.14.) [인터넷 및 5G와 협력하는 방송기술 동향](https://www.itfind.or.kr/publication/regular/weeklytrend/weekly/view.do?boardParam1=8022&boardParam2=8022)
