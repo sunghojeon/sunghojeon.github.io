@@ -5,8 +5,16 @@ title: ATSC 3.0과 5G 연동, 나아가 5G-Broadcast
 
 **ATSC 3.0-5G 연동과 3GPP 5G-Broadcast 기술 관련 자료를 수시로 모으는 페이지입니다.**
 
-* 전자신문 (2020.06.07.) [[성기현 교수의 글로벌 미디어 이해하기]〈11〉ATSC 3.0의 NextGen TV: 지상파의 꿈](https://m.etnews.com/20200605000140)
+## 2019
 
+* SKT Insight 
+   + (2019.01.08.) [미디어 기술도 이제는 한류! SKT 미국 방송 솔루션 시장 진출](https://www.sktinsight.com/111997)
+   + (2019.01.10.) [[CES2019] 미국의 카 라이프 혁신을 부탁해! SKTㆍ하만ㆍ싱클레어 MOU 체결](https://www.sktinsight.com/112047)
+   + (2019.06.04.) [미국 도로를 극장으로 변신시킬 SKT 5G 미디어 기술은?](https://www.sktinsight.com/116140)
+
+## 2020
+
+* 전자신문 (2020.06.07.) [[성기현 교수의 글로벌 미디어 이해하기]〈11〉ATSC 3.0의 NextGen TV: 지상파의 꿈](https://m.etnews.com/20200605000140)
 
 * 정보통신기획평가원(IITP) 주간기술동향 (2020.10.14.) [인터넷 및 5G와 협력하는 방송기술 동향](https://www.itfind.or.kr/publication/regular/weeklytrend/weekly/view.do?boardParam1=8022&boardParam2=8022)
    + 관련기사 : 전자신문 (2020.10.28.) [5G-지상파 협력방송, 미디어 혁신 대안으로 주목](https://www.etnews.com/20201028000203)
