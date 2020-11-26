@@ -12,6 +12,9 @@ title: ATSC 3.0과 5G 연동, 나아가 5G-Broadcast
    + (2019.01.10.) [[CES2019] 미국의 카 라이프 혁신을 부탁해! SKTㆍ하만ㆍ싱클레어 MOU 체결](https://www.sktinsight.com/112047)
    + (2019.06.04.) [미국 도로를 극장으로 변신시킬 SKT 5G 미디어 기술은?](https://www.sktinsight.com/116140)
 
+* IBC 2019 Conference (2020.09.14.) [PERFORMANCE OF 5G BROADCAST AND BENEFITS OF PROPOSED TIME-INTERLEAVING ENHANCEMENTS
+](https://www.ibc.org/technical-papers/performance-of-5g-broadcast-and-benefits-of-proposed-time-interleaving-enhancements/6745.article)
+
 ## 2020
 
 * SKT Insight 
