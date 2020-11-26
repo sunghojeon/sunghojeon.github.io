@@ -9,5 +9,5 @@ title: ATSC 3.0과 5G 연동, 나아가 5G-Broadcast
 
    + 관련영상 : KBS방송기술인협회 YouTube [ATSC 3.0 / 지상파 UHD 방송이 점점 뜨고 있는 이유 | UHD Conference Part-1](https://youtu.be/I-SjKsaheBc)
 
-* IT조선 (2020.11.24.) [5G·ATSC 3.0, 코로나19 시대 차세대 미디어 기술로 주목(http://it.chosun.com/site/data/html_dir/2020/11/24/2020112402595.html)
+* IT조선 (2020.11.24.) [5G·ATSC 3.0, 코로나19 시대 차세대 미디어 기술로 주목](http://it.chosun.com/site/data/html_dir/2020/11/24/2020112402595.html)
 
