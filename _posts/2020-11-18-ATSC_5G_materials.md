@@ -13,7 +13,7 @@ title: ATSC 3.0과 5G 연동, 나아가 5G-Broadcast
    + (2019.06.04.) [미국 도로를 극장으로 변신시킬 SKT 5G 미디어 기술은?](https://www.sktinsight.com/116140)
 
 
-* 독일 LTE-Broadcast 국책과제 '[5G TODAY](https://5g-today.de/?lang=en)' (2017.07.01.~2020.01.28.) 
+* 독일 LTE-Broadcast 국책과제 '[5G TODAY](https://5g-today.de/?lang=en)' (2017.07.01.~2020.02.28.) 
     + [Kathrein 5G Broadcasting](https://www.kathrein-bca.com/en/references/5g-broadcasting)
     + [Bavarian 5G TODAY research project approaching successful completion](https://www.rohde-schwarz.com/us/about/news-press/all-news/bavarian-5g-today-research-project-approaching-successful-completion-press-release-detailpage_229356-706880.html)
 
