@@ -33,6 +33,7 @@ title: ATSC 3.0과 5G 연동, 나아가 5G-Broadcast
 * 독일 5G-Broadcast 국책과제 '5G Media2Go' (2020.10.01.~2022.09.30.) 
     + [Deutsche Funkturm supports 5G Media2Go](https://www.dfmg.de/en/sites-for-your-network/site-rental/id-5g-media2go.html)
     + [Rohde & Schwarz 5G Media2Go](https://www.rohde-schwarz.com/us/about/news-press/all-news/rohde-schwarz-5g-media2go-press-release-detailpage_229356-946689.html)
+    + [Kathrein 5G MEDIA2GO - COOPERATION](https://www.kathrein-bca.com/en/5g-media2go-cooperation)
 
 * 정보통신기획평가원(IITP) 주간기술동향 (2020.10.14.) [인터넷 및 5G와 협력하는 방송기술 동향](https://www.itfind.or.kr/publication/regular/weeklytrend/weekly/view.do?boardParam1=8022&boardParam2=8022)
    + 관련기사 : 전자신문 (2020.10.28.) [5G-지상파 협력방송, 미디어 혁신 대안으로 주목](https://www.etnews.com/20201028000203)
