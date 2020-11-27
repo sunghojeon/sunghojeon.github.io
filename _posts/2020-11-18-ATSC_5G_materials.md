@@ -14,8 +14,8 @@ title: ATSC 3.0과 5G 연동, 나아가 5G-Broadcast
 
 
 * 독일 LTE-Broadcast 국책과제 '[5G TODAY](https://5g-today.de/?lang=en)' (2017.07.01.~2020.01.28.) 
-    + IRT [5G TODAY](https://www.irt.de/en/research/radio-systems/5g-today)
-    + [Rohde & Schwarz 5G Media2Go](https://www.rohde-schwarz.com/us/about/news-press/all-news/rohde-schwarz-5g-media2go-press-release-detailpage_229356-946689.html)
+    + [Kathrein 5G Broadcasting](https://www.kathrein-bca.com/en/references/5g-broadcasting)
+    + [Bavarian 5G TODAY research project approaching successful completion](https://www.rohde-schwarz.com/us/about/news-press/all-news/bavarian-5g-today-research-project-approaching-successful-completion-press-release-detailpage_229356-706880.html)
 
 * IBC 2019 Conference (2020.09.14.) [PERFORMANCE OF 5G BROADCAST AND BENEFITS OF PROPOSED TIME-INTERLEAVING ENHANCEMENTS
 ](https://www.ibc.org/technical-papers/performance-of-5g-broadcast-and-benefits-of-proposed-time-interleaving-enhancements/6745.article)
