@@ -20,7 +20,7 @@ title: ATSC 3.0과 5G 연동, 나아가 5G-Broadcast
 * IBC 2019 Conference (2020.09.14.) [PERFORMANCE OF 5G BROADCAST AND BENEFITS OF PROPOSED TIME-INTERLEAVING ENHANCEMENTS
 ](https://www.ibc.org/technical-papers/performance-of-5g-broadcast-and-benefits-of-proposed-time-interleaving-enhancements/6745.article)
 
-* (ITU-TRAI International Training on Emerging Trends in Broadcasting)[https://www.itu.int/en/ITU-D/Regional-Presence/AsiaPacific/Pages/Events/2019/ITU-TRAI-International-Training-on-Emerging-Trends-in-Broadcasting.aspx]
+* ITU-TRAI (International Training on Emerging Trends in Broadcasting)[https://www.itu.int/en/ITU-D/Regional-Presence/AsiaPacific/Pages/Events/2019/ITU-TRAI-International-Training-on-Emerging-Trends-in-Broadcasting.aspx]
    + ETRI [ATSC 3.0 base Terrestrial UHD Broadcasting in S. Korea](https://www.itu.int/en/ITU-D/Regional-Presence/AsiaPacific/SiteAssets/Pages/Events/2019/ITU-TRAI-International-Training-on-Emerging-Trends-in-Broadcasting/Sung_Ik_Park_Speech.pdf)
    + Prasar Bharti (India Broadcaster) [LTE-Broadcast: Offloading Technologies](https://www.itu.int/en/ITU-D/Regional-Presence/AsiaPacific/SiteAssets/Pages/Events/2019/ITU-TRAI-International-Training-on-Emerging-Trends-in-Broadcasting/TRAI%20-%20Panel%20Discussions%20-%2010%20Oct%202019%20-%20Jio%20Deck_Makarand%20Pawar.pdf)
    + Saankhya Labs [5G-Broadcast](https://www.itu.int/en/ITU-D/Regional-Presence/AsiaPacific/SiteAssets/Pages/Events/2019/ITU-TRAI-International-Training-on-Emerging-Trends-in-Broadcasting/Parag_Naik_Speech.pdf)
