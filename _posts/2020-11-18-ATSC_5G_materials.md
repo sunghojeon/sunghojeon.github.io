@@ -23,6 +23,8 @@ title: ATSC 3.0과 5G 연동, 나아가 5G-Broadcast
 
 * 전자신문 (2020.06.07.) [[성기현 교수의 글로벌 미디어 이해하기]〈11〉ATSC 3.0의 NextGen TV: 지상파의 꿈](https://m.etnews.com/20200605000140)
 
+* 미국 FCC (2020.06.16.) [Promoting Broadcast Internet Innovation Through ATSC 3.0](https://www.govinfo.gov/content/pkg/FR-2020-07-16/pdf/2020-13202.pdf)
+
 * 정보통신기획평가원(IITP) 주간기술동향 (2020.10.14.) [인터넷 및 5G와 협력하는 방송기술 동향](https://www.itfind.or.kr/publication/regular/weeklytrend/weekly/view.do?boardParam1=8022&boardParam2=8022)
    + 관련기사 : 전자신문 (2020.10.28.) [5G-지상파 협력방송, 미디어 혁신 대안으로 주목](https://www.etnews.com/20201028000203)
 
