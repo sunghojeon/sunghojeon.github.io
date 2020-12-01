@@ -36,6 +36,7 @@ permalink: /about/
 	- [Senior Member](https://ieee-collabratec.ieee.org/app/p/SunghoJeon11818), October 2020 -  
 	- Member, March 2007 - October 2020
 	- Student Member, September 2005 - February 2007 
+    + Communication Society	
 	
 - Delegate, Republic of Korea (Member States), ITU-R WP6A       
 	- [25 March - 2 April 2014](http://www.itu.int/md/R12-WP6A-C-0413/en), [13-20 February 2015](http://www.itu.int/md/R12-WP6A-C-0561/en), [6-14 October 2020](https://www.itu.int/md/R19-WP6A-C-0105/en)
