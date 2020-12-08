@@ -53,3 +53,4 @@ title: ATSC 3.0과 5G 연동, 나아가 5G-Broadcast
 
 * 오스트리아 지상파 방송사 ORS TECH BLOG (2020.11.26.) [5G BROADCAST: INITIAL FINDINGS FROM THE ORS TRIAL IN VIENNA](https://www.ors.at/en/tech-blog/blog-articles/5g-broadcast-initial-findings-from-the-ors-trial-in-vienna-505/)
 
+* ABU TC 2020 Report [Annex 2 2.3 Solution: High Power High Tower broadcast based on 3GPP Release 16 "5G-Broadcast"](https://www.abu.org.my/wp-content/uploads/2020/11/7-TRANSMISSION.pdf)
