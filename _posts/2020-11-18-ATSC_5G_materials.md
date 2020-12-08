@@ -22,7 +22,7 @@ title: ATSC 3.0과 5G 연동, 나아가 5G-Broadcast
 
 * (ITU-TRAI International Training on Emerging Trends in Broadcasting)[https://www.itu.int/en/ITU-D/Regional-Presence/AsiaPacific/Pages/Events/2019/ITU-TRAI-International-Training-on-Emerging-Trends-in-Broadcasting.aspx]
    + ETRI [ATSC 3.0 base Terrestrial UHD Broadcasting in S. Korea](https://www.itu.int/en/ITU-D/Regional-Presence/AsiaPacific/SiteAssets/Pages/Events/2019/ITU-TRAI-International-Training-on-Emerging-Trends-in-Broadcasting/Sung_Ik_Park_Speech.pdf)
-   + Prasar Bharti (India Broadcaster) [LTE-Broadcast: Offloading Technologies](https://www.itu.int/en/ITU-D/Regional-Presence/AsiaPacific/SiteAssets/Pages/Events/2019/ITU-TRAI-International-Training-on-Emerging-Trends-in-Broadcasting/TRAI%20-%20Panel%20Discussions%20-%2010%20Oct%202019%20-%20Jio%20Deck_Makarand%20Pawar.pdf)
+   + Prasar Bharti (인도 최대 지상파방송사) [LTE-Broadcast: Offloading Technologies](https://www.itu.int/en/ITU-D/Regional-Presence/AsiaPacific/SiteAssets/Pages/Events/2019/ITU-TRAI-International-Training-on-Emerging-Trends-in-Broadcasting/TRAI%20-%20Panel%20Discussions%20-%2010%20Oct%202019%20-%20Jio%20Deck_Makarand%20Pawar.pdf)
    + Saankhya Labs [5G-Broadcast](https://www.itu.int/en/ITU-D/Regional-Presence/AsiaPacific/SiteAssets/Pages/Events/2019/ITU-TRAI-International-Training-on-Emerging-Trends-in-Broadcasting/Parag_Naik_Speech.pdf)
 
 ## 2020
@@ -53,4 +53,6 @@ title: ATSC 3.0과 5G 연동, 나아가 5G-Broadcast
 
 * 오스트리아 지상파 방송사 ORS TECH BLOG (2020.11.26.) [5G BROADCAST: INITIAL FINDINGS FROM THE ORS TRIAL IN VIENNA](https://www.ors.at/en/tech-blog/blog-articles/5g-broadcast-initial-findings-from-the-ors-trial-in-vienna-505/)
 
-* ABU TC 2020 Report [Annex 2 2.3 Solution: High Power High Tower broadcast based on 3GPP Release 16 "5G-Broadcast"](https://www.abu.org.my/wp-content/uploads/2020/11/7-TRANSMISSION.pdf)
+* ABU TC Meeting 2020
+   + Report [Annex 2 2.3 Solution: High Power High Tower broadcast based on 3GPP Release 16 "5G-Broadcast"](https://www.abu.org.my/wp-content/uploads/2020/11/7-TRANSMISSION.pdf)
+   + 인도 최대 지상파방송사 [Key Transformations in Prasar Bharati](https://www.abu.org.my/wp-content/uploads/2020/11/Sunil-Keynote-ppt-DTM-NextGen-TV-sm.pdf)
