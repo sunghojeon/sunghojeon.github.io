@@ -67,11 +67,11 @@ permalink: /about/
 ## Awards
 
 (Achievement Award)
-
+- 표창장, 과학기술정보통신부 장관, 2020.12.
 - [표창패](http://tta.or.kr/news/certify_view.jsp?notice_num=6442), RF 정합 테스트 실무반(WG8027) 우수 위원상, 한국정보통신기술협회(TTA), 2018.12월
-- 표창장, 과학기술정보통신부 장관, 2017.12월
-- 국립전파연구원장 표창, 미래창조과학부/국립전파연구원, 2016년 12월.
-- [2016 방송기술대상 최우수상](http://www.kobeta.com/notice/?uid=2291&mod=document), 한국방송기술인연합회, 2016년 11월.
+- 표창장, 과학기술정보통신부 장관, 2017.12.
+- 국립전파연구원장 표창, 미래창조과학부/국립전파연구원, 2016.12.
+- [2016 방송기술대상 최우수상](http://www.kobeta.com/notice/?uid=2291&mod=document), 한국방송기술인연합회, 2016.11.
 
 (Best Paper Award)
 
