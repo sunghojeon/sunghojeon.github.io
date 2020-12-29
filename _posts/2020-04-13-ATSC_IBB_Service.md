@@ -13,3 +13,4 @@ KBS한국방송은 뉴스 및 모바일 서비스 등을 통해 코로나19 정�
 
 실제 시청자 사용기는 아래 글들을 참고해 주세요!
 * [KBS1 UHD 채널에서 재난정보부가서비스 체험기](https://blog.naver.com/qkrtmddn10/221907432544)
+* KBS방송기술인협회 YouTube: [지상파 UHD IBB 표준 기반 재난정보 부가 서비스](https://youtu.be/kHDpWppMkiw)
