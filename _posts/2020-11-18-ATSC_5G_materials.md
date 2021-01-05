@@ -25,6 +25,9 @@ title: ATSC 3.0과 5G 연동, 나아가 5G-Broadcast
    + Prasar Bharti (인도 최대 지상파방송사) [LTE-Broadcast: Offloading Technologies](https://www.itu.int/en/ITU-D/Regional-Presence/AsiaPacific/SiteAssets/Pages/Events/2019/ITU-TRAI-International-Training-on-Emerging-Trends-in-Broadcasting/TRAI%20-%20Panel%20Discussions%20-%2010%20Oct%202019%20-%20Jio%20Deck_Makarand%20Pawar.pdf)
    + Saankhya Labs [5G-Broadcast](https://www.itu.int/en/ITU-D/Regional-Presence/AsiaPacific/SiteAssets/Pages/Events/2019/ITU-TRAI-International-Training-on-Emerging-Trends-in-Broadcasting/Parag_Naik_Speech.pdf)
 
+* 이탈리아 공영방송사 Rai 프로젝트 [Long term perspectives of DTT Convergence towards 5G: Applications of 3GPP Rel-14 to Italian scenarios
+](http://www.crit.rai.it/CritPortal/progetti/?p=1810)
+
 ## 2020
 
 * SKT Insight 
