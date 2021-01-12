@@ -60,6 +60,7 @@ title: ATSC 3.0과 5G 연동, 나아가 5G-Broadcast
    + Report [Annex 2 2.3 Solution: High Power High Tower broadcast based on 3GPP Release 16 "5G-Broadcast"](https://www.abu.org.my/wp-content/uploads/2020/11/7-TRANSMISSION.pdf)
    + 인도 최대 지상파방송사 [Key Transformations in Prasar Bharati](https://www.abu.org.my/wp-content/uploads/2020/11/Sunil-Keynote-ppt-DTM-NextGen-TV-sm.pdf) / 관련영상 : [YouTube](https://youtu.be/YMJdwMUSRGU)
 
+* 중국 CBN은 2020 베이징동계올림픽을 목표로 5G-Broadcast 준비중 [China 5G-Broadcast](https://speakerdeck.com/soichi1/china-5g-broadcast)
 
 ## 2021
 
