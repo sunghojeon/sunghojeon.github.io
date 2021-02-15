@@ -66,4 +66,6 @@ title: ATSC 3.0과 5G 연동, 나아가 5G-Broadcast
 
 * RFS 2021 predictions 
   + Nick Wymant, CTO Broadcast [The dawn of data rich broadcasting](https://www.rfsworld.com/articles/blog/rfs-2021-predictions)
+  
+ * ATSC 3.0 Automotive Field Tests - 4-branch Diversity Reception, Sony Electronics, Inc. [Paper](https://www.sony.com/content/dam/sony/landing-pages/whitepaper-atsc30_automotive_field_tests_.pdf)
 
