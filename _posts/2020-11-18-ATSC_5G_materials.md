@@ -72,6 +72,8 @@ title: ATSC 3.0과 5G 연동, 나아가 5G-Broadcast
 * RFS 2021 predictions 
   + Nick Wymant, CTO Broadcast [The dawn of data rich broadcasting](https://www.rfsworld.com/articles/blog/rfs-2021-predictions)
   
+* Article by Broadcast & CableSat, [The emergence of 5G broadcasting](https://www.broadcastandcablesat.co.in/the-emergence-of-5g-broadcasting/), 2021.01.
+  
 * ATSC 3.0 Automotive Field Tests - [4-branch Diversity Reception](https://www.sony.com/content/dam/sony/landing-pages/whitepaper-atsc30_automotive_field_tests_.pdf), Sony Electronics, Inc.
 
 * 김정창, 박성익, "[미래융합미디어 서비스를 위한 차세대 방송 통신 전송 기술 발전방향](http://www.kibme.org/resources/journal/20210216103106731.pdf)", 한국방송미디어공학회 방송과 미디어 제26권 1호, 2021년 2월.
@@ -81,3 +83,5 @@ https://www.svgeurope.org/blog/headlines/controversy-challenges-and-cunning-maki
 
 * [5G-MAG Explainer](https://www.5g-mag.com/explainers)
   + [New Explainer! LTE-based 5G Broadcast](https://www.5g-mag.com/post/new-explainer-lte-based-5g-broadcast), 2021.02.12.
+
+* UK-based [5G-VISTA Project](https://www.rohde-schwarz.com/dk/solutions/broadcast-and-media/newsletter/5g-vista_254434.html)
