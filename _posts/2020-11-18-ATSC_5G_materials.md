@@ -84,4 +84,5 @@ https://www.svgeurope.org/blog/headlines/controversy-challenges-and-cunning-maki
 * [5G-MAG Explainer](https://www.5g-mag.com/explainers)
   + [New Explainer! LTE-based 5G Broadcast](https://www.5g-mag.com/post/new-explainer-lte-based-5g-broadcast), 2021.02.12. [pdf](https://drive.google.com/file/d/1dlrP3csb_NbIDoLZU-QGciqCyhpUlqBO/view)
 
-* UK-based [5G-VISTA Project](https://www.rohde-schwarz.com/dk/solutions/broadcast-and-media/newsletter/5g-vista_254434.html)
+* UK-based [5G-VISTA Project](https://uk5g.org/discover/testbeds-and-trials/project-vista/)
+  + [Rohde & Schwarz part of UK sponsored consortium for 5G live event media delivery project](https://www.rohde-schwarz.com/dk/solutions/broadcast-and-media/newsletter/5g-vista_254434.html)
