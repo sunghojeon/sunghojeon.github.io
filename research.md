@@ -60,6 +60,11 @@ permalink: /research/
 
 ### Korean Conference Papers
 
+#### 2020
+
+7. 서영우,  *전성호*, "[지상파 UHD 방송 부가서비스 동향 및 전망](https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE09414283), 2020년 한국방송·미디어공학회 하계학술대회, [온라인](http://kibme2020a.anyforum.net/index.do), 2020년 7월.
+
+
 #### 2018
 
 7. 서영우, **전성호**, 서창호, "[UHD 제작 및 송수신 시연을 위한 테스트베드 구축](http://kosbe.or.kr/bbs/board.php?bo_table=m61&wr_id=430)", 2018년 한국방송·미디어공학회 하계학술대회, 제주한라대학교 금호세계교육관, 2018년 6월.
