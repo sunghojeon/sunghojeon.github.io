@@ -16,6 +16,10 @@ title: ATSC 3.0과 5G 연동, 나아가 5G-Broadcast
 * 독일 LTE-Broadcast 국책과제 '[5G TODAY](https://5g-today.de/?lang=en)' (2017.07.01.~2020.02.28.) 
     + [Kathrein 5G Broadcasting](https://www.kathrein-bca.com/en/references/5g-broadcasting)
     + [Bavarian 5G TODAY research project approaching successful completion](https://www.rohde-schwarz.com/us/about/news-press/all-news/bavarian-5g-today-research-project-approaching-successful-completion-press-release-detailpage_229356-706880.html)
+    + IRT, Rohde & Schwarz, Kathrein, [5G Today On the Road to 5G Broadcast](https://www.thescte.eu/resources/downloads/editorial-broadband-journal/august-2019/1496-p76-5g-today-on-the-road-to-5g-broadcast/file), Broadband Magazine, vol. 41, no. 3, August 2019.
+    + Dr. Jordi Gimenez, [IRT Kolloquium Delivering Media with 5G Technology: FeMBMS, 5G-Xcast and beyond](https://www.youtube.com/watch?v=WfeaBDZyevI)
+    + Aneta Baier(IRT), [5G-TODAY: 5G Broadcast trial using FeMBMS](https://tech.ebu.ch/docs/events/asbu_wot2019/presentations/Day3-slot6-EBU-ASBU-WoT-5G_today-Aneta%20Baier-IRT-2019.pdf) at EBU/ASBU Week of Technology 2019.
+
 
 * IBC 2019 Conference (2020.09.14.) [PERFORMANCE OF 5G BROADCAST AND BENEFITS OF PROPOSED TIME-INTERLEAVING ENHANCEMENTS
 ](https://www.ibc.org/technical-papers/performance-of-5g-broadcast-and-benefits-of-proposed-time-interleaving-enhancements/6745.article)
@@ -67,6 +71,9 @@ title: ATSC 3.0과 5G 연동, 나아가 5G-Broadcast
 * RFS 2021 predictions 
   + Nick Wymant, CTO Broadcast [The dawn of data rich broadcasting](https://www.rfsworld.com/articles/blog/rfs-2021-predictions)
   
- * ATSC 3.0 Automotive Field Tests - [4-branch Diversity Reception](https://www.sony.com/content/dam/sony/landing-pages/whitepaper-atsc30_automotive_field_tests_.pdf), Sony Electronics, Inc.
+* ATSC 3.0 Automotive Field Tests - [4-branch Diversity Reception](https://www.sony.com/content/dam/sony/landing-pages/whitepaper-atsc30_automotive_field_tests_.pdf), Sony Electronics, Inc.
 
- * 김정창, 박성익, "[미래융합미디어 서비스를 위한 차세대 방송 통신 전송 기술 발전방향](http://www.kibme.org/resources/journal/20210216103106731.pdf)", 한국방송미디어공학회 방송과 미디어 제26권 1호, 2021년 2월.
+* 김정창, 박성익, "[미래융합미디어 서비스를 위한 차세대 방송 통신 전송 기술 발전방향](http://www.kibme.org/resources/journal/20210216103106731.pdf)", 한국방송미디어공학회 방송과 미디어 제26권 1호, 2021년 2월.
+
+* Article by SVG Europe, [Controversy, challenges and cunning: Making 5G Broadcast for sport a reality with the Vista 5G Create project](
+https://www.svgeurope.org/blog/headlines/controversy-challenges-and-cunning-making-5g-broadcast-for-sport-a-reality-with-the-vista-5g-create-project/) 2021.02.11.
