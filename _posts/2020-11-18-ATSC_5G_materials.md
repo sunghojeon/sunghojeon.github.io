@@ -23,7 +23,8 @@ title: ATSC 3.0과 5G 연동, 나아가 5G-Broadcast
 
 * IBC 2019 Conference (2020.09.14.) [PERFORMANCE OF 5G BROADCAST AND BENEFITS OF PROPOSED TIME-INTERLEAVING ENHANCEMENTS
 ](https://www.ibc.org/technical-papers/performance-of-5g-broadcast-and-benefits-of-proposed-time-interleaving-enhancements/6745.article)
-
+  + [5G TRIALS: “WE ARE RE-WRITING BROADCAST HISTORY”](https://www.ibc.org/trends/5g-today-bavarias-broadcast-trials/5130.article)
+  
 * (ITU-TRAI International Training on Emerging Trends in Broadcasting)[https://www.itu.int/en/ITU-D/Regional-Presence/AsiaPacific/Pages/Events/2019/ITU-TRAI-International-Training-on-Emerging-Trends-in-Broadcasting.aspx]
    + ETRI [ATSC 3.0 base Terrestrial UHD Broadcasting in S. Korea](https://www.itu.int/en/ITU-D/Regional-Presence/AsiaPacific/SiteAssets/Pages/Events/2019/ITU-TRAI-International-Training-on-Emerging-Trends-in-Broadcasting/Sung_Ik_Park_Speech.pdf)
    + Prasar Bharti (인도 최대 지상파방송사) [LTE-Broadcast: Offloading Technologies](https://www.itu.int/en/ITU-D/Regional-Presence/AsiaPacific/SiteAssets/Pages/Events/2019/ITU-TRAI-International-Training-on-Emerging-Trends-in-Broadcasting/TRAI%20-%20Panel%20Discussions%20-%2010%20Oct%202019%20-%20Jio%20Deck_Makarand%20Pawar.pdf)
@@ -77,3 +78,6 @@ title: ATSC 3.0과 5G 연동, 나아가 5G-Broadcast
 
 * Article by SVG Europe, [Controversy, challenges and cunning: Making 5G Broadcast for sport a reality with the Vista 5G Create project](
 https://www.svgeurope.org/blog/headlines/controversy-challenges-and-cunning-making-5g-broadcast-for-sport-a-reality-with-the-vista-5g-create-project/) 2021.02.11.
+
+* [5G-MAG Explainer](https://www.5g-mag.com/explainers)
+  + [New Explainer! LTE-based 5G Broadcast](https://www.5g-mag.com/post/new-explainer-lte-based-5g-broadcast), 2021.02.12.
