@@ -82,6 +82,6 @@ title: ATSC 3.0과 5G 연동, 나아가 5G-Broadcast
 https://www.svgeurope.org/blog/headlines/controversy-challenges-and-cunning-making-5g-broadcast-for-sport-a-reality-with-the-vista-5g-create-project/) 2021.02.11.
 
 * [5G-MAG Explainer](https://www.5g-mag.com/explainers)
-  + [New Explainer! LTE-based 5G Broadcast](https://www.5g-mag.com/post/new-explainer-lte-based-5g-broadcast), 2021.02.12.
+  + [New Explainer! LTE-based 5G Broadcast](https://www.5g-mag.com/post/new-explainer-lte-based-5g-broadcast), 2021.02.12. [pdf](https://drive.google.com/file/d/1dlrP3csb_NbIDoLZU-QGciqCyhpUlqBO/view)
 
 * UK-based [5G-VISTA Project](https://www.rohde-schwarz.com/dk/solutions/broadcast-and-media/newsletter/5g-vista_254434.html)
