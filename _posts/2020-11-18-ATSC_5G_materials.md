@@ -5,33 +5,29 @@ title: ATSC 3.0과 5G 연동, 나아가 5G-Broadcast
 
 **ATSC 3.0-5G 연동과 3GPP 5G-Broadcast 기술 관련 자료를 수시로 모으는 페이지입니다.**
 
-## 2019
+## 2021
 
-* SKT Insight 
-   + (2019.01.08.) [미디어 기술도 이제는 한류! SKT 미국 방송 솔루션 시장 진출](https://www.sktinsight.com/111997)
-   + (2019.01.10.) [[CES2019] 미국의 카 라이프 혁신을 부탁해! SKTㆍ하만ㆍ싱클레어 MOU 체결](https://www.sktinsight.com/112047)
-   + (2019.06.04.) [미국 도로를 극장으로 변신시킬 SKT 5G 미디어 기술은?](https://www.sktinsight.com/116140)
-
-
-* 독일 LTE-Broadcast 국책과제 '[5G TODAY](https://5g-today.de/?lang=en)' (2017.07.01.~2020.02.28.) 
-    + [Kathrein 5G Broadcasting](https://www.kathrein-bca.com/en/references/5g-broadcasting)
-    + [Bavarian 5G TODAY research project approaching successful completion](https://www.rohde-schwarz.com/us/about/news-press/all-news/bavarian-5g-today-research-project-approaching-successful-completion-press-release-detailpage_229356-706880.html)
-    + IRT, Rohde & Schwarz, Kathrein, [5G Today On the Road to 5G Broadcast](https://www.thescte.eu/resources/downloads/editorial-broadband-journal/august-2019/1496-p76-5g-today-on-the-road-to-5g-broadcast/file), Broadband Magazine, vol. 41, no. 3, August 2019.
-    + Dr. Jordi Gimenez, [IRT Kolloquium Delivering Media with 5G Technology: FeMBMS, 5G-Xcast and beyond](https://www.youtube.com/watch?v=WfeaBDZyevI)
-    + Aneta Baier(IRT), [5G-TODAY: 5G Broadcast trial using FeMBMS](https://tech.ebu.ch/docs/events/asbu_wot2019/presentations/Day3-slot6-EBU-ASBU-WoT-5G_today-Aneta%20Baier-IRT-2019.pdf) at EBU/ASBU Week of Technology 2019.
-
-
-* IBC 2019 Conference (2020.09.14.) [PERFORMANCE OF 5G BROADCAST AND BENEFITS OF PROPOSED TIME-INTERLEAVING ENHANCEMENTS
-](https://www.ibc.org/technical-papers/performance-of-5g-broadcast-and-benefits-of-proposed-time-interleaving-enhancements/6745.article)
-  + [5G TRIALS: “WE ARE RE-WRITING BROADCAST HISTORY”](https://www.ibc.org/trends/5g-today-bavarias-broadcast-trials/5130.article)
+* RFS 2021 predictions 
+  + Nick Wymant, CTO Broadcast [The dawn of data rich broadcasting](https://www.rfsworld.com/articles/blog/rfs-2021-predictions)
   
-* (ITU-TRAI International Training on Emerging Trends in Broadcasting)[https://www.itu.int/en/ITU-D/Regional-Presence/AsiaPacific/Pages/Events/2019/ITU-TRAI-International-Training-on-Emerging-Trends-in-Broadcasting.aspx]
-   + ETRI [ATSC 3.0 base Terrestrial UHD Broadcasting in S. Korea](https://www.itu.int/en/ITU-D/Regional-Presence/AsiaPacific/SiteAssets/Pages/Events/2019/ITU-TRAI-International-Training-on-Emerging-Trends-in-Broadcasting/Sung_Ik_Park_Speech.pdf)
-   + Prasar Bharti (인도 최대 지상파방송사) [LTE-Broadcast: Offloading Technologies](https://www.itu.int/en/ITU-D/Regional-Presence/AsiaPacific/SiteAssets/Pages/Events/2019/ITU-TRAI-International-Training-on-Emerging-Trends-in-Broadcasting/TRAI%20-%20Panel%20Discussions%20-%2010%20Oct%202019%20-%20Jio%20Deck_Makarand%20Pawar.pdf)
-   + Saankhya Labs [5G-Broadcast](https://www.itu.int/en/ITU-D/Regional-Presence/AsiaPacific/SiteAssets/Pages/Events/2019/ITU-TRAI-International-Training-on-Emerging-Trends-in-Broadcasting/Parag_Naik_Speech.pdf)
+* Article by Broadcast & CableSat, [The emergence of 5G broadcasting](https://www.broadcastandcablesat.co.in/the-emergence-of-5g-broadcasting/), 2021.01.
+  
+* ATSC 3.0 Automotive Field Tests - [4-branch Diversity Reception](https://www.sony.com/content/dam/sony/landing-pages/whitepaper-atsc30_automotive_field_tests_.pdf), Sony Electronics, Inc.
 
-* 이탈리아 공영방송사 Rai 프로젝트 [Long term perspectives of DTT Convergence towards 5G: Applications of 3GPP Rel-14 to Italian scenarios
-](http://www.crit.rai.it/CritPortal/progetti/?p=1810)
+* 김정창, 박성익, "[미래융합미디어 서비스를 위한 차세대 방송 통신 전송 기술 발전방향](http://www.kibme.org/resources/journal/20210216103106731.pdf)", 한국방송미디어공학회 방송과 미디어 제26권 1호, 2021년 2월.
+
+* Article by SVG Europe, [Controversy, challenges and cunning: Making 5G Broadcast for sport a reality with the Vista 5G Create project](
+https://www.svgeurope.org/blog/headlines/controversy-challenges-and-cunning-making-5g-broadcast-for-sport-a-reality-with-the-vista-5g-create-project/) 2021.02.11.
+
+* [5G-MAG Explainer](https://www.5g-mag.com/explainers)
+  + [New Explainer! LTE-based 5G Broadcast](https://www.5g-mag.com/post/new-explainer-lte-based-5g-broadcast), 2021.02.12. [pdf](https://drive.google.com/file/d/1dlrP3csb_NbIDoLZU-QGciqCyhpUlqBO/view)
+
+* UK-based [5G-VISTA Project](https://uk5g.org/discover/testbeds-and-trials/project-vista/)
+  + [Consortium of Broadcast & Telecom Partners Secure DCMS Support for 5G Live Event Media Delivery Project](https://dtg.org.uk/consortium-of-broadcast-telecom-partners-secure-dcms-support-for-5g-live-event-media-delivery-project/)
+  + [Rohde & Schwarz part of UK sponsored consortium for 5G live event media delivery project](https://www.rohde-schwarz.com/dk/solutions/broadcast-and-media/newsletter/5g-vista_254434.html)
+
+* Denmark ATSC 3.0 Experiment
+  + [Next Generation of Digital Radio & TV is IP-based • The Danish DTT Test Platform in Copenhagen](https://www.linkedin.com/pulse/next-generation-digital-radio-tv-ip-natively-over-broadcast-wenzel/?trk=read_related_article-card_title)
 
 ## 2020
 
@@ -67,23 +63,32 @@ title: ATSC 3.0과 5G 연동, 나아가 5G-Broadcast
 
 * 중국 CBN은 2020 베이징동계올림픽을 목표로 5G-Broadcast 준비중 [China 5G-Broadcast](https://speakerdeck.com/soichi1/china-5g-broadcast)
 
-## 2021
 
-* RFS 2021 predictions 
-  + Nick Wymant, CTO Broadcast [The dawn of data rich broadcasting](https://www.rfsworld.com/articles/blog/rfs-2021-predictions)
+## 2019
+
+* SKT Insight 
+   + (2019.01.08.) [미디어 기술도 이제는 한류! SKT 미국 방송 솔루션 시장 진출](https://www.sktinsight.com/111997)
+   + (2019.01.10.) [[CES2019] 미국의 카 라이프 혁신을 부탁해! SKTㆍ하만ㆍ싱클레어 MOU 체결](https://www.sktinsight.com/112047)
+   + (2019.06.04.) [미국 도로를 극장으로 변신시킬 SKT 5G 미디어 기술은?](https://www.sktinsight.com/116140)
+
+
+* 독일 LTE-Broadcast 국책과제 '[5G TODAY](https://5g-today.de/?lang=en)' (2017.07.01.~2020.02.28.) 
+    + [Kathrein 5G Broadcasting](https://www.kathrein-bca.com/en/references/5g-broadcasting)
+    + [Bavarian 5G TODAY research project approaching successful completion](https://www.rohde-schwarz.com/us/about/news-press/all-news/bavarian-5g-today-research-project-approaching-successful-completion-press-release-detailpage_229356-706880.html)
+    + IRT, Rohde & Schwarz, Kathrein, [5G Today On the Road to 5G Broadcast](https://www.thescte.eu/resources/downloads/editorial-broadband-journal/august-2019/1496-p76-5g-today-on-the-road-to-5g-broadcast/file), Broadband Magazine, vol. 41, no. 3, August 2019.
+    + Dr. Jordi Gimenez, [IRT Kolloquium Delivering Media with 5G Technology: FeMBMS, 5G-Xcast and beyond](https://www.youtube.com/watch?v=WfeaBDZyevI)
+    + Aneta Baier(IRT), [5G-TODAY: 5G Broadcast trial using FeMBMS](https://tech.ebu.ch/docs/events/asbu_wot2019/presentations/Day3-slot6-EBU-ASBU-WoT-5G_today-Aneta%20Baier-IRT-2019.pdf) at EBU/ASBU Week of Technology 2019.
+
+
+* IBC 2019 Conference (2020.09.14.) [PERFORMANCE OF 5G BROADCAST AND BENEFITS OF PROPOSED TIME-INTERLEAVING ENHANCEMENTS
+](https://www.ibc.org/technical-papers/performance-of-5g-broadcast-and-benefits-of-proposed-time-interleaving-enhancements/6745.article)
+  + [5G TRIALS: “WE ARE RE-WRITING BROADCAST HISTORY”](https://www.ibc.org/trends/5g-today-bavarias-broadcast-trials/5130.article)
   
-* Article by Broadcast & CableSat, [The emergence of 5G broadcasting](https://www.broadcastandcablesat.co.in/the-emergence-of-5g-broadcasting/), 2021.01.
-  
-* ATSC 3.0 Automotive Field Tests - [4-branch Diversity Reception](https://www.sony.com/content/dam/sony/landing-pages/whitepaper-atsc30_automotive_field_tests_.pdf), Sony Electronics, Inc.
+* (ITU-TRAI International Training on Emerging Trends in Broadcasting)[https://www.itu.int/en/ITU-D/Regional-Presence/AsiaPacific/Pages/Events/2019/ITU-TRAI-International-Training-on-Emerging-Trends-in-Broadcasting.aspx]
+   + ETRI [ATSC 3.0 base Terrestrial UHD Broadcasting in S. Korea](https://www.itu.int/en/ITU-D/Regional-Presence/AsiaPacific/SiteAssets/Pages/Events/2019/ITU-TRAI-International-Training-on-Emerging-Trends-in-Broadcasting/Sung_Ik_Park_Speech.pdf)
+   + Prasar Bharti (인도 최대 지상파방송사) [LTE-Broadcast: Offloading Technologies](https://www.itu.int/en/ITU-D/Regional-Presence/AsiaPacific/SiteAssets/Pages/Events/2019/ITU-TRAI-International-Training-on-Emerging-Trends-in-Broadcasting/TRAI%20-%20Panel%20Discussions%20-%2010%20Oct%202019%20-%20Jio%20Deck_Makarand%20Pawar.pdf)
+   + Saankhya Labs [5G-Broadcast](https://www.itu.int/en/ITU-D/Regional-Presence/AsiaPacific/SiteAssets/Pages/Events/2019/ITU-TRAI-International-Training-on-Emerging-Trends-in-Broadcasting/Parag_Naik_Speech.pdf)
 
-* 김정창, 박성익, "[미래융합미디어 서비스를 위한 차세대 방송 통신 전송 기술 발전방향](http://www.kibme.org/resources/journal/20210216103106731.pdf)", 한국방송미디어공학회 방송과 미디어 제26권 1호, 2021년 2월.
+* 이탈리아 공영방송사 Rai 프로젝트 [Long term perspectives of DTT Convergence towards 5G: Applications of 3GPP Rel-14 to Italian scenarios
+](http://www.crit.rai.it/CritPortal/progetti/?p=1810)
 
-* Article by SVG Europe, [Controversy, challenges and cunning: Making 5G Broadcast for sport a reality with the Vista 5G Create project](
-https://www.svgeurope.org/blog/headlines/controversy-challenges-and-cunning-making-5g-broadcast-for-sport-a-reality-with-the-vista-5g-create-project/) 2021.02.11.
-
-* [5G-MAG Explainer](https://www.5g-mag.com/explainers)
-  + [New Explainer! LTE-based 5G Broadcast](https://www.5g-mag.com/post/new-explainer-lte-based-5g-broadcast), 2021.02.12. [pdf](https://drive.google.com/file/d/1dlrP3csb_NbIDoLZU-QGciqCyhpUlqBO/view)
-
-* UK-based [5G-VISTA Project](https://uk5g.org/discover/testbeds-and-trials/project-vista/)
-  + [Consortium of Broadcast & Telecom Partners Secure DCMS Support for 5G Live Event Media Delivery Project](https://dtg.org.uk/consortium-of-broadcast-telecom-partners-secure-dcms-support-for-5g-live-event-media-delivery-project/)
-  + [Rohde & Schwarz part of UK sponsored consortium for 5G live event media delivery project](https://www.rohde-schwarz.com/dk/solutions/broadcast-and-media/newsletter/5g-vista_254434.html)
