@@ -26,8 +26,6 @@ https://www.svgeurope.org/blog/headlines/controversy-challenges-and-cunning-maki
   + [Consortium of Broadcast & Telecom Partners Secure DCMS Support for 5G Live Event Media Delivery Project](https://dtg.org.uk/consortium-of-broadcast-telecom-partners-secure-dcms-support-for-5g-live-event-media-delivery-project/)
   + [Rohde & Schwarz part of UK sponsored consortium for 5G live event media delivery project](https://www.rohde-schwarz.com/dk/solutions/broadcast-and-media/newsletter/5g-vista_254434.html)
 
-* Denmark ATSC 3.0 Experiment
-  + [Next Generation of Digital Radio & TV is IP-based • The Danish DTT Test Platform in Copenhagen](https://www.linkedin.com/pulse/next-generation-digital-radio-tv-ip-natively-over-broadcast-wenzel/?trk=read_related_article-card_title)
 
 ## 2020
 
@@ -43,6 +41,9 @@ https://www.svgeurope.org/blog/headlines/controversy-challenges-and-cunning-maki
     + [Deutsche Funkturm supports 5G Media2Go](https://www.dfmg.de/en/sites-for-your-network/site-rental/id-5g-media2go.html)
     + [Rohde & Schwarz 5G Media2Go](https://www.rohde-schwarz.com/us/about/news-press/all-news/rohde-schwarz-5g-media2go-press-release-detailpage_229356-946689.html)
     + [Kathrein 5G MEDIA2GO - COOPERATION](https://www.kathrein-bca.com/en/5g-media2go-cooperation)
+
+* Denmark ATSC 3.0 Experiment (August 4, 2020)
+  + [Next Generation of Digital Radio & TV is IP-based • The Danish DTT Test Platform in Copenhagen](https://www.linkedin.com/pulse/next-generation-digital-radio-tv-ip-natively-over-broadcast-wenzel/?trk=read_related_article-card_title)
 
 * 정보통신기획평가원(IITP) 주간기술동향 (2020.10.14.) [인터넷 및 5G와 협력하는 방송기술 동향](https://www.itfind.or.kr/publication/regular/weeklytrend/weekly/view.do?boardParam1=8022&boardParam2=8022)
    + 관련기사 : 전자신문 (2020.10.28.) [5G-지상파 협력방송, 미디어 혁신 대안으로 주목](https://www.etnews.com/20201028000203)
