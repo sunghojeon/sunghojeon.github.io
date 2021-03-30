@@ -25,7 +25,11 @@ https://www.svgeurope.org/blog/headlines/controversy-challenges-and-cunning-maki
 * UK-based [5G-VISTA Project](https://uk5g.org/discover/testbeds-and-trials/project-vista/)
   + [Consortium of Broadcast & Telecom Partners Secure DCMS Support for 5G Live Event Media Delivery Project](https://dtg.org.uk/consortium-of-broadcast-telecom-partners-secure-dcms-support-for-5g-live-event-media-delivery-project/)
   + [Rohde & Schwarz part of UK sponsored consortium for 5G live event media delivery project](https://www.rohde-schwarz.com/dk/solutions/broadcast-and-media/newsletter/5g-vista_254434.html)
+  + [5G VISTA: ENHANCING THE VIEW OF LIVE SPORT](https://www.ibc.org/trends/5g-vista-enhancing-the-view-of-live-sport/7319.article)
 
+* 5G-Broadcast Trials in China
+  + [CBN, Ericsson and UNISOC successfully test 700MHz capability for 5G rollout](https://www.ericsson.com/en/news/2021/3/700mhz-for-5g-in-china)
+  + ITU-R WP6A Contribution 146 by China (People's Republic of)[Information - Initial field experimental results for 5G new radio (NR) multicast and broadcast system (MBS)](https://www.itu.int/md/R19-WP6A-C-0146/en)
 
 ## 2020
 
