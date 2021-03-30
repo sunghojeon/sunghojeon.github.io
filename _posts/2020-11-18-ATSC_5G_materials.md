@@ -29,7 +29,7 @@ https://www.svgeurope.org/blog/headlines/controversy-challenges-and-cunning-maki
 
 * 5G-Broadcast Trials in China
   + [CBN, Ericsson and UNISOC successfully test 700MHz capability for 5G rollout](https://www.ericsson.com/en/news/2021/3/700mhz-for-5g-in-china)
-  + ITU-R WP6A Contribution 146 by China (People's Republic of)[Information - Initial field experimental results for 5G new radio (NR) multicast and broadcast system (MBS)](https://www.itu.int/md/R19-WP6A-C-0146/en)
+  + ITU-R WP6A Contribution 146 by China (People's Republic of)[Information - Initial field experimental results for 5G new radio (NR) multicast and broadcast system (MBS)] (https://www.itu.int/md/R19-WP6A-C-0146/en)
 
 ## 2020
 
