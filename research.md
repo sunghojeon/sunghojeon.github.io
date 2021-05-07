@@ -18,7 +18,7 @@ permalink: /research/
 
 #### 2021
 
-1. Hoiyoon Jung, Sung-Ik Park, Bo-mi Lim, Haechan Kwon, Namho Hur, **Sungho Jeon**, Hyeongseok Kim, and Jeongchang Kim, "Feasibility Verification of ATSC 3.0 MIMO System for 8K-UHD Terrestrial Broadcasting," *IEEE Transactions on Broadcasting*, to be published.
+1. Hoiyoon Jung, Sung-Ik Park, Bo-mi Lim, Haechan Kwon, Namho Hur, **Sungho Jeon**, Hyeongseok Kim, and Jeongchang Kim, "[Feasibility Verification of ATSC 3.0 MIMO System for 8K-UHD Terrestrial Broadcasting]()," *IEEE Transactions on Broadcasting*, to be published.
 
 #### 2019
 
