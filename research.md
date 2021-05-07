@@ -16,6 +16,10 @@ permalink: /research/
 
 ### Journal Papers
 
+#### 2021
+
+1. Hoiyoon Jung, Sung-Ik Park, Bo-mi Lim, Haechan Kwon, Namho Hur, **Sungho Jeon**, Hyeongseok Kim, and Jeongchang Kim, "Feasibility Verification of ATSC 3.0 MIMO System for 8K-UHD Terrestrial Broadcasting," *IEEE Transactions on Broadcasting*, to be published.
+
 #### 2019
 
 1. Jaekwon Lee, **Sungho Jeon**, Sung-Ik Park, Dong Ku Kim, "[Efficient ATSC 3.0 TxID Signal Detection for Single Frequency Networks](https://doi.org/10.1109/TBC.2018.2874548)," *IEEE Transactions on Broadcasting*, vol. 65, no. 2, pp. 326-332, June 2019. 
