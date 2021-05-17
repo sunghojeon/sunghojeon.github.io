@@ -36,6 +36,13 @@ permalink: /research/
 
 #### 2021
 
+4. "[Impact of Cross-Polarization Discrimination for ATSC 3.0 MIMO System]()," in *The 16th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2019), Chengdu, China, August 2021.
+
+4. "[ATSC 3.0 Multi-Antenna Receiver’s Mobile Performance in Seoul and the Metropolitan Area
+]()," in *The 16th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2019), Chengdu, China, August 2021.
+
+
+
 
 #### 2019
 
