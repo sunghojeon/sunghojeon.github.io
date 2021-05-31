@@ -18,7 +18,7 @@ permalink: /research/
 
 #### 2021
 
-1. Hoiyoon Jung, Sung-Ik Park, Bo-mi Lim, Haechan Kwon, Namho Hur, **Sungho Jeon**, Hyeongseok Kim, and Jeongchang Kim, "[Feasibility Verification of ATSC 3.0 MIMO System for 8K-UHD Terrestrial Broadcasting]()," *IEEE Transactions on Broadcasting*, to be published.
+1. Hoiyoon Jung, Sung-Ik Park, Bo-mi Lim, Haechan Kwon, Namho Hur, **Sungho Jeon**, Hyeongseok Kim, and Jeongchang Kim, "[Feasibility Verification of ATSC 3.0 MIMO System for 8K-UHD Terrestrial Broadcasting](https://doi.org/10.1109/TBC.2021.3081928)," *IEEE Transactions on Broadcasting*, to be published.
 
 #### 2019
 
@@ -36,10 +36,10 @@ permalink: /research/
 
 #### 2021
 
-4. "[Impact of Cross-Polarization Discrimination for ATSC 3.0 MIMO System]()," in *The 16th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2019), Chengdu, China, August 2021.
+4. "[Impact of Cross-Polarization Discrimination for ATSC 3.0 MIMO System]()," in *The 16th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2021), Chengdu, China, August 2021.
 
 4. "[ATSC 3.0 Multi-Antenna Receiver’s Mobile Performance in Seoul and the Metropolitan Area
-]()," in *The 16th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2019), Chengdu, China, August 2021.
+]()," in *The 16th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2021), Chengdu, China, August 2021.
 
 
 
