@@ -3,6 +3,9 @@ layout: post
 title: 지상파 차세대 방송서비스 실증 시연회 @ 제주 난타호텔
 ---
 
+
+![그림](/images/jeju-2021-04.JPG)
+
 **[보도자료]**
 
 방송통신위원회(2021.04.02.) [“지상파로 여는 다채널, VoD, 이동방송 구현”](https://www.korea.kr/news/pressReleaseView.do?newsId=156444603)
