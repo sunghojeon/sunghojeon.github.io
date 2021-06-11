@@ -13,3 +13,6 @@ title: ETRI-KBS-한국방송기술인연합회, 글로벌 8K-UHD 워크숍 개�
 
 [프로그램]
 
+![그림](/images/8k-workshop-01.JPG)
+
+![그림](/images/8k-workshop-02.JPG)
