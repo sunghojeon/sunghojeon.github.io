@@ -12,7 +12,7 @@ title: 차세대 ‘방송·미디어 기술 세미나’ @ 온라인
 
 **[보도자료]** 
 
-. 조선IT(2021.05.13.) [‘5G Broadcast World Forum 2021’ 열려](http://it.chosun.com/site/data/html_dir/2020/11/24/2020112402595.html)
+. IT조선(2020.11.24) [코로나19 시대 차세대 미디어 기술로 주목](http://it.chosun.com/site/data/html_dir/2020/11/24/2020112402595.html)
 
 **[발표자료]** 
 
