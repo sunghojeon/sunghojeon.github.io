@@ -1,6 +1,6 @@
 ---
 layout: post
-title: KBS기술본부/방송기술교육원 'UHD 5G CONFERENCE' @ KBS TS-4 스튜디오
+title: 한국방송기술인연합회/방송기술교육원/KBS기술본부 'UHD 5G CONFERENCE' @ KBS TS-4 스튜디오
 ---
 
 
