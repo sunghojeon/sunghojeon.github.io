@@ -11,4 +11,4 @@ KBS 유튜브 공식계정 홍보영상 [또 하나의 UHD 혁신 서비스 KBS�
 서비스 수신료의 가치를 더욱 높이며 UHD혁신 서비스 KBS가 시작합니다.
 
 
-![그림](/images/KRNET-2021.png)
+![그림](/images/UHD_MMS_MOBILE.jpg)
