@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2021년 7월 19일, KBS에서 UHD 혁신서비스를 시작합니다.
+title: 2021년 7월 19일 5시, KBS에서 UHD 혁신서비스를 시작합니다.
 ---
 
 KBS 유튜브 공식계정 홍보영상 / [또 하나의 UHD 혁신 서비스 KBS가 시작합니다.](https://youtu.be/OE92X3yupd0)
