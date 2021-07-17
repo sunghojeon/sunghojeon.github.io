@@ -3,7 +3,7 @@ layout: post
 title: 2021년 7월 19일, KBS에서 UHD 혁신서비스를 시작합니다.
 ---
 
-KBS 유튜브 공식계정 홍보영상 [또 하나의 UHD 혁신 서비스 KBS가 시작합니다.](https://youtu.be/OE92X3yupd0)
+KBS 유튜브 공식계정 홍보영상 / [또 하나의 UHD 혁신 서비스 KBS가 시작합니다.](https://youtu.be/OE92X3yupd0)
 
 하나의 주파수로 여러개의 TV, 라디오 채널을 동시에 송출하는 서비스,
 추가 주파수 할당 없이 UHDTV에서 "다채널" 서비스  
