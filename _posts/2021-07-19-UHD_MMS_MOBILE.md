@@ -3,6 +3,10 @@ layout: post
 title: 2021년 7월 19일 5시, KBS에서 UHD 혁신서비스(모바일/다채널/양방향)를 시작합니다.
 ---
 
+[보도자료] [방통위-과기정통부, KBS 다채널·이동형 시범방송 추진](https://www.korea.kr/news/pressReleaseView.do?newsId=156462337&pWise=main&pWiseMain=C2)
+
+
+
 KBS 유튜브 공식계정 홍보영상 / [**또 하나의 UHD 혁신 서비스 KBS가 시작합니다.**](https://youtu.be/OE92X3yupd0)
 
 하나의 주파수로 여러 개의 TV, 라디오 채널을 동시에 송출하는 서비스,
