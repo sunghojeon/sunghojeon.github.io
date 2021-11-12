@@ -24,6 +24,8 @@ Q8) 9-2 채널의 앞으로 기대되는 점은?
 
 Q9) 앞으로 풀어나가야 할 기술사항들은 어떤 것이 있나?
 
+.
+
 [[기고] 자주 하는 질문 9가지로 파헤치는 UHD 혁신서비스 (1)](http://journal.kobeta.com/%ea%b8%b0%ea%b3%a0-%ec%9e%90%ec%a3%bc-%ed%95%98%eb%8a%94-%ec%a7%88%eb%ac%b8-9%ea%b0%80%ec%a7%80%eb%a1%9c-%ed%8c%8c%ed%97%a4%ec%b9%98%eb%8a%94-uhd-%ed%98%81%ec%8b%a0%ec%84%9c%eb%b9%84%ec%8a%a4/)
 
 [[기고] 자주 하는 질문 9가지로 파헤치는 UHD 혁신서비스 (2)](http://journal.kobeta.com/%ea%b8%b0%ea%b3%a0-%ec%9e%90%ec%a3%bc-%ed%95%98%eb%8a%94-%ec%a7%88%eb%ac%b8-9%ea%b0%80%ec%a7%80%eb%a1%9c-%ed%8c%8c%ed%97%a4%ec%b9%98%eb%8a%94-uhd-%ed%98%81%ec%8b%a0%ec%84%9c%eb%b9%84%ec%8a%a4/)
