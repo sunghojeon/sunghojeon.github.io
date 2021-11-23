@@ -16,3 +16,5 @@ title: KBS1 UHD 채널 재난정보 부가서비스(IBB App) 개발
 ![그림 1](/images/KOBETA_202005_1.jpg)
 ![그림 2](/images/KOBETA_202005_2.jpg)
 ![그림 3](/images/KOBETA_202005_3.jpg)
+
+[함께보기] [[인터뷰] KBS UHD 양방향 IBB 부가서비스, 현황과 전망](http://tech.kobeta.com/%EC%9D%B8%ED%84%B0%EB%B7%B0-kbs-uhd-%EC%96%91%EB%B0%A9%ED%96%A5-ibb-%EB%B6%80%EA%B0%80%EC%84%9C%EB%B9%84%EC%8A%A4-%ED%98%84%ED%99%A9%EA%B3%BC-%EC%A0%84%EB%A7%9D/)
