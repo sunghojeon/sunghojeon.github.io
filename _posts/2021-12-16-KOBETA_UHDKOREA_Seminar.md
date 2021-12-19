@@ -7,3 +7,7 @@ title: UHD 혁신 서비스 경과 보고 @ 지상파 UHD 방송 세미나
 
 - 일시 : 2021년 12월 16일 목요일 14:40~15:10
 - 세션 : DAY 2 Session 2 UHD 서비스 성과와 방향
+
+![그림](/images/KOBETA_UHDKOREA_SEMINAR_2021-12.jpg)
+
+[발표자료](https://speakerdeck.com/sunghojeon/uhd-korea-jisangpa-uhd-bangsong-semina-at-hangugbangsonghoegwan-10ceung-bangsonggisulgyoyugweon)
