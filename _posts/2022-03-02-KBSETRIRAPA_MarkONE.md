@@ -15,6 +15,8 @@ title: 지상파 UHD 스마트폰 직접수신 시연 및 세미나 @ KBS 시청
 
 [관련기사#3 지상파, UHD TV 직접수신 등 경쟁력 강화 위한 MOU 체결](http://journal.kobeta.com/%ec%a7%80%ec%83%81%ed%8c%8c-uhd-tv-%ec%a7%81%ec%a0%91%ec%88%98%ec%8b%a0-%eb%93%b1-%ea%b2%bd%ec%9f%81%eb%a0%a5-%ea%b0%95%ed%99%94-%ec%9c%84%ed%95%9c-mou-%ec%b2%b4%ea%b2%b0/)
 
+![그림](/images/Markone_title.jpg)
+
 ![그림](/images/Markone_invitation.jpg)
 
 [발표자료](https://speakerdeck.com/sunghojeon/uhd-korea-jisangpa-uhd-bangsong-semina-at-hangugbangsonghoegwan-10ceung-bangsonggisulgyoyugweon)
