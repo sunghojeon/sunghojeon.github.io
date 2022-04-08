@@ -17,6 +17,8 @@ title: 지상파 UHD 스마트폰 직접수신 시연 및 세미나 @ KBS 시청
 
 [관련기사#4 3 Korean broadcasters to step up cooperation on UHD TV](https://www.abu.org.my/2022/03/07/3-korean-broadcasters-to-step-up-cooperation-on-uhd-tv/)
 
+[관련원고 KBS, 지상파 UHD 스마트폰 직접수신 시연 및 세미나 개최](http://tech.kobeta.com/kbs-%ec%a7%80%ec%83%81%ed%8c%8c-uhd-%ec%8a%a4%eb%a7%88%ed%8a%b8%ed%8f%b0-%ec%a7%81%ec%a0%91%ec%88%98%ec%8b%a0-%ec%8b%9c%ec%97%b0-%eb%b0%8f-%ec%84%b8%eb%af%b8%eb%82%98-%ea%b0%9c%ec%b5%9c/) 
+
 ![그림](/images/Markone_title.jpg)
 
 ![그림](/images/Markone_invitation.jpg)
