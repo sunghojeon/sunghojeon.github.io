@@ -16,9 +16,13 @@ permalink: /research/
 
 ### Journal Papers
 
+#### 2022
+
+1. Sungjun Ahn, Jeongchang Kim, Seok-Ki Ahn, Sunhyoung Kwon, **Sungho Jeon**, David Gomez-Barquero, Pablo Angueira, Dazhi He, Cristiano Akamine, Mats Ek, Sesh Simha, Mark Aitken, Zhihong Hunter Hong, Yiyan Wu, and Sung-Ik Park, "Characterization and Modeling of UHF Wireless Channel in Terrestrial SFN Environments: Urban Fading Profiles," *IEEE Transactions on Broadcasting*, Accepted.
+
 #### 2021
 
-1. Hoiyoon Jung, Sung-Ik Park, Bo-mi Lim, Haechan Kwon, Namho Hur, **Sungho Jeon**, Hyeongseok Kim, and Jeongchang Kim, "[Feasibility Verification of ATSC 3.0 MIMO System for 8K-UHD Terrestrial Broadcasting](https://doi.org/10.1109/TBC.2021.3081928)," *IEEE Transactions on Broadcasting*,  vol. 67, no. 4, pp. 909-916, December 2021..
+1. Hoiyoon Jung, Sung-Ik Park, Bo-mi Lim, Haechan Kwon, Namho Hur, **Sungho Jeon**, Hyeongseok Kim, and Jeongchang Kim, "[Feasibility Verification of ATSC 3.0 MIMO System for 8K-UHD Terrestrial Broadcasting](https://doi.org/10.1109/TBC.2021.3081928)," *IEEE Transactions on Broadcasting*,  vol. 67, no. 4, pp. 909-916, December 2021.
 
 #### 2019
 
