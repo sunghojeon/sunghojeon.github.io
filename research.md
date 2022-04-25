@@ -38,6 +38,10 @@ permalink: /research/
 ### Conference Papers
 
 
+#### 2022
+
+4. **Sungho Jeon**, Seongman Min, Dawoon Chung, Doowon Kim, Sung-Ik Park, and Byung-Ho Lee, "[Nationwide Integrated 24/7 Monitoring System for ATSC 3.0 Single Frequency Broadcast Network](https://bmsb2022.com/)," in *The 17th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2022), Bilbao, Spain, June 2022.
+
 #### 2021
 
 4. "[Impact of Cross-Polarization Discrimination for ATSC 3.0 MIMO System](https://doi.org/10.1109/BMSB53066.2021.9547145)," in *The 16th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2021), Chengdu, China, August 2021. ([Best Paper Award](https://news.unn.net/news/articleView.html?idxno=513673))
