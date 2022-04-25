@@ -44,10 +44,9 @@ permalink: /research/
 
 #### 2021
 
-4. "[Impact of Cross-Polarization Discrimination for ATSC 3.0 MIMO System](https://doi.org/10.1109/BMSB53066.2021.9547145)," in *The 16th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2021), Chengdu, China, August 2021. ([Best Paper Award](https://news.unn.net/news/articleView.html?idxno=513673))
+4. Hoiyoon Jung, Sung-Ik Park, Bo-mi Lim, Haechan Kwon, Namho Hur, **Sungho Jeon**, Hyeongseok Kim, and Jeongchang Kim, "[Impact of Cross-Polarization Discrimination for ATSC 3.0 MIMO System](https://doi.org/10.1109/BMSB53066.2021.9547145)," in *The 16th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2021), Chengdu, China, August 2021. ([Best Paper Award](https://news.unn.net/news/articleView.html?idxno=513673))
 
-4. "[ATSC 3.0 Multi-Antenna Receiver’s Mobile Performance in Seoul and the Metropolitan Area
-](https://doi.org/10.1109/BMSB53066.2021.9547128)," in *The 16th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2021), Chengdu, China, August 2021.
+4. Sung-Ik Park, Bo-mi Lim, **Sungho Jeon**, and Sungjun Ahn, "[ATSC 3.0 Multi-Antenna Receiver’s Mobile Performance in Seoul and the Metropolitan Area](https://doi.org/10.1109/BMSB53066.2021.9547128)," in *The 16th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2021), Chengdu, China, August 2021.
 
 
 
