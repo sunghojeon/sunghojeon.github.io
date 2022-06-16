@@ -18,7 +18,8 @@ permalink: /research/
 
 #### 2022
 
-1. Sungjun Ahn, Jeongchang Kim, Seok-Ki Ahn, Sunhyoung Kwon, **Sungho Jeon**, David Gomez-Barquero, Pablo Angueira, Dazhi He, Cristiano Akamine, Mats Ek, Sesh Simha, Mark Aitken, Zhihong Hunter Hong, Yiyan Wu, and Sung-Ik Park, "[Characterization and Modeling of UHF Wireless Channel in Terrestrial SFN Environments: Urban Fading Profiles](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=11)," *IEEE Transactions on Broadcasting*, Accepted. [MATLAB Library](https://github.com/ETRI-KMOU/FadingChannelSimulator)
+1. Sungjun Ahn, Jeongchang Kim, Seok-Ki Ahn, Sunhyoung Kwon, **Sungho Jeon**, David Gomez-Barquero, Pablo Angueira, Dazhi He, Cristiano Akamine, Mats Ek, Sesh Simha, Mark Aitken, Zhihong Hunter Hong, Yiyan Wu, and Sung-Ik Park, "[Characterization and Modeling of UHF Wireless Channel in Terrestrial SFN Environments: Urban Fading Profiles](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=11)," *IEEE Transactions on Broadcasting*, Accepted. [MATLAB Library](https://github.com/ETRI-KMOU/FadingChannelSimulator) [PPT](https://speakerdeck.com/sunghojeon/20220615-ieee-bmsb-2022-at-bilbao-spain)
+
 
 #### 2021
 
