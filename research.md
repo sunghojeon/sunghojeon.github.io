@@ -41,7 +41,7 @@ permalink: /research/
 
 #### 2022
 
-4. **Sungho Jeon**, Seongman Min, Dawoon Chung, Doowon Kim, Sung-Ik Park, and Byung-Ho Lee, "[Nationwide Integrated 24/7 Monitoring System for ATSC 3.0 Single Frequency Broadcast Network](https://bmsb2022.com/)," in *The 17th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2022), Bilbao, Spain, June 2022.[[PPT]](https://speakerdeck.com/sunghojeon/20220615-ieee-bmsb-2022-at-bilbao-spain)
+4. **Sungho Jeon**, Seongman Min, Dawoon Chung, Doowon Kim, Sung-Ik Park, and Byung-Ho Lee, "[Nationwide Integrated 24/7 Monitoring System for ATSC 3.0 Single Frequency Broadcast Network](https://bmsb2022.com/)," in *The 17th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2022), Bilbao, Spain, June 2022. [[PPT]](https://speakerdeck.com/sunghojeon/20220615-ieee-bmsb-2022-at-bilbao-spain)
 
 4. Hoiyoon Jung, Sung-Ik Park, Bo-mi Lim, Haechan Kwon, Namho Hur, **Sungho Jeon**, Hyeongseok Kim and Jeongchang Kim, "[Core-Layer Performance Comparison of ATSC 3.0 LDM-MIMO System in Mobile Environment](https://bmsb2022.com/)," in *The 17th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2022), Bilbao, Spain, June 2022.
 
