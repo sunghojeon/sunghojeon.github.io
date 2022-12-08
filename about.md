@@ -91,7 +91,7 @@ permalink: /about/
 - Technical Program Committee Co‐Chairs, [IEEE BMSB 2020](https://bmsb2020.isep.fr/organization.html) 
 - Technical Program Committee Co-Chair, [IEEE BMSB 2019](https://www.bmsb2019.org/organizing_committee.do)
 - Co-Chair, [Session 4: Broadcast systems at IEEE BMSB 2015](http://www.wica.intec.ugent.be/bmsb2015/wednesday-june-17#session4), Ghent, Belgium, 17 June 2015.
-- [Review Editor](https://www.frontiersin.org/journals/space-technologies/sections/aerial-and-space-networks), Frontiers in Space Technology (Aerial and Space Networks)
+- [Review Editor](https://loop.frontiersin.org/people/977903/overview), Frontiers in Space Technology (Aerial and Space Networks)
 - Reviewer, IEEE Transactions on Broadcasting, 2011 -
 - Reviewer, IEEE Communications Letters, 2009 -
 - Reviewer, IEEE Transactions on Vehicular Technology, 2010
