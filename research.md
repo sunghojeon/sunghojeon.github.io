@@ -16,11 +16,13 @@ permalink: /research/
 
 ### Journal Papers
 
-#### 2022
+#### 2023
 
 1. Seok-Ki Ahn, Sungjun Ahn, Jeongchang Kim, Hyeongseok Kim,  Sunhyoung Kwon, **Sungho Jeon**, Mats Ek, Sesh Simha, Anindya Saha, Prashant Maru, Parag Naik, Mark Aitken, Pablo Angueira, Yiyan Wu, and Sung-Ik Park, "[Evaluation of ATSC 3.0 and 3GPP Rel-17 5G Broadcasting Systems for Mobile Handheld Applications](https://doi.org/10.1109/TBC.2022.3222988)," *IEEE Transactions on Broadcasting*, Accepted. 
 
-1. Sungjun Ahn, Jeongchang Kim, Seok-Ki Ahn, Sunhyoung Kwon, **Sungho Jeon**, David Gomez-Barquero, Pablo Angueira, Dazhi He, Cristiano Akamine, Mats Ek, Sesh Simha, Mark Aitken, Zhihong Hunter Hong, Yiyan Wu, and Sung-Ik Park, "[Characterization and Modeling of UHF Wireless Channel in Terrestrial SFN Environments: Urban Fading Profiles](https://doi.org/10.1109/TBC.2022.3210382)," *IEEE Transactions on Broadcasting*, Accepted. [MATLAB Library](https://github.com/ETRI-KMOU/FadingChannelSimulator)
+#### 2022
+
+1. Sungjun Ahn, Jeongchang Kim, Seok-Ki Ahn, Sunhyoung Kwon, **Sungho Jeon**, David Gomez-Barquero, Pablo Angueira, Dazhi He, Cristiano Akamine, Mats Ek, Sesh Simha, Mark Aitken, Zhihong Hunter Hong, Yiyan Wu, and Sung-Ik Park, "[Characterization and Modeling of UHF Wireless Channel in Terrestrial SFN Environments: Urban Fading Profiles](https://doi.org/10.1109/TBC.2022.3210382)," *IEEE Transactions on Broadcasting*, vol. 68, no. 4, pp. 803-818, December 2022. [MATLAB Library](https://github.com/ETRI-KMOU/FadingChannelSimulator)
 
 
 #### 2021
