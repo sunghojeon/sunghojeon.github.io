@@ -62,6 +62,7 @@ permalink: /about/
 
 - [방송전송기술연구회](http://www.kibme.org/research/transmissionTech) 위원, 한국방송미디어공학회
 
+- [KCA국가기술자격검정](https://www.cq.or.kr/qh_cusgm17_001.do) 시험위원, 2022년 12월 ~ 현재
 	
 	
 ## Awards
