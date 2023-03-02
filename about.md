@@ -64,7 +64,7 @@ permalink: /about/
 
 - [KCA국가기술자격검정](https://www.cq.or.kr/qh_cusgm17_001.do) 시험위원, 2022년 12월 ~ 현재
 	
-- [KOCCA한국콘텐츠진흥원](https://pms.kocca.kr/) 평가위원, 2023년 3월 ~ 현재
+- [KOCCA한국콘텐츠진흥원](https://pms.kocca.kr/epms/) 평가위원, 2023년 3월 ~ 현재
 	
 ## Awards
 
