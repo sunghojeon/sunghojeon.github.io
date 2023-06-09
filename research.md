@@ -18,7 +18,7 @@ permalink: /research/
 
 #### 2023
 
-1. Seok-Ki Ahn, Sungjun Ahn, Jeongchang Kim, Hyeongseok Kim,  Sunhyoung Kwon, **Sungho Jeon**, Mats Ek, Sesh Simha, Anindya Saha, Prashant Maru, Parag Naik, Mark Aitken, Pablo Angueira, Yiyan Wu, and Sung-Ik Park, "[Evaluation of ATSC 3.0 and 3GPP Rel-17 5G Broadcasting Systems for Mobile Handheld Applications](https://doi.org/10.1109/TBC.2022.3222988)," *IEEE Transactions on Broadcasting*, Accepted. 
+1. Seok-Ki Ahn, Sungjun Ahn, Jeongchang Kim, Hyeongseok Kim,  Sunhyoung Kwon, **Sungho Jeon**, Mats Ek, Sesh Simha, Anindya Saha, Prashant Maru, Parag Naik, Mark Aitken, Pablo Angueira, Yiyan Wu, and Sung-Ik Park, "[Evaluation of ATSC 3.0 and 3GPP Rel-17 5G Broadcasting Systems for Mobile Handheld Applications](https://doi.org/10.1109/TBC.2022.3222988)," *IEEE Transactions on Broadcasting*, vol. 69, no. 2, pp. 338 - 356, June 2023.
 
 #### 2022
 
