@@ -47,7 +47,7 @@ permalink: /research/
 
 4. **Sungho Jeon**, Seong-Man Min, Dawoon Chung, Kangsoo Kim, Jahoon Ku, Sunhyoung Kwon and Sung-Ik Park, "[Simple Anomaly Detection Technique from Long-term Time-series Data by ATSC 3.0 Single Frequency Broadcast Network Monitoring System](https://www.bmsb2023.com/index.html)," in *The 18th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2023), Beijing, China, June 2023.
  
-4. Sungjun Ahn, Seok-Ki Ahn, Sung-Ik Park, Jeongchang Kim, **Sungho Jeon**, Mats Ek, Sesh Simha, Mark Aitken, Anindya Saha, Prashant Maru, Parag Naig and Joonhyuk Kang, "[Adaptive Modification of Fading Channel Models for Terrestrial SFN Environments](https://www.bmsb2023.com/index.html)," in *The 18th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2023), Beijing, China, June 2023.
+4. Sungjun Ahn, Seok-Ki Ahn, Sung-Ik Park, Jeongchang Kim, **Sungho Jeon**, Mats Ek, Sesh Simha, Mark Aitken, Anindya Saha, Prashant Maru, Parag Naig and Joonhyuk Kang, "[Adaptive Modification of Fading Channel Models for Terrestrial SFN Environments](https://www.bmsb2023.com/index.html)," in *The 18th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2023), Beijing, China, June 2023. [Best Student Paper Award](http://)
 
 
 #### 2022
