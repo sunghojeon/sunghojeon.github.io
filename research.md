@@ -5,9 +5,7 @@ permalink: /research/
 
 ## Lectures & Talks
 
-[SpeakerDeck](https://speakerdeck.com/sunghojeon) (2019.10.15.~)
-
-[SlideShare](http://www.slideshare.net/SunghoJeon/presentations) (~ 2019.10.15.)
+[SpeakerDeck](https://speakerdeck.com/sunghojeon)
 
 
 ## Publication
