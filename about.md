@@ -40,7 +40,8 @@ permalink: /about/
 - Delegate, Republic of Korea (Member States), ITU-R WP6A       
 	- [25 March - 2 April 2014](http://www.itu.int/md/R12-WP6A-C-0413/en), [13-20 February 2015](http://www.itu.int/md/R12-WP6A-C-0561/en), [6-14 October 2020](https://www.itu.int/md/R19-WP6A-C-0105/en), [16-24 March 2021](https://www.itu.int/md/R19-WP6A-C-0171/en), [18-26 October 2021](https://www.itu.int/md/R19-WP6A-C-0240/en)
 
-- Co-project Manager, Next Generation Terrestrial Broadcasting (T/NGTB) in [Distribution Topic Area](https://www.abu.org.my/2019/05/04/study-topics-projects/), ABU Technical Department 
+- Co-project Manager, Next Generation Terrestrial Broadcasting (T/NGTB) in [Distribution Topic Area](https://www.abu.org.my/2019/05/04/study-topics-projects/), ABU Technical Department
+         - [27 November 2022](https://www.abu.org.my/wp-content/uploads/2012/04/7-Topic-Chairmans-Report-Transmission.pdf)
 
 - Member, [IEEE Broadcast Technology Standards Committee](https://sagroups.ieee.org/btsc/), June 2023 -
  
