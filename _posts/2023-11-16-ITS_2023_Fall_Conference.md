@@ -21,6 +21,5 @@ title: ATSC 3.0 모바일 방송 추진현황과 서비스 개발 계획 @ 한�
 
   . 국내 디지털 라디오 현황 / ETRI 서재현 실장
 
-[홈페이지] http://www.kibme.org/academic/academicDetail?ae_idx=2361&ae_type=-1
 
 ![그림](https://www.kits.or.kr/upload/board_photo/20231020015727_5c07c880_0.jpg)
