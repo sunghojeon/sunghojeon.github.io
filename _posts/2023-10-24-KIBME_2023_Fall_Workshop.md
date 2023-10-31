@@ -14,5 +14,9 @@ title: (Session 2) 국내 차세대 방송 서비스 도입 기반 조성 현황
    . 14:10-14:50  ATSC 3.0 재난인지 취약계층을 위한 접근성 확대 재난방송서비스 개발 현황 / 이큐포올 이두희 개발본부장   
 
    . 14:50-15:30  ATSC 3.0 사용자 선택형 입체미디어 서비스 기술개발 / ETRI 김성훈 실장
+
+
+[홈페이지] http://www.kibme.org/academic/academicDetail?ae_idx=2361&ae_type=-1
+
    
 ![그림](/images/KIBME_2023_Fall_Workshop.png)
