@@ -11,7 +11,7 @@ title: ATSC 3.0 모바일 방송 추진현황과 서비스 개발 계획 @ 한�
 
 - 세션구성 
 
-  . ATSC 3.0 모바일 방송 추진현황과 서비스 개발 계획 / KBS 전성호 팀장
+  . [ATSC 3.0 모바일 방송 추진현황과 서비스 개발 계획](https://speakerdeck.com/sunghojeon/231116-itshaghoe-session-b-6-balpyo-culryeog) / KBS 전성호 팀장
 
   . ATSC 3.0 D2V (Direct-to-Vehicle) 필드테스트 결과 / ETRI 권선형 책임
 
