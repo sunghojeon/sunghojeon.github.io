@@ -16,7 +16,7 @@ permalink: /research/
 
 #### 2024
 
-1. Sungjun Ahn, Bo-mi Lim, Sunhyoung Kwon, **Sungho Jeon**, Xianbin Wang, and Sung-Ik Park, "[Diversity Receiver for ATSC 3.0-in-Vehicle: Design and Field Evaluation in Metropolitan SFN](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4359969)," *IEEE Transactions on Broadcasting*, To be published.
+1. Sungjun Ahn, Bo-Mi Lim, Sunhyoung Kwon, **Sungho Jeon**, Xianbin Wang, and Sung-Ik Park, "[Diversity Receiver for ATSC 3.0-in-Vehicle: Design and Field Evaluation in Metropolitan SFN](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=4359969)," *IEEE Transactions on Broadcasting*, To be published.
 
 #### 2023
 
