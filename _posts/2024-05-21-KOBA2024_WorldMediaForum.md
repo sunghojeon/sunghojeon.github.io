@@ -17,4 +17,6 @@ title: NextGen TV Worldwide @ KOBA 2024 World Media Forum
 
 [보도자료](http://journal.kobeta.com/koba-2024-%ec%9b%94%eb%93%9c%eb%af%b8%eb%94%94%ec%96%b4%ed%8f%ac%eb%9f%bc-5%ec%9b%94-21%ec%9d%bc-%ec%97%b4%eb%a0%a4nextgen-tv-worldwide/) [종합] KOBA 2024 월드미디어포럼 5월 21일 열려…‘NextGen TV Worldwide’
 
+[영상](https://www.youtube.com/watch?v=K6zFofuEAgU) 제32회 국제 방송미디어·음향·조명 전시회(KOBA 2024), 21일 코엑스서 개최... ‘Spark Your Creativity’ 주제!
+
 ![그림](/images/KOBA2024_WorldMediaForum.png)
