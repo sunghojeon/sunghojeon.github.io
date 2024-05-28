@@ -54,6 +54,8 @@ permalink: /about/
 - TTA WG8027(지상파UHD RF 정합테스트 실무반)        
 	- 의장, 2018.02. ~ [2023.11.](http://committee.tta.or.kr/standard/general.jsp?commit_code=WG8027&firstDepthCode=TC8&secondDepthCode=PG802&thirdDepthCode=WG8027)
 	- 간사, 2016.06. ~ 2018.02
+ - 
+- 국립전파연구원 '방송통신표준 방송기술전문위원회' 위원, 2024년 4월 ~
 		
 - KOSEN(한민족과학기술자네트워크) 전문가, 미래창조과학부/한국과학기술정보연구원 
 	- [2016/2017년도 KOSEN(한민족과학기술자네트워크) 전문가](http://kosen21.org/notice/noticeView.do?noticeSeq=NOT_0000000000025932), 2016년 10월~2017년 12월 
