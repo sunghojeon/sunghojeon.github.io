@@ -63,7 +63,7 @@ permalink: /about/
 	- [2019년도 KOSEN(한민족과학기술자네트워크) 전문가](http://www.kosen21.org/notice/noticeView.do?noticeSeq=NOT_0000000000103130), 2019년 1월~2019년 12월 
 
 - [한국방송기술인연합회(KOBETA)](http://www.kobeta.com/organization/)
-	- 제27대 정책실장, 2020년 7월 1일 ~ [2021년 12월 31일]http://journal.kobeta.com/%ed%95%9c%ea%b5%ad%eb%b0%a9%ec%86%a1%ea%b8%b0%ec%88%a0%ec%9d%b8%ec%97%b0%ed%95%a9%ed%9a%8c-2022%eb%85%84-%ec%a0%95%ea%b8%b0-%eb%8c%80%ec%9d%98%ec%9b%90%eb%8c%80%ed%9a%8c-%ea%b0%9c%ec%b5%9c/)
+	- 제27대 정책실장, 2020년 7월 1일 ~ [2021년 12월 31일](http://journal.kobeta.com/%ed%95%9c%ea%b5%ad%eb%b0%a9%ec%86%a1%ea%b8%b0%ec%88%a0%ec%9d%b8%ec%97%b0%ed%95%a9%ed%9a%8c-2022%eb%85%84-%ec%a0%95%ea%b8%b0-%eb%8c%80%ec%9d%98%ec%9b%90%eb%8c%80%ed%9a%8c-%ea%b0%9c%ec%b5%9c/)
 	- 제29대 정책실장, 2023년 1월 1일 ~ 현재
 
 - [정보통신기획평가원(IITP)](http://ezone.iitp.kr/) 평가위원, 2020년 02월 ~ 현재
