@@ -77,7 +77,7 @@ permalink: /about/
 
 - [KOCCA한국콘텐츠진흥원](https://pms.kocca.kr/epms/) 평가위원, 2023년 3월 ~ 현재
 
-- [NCS확인강사](https://www.hrd.go.kr/hrdp/kc/pkcfo/PKCFO0100D.do?pageIndex=1&orderKey=1&orderBy=ASC&hnfMnno=2224107&upperNcsCd=&middleNcsCd=&ncsCd=&srchAplYy=&srchCstmrNm=%EC%A0%84%EC%84%B1%ED%98%B8&pageOrder=1ASC&pageRow=10) (200302) 방송플랫폼기술, 2023년 9월 ~ 현재
+- [NCS확인강사](https://hrd.work24.go.kr/hrdp/kc/pkcfo/PKCFO0100D.do?pageIndex=1&orderKey=1&orderBy=ASC&hnfMnno=2224107&upperNcsCd=&middleNcsCd=&ncsCd=&srchAplYy=&srchCstmrNm=%EC%A0%84%EC%84%B1%ED%98%B8&pageOrder=1ASC&pageRow=10) (200302) 방송플랫폼기술, 2023년 9월 ~ 현재
 
 ## Awards
 
