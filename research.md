@@ -14,6 +14,8 @@ permalink: /research/
 
 ### Journal Papers
 
+Sunhyoung Kwon, Seok-Ki Ahn, Sungjun Ahn, **Sungho Jeon**, Sesh Simha, Mark Aitken, Anindya Saha, Prashant M. Maru, Parag Naik, and Sung-Ik Park, "Comparative Assessment of Physical Layer Performance: ATSC 3.0 vs. 5G Broadcast in Laboratory and Field Tests," *IEEE Transactions on Broadcasting*, to be published.
+
 #### 2024
 
 1. Sungjun Ahn, Bo-Mi Lim, Sunhyoung Kwon, **Sungho Jeon**, Xianbin Wang, and Sung-Ik Park, "[Diversity Receiver for ATSC 3.0-in-Vehicle: Design and Field Evaluation in Metropolitan SFN](https://ieeexplore.ieee.org/document/10479571)," *IEEE Transactions on Broadcasting*, vol. 70, no. 2, pp. 367 - 381, June 2024.
