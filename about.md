@@ -55,6 +55,9 @@ permalink: /about/
 	- 의장, 2018.02. ~ [2023.11.](http://committee.tta.or.kr/standard/general.jsp?commit_code=WG8027&firstDepthCode=TC8&secondDepthCode=PG802&thirdDepthCode=WG8027)
 	- 간사, 2016.06. ~ 2018.02
 
+- TTA WG80210(VHF 및 UHF 방송대역 안테나 특성 및 현장 측정 방법)        
+	- 간사, 2024.09. ~ [현재](https://committee.tta.or.kr/standard/schedule_view.jsp?thirdDepthCode=WG80210&secondDepthCode=PG802&thirdSubmit=%BC%B1%C5%C3&meeting_no=ME-WG80210-002&commit_code=WG80210)
+
 - 국립전파연구원 '방송통신표준 방송기술전문위원회' 위원, 2024년 4월 ~
 		
 - KOSEN(한민족과학기술자네트워크) 전문가, 미래창조과학부/한국과학기술정보연구원 
