@@ -85,6 +85,7 @@ permalink: /about/
 ## Awards
 
 (Achievement Award)
+- 표창장, 과학기술정보통신부 장관, 2024.12.
 - 표창장, 과학기술정보통신부 장관, 2020.12.
 - 표창장, 국립전파연구원장, 2020.12.
 - [표창패](http://tta.or.kr/news/certify_view.jsp?notice_num=6442), 지상파방송프로젝트그룹(PG802) 우수 위원상, 한국정보통신기술협회(TTA), 2018.12.
