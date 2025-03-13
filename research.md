@@ -14,6 +14,8 @@ permalink: /research/
 
 ### Journal Papers
 
+#### 2025
+
 1. Sunhyoung Kwon, Seok-Ki Ahn, Sungjun Ahn, **Sungho Jeon**, Sesh Simha, Mark Aitken, Anindya Saha, Prashant M. Maru, Parag Naik, and Sung-Ik Park, "[Comparative Assessment of Physical Layer Performance: ATSC 3.0 vs. 5G Broadcast in Laboratory and Field Tests](https://doi.org/10.1109/TBC.2024.3482183)," *IEEE Transactions on Broadcasting*, vol. 71, no. 1, pp. 2-10, March 2025.
 
 #### 2024
