@@ -42,6 +42,7 @@ permalink: /about/
 
 - Co-project Manager, Next Generation Terrestrial Broadcasting (T/NGTB) in [Distribution Topic Area](https://www.abu.org.my/2019/05/04/study-topics-projects/), ABU Technical Department
          - [27 November 2022](https://www.abu.org.my/wp-content/uploads/2012/04/7-Topic-Chairmans-Report-Transmission.pdf)
+         - [30 September 2024](https://www.abu.org.my/wp-content/uploads/2024/11/T-24-7-Distribution.pdf)
 
 - Member, [IEEE Broadcast Technology Standards Committee](https://sagroups.ieee.org/btsc/), June 2023 -
  
