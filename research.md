@@ -48,13 +48,22 @@ permalink: /research/
 
 ### Conference Papers
 
+#### 2025
+
+4. **Sungho Jeon**, Seongman Min, Moonsun Kang, Jae Hun You, Sunhyoung Kwon and Sung-Ik Park, "[ATSC 3.0 STLTP Distribution over Multicast-Unsupported VPN]()https://www.eeng.dcu.ie/~bmsb2025/program.html," in *The 20th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2025),  Dublin City University, Ireland, June 2025.
+
+4. Haechan Kwon, Sungjun Ahn, **Sungho Jeon**, Dongwook Kim, Jongsub Kim and Sung-Ik Park, ["Performance Comparison of Different Antenna Types for Diversity Reception in SFN Environments](https://www.eeng.dcu.ie/~bmsb2025/program.html)," in *The 20th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2025),  Dublin City University, Ireland, June 2025.
+
+4. Bo-mi Lim, Hoiyoon Jung, Sungjun Ahn, Jae Hyun Seo, Namho Hur, Han-Hwi Kim, **Sungho Jeon** and Sung-Ik Park, "[Implementation and Field Verification of ATSC 3.0 Channel Bonding](https://www.eeng.dcu.ie/~bmsb2025/program.html)," in *The 20th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2025),  Dublin City University, Ireland, June 2025.
+
+ 
 #### 2024
 
-4. Sunhyoung Kwon, Seok-Ki Ahn, **Sungho Jeon**, Sesh Simha, Mark Aitken, and Sung-Ik Park, "[Performance Evaluation of Time and Frequency Interelavers in ATSC 3.0 Through Laboratory and Field Tests](https://doi.org/10.1109/BMSB62888.2024.10608219)," in 2024 IEEE International Symposium on Broadband Multimedia Systems and Broadcasting (BMSB), Toronto, ON, Canada, June 2024. 
+4. Sunhyoung Kwon, Seok-Ki Ahn, **Sungho Jeon**, Sesh Simha, Mark Aitken, and Sung-Ik Park, "[Performance Evaluation of Time and Frequency Interelavers in ATSC 3.0 Through Laboratory and Field Tests](https://doi.org/10.1109/BMSB62888.2024.10608219)," in 2024 IEEE International Symposium on Broadband Multimedia Systems and Broadcasting (BMSB 2024), Toronto, ON, Canada, June 2024. 
 
-4. Sunhyoung Kwon, Seok-Ki Ahn, **Sungho Jeon**, Sesh Simha, Mark Aitken, and Sung-Ik Park, "[Physical layer performance comparison results of ATSC 3.0 and 5G Broadcast through laboratory and field tests](https://doi.org/10.1109/BMSB62888.2024.10608311)," in 2024 IEEE International Symposium on Broadband Multimedia Systems and Broadcasting (BMSB), Toronto, ON, Canada, June 2024. 
+4. Sunhyoung Kwon, Seok-Ki Ahn, **Sungho Jeon**, Sesh Simha, Mark Aitken, and Sung-Ik Park, "[Physical layer performance comparison results of ATSC 3.0 and 5G Broadcast through laboratory and field tests](https://doi.org/10.1109/BMSB62888.2024.10608311)," in 2024 IEEE International Symposium on Broadband Multimedia Systems and Broadcasting (BMSB 2024), Toronto, ON, Canada, June 2024. 
 
-4. Sung-Ik Park, Seok-Ki Ahn, Soyoung Han, **Sungho Jeon**, Sesh Simha, and Mark Aitken, "[Performance Evaluation of 5G Broadcast and ATSC 3.0 for Cellular Broadcasting Scenarios](https://doi.org/10.1109/BMSB62888.2024.10608271)," in 2024 IEEE International Symposium on Broadband Multimedia Systems and Broadcasting (BMSB), Toronto, ON, Canada, June 2024. 
+4. Sung-Ik Park, Seok-Ki Ahn, Soyoung Han, **Sungho Jeon**, Sesh Simha, and Mark Aitken, "[Performance Evaluation of 5G Broadcast and ATSC 3.0 for Cellular Broadcasting Scenarios](https://doi.org/10.1109/BMSB62888.2024.10608271)," in 2024 IEEE International Symposium on Broadband Multimedia Systems and Broadcasting (BMSB 2024), Toronto, ON, Canada, June 2024. 
 
 
 
