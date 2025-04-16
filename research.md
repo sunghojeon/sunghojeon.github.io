@@ -50,7 +50,7 @@ permalink: /research/
 
 #### 2025
 
-4. **Sungho Jeon**, Seongman Min, Moonsun Kang, Jae Hun You, Sunhyoung Kwon and Sung-Ik Park, "[ATSC 3.0 STLTP Distribution over Multicast-Unsupported VPN]()https://www.eeng.dcu.ie/~bmsb2025/program.html," in *The 20th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2025),  Dublin City University, Ireland, June 2025.
+4. **Sungho Jeon**, Seongman Min, Moonsun Kang, Jae Hun You, Sunhyoung Kwon and Sung-Ik Park, "[ATSC 3.0 STLTP Distribution over Multicast-Unsupported VPN](https://www.eeng.dcu.ie/~bmsb2025/program.html)," in *The 20th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2025),  Dublin City University, Ireland, June 2025.
 
 4. Haechan Kwon, Sungjun Ahn, **Sungho Jeon**, Dongwook Kim, Jongsub Kim and Sung-Ik Park, ["Performance Comparison of Different Antenna Types for Diversity Reception in SFN Environments](https://www.eeng.dcu.ie/~bmsb2025/program.html)," in *The 20th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2025),  Dublin City University, Ireland, June 2025.
 
