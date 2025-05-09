@@ -207,7 +207,7 @@ permalink: /research/
 
 #### 2007
 
-1. **Sungho Jeon**, and Sanghoon Lee, "[A Relay-Assisted Handover Technique with Network Coding over Multihop Cellular Networks](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=4133913)," *IEEE Communications Letters*, vol.11, no.3, pp.252-254, March 2007.
+1. **Sungho Jeon**, and Sanghoon Lee, "[A Relay-Assisted Handover Technique with Network Coding over Multihop Cellular Networks](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=4133913)," *IEEE Communications Letters*, vol.11, no.3, pp.252-254, March 2007. [IPR](https://patents.google.com/patent/US20080085709A1/)
 
 #### 2006
 
