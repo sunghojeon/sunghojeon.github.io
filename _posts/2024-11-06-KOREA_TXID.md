@@ -11,6 +11,7 @@ title: 우리나라 ATSC 3.0 TxID 분배표 홈페이지 개통
 
 
 해당 홈페이지는 ATSC 표준문서에도 반영되었습니다.
+
 A/327:2025-02, “[Guidelines for the Physical Layer Protocol](https://www.atsc.org/wp-content/uploads/2025/02/A327-2025-02-Physical-Layer-RP.pdf)”, 24 February 2025.
 
 ![그림](/images/txid2025.png)
