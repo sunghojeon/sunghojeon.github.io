@@ -390,7 +390,3 @@ permalink: /research/
 
 8. Sanghun Kim, **Sungho Jeon**, Ilsoo Kyung, Geunsoo Park, ''Statement of interest in participating in the Workshop,'' The Third W3C Web and TV workshop, Hollywood, California, USA, September, 2011.
 
-
-
-
-1
