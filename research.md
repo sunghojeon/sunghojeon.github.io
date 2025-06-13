@@ -35,15 +35,6 @@ permalink: /research/
 
 1. Hoiyoon Jung, Sung-Ik Park, Bo-mi Lim, Haechan Kwon, Namho Hur, **Sungho Jeon**, Hyeongseok Kim, and Jeongchang Kim, "[Feasibility Verification of ATSC 3.0 MIMO System for 8K-UHD Terrestrial Broadcasting](https://doi.org/10.1109/TBC.2021.3081928)," *IEEE Transactions on Broadcasting*,  vol. 67, no. 4, pp. 909-916, December 2021.
 
-#### 2019
-
-1. Jaekwon Lee, **Sungho Jeon**, Sung-Ik Park, Dong Ku Kim, "[Efficient ATSC 3.0 TxID Signal Detection for Single Frequency Networks](https://doi.org/10.1109/TBC.2018.2874548)," *IEEE Transactions on Broadcasting*, vol. 65, no. 2, pp. 326-332, June 2019. 
-
-1. Sung-Ik Park, Jae-young Lee, Sunhyoung Kwon, Bo-mi Lim, Sungjun Ahn, Heung Mook Kim, **Sungho Jeon**, Jaekwon Lee, Michael Simon, Mark Aitken, Kevin Gage, Yiyan Wu, Liang Zhang, Wei Li, and Jeongchang Kim, "[Performance Analysis of All Modulation and Code Combinations in ATSC 3.0 Physical Layer Protocol](https://doi.org/10.1109/TBC.2018.2871372)," *IEEE Transactions on Broadcasting*, vol. 65, no. 2, pp. 197-210, June 2019.
-
-#### 2018
-
-1. Jae-young Lee, Sung Ik Park, Sunhyoung Kwon, Bo-mi Lim, Heung Mook Kim, Namho Hur, Anthony Pesin, Jean-Claude Chevet, Joan Llach, Alan Stein, **Sungho Jeon**, and Yiyan Wu, "[Efficient Transmission of Multiple Broadcasting Services Using LDM and SHVC](http://ieeexplore.ieee.org/document/8063347/)," *IEEE Transactions on Broadcasting*, vol. 64, no. 2, pp. 177-187, June 2018.
 
 
 ### Conference Papers
@@ -91,57 +82,6 @@ permalink: /research/
 4. Sung-Ik Park, Bo-mi Lim, **Sungho Jeon**, and Sungjun Ahn, "[ATSC 3.0 Multi-Antenna Receiver’s Mobile Performance in Seoul and the Metropolitan Area](https://doi.org/10.1109/BMSB53066.2021.9547128)," in *The 16th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2021), Chengdu, China, August 2021.
 
 
-
-
-#### 2019
-
-4. **Sungho Jeon**, Younseok Choi, Yoo-Sang Shin, Jin Sol Nam, Jaekwon Lee, Jahoon Ku, Bo-Mi Lim, Sungjun Ahn, Jae-Young Lee, and Sung-Ik Park, "[Methodology for Analyzing ATSC 3.0 Single Frequency Network Overlapped Area Based on Spatial Interpolation](https://doi.org/10.1109/BMSB47279.2019.8971902)," in *The 14th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2019), Jeju, Republic of Korea, June 2019. [IEEE BTS TV](https://www.youtube.com/watch?v=vDEweqymXZg)
-
-#### 2018
-
-4. **Sungho Jeon**, Jaekwon Lee, Sunhyoung Kwon, Bo-Mi Lim, Sungjun Ahn, Yoo-Sang Shin, Jae-Young Lee and Sung-Ik Park, "[Field Trial Results for ATSC 3.0 TxID Transmission and Detection in Single Frequency Network of Seoul](https://doi.org/10.1109/BMSB.2018.8436849)," in *The 13th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2018), Valencia, Spain, June 2018. [[Slide](https://speakerdeck.com/sunghojeon/180607-field-trial-results-for-atsc-3-dot-0-txid-transmission-and-detection-in-single-frequency-network-of-seoul)]
-
-4. Sung-Ik Park, Jae-Young Lee, Sunhyoung Kwon, Bo-Mi Lim, Sungjun Ahn, Heung Mook Kim, **Sungho Jeon**, Jaekwon Lee, Michael Simon, Mark Aitken, Kevin Gage, Yiyan Wu, Liang Zhang, Wei Li and Jeongchang Kim, "[ATSC 3.0 Physical Layer Modulation and Coding Performance Analysis](https://doi.org/10.1109/BMSB.2018.8436876)," in *The 13th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2018), Valencia, Spain, June 2018. (Best Paper Award)
-
-4. Jae-Young Lee, Sung-Ik Park, Sunhyoung Kwon, Bo-Mi Lim, Sungjun Ahn, Namho Hur, Heung Mook Kim, **Sungho Jeon** and David Gomez-Barquero, "[Field Testing of LDM and SHVC Broadcast in ATSC 3.0](https://doi.org/10.1109/BMSB.2018.8436801)," in *The 13th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2018), Valencia, Spain, June 2018.
-
-#### 2017
-
-4. **Sungho Jeon**, Junghyun Kim, Yoo-Sang Shin, Sanghoon Kim, Sangjin Hahm, Young-Woo Suh, Sung-Ik Park, Jae-young Lee, and Jong-Soo Seo, "[Preliminary Field Trial Results for DVB-T2 Indoor Reception in Seoul: A Single Transmitter Case](https://doi.org/10.1109/BMSB.2017.7986186)," in *The 12th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2017), Cagliari, Italy, June 2017. [[Slide](https://speakerdeck.com/sunghojeon/bmsb-2017-preliminary-field-trial-results-for-dvb-t2-indoor-reception-in-seoul-a-single-transmitter-case)]
-4. Jae-young Lee, Sung Ik Park, Sunhyoung Kwon, Bo-mi Lim, Heung Mook Kim, Namho Hur, Anthony Pesin, Jean-Claude Chevet, Joan Llach, Alan Stein, **Sungho Jeon**, and Yiyan Wu, "[Scalable HEVC over Layered Division Multiplexing for the Next Generation Terrestrial Broadcasting](https://doi.org/10.1109/BMSB.2017.7986176)," in *The 12th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2017), Cagliari, Italy, June 2017. (Best Paper Award)
-
-
-
-### Korean Journal Papers
-
-#### 2019
-
-6. 서창호, 임윤혁, **전성호**, 서재현, 최성진, "[ATSC 3.0 기반 UHD, 이동HD, 디지털라디오 통합전송 연구](http://www.kibme.org/resources/journal/20190814141533317.pdf)", 방송공학회논문지 제24권 제4호 643-659쪽, 2019년 7월.
-
-#### 2018
-
-6. 신유상, 이재권, **전성호**, 박승근, 김재만, 오대겸, 정행운, "[2018 평창 동계올림픽 ATSC 3.0 표준기반 4K-UHD/모바일 HD 방송 추진 결과](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07434494)", 한국방송미디어공학회 학회지 제23권 2호(특집: 2018 평창 동계올림픽 방송) 33-42쪽, 2018년 4월. 
-
-### Korean Conference Papers
-
-#### 2020
-
-7. 서영우,  *전성호*, "[지상파 UHD 방송 부가서비스 동향 및 전망](https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE09414283), 2020년 한국방송·미디어공학회 하계학술대회, [온라인](http://kibme2020a.anyforum.net/index.do), 2020년 7월.
-
-
-#### 2018
-
-7. 서영우, **전성호**, 서창호, "[UHD 제작 및 송수신 시연을 위한 테스트베드 구축](http://kosbe.or.kr/bbs/board.php?bo_table=m61&wr_id=430)", 2018년 한국방송·미디어공학회 하계학술대회, 제주한라대학교 금호세계교육관, 2018년 6월.
-
-
-#### 2017
-
-7. **전성호**, 임보미, 박성익, 이재권, 장진영, 이권익, "[ATSC 3.0 기반 모바일HD 물리계층 필드테스트 결과: 제주테크노파크 100W 실험국과 제주시내 이동측정을 위주로](http://office.kbs.co.kr/tri/file_down.php?attach=/2017/11/ATSC3.0-%EA%B8%B0%EB%B0%98-%EB%AA%A8%EB%B0%94%EC%9D%BCHD-%EB%AC%BC%EB%A6%AC%EA%B3%84%EC%B8%B5-%ED%95%84%EB%93%9C%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B2%B0%EA%B3%BC.pdf)", 한국방송미디어공학회 2017 추계학술대회, 서울과학기술대학교 100주년기념관, 2017년 11월. [[Slide](https://speakerdeck.com/sunghojeon/atsc-3-dot-0-giban-mobailhd-mulrigyeceung-pildeuteseuteu-gyeolgwa-jejutekeunopakeu-100w-silheomguggwa-jejusinae-idongceugjeongeul-wijuro-at-2017-hangugbangsonggonghaghoe-cugyehagsuldaehoe)]
-
-7. **전성호**, 이재권, 신유상, 최우식, 이헌주, 장진영, 오주봉, 이재호, 강대갑, "[ATSC 3.0 기반 지상파 UHD 본방송을 위한 물리계층 필드테스트 결과](http://office.kbs.co.kr/tri/file_down.php?attach=/2017/07/ATSC-3.0-%EA%B8%B0%EB%B0%98-%EC%A7%80%EC%83%81%ED%8C%8C-UHD-%EB%B3%B8%EB%B0%A9%EC%86%A1%EC%9D%84-%EC%9C%84%ED%95%9C-%EB%AC%BC%EB%A6%AC%EA%B3%84%EC%B8%B5-%ED%95%84%EB%93%9C%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B2%B0%EA%B3%BC.pdf)", 한국방송미디어공학회 2017 하계학술대회, 제주한라대학교 금호세계교육관, 2017년 6월.
-
-
-
 ## Standardization  
 
 #### ITU-R SG6
@@ -149,9 +89,19 @@ permalink: /research/
 8. ITU-R WP6A  Contribution 354, ''[Proposed revision of Report ITU-R BT.2343-2 - Collection of field trials of UHDTV over DTT networks](https://www.itu.int/md/R15-WP6A-C-0354/en),'' April 2018.
     - Adopted in [Preliminary draft revision to Report ITU-R BT.2343-2 - Collection of field trials of UHDTV over DTT networks](https://www.itu.int/md/R15-WP6A-C-0387/en).
 
-## Publication (Before 2016)
+## Publication (Before 2020)
 
-### Journal Papers
+### International Journal 
+
+#### 2019
+
+1. Jaekwon Lee, **Sungho Jeon**, Sung-Ik Park, Dong Ku Kim, "[Efficient ATSC 3.0 TxID Signal Detection for Single Frequency Networks](https://doi.org/10.1109/TBC.2018.2874548)," *IEEE Transactions on Broadcasting*, vol. 65, no. 2, pp. 326-332, June 2019. 
+
+1. Sung-Ik Park, Jae-young Lee, Sunhyoung Kwon, Bo-mi Lim, Sungjun Ahn, Heung Mook Kim, **Sungho Jeon**, Jaekwon Lee, Michael Simon, Mark Aitken, Kevin Gage, Yiyan Wu, Liang Zhang, Wei Li, and Jeongchang Kim, "[Performance Analysis of All Modulation and Code Combinations in ATSC 3.0 Physical Layer Protocol](https://doi.org/10.1109/TBC.2018.2871372)," *IEEE Transactions on Broadcasting*, vol. 65, no. 2, pp. 197-210, June 2019.
+
+#### 2018
+
+1. Jae-young Lee, Sung Ik Park, Sunhyoung Kwon, Bo-mi Lim, Heung Mook Kim, Namho Hur, Anthony Pesin, Jean-Claude Chevet, Joan Llach, Alan Stein, **Sungho Jeon**, and Yiyan Wu, "[Efficient Transmission of Multiple Broadcasting Services Using LDM and SHVC](http://ieeexplore.ieee.org/document/8063347/)," *IEEE Transactions on Broadcasting*, vol. 64, no. 2, pp. 177-187, June 2018.
 
 #### 2016
 
@@ -230,6 +180,27 @@ permalink: /research/
 
 ### Conference Papers
 
+
+
+
+#### 2019
+
+4. **Sungho Jeon**, Younseok Choi, Yoo-Sang Shin, Jin Sol Nam, Jaekwon Lee, Jahoon Ku, Bo-Mi Lim, Sungjun Ahn, Jae-Young Lee, and Sung-Ik Park, "[Methodology for Analyzing ATSC 3.0 Single Frequency Network Overlapped Area Based on Spatial Interpolation](https://doi.org/10.1109/BMSB47279.2019.8971902)," in *The 14th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2019), Jeju, Republic of Korea, June 2019. [IEEE BTS TV](https://www.youtube.com/watch?v=vDEweqymXZg)
+
+#### 2018
+
+4. **Sungho Jeon**, Jaekwon Lee, Sunhyoung Kwon, Bo-Mi Lim, Sungjun Ahn, Yoo-Sang Shin, Jae-Young Lee and Sung-Ik Park, "[Field Trial Results for ATSC 3.0 TxID Transmission and Detection in Single Frequency Network of Seoul](https://doi.org/10.1109/BMSB.2018.8436849)," in *The 13th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2018), Valencia, Spain, June 2018. [[Slide](https://speakerdeck.com/sunghojeon/180607-field-trial-results-for-atsc-3-dot-0-txid-transmission-and-detection-in-single-frequency-network-of-seoul)]
+
+4. Sung-Ik Park, Jae-Young Lee, Sunhyoung Kwon, Bo-Mi Lim, Sungjun Ahn, Heung Mook Kim, **Sungho Jeon**, Jaekwon Lee, Michael Simon, Mark Aitken, Kevin Gage, Yiyan Wu, Liang Zhang, Wei Li and Jeongchang Kim, "[ATSC 3.0 Physical Layer Modulation and Coding Performance Analysis](https://doi.org/10.1109/BMSB.2018.8436876)," in *The 13th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2018), Valencia, Spain, June 2018. (Best Paper Award)
+
+4. Jae-Young Lee, Sung-Ik Park, Sunhyoung Kwon, Bo-Mi Lim, Sungjun Ahn, Namho Hur, Heung Mook Kim, **Sungho Jeon** and David Gomez-Barquero, "[Field Testing of LDM and SHVC Broadcast in ATSC 3.0](https://doi.org/10.1109/BMSB.2018.8436801)," in *The 13th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2018), Valencia, Spain, June 2018.
+
+#### 2017
+
+4. **Sungho Jeon**, Junghyun Kim, Yoo-Sang Shin, Sanghoon Kim, Sangjin Hahm, Young-Woo Suh, Sung-Ik Park, Jae-young Lee, and Jong-Soo Seo, "[Preliminary Field Trial Results for DVB-T2 Indoor Reception in Seoul: A Single Transmitter Case](https://doi.org/10.1109/BMSB.2017.7986186)," in *The 12th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2017), Cagliari, Italy, June 2017. [[Slide](https://speakerdeck.com/sunghojeon/bmsb-2017-preliminary-field-trial-results-for-dvb-t2-indoor-reception-in-seoul-a-single-transmitter-case)]
+4. Jae-young Lee, Sung Ik Park, Sunhyoung Kwon, Bo-mi Lim, Heung Mook Kim, Namho Hur, Anthony Pesin, Jean-Claude Chevet, Joan Llach, Alan Stein, **Sungho Jeon**, and Yiyan Wu, "[Scalable HEVC over Layered Division Multiplexing for the Next Generation Terrestrial Broadcasting](https://doi.org/10.1109/BMSB.2017.7986176)," in *The 12th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2017), Cagliari, Italy, June 2017. (Best Paper Award)
+
+
 #### 2016
 
 4. **Sungho Jeon**, Sanghun Kim, Jeong-Deok Kim, Zungkon Yim, and Jong-Soo Seo, "[Field Trial Results of 4K-UHD over DVB-T2 Single Frequency Network in Republic of Korea](http://dx.doi.org/10.1109/BMSB.2016.7522002)," in *The 11th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2016), Nara, Japan, June 2016. 
@@ -301,6 +272,15 @@ permalink: /research/
 
 ### Korean Journal Papers
 
+
+#### 2019
+
+6. 서창호, 임윤혁, **전성호**, 서재현, 최성진, "[ATSC 3.0 기반 UHD, 이동HD, 디지털라디오 통합전송 연구](http://www.kibme.org/resources/journal/20190814141533317.pdf)", 방송공학회논문지 제24권 제4호 643-659쪽, 2019년 7월.
+
+#### 2018
+
+6. 신유상, 이재권, **전성호**, 박승근, 김재만, 오대겸, 정행운, "[2018 평창 동계올림픽 ATSC 3.0 표준기반 4K-UHD/모바일 HD 방송 추진 결과](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07434494)", 한국방송미디어공학회 학회지 제23권 2호(특집: 2018 평창 동계올림픽 방송) 33-42쪽, 2018년 4월. 
+
 #### 2016
 
 6. **전성호**, 김상훈, 함상진, 임중곤, 서영우 (2016.7). [HEVC over DVB-T2 기반 지상파 4K-UHDTV 방송을 위한 양시청 기준값 실험실 테스트 결과](http://ksbe-jbe.org/data/file/m21/1028299528_t6KCFJcz_21-4-04.pdf). 『방송공학회논문지』 <특집논문:IWAIT 2016>, 21(4), 506-514.
@@ -342,6 +322,24 @@ permalink: /research/
 
 
 ### Korean Conference Papers
+
+
+#### 2020
+
+7. 서영우,  *전성호*, "[지상파 UHD 방송 부가서비스 동향 및 전망](https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE09414283), 2020년 한국방송·미디어공학회 하계학술대회, [온라인](http://kibme2020a.anyforum.net/index.do), 2020년 7월.
+
+
+#### 2018
+
+7. 서영우, **전성호**, 서창호, "[UHD 제작 및 송수신 시연을 위한 테스트베드 구축](http://kosbe.or.kr/bbs/board.php?bo_table=m61&wr_id=430)", 2018년 한국방송·미디어공학회 하계학술대회, 제주한라대학교 금호세계교육관, 2018년 6월.
+
+
+#### 2017
+
+7. **전성호**, 임보미, 박성익, 이재권, 장진영, 이권익, "[ATSC 3.0 기반 모바일HD 물리계층 필드테스트 결과: 제주테크노파크 100W 실험국과 제주시내 이동측정을 위주로](http://office.kbs.co.kr/tri/file_down.php?attach=/2017/11/ATSC3.0-%EA%B8%B0%EB%B0%98-%EB%AA%A8%EB%B0%94%EC%9D%BCHD-%EB%AC%BC%EB%A6%AC%EA%B3%84%EC%B8%B5-%ED%95%84%EB%93%9C%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B2%B0%EA%B3%BC.pdf)", 한국방송미디어공학회 2017 추계학술대회, 서울과학기술대학교 100주년기념관, 2017년 11월. [[Slide](https://speakerdeck.com/sunghojeon/atsc-3-dot-0-giban-mobailhd-mulrigyeceung-pildeuteseuteu-gyeolgwa-jejutekeunopakeu-100w-silheomguggwa-jejusinae-idongceugjeongeul-wijuro-at-2017-hangugbangsonggonghaghoe-cugyehagsuldaehoe)]
+
+7. **전성호**, 이재권, 신유상, 최우식, 이헌주, 장진영, 오주봉, 이재호, 강대갑, "[ATSC 3.0 기반 지상파 UHD 본방송을 위한 물리계층 필드테스트 결과](http://office.kbs.co.kr/tri/file_down.php?attach=/2017/07/ATSC-3.0-%EA%B8%B0%EB%B0%98-%EC%A7%80%EC%83%81%ED%8C%8C-UHD-%EB%B3%B8%EB%B0%A9%EC%86%A1%EC%9D%84-%EC%9C%84%ED%95%9C-%EB%AC%BC%EB%A6%AC%EA%B3%84%EC%B8%B5-%ED%95%84%EB%93%9C%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B2%B0%EA%B3%BC.pdf)", 한국방송미디어공학회 2017 하계학술대회, 제주한라대학교 금호세계교육관, 2017년 6월.
+
 
 #### 2014
 
