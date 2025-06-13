@@ -18,6 +18,13 @@ permalink: /research/
 
 1. Sunhyoung Kwon, Seok-Ki Ahn, Sungjun Ahn, **Sungho Jeon**, Sesh Simha, Mark Aitken, Anindya Saha, Prashant M. Maru, Parag Naik, and Sung-Ik Park, "[Comparative Assessment of Physical Layer Performance: ATSC 3.0 vs. 5G Broadcast in Laboratory and Field Tests](https://doi.org/10.1109/TBC.2024.3482183)," *IEEE Transactions on Broadcasting*, vol. 71, no. 1, pp. 2-10, March 2025.
 
+
+4. **Sungho Jeon**, Seongman Min, Moonsun Kang, Jae Hun You, Sunhyoung Kwon and Sung-Ik Park, "[ATSC 3.0 STLTP Distribution over Multicast-Unsupported VPN](https://www.eeng.dcu.ie/~bmsb2025/program.html)," in *The 20th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2025),  Dublin City University, Ireland, June 2025. [[PPTX]](https://speakerdeck.com/sunghojeon/ieee-bmsb-2025-at-dublin-ireland)
+
+
+4. **Sungho Jeon**, Seongman Min, Moonsun Kang, Jae Hun You, Sunhyoung Kwon and Sung-Ik Park, "[ATSC 3.0 STLTP Distribution over Multicast-Unsupported VPN](https://www.eeng.dcu.ie/~bmsb2025/program.html)," in *The 20th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2025),  Dublin City University, Ireland, June 2025. [[PPTX]](https://speakerdeck.com/sunghojeon/ieee-bmsb-2025-at-dublin-ireland)
+
+
 #### 2024
 
 1. Sungjun Ahn, Bo-Mi Lim, Sunhyoung Kwon, **Sungho Jeon**, Xianbin Wang, and Sung-Ik Park, "[Diversity Receiver for ATSC 3.0-in-Vehicle: Design and Field Evaluation in Metropolitan SFN](https://ieeexplore.ieee.org/document/10479571)," *IEEE Transactions on Broadcasting*, vol. 70, no. 2, pp. 367 - 381, June 2024.
