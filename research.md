@@ -51,13 +51,12 @@ permalink: /research/
  
 #### 2024
 
-4. Sunhyoung Kwon, Seok-Ki Ahn, **Sungho Jeon**, Sesh Simha, Mark Aitken, and Sung-Ik Park, "[Performance Evaluation of Time and Frequency Interelavers in ATSC 3.0 Through Laboratory and Field Tests](https://doi.org/10.1109/BMSB62888.2024.10608219)," in 2024 IEEE International Symposium on Broadband Multimedia Systems and Broadcasting (BMSB 2024), Toronto, ON, Canada, June 2024. 
+4. Sunhyoung Kwon, Seok-Ki Ahn, **Sungho Jeon**, Sesh Simha, Mark Aitken, and Sung-Ik Park, "[Performance Evaluation of Time and Frequency Interelavers in ATSC 3.0 Through Laboratory and Field Tests](https://doi.org/10.1109/BMSB62888.2024.10608219)," in *The 19th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2024), Toronto, ON, Canada, June 2024. 
 
-4. Sunhyoung Kwon, Seok-Ki Ahn, **Sungho Jeon**, Sesh Simha, Mark Aitken, and Sung-Ik Park, "[Physical layer performance comparison results of ATSC 3.0 and 5G Broadcast through laboratory and field tests](https://doi.org/10.1109/BMSB62888.2024.10608311)," in 2024 IEEE International Symposium on Broadband Multimedia Systems and Broadcasting (BMSB 2024), Toronto, ON, Canada, June 2024. 
+4. Sunhyoung Kwon, Seok-Ki Ahn, **Sungho Jeon**, Sesh Simha, Mark Aitken, and Sung-Ik Park, "[Physical layer performance comparison results of ATSC 3.0 and 5G Broadcast through laboratory and field tests](https://doi.org/10.1109/BMSB62888.2024.10608311)," in *The 19th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2024), Toronto, ON, Canada, June 2024. 
 
-4. Sung-Ik Park, Seok-Ki Ahn, Soyoung Han, **Sungho Jeon**, Sesh Simha, and Mark Aitken, "[Performance Evaluation of 5G Broadcast and ATSC 3.0 for Cellular Broadcasting Scenarios](https://doi.org/10.1109/BMSB62888.2024.10608271)," in 2024 IEEE International Symposium on Broadband Multimedia Systems and Broadcasting (BMSB 2024), Toronto, ON, Canada, June 2024. 
-
-
+4. Sung-Ik Park, Seok-Ki Ahn, Soyoung Han, **Sungho Jeon**, Sesh Simha, and Mark Aitken, "[Performance Evaluation of 5G Broadcast and ATSC 3.0 for Cellular Broadcasting Scenarios](https://doi.org/10.1109/BMSB62888.2024.10608271)," in *The 19th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2024), Toronto, ON, Canada, June 2024.
+5. 
 
 #### 2023
 
