@@ -50,7 +50,7 @@ permalink: /research/
 
 #### 2025
 
-4. **Sungho Jeon**, Seongman Min, Moonsun Kang, Jae Hun You, Sunhyoung Kwon and Sung-Ik Park, "[ATSC 3.0 STLTP Distribution over Multicast-Unsupported VPN](https://www.eeng.dcu.ie/~bmsb2025/program.html)," in *The 20th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2025),  Dublin City University, Ireland, June 2025.
+4. **Sungho Jeon**, Seongman Min, Moonsun Kang, Jae Hun You, Sunhyoung Kwon and Sung-Ik Park, "[ATSC 3.0 STLTP Distribution over Multicast-Unsupported VPN](https://www.eeng.dcu.ie/~bmsb2025/program.html)," in *The 20th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2025),  Dublin City University, Ireland, June 2025. [[PPTX]](https://speakerdeck.com/sunghojeon/ieee-bmsb-2025-at-dublin-ireland)
 
 4. Haechan Kwon, Sungjun Ahn, **Sungho Jeon**, Dongwook Kim, Jongsub Kim and Sung-Ik Park, ["Performance Comparison of Different Antenna Types for Diversity Reception in SFN Environments](https://www.eeng.dcu.ie/~bmsb2025/program.html)," in *The 20th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2025),  Dublin City University, Ireland, June 2025.
 
@@ -69,7 +69,7 @@ permalink: /research/
 
 #### 2023
 
-4. **Sungho Jeon**, Seong-Man Min, Dawoon Chung, Kangsoo Kim, Jahoon Ku, Sunhyoung Kwon and Sung-Ik Park, "[Simple Anomaly Detection Technique from Long-term Time-series Data by ATSC 3.0 Single Frequency Broadcast Network Monitoring System](https://doi.org/10.1109/BMSB58369.2023.10211288)," in *The 18th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2023), Beijing, China, June 2023.
+4. **Sungho Jeon**, Seong-Man Min, Dawoon Chung, Kangsoo Kim, Jahoon Ku, Sunhyoung Kwon and Sung-Ik Park, "[Simple Anomaly Detection Technique from Long-term Time-series Data by ATSC 3.0 Single Frequency Broadcast Network Monitoring System](https://doi.org/10.1109/BMSB58369.2023.10211288)," in *The 18th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2023), Beijing, China, June 2023. [[PPTX]](https://speakerdeck.com/sunghojeon/20220615-ieee-bmsb-2023-at-beijing-china)
  
 4. Sungjun Ahn, Seok-Ki Ahn, Sung-Ik Park, Jeongchang Kim, **Sungho Jeon**, Mats Ek, Sesh Simha, Mark Aitken, Anindya Saha, Prashant Maru, Parag Naig and Joonhyuk Kang, "[Adaptive Modification of Fading Channel Models for Terrestrial SFN Environments](https://www.bmsb2023.com/index.html)," in *The 18th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2023), Beijing, China, June 2023. [Best Student Paper Award](http://journal.kobeta.com/%ec%95%88%ec%84%b1%ec%a4%80-kaist-%eb%b0%95%ec%82%ac%ea%b3%bc%ec%a0%95-ieee-bmsb-2023-%ed%95%99%ec%88%a0%eb%8c%80%ed%9a%8c%ec%84%9c-%ec%88%98%ec%83%81/)
 
