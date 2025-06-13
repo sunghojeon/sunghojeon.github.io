@@ -82,12 +82,6 @@ permalink: /research/
 4. Sung-Ik Park, Bo-mi Lim, **Sungho Jeon**, and Sungjun Ahn, "[ATSC 3.0 Multi-Antenna Receiver’s Mobile Performance in Seoul and the Metropolitan Area](https://doi.org/10.1109/BMSB53066.2021.9547128)," in *The 16th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2021), Chengdu, China, August 2021.
 
 
-## Standardization  
-
-#### ITU-R SG6
-
-8. ITU-R WP6A  Contribution 354, ''[Proposed revision of Report ITU-R BT.2343-2 - Collection of field trials of UHDTV over DTT networks](https://www.itu.int/md/R15-WP6A-C-0354/en),'' April 2018.
-    - Adopted in [Preliminary draft revision to Report ITU-R BT.2343-2 - Collection of field trials of UHDTV over DTT networks](https://www.itu.int/md/R15-WP6A-C-0387/en).
 
 ## Publication (Before 2020)
 
@@ -380,6 +374,9 @@ permalink: /research/
 ## Standardization  
 
 #### ITU-R SG6
+
+8. ITU-R WP6A  Contribution 354, ''[Proposed revision of Report ITU-R BT.2343-2 - Collection of field trials of UHDTV over DTT networks](https://www.itu.int/md/R15-WP6A-C-0354/en),'' April 2018.
+    - Adopted in [Preliminary draft revision to Report ITU-R BT.2343-2 - Collection of field trials of UHDTV over DTT networks](https://www.itu.int/md/R15-WP6A-C-0387/en).
 
 8. ITU-R WP6A  Contribution 532, ''[Proposed text for the preliminary draft new Report ITU-R BT.[UHDTV-DTT TRIALS] - Status of field trials of UHDTV over DVB-T2 networks in Korea](http://www.itu.int/md/R12-WP6A-C-0532/en),'' February 2015. 
     - Adopted in [Draft new Report ITU-R BT.[UHDTV-DTT TRIALS] - Collection of field trials of UHDTV over DTT networks](http://www.itu.int/md/R12-SG06-C-0356).
