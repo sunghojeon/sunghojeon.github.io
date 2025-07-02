@@ -5,7 +5,7 @@ permalink: /about/
 
 ## Experience
 
-- **Team Leader (Terrestrial UHD System)**
+- **Lead Engineer (Deputy Director)**
 	- TV Transmission & Control Office, November 2018 - July 2019 - Present  
 	- [Korean Broadcasting System (KBS)](http://www.kbs.co.kr/), Seoul, Republic of Korea  
 	
