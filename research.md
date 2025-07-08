@@ -16,6 +16,8 @@ permalink: /research/
 
 #### 2025
 
+6. **전성호**, 이병호, 서재현 (2025.07). [2025년 6월 현재, 개성중계소 직접 수신을 통해 확인한 북한의 지상파 디지털 방송 현황](https://www.kibme.org/periodicals/paperJournalList). 『방송공학회논문지』, 30(4), 000-000.
+
 1. Sunhyoung Kwon, Seok-Ki Ahn, Sungjun Ahn, **Sungho Jeon**, Sesh Simha, Mark Aitken, Anindya Saha, Prashant M. Maru, Parag Naik, and Sung-Ik Park, "[Comparative Assessment of Physical Layer Performance: ATSC 3.0 vs. 5G Broadcast in Laboratory and Field Tests](https://doi.org/10.1109/TBC.2024.3482183)," *IEEE Transactions on Broadcasting*, vol. 71, no. 1, pp. 2-10, March 2025.
 
 
