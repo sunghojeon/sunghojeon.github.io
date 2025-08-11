@@ -9,7 +9,7 @@ permalink: /about/
 	- TV Transmission & Control Office, November 2018 - July 2019 - August 2025  
 	- [Korean Broadcasting System (KBS)](http://www.kbs.co.kr/), Seoul, Republic of Korea  
 	
-- **Senior R&D Engineer**
+- **Lead R&D Engineer**
 	- [Technical Research Institute](http://office.kbs.co.kr/tri/), March 2007 - July 2014 - November 2018  
 	- [Korean Broadcasting System (KBS)](http://www.kbs.co.kr/), Seoul, Republic of Korea  
 
