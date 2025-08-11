@@ -5,7 +5,7 @@ permalink: /about/
 
 ## Experience
 
-- **Team Leader - KBS Master Control Room (Deputy Director)**
+- **Team Leader Systems Engineering Master Control Room (Deputy Director)**
 	- TV Transmission & Control Office, November 2018 - July 2019 - August 2025  
 	- [Korean Broadcasting System (KBS)](http://www.kbs.co.kr/), Seoul, Republic of Korea  
 	
