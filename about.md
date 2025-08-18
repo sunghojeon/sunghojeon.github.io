@@ -6,7 +6,7 @@ permalink: /about/
 ## Experience
 
 - **Senior R&D Engineer (Deputy Director)**
-	- 혁신성장본부 Biz혁신국 공간정보사업팀, August 2025 - Present  
+	- 혁신성장본부 Biz혁신국 기술정보사업팀, August 2025 - Present  
 	- [MBC 문화방송](https://with.mbc.co.kr/), Seoul, Republic of Korea  
 
 - **Team Leader Systems Engineering Master Control Room (Deputy Director)**
