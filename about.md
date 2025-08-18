@@ -5,13 +5,17 @@ permalink: /about/
 
 ## Experience
 
+- **Senior R&D Engineer (Deputy Director)**
+	- 혁신성장본부 Biz혁신국 공간정보사업, August 2025 - Present  
+	- [MBC 문화방송](https://with.mbc.co.kr/), Seoul, Republic of Korea  
+
 - **Team Leader Systems Engineering Master Control Room (Deputy Director)**
 	- TV Transmission & Control Office, November 2018 - July 2019 - August 2025  
-	- [Korean Broadcasting System (KBS)](http://www.kbs.co.kr/), Seoul, Republic of Korea  
+	- [Korean Broadcasting System (KBS)](http://open.kbs.co.kr/), Seoul, Republic of Korea  
 	
 - **Lead R&D Engineer**
 	- [Technical Research Institute](http://office.kbs.co.kr/tri/), March 2007 - July 2014 - November 2018  
-	- [Korean Broadcasting System (KBS)](http://www.kbs.co.kr/), Seoul, Republic of Korea  
+	- [Korean Broadcasting System (KBS)](http://open.kbs.co.kr/), Seoul, Republic of Korea  
 
 ## Education
 
