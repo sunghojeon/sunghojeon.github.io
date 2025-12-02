@@ -64,6 +64,7 @@ permalink: /about/
 	- 간사, 2024.09. ~ [현재](https://committee.tta.or.kr/standard/schedule_view.jsp?thirdDepthCode=WG80210&secondDepthCode=PG802&thirdSubmit=%BC%B1%C5%C3&meeting_no=ME-WG80210-002&commit_code=WG80210)
 
 - 국립전파연구원 '방송통신표준 방송기술전문위원회' 위원, 2024년 4월 ~
+     - 반장, KS X 3156(지상파 디지털TV 방송 송수신 정합표준) 표준 개정 연구반. 2025년 7월 -
 		
 - KOSEN(한민족과학기술자네트워크) 전문가, 미래창조과학부/한국과학기술정보연구원 
 	- [2016/2017년도 KOSEN(한민족과학기술자네트워크) 전문가](http://kosen21.org/notice/noticeView.do?noticeSeq=NOT_0000000000025932), 2016년 10월~2017년 12월 
