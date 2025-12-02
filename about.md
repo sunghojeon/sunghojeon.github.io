@@ -87,7 +87,8 @@ permalink: /about/
 
 - [NCS확인강사](https://hrd.work24.go.kr/hrdp/kc/pkcfo/PKCFO0100D.do?pageIndex=1&orderKey=1&orderBy=ASC&hnfMnno=2224107&upperNcsCd=&middleNcsCd=&ncsCd=&srchAplYy=&srchCstmrNm=%EC%A0%84%EC%84%B1%ED%98%B8&pageOrder=1ASC&pageRow=10) (200302) 방송플랫폼기술, 2023년 9월 ~ 현재
 
-- 과학기술정보통신부/한국정보통신공사협회,
+- 과학기술정보통신부/[한국정보통신공사협회](https://career.kica.or.kr/)
+  
   . 정보통신특급기술자(111202511193E), 2025년 12월 2일
 
   . 정보통신특급감리원, 온라인 1차교육 수료.
