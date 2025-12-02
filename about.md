@@ -72,7 +72,7 @@ permalink: /about/
 
 - [한국방송기술인연합회(KOBETA)](http://www.kobeta.com/organization/)
 	- 제27대 정책실장, 2020년 7월 1일 ~ [2021년 12월 31일](http://journal.kobeta.com/%ed%95%9c%ea%b5%ad%eb%b0%a9%ec%86%a1%ea%b8%b0%ec%88%a0%ec%9d%b8%ec%97%b0%ed%95%a9%ed%9a%8c-2022%eb%85%84-%ec%a0%95%ea%b8%b0-%eb%8c%80%ec%9d%98%ec%9b%90%eb%8c%80%ed%9a%8c-%ea%b0%9c%ec%b5%9c/)
-	- 제29대 정책실장, 2024년 1월 1일 ~ 현재
+	- 제29대 정책실장, 2024년 1월 1일 ~ 2025년 12월 31일
 
 - [정보통신기획평가원(IITP)](http://ezone.iitp.kr/) 평가위원, 2020년 02월 ~ 현재
 - [중소기업기술정보진흥원(SMTECH)](https://smtech.go.kr/front/main/main.do) 평가위원, 2020년 07월 ~ 현재
@@ -86,6 +86,10 @@ permalink: /about/
 - [KOCCA한국콘텐츠진흥원](https://pms.kocca.kr/epms/) 평가위원, 2023년 3월 ~ 현재
 
 - [NCS확인강사](https://hrd.work24.go.kr/hrdp/kc/pkcfo/PKCFO0100D.do?pageIndex=1&orderKey=1&orderBy=ASC&hnfMnno=2224107&upperNcsCd=&middleNcsCd=&ncsCd=&srchAplYy=&srchCstmrNm=%EC%A0%84%EC%84%B1%ED%98%B8&pageOrder=1ASC&pageRow=10) (200302) 방송플랫폼기술, 2023년 9월 ~ 현재
+
+- 과학기술정보통신부/한국정보통신공사협회,
+  . 정보통신특급기술자(111202511193E), 2025년 12월 2일
+  . 정보통신특급감리원, 온라인 2차 교육 예정.
 
 ## Awards
 
