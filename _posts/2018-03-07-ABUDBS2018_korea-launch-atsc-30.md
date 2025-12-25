@@ -15,7 +15,6 @@ Taming Sari 3
 
 The Royale Chulan Kuala Lumpur @ Malaysia
 
-
 [발표자료](https://www.slideshare.net/SunghoJeon/atsc-30-based-regular-terrestrial-broadcasting-launch-in-korea-4kuhd-and-uhdmobile-abu-dbs-2018)
 
 ![그림 1](/images/ABUDBS2018.jpg)

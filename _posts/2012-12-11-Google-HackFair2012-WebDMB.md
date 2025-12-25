@@ -5,7 +5,6 @@ title: WebDMB 기술 소개 @ Google HackFair 2012
 
 [HackFair 출품작 소개 6탄!~ 웹에서 고화질 DMB를!!!, WebDMB!](https://developers-kr.googleblog.com/2012/12/ghackfair-winners-webdmb.html)
 
-
 DMB 시청을 위한 별도 앱 불필요
 
 웹 서핑 중 자연스러운 DMB 노출

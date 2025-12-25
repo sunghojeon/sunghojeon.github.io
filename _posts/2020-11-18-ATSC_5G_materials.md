@@ -73,7 +73,6 @@ https://www.svgeurope.org/blog/headlines/controversy-challenges-and-cunning-maki
 
 * 중국 CBN은 2020 베이징동계올림픽을 목표로 5G-Broadcast 준비중 [China 5G-Broadcast](https://speakerdeck.com/soichi1/china-5g-broadcast)
 
-
 ## 2019
 
 * SKT Insight 
@@ -81,14 +80,12 @@ https://www.svgeurope.org/blog/headlines/controversy-challenges-and-cunning-maki
    + (2019.01.10.) [[CES2019] 미국의 카 라이프 혁신을 부탁해! SKTㆍ하만ㆍ싱클레어 MOU 체결](https://www.sktinsight.com/112047)
    + (2019.06.04.) [미국 도로를 극장으로 변신시킬 SKT 5G 미디어 기술은?](https://www.sktinsight.com/116140)
 
-
 * 독일 LTE-Broadcast 국책과제 '[5G TODAY](https://5g-today.de/?lang=en)' (2017.07.01.~2020.02.28.) 
     + [Kathrein 5G Broadcasting](https://www.kathrein-bca.com/en/references/5g-broadcasting)
     + [Bavarian 5G TODAY research project approaching successful completion](https://www.rohde-schwarz.com/us/about/news-press/all-news/bavarian-5g-today-research-project-approaching-successful-completion-press-release-detailpage_229356-706880.html)
     + IRT, Rohde & Schwarz, Kathrein, [5G Today On the Road to 5G Broadcast](https://www.thescte.eu/resources/downloads/editorial-broadband-journal/august-2019/1496-p76-5g-today-on-the-road-to-5g-broadcast/file), Broadband Magazine, vol. 41, no. 3, August 2019.
     + Dr. Jordi Gimenez, [IRT Kolloquium Delivering Media with 5G Technology: FeMBMS, 5G-Xcast and beyond](https://www.youtube.com/watch?v=WfeaBDZyevI)
     + Aneta Baier(IRT), [5G-TODAY: 5G Broadcast trial using FeMBMS](https://tech.ebu.ch/docs/events/asbu_wot2019/presentations/Day3-slot6-EBU-ASBU-WoT-5G_today-Aneta%20Baier-IRT-2019.pdf) at EBU/ASBU Week of Technology 2019.
-
 
 * IBC 2019 Conference (2020.09.14.) [PERFORMANCE OF 5G BROADCAST AND BENEFITS OF PROPOSED TIME-INTERLEAVING ENHANCEMENTS
 ](https://www.ibc.org/technical-papers/performance-of-5g-broadcast-and-benefits-of-proposed-time-interleaving-enhancements/6745.article)

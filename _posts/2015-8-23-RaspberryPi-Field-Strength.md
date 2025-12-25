@@ -9,7 +9,6 @@ title: Raspberry Pi based RTL-SDR Input Level and In-Band Fluctuation Measuremen
 * 임의의 주파수 대역의 신호를 수신하여 Input Level을 측정
 * In-Band Fluctuation을 판단하는 지표로써 ITU-R BT.0000에서의 정의하고 있는 Standard Deviation 값 측정
 
-
 # Hardware
 
 * [Raspberry Pi Model B+](https://www.raspberrypi.org/products/model-b-plus/)
@@ -17,8 +16,6 @@ title: Raspberry Pi based RTL-SDR Input Level and In-Band Fluctuation Measuremen
 * [MCX Jack to SMA RF Cable Adapter](https://www.adafruit.com/products/1532)
 
 # Installation 
-
-
 
 # Implementation
 

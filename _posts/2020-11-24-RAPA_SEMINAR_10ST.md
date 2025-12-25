@@ -9,7 +9,6 @@ title: 차세대 ‘방송·미디어 기술 세미나’ @ 온라인
 
 ![그림](/images/rapa-seminar-10st.jpg)
 
-
 **[보도자료]** 
 
 . IT조선(2020.11.24) [코로나19 시대 차세대 미디어 기술로 주목](http://it.chosun.com/site/data/html_dir/2020/11/24/2020112402595.html)

@@ -17,7 +17,6 @@ title: ETRI-KBS-한국방송기술인연합회, 글로벌 8K-UHD 워크숍 개�
 
 ![그림](/images/8k-workshop-02.JPG)
 
-
 **[발표자료]**
 
 [우리나라 ATSC 3.0 표준 기반 본 방송 현황](https://speakerdeck.com/sunghojeon/kobeta-8k-uhdtv-weokeusyab)

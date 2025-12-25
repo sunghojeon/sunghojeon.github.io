@@ -1,16 +1,15 @@
 ---
 layout: page
 permalink: /research/
+title: Research
 ---
 
 ## Lectures & Talks
 
 [SpeakerDeck](https://speakerdeck.com/sunghojeon)
 
-
 ## Publication
 [Google Citations](https://scholar.google.com/citations?user=K-uP94QAAAAJ&hl=en)
-
 
 ### Journal Papers
 
@@ -19,7 +18,6 @@ permalink: /research/
 6. **전성호**, 이병호, 서재현 (2025.07). [2025년 6월 현재, 개성중계소 직접 수신을 통해 확인한 북한의 지상파 디지털 방송 현황](https://www.kibme.org/resources/journal/20250730160119510.pdf). 『방송공학회논문지』, 30(4), 646-659.
 
 1. Sunhyoung Kwon, Seok-Ki Ahn, Sungjun Ahn, **Sungho Jeon**, Sesh Simha, Mark Aitken, Anindya Saha, Prashant M. Maru, Parag Naik, and Sung-Ik Park, "[Comparative Assessment of Physical Layer Performance: ATSC 3.0 vs. 5G Broadcast in Laboratory and Field Tests](https://doi.org/10.1109/TBC.2024.3482183)," *IEEE Transactions on Broadcasting*, vol. 71, no. 1, pp. 2-10, March 2025.
-
 
 #### 2024
 
@@ -33,12 +31,9 @@ permalink: /research/
 
 1. Sungjun Ahn, Jeongchang Kim, Seok-Ki Ahn, Sunhyoung Kwon, **Sungho Jeon**, David Gomez-Barquero, Pablo Angueira, Dazhi He, Cristiano Akamine, Mats Ek, Sesh Simha, Mark Aitken, Zhihong Hunter Hong, Yiyan Wu, and Sung-Ik Park, "[Characterization and Modeling of UHF Wireless Channel in Terrestrial SFN Environments: Urban Fading Profiles](https://doi.org/10.1109/TBC.2022.3210382)," *IEEE Transactions on Broadcasting*, vol. 68, no. 4, pp. 803-818, December 2022. [MATLAB Library](https://github.com/ETRI-KMOU/FadingChannelSimulator)
 
-
 #### 2021
 
 1. Hoiyoon Jung, Sung-Ik Park, Bo-mi Lim, Haechan Kwon, Namho Hur, **Sungho Jeon**, Hyeongseok Kim, and Jeongchang Kim, "[Feasibility Verification of ATSC 3.0 MIMO System for 8K-UHD Terrestrial Broadcasting](https://doi.org/10.1109/TBC.2021.3081928)," *IEEE Transactions on Broadcasting*,  vol. 67, no. 4, pp. 909-916, December 2021.
-
-
 
 ### Conference Papers
 
@@ -50,7 +45,6 @@ permalink: /research/
 
 4. Bo-mi Lim, Hoiyoon Jung, Sungjun Ahn, Jae Hyun Seo, Namho Hur, Han-Hwi Kim, **Sungho Jeon** and Sung-Ik Park, "[Implementation and Field Verification of ATSC 3.0 Channel Bonding](https://www.eeng.dcu.ie/~bmsb2025/program.html)," in *The 20th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2025),  Dublin City University, Ireland, June 2025.
 
- 
 #### 2024
 
 4. Sunhyoung Kwon, Seok-Ki Ahn, **Sungho Jeon**, Sesh Simha, Mark Aitken, and Sung-Ik Park, "[Performance Evaluation of Time and Frequency Interelavers in ATSC 3.0 Through Laboratory and Field Tests](https://doi.org/10.1109/BMSB62888.2024.10608219)," in *The 19th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2024), Toronto, ON, Canada, June 2024. 
@@ -59,13 +53,11 @@ permalink: /research/
 
 4. Sung-Ik Park, Seok-Ki Ahn, Soyoung Han, **Sungho Jeon**, Sesh Simha, and Mark Aitken, "[Performance Evaluation of 5G Broadcast and ATSC 3.0 for Cellular Broadcasting Scenarios](https://doi.org/10.1109/BMSB62888.2024.10608271)," in *The 19th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2024), Toronto, ON, Canada, June 2024.
 
-
 #### 2023
 
 4. **Sungho Jeon**, Seong-Man Min, Dawoon Chung, Kangsoo Kim, Jahoon Ku, Sunhyoung Kwon and Sung-Ik Park, "[Simple Anomaly Detection Technique from Long-term Time-series Data by ATSC 3.0 Single Frequency Broadcast Network Monitoring System](https://doi.org/10.1109/BMSB58369.2023.10211288)," in *The 18th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2023), Beijing, China, June 2023. [[PPTX]](https://speakerdeck.com/sunghojeon/20220615-ieee-bmsb-2023-at-beijing-china)
  
 4. Sungjun Ahn, Seok-Ki Ahn, Sung-Ik Park, Jeongchang Kim, **Sungho Jeon**, Mats Ek, Sesh Simha, Mark Aitken, Anindya Saha, Prashant Maru, Parag Naig and Joonhyuk Kang, "[Adaptive Modification of Fading Channel Models for Terrestrial SFN Environments](https://www.bmsb2023.com/index.html)," in *The 18th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2023), Beijing, China, June 2023. [Best Student Paper Award](http://journal.kobeta.com/%ec%95%88%ec%84%b1%ec%a4%80-kaist-%eb%b0%95%ec%82%ac%ea%b3%bc%ec%a0%95-ieee-bmsb-2023-%ed%95%99%ec%88%a0%eb%8c%80%ed%9a%8c%ec%84%9c-%ec%88%98%ec%83%81/)
-
 
 #### 2022
 
@@ -77,13 +69,9 @@ permalink: /research/
 
 #### 2021
 
-
 4. Hoiyoon Jung, Sung-Ik Park, Bo-mi Lim, Haechan Kwon, Namho Hur, **Sungho Jeon**, Hyeongseok Kim, and Jeongchang Kim, "[Impact of Cross-Polarization Discrimination for ATSC 3.0 MIMO System](https://doi.org/10.1109/BMSB53066.2021.9547145)," in *The 16th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2021), Chengdu, China, August 2021. ([Best Paper Award](https://news.unn.net/news/articleView.html?idxno=513673))
 
-
 4. Sung-Ik Park, Bo-mi Lim, **Sungho Jeon**, and Sungjun Ahn, "[ATSC 3.0 Multi-Antenna Receiver’s Mobile Performance in Seoul and the Metropolitan Area](https://doi.org/10.1109/BMSB53066.2021.9547128)," in *The 16th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2021), Chengdu, China, August 2021.
-
-
 
 ## Publication (Before 2020)
 
@@ -161,7 +149,6 @@ permalink: /research/
 
 1. Younghyun Jeon, **Sungho Jeon**, and Sanghoon Lee, "[Performance Gain Analysis of Dynamic Carrier Allocation using Order Statistics](http://search.ieice.org/bin/summary.php?id=e89-b_11_3143&category=B&lang=E&year=2006&abst=)," *IEICE Transactions on Communications*, vol.E89-B, no. 11, pp. 3143-3147, November 2006.
 
-
 ### Articles
 
 #### 2015
@@ -173,11 +160,7 @@ permalink: /research/
 3. Zungkon Yim, **Sungho Jeon**, Sanghun Kim, Sangjin Hahm, and Byungsun Kim, "[Experimental Broadcasting of 4K UHDTV via Terrestrial Network in Korea](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0CCIQFjABahUKEwj5l5LC8-THAhVFFqYKHTRvBcw&url=http%3A%2F%2Fdata.abu.org.my%2Ftechnical%2Ftdwebsite%2Ftr%2F255%2520Q3%25202013.pdf&usg=AFQjCNE0abkd6cF1OBmYQdIUs9-eI7DHsw&sig2=ZvLu7-FU1TT_JoKTgiiWnA)," *ABU Technical Review*, no. 255, pp. 3-8, July-September 2013. _(The First Commended Article Prize)_
 3. Sangjin Hahm, Zungkon Yim, Byungsun Kim, **Sungho Jeon**, and Injoon Cho, "[Application of HEVC and DVB-T2 to Terrestrial 4K UHDTV Broadcast Over-the-Air Trials](http://digital-library.theiet.org/content/conferences/10.1049/ibc.2013.0006)," *The Best of IET and IBC*, vol. 5, pp. 17-23, 2013.
 
-
 ### Conference Papers
-
-
-
 
 #### 2019
 
@@ -195,7 +178,6 @@ permalink: /research/
 
 4. **Sungho Jeon**, Junghyun Kim, Yoo-Sang Shin, Sanghoon Kim, Sangjin Hahm, Young-Woo Suh, Sung-Ik Park, Jae-young Lee, and Jong-Soo Seo, "[Preliminary Field Trial Results for DVB-T2 Indoor Reception in Seoul: A Single Transmitter Case](https://doi.org/10.1109/BMSB.2017.7986186)," in *The 12th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2017), Cagliari, Italy, June 2017. [[Slide](https://speakerdeck.com/sunghojeon/bmsb-2017-preliminary-field-trial-results-for-dvb-t2-indoor-reception-in-seoul-a-single-transmitter-case)]
 4. Jae-young Lee, Sung Ik Park, Sunhyoung Kwon, Bo-mi Lim, Heung Mook Kim, Namho Hur, Anthony Pesin, Jean-Claude Chevet, Joan Llach, Alan Stein, **Sungho Jeon**, and Yiyan Wu, "[Scalable HEVC over Layered Division Multiplexing for the Next Generation Terrestrial Broadcasting](https://doi.org/10.1109/BMSB.2017.7986176)," in *The 12th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (BMSB 2017), Cagliari, Italy, June 2017. (Best Paper Award)
-
 
 #### 2016
 
@@ -268,7 +250,6 @@ permalink: /research/
 
 ### Korean Journal Papers
 
-
 #### 2019
 
 6. 서창호, 임윤혁, **전성호**, 서재현, 최성진, "[ATSC 3.0 기반 UHD, 이동HD, 디지털라디오 통합전송 연구](http://www.kibme.org/resources/journal/20190814141533317.pdf)", 방송공학회논문지 제24권 제4호 643-659쪽, 2019년 7월.
@@ -301,7 +282,6 @@ permalink: /research/
 
 6. 김현순, **전성호**, 이상주, 경일수, 정신일 (2013.1). [DMB와 웹의 만남, WebDMB 서비스](http://ocean.kisti.re.kr/IS_mvpopo001P.do?method=multMain&poid=ksbe). 『방송공학회지』, 18(1), 67-73.
 
-
 #### 2010
 
 6. **전성호**, 임중곤, 경일수, 김만식 (2010.11). [DVB-T2 16K LDPC 부호가 적용된 MIMO-OFDM 시스템에서의 성분 맞교환 기술 이득](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001498806). 『방송공학회논문지』, 15(6), 749-756.
@@ -310,32 +290,25 @@ permalink: /research/
 
 6. 황순업, 김영기, **전성호**, 강우석, 서종수 (2009.7). [채널 부호화된 OFDM 시스템을 위한 공간 변조를 이용한 새로운 전송 기법](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001367082). 『한국통신학회논문지』, 34(7), 515-522.
 
-
 #### 2007
 
 7. **전성호**, 이형극, 손혁민, 이상훈, [다중 반송파 기반 광대역 네트워크 상에서 마크로스코픽 다이버시티 이득 분석](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001051731), 『Telecommunications Review』, 제17권 2호, 2007년 4월.
 
-
-
 ### Korean Conference Papers
-
 
 #### 2020
 
 7. 서영우,  *전성호*, "[지상파 UHD 방송 부가서비스 동향 및 전망](https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE09414283), 2020년 한국방송·미디어공학회 하계학술대회, [온라인](http://kibme2020a.anyforum.net/index.do), 2020년 7월.
 
-
 #### 2018
 
 7. 서영우, **전성호**, 서창호, "[UHD 제작 및 송수신 시연을 위한 테스트베드 구축](http://kosbe.or.kr/bbs/board.php?bo_table=m61&wr_id=430)", 2018년 한국방송·미디어공학회 하계학술대회, 제주한라대학교 금호세계교육관, 2018년 6월.
-
 
 #### 2017
 
 7. **전성호**, 임보미, 박성익, 이재권, 장진영, 이권익, "[ATSC 3.0 기반 모바일HD 물리계층 필드테스트 결과: 제주테크노파크 100W 실험국과 제주시내 이동측정을 위주로](http://office.kbs.co.kr/tri/file_down.php?attach=/2017/11/ATSC3.0-%EA%B8%B0%EB%B0%98-%EB%AA%A8%EB%B0%94%EC%9D%BCHD-%EB%AC%BC%EB%A6%AC%EA%B3%84%EC%B8%B5-%ED%95%84%EB%93%9C%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B2%B0%EA%B3%BC.pdf)", 한국방송미디어공학회 2017 추계학술대회, 서울과학기술대학교 100주년기념관, 2017년 11월. [[Slide](https://speakerdeck.com/sunghojeon/atsc-3-dot-0-giban-mobailhd-mulrigyeceung-pildeuteseuteu-gyeolgwa-jejutekeunopakeu-100w-silheomguggwa-jejusinae-idongceugjeongeul-wijuro-at-2017-hangugbangsonggonghaghoe-cugyehagsuldaehoe)]
 
 7. **전성호**, 이재권, 신유상, 최우식, 이헌주, 장진영, 오주봉, 이재호, 강대갑, "[ATSC 3.0 기반 지상파 UHD 본방송을 위한 물리계층 필드테스트 결과](http://office.kbs.co.kr/tri/file_down.php?attach=/2017/07/ATSC-3.0-%EA%B8%B0%EB%B0%98-%EC%A7%80%EC%83%81%ED%8C%8C-UHD-%EB%B3%B8%EB%B0%A9%EC%86%A1%EC%9D%84-%EC%9C%84%ED%95%9C-%EB%AC%BC%EB%A6%AC%EA%B3%84%EC%B8%B5-%ED%95%84%EB%93%9C%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B2%B0%EA%B3%BC.pdf)", 한국방송미디어공학회 2017 하계학술대회, 제주한라대학교 금호세계교육관, 2017년 6월.
-
 
 #### 2014
 
@@ -365,13 +338,11 @@ permalink: /research/
 
 7. 조순기, 황순업, **전성호**, 서종수 (2009.6). [채널 피드백이 있는 환경에서 신호 공간 다이버시티 획득 가능한 전송 기법](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE02088675), 『한국통신학회 학술대회논문집』,1019-1020.
 
-
 #### 2005
 
 7. **전성호**, 손혁민, 이상훈 (2005.6). [OFDM 기반 광대역 엑세스 망에서 동기화 기술](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE02154962). 『한국통신학회 학술대회논문집』,376-379.
 
 7. 이형극, **전성호**, 이상훈 (2005.6). [OFDM 기반 광대역 엑세스 망에서 세미-소프트 핸드오버 기술](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE02154970). 『한국통신학회 학술대회논문집』,404-407.
-
 
 ## Standardization  
 
