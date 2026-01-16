@@ -325,6 +325,29 @@ th {
   font-family: $sans;
 }
 
+.tag-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.2rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid $border;
+  color: $inkMuted;
+  font-family: $sans;
+  font-size: 0.82rem;
+  letter-spacing: 0.02em;
+  box-shadow: 0 10px 22px rgba(20, 25, 32, 0.06);
+}
+
 .page-header {
   margin-bottom: 1.6rem;
 }
