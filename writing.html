@@ -1,0 +1,20 @@
+---
+layout: default
+permalink: /writing/
+---
+
+<section class="page-intro">
+  <h1 class="page-title">Writing</h1>
+  <p class="page-subtitle">Updates, notes, and technical write-ups.</p>
+</section>
+
+<div class="post-list">
+  {% for post in site.posts %}
+    <article class="post-card">
+      <div class="post-card-meta">{{ post.date | date: "%B %e, %Y" }}</div>
+      <h2 class="post-card-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+      <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncate: 220 }}</p>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="post-card-link">Read more</a>
+    </article>
+  {% endfor %}
+</div>

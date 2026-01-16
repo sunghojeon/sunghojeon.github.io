@@ -3,16 +3,44 @@ layout: default
 ---
 
 <section class="page-intro">
-  <h1 class="page-title">Blog</h1>
-  <p class="page-subtitle">Updates, notes, and technical write-ups.</p>
+  <h1 class="page-title">Home</h1>
+  <p class="page-subtitle">Broadcast systems R&amp;D, field trials, and standards work.</p>
 </section>
 
 <div class="post-list">
-  {% for post in site.posts %}
+  <article class="post-card">
+    <div class="post-card-meta">Work / Research</div>
+    <h2 class="post-card-title"><a href="{{ site.baseurl }}/work-research">Career highlights and publications</a></h2>
+    <p class="post-card-excerpt">A focused summary of roles, research areas, and selected publications.</p>
+    <a href="{{ site.baseurl }}/work-research" class="post-card-link">Explore work &amp; research</a>
+  </article>
+
+  <article class="post-card">
+    <div class="post-card-meta">Writing</div>
+    <h2 class="post-card-title"><a href="{{ site.baseurl }}/writing">Technical notes and workshop recaps</a></h2>
+    <p class="post-card-excerpt">Posts on standards work, field tests, and practical engineering lessons.</p>
+    <a href="{{ site.baseurl }}/writing" class="post-card-link">Read the writing</a>
+  </article>
+
+  <article class="post-card">
+    <div class="post-card-meta">Contact</div>
+    <h2 class="post-card-title"><a href="{{ site.baseurl }}/contact">Let's connect</a></h2>
+    <p class="post-card-excerpt">Email and social links for collaboration, speaking, and research.</p>
+    <a href="{{ site.baseurl }}/contact" class="post-card-link">Contact details</a>
+  </article>
+</div>
+
+<section class="page-intro">
+  <h2 class="page-title">Latest Writing</h2>
+  <p class="page-subtitle">Recent posts and updates.</p>
+</section>
+
+<div class="post-list">
+  {% for post in site.posts limit: 3 %}
     <article class="post-card">
       <div class="post-card-meta">{{ post.date | date: "%B %e, %Y" }}</div>
-      <h2 class="post-card-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-      <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncate: 220 }}</p>
+      <h3 class="post-card-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+      <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncate: 180 }}</p>
       <a href="{{ site.baseurl }}{{ post.url }}" class="post-card-link">Read more</a>
     </article>
   {% endfor %}
