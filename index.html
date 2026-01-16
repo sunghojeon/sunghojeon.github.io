@@ -3,8 +3,13 @@ layout: default
 ---
 
 <section class="page-intro">
-  <h1 class="page-title">Home</h1>
-  <p class="page-subtitle">Broadcast systems R&amp;D, field trials, and standards work.</p>
+  <h1 class="page-title">{{ site.name }}</h1>
+  <p class="page-subtitle">Broadcast systems engineering, field trials, and standards work.</p>
+</section>
+
+<section class="page-intro">
+  <h2 class="page-title">Explore</h2>
+  <p class="page-subtitle">Quick links to the main sections.</p>
 </section>
 
 <div class="post-list">
@@ -32,11 +37,11 @@ layout: default
 
 <section class="page-intro">
   <h2 class="page-title">Latest Writing</h2>
-  <p class="page-subtitle">Recent posts and updates.</p>
+  <p class="page-subtitle">All posts, newest first.</p>
 </section>
 
 <div class="post-list">
-  {% for post in site.posts limit: 3 %}
+  {% for post in site.posts %}
     <article class="post-card">
       <div class="post-card-meta">{{ post.date | date: "%B %e, %Y" }}</div>
       <h3 class="post-card-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
