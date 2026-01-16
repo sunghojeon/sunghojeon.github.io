@@ -13,41 +13,13 @@ layout: default
 </section>
 
 <section class="page-intro">
-  <h2 class="page-title">Explore</h2>
-  <p class="page-subtitle">Quick links to the main sections.</p>
+  <h2 class="page-title">Latest News</h2>
+  <p class="page-subtitle">Recent posts and updates.</p>
+  <p><a href="{{ site.baseurl }}/writing">View all posts</a></p>
 </section>
 
 <div class="post-list">
-  <article class="post-card">
-    <div class="post-card-meta">Work / Research</div>
-    <h2 class="post-card-title"><a href="{{ site.baseurl }}/work-research">Career highlights and publications</a></h2>
-    <p class="post-card-excerpt">A focused summary of roles, research areas, and selected publications.</p>
-    <a href="{{ site.baseurl }}/work-research" class="post-card-link">Explore work &amp; research</a>
-  </article>
-
-  <article class="post-card">
-    <div class="post-card-meta">Writing</div>
-    <h2 class="post-card-title"><a href="{{ site.baseurl }}/writing">Technical notes and workshop recaps</a></h2>
-    <p class="post-card-excerpt">Posts on standards work, field tests, and practical engineering lessons.</p>
-    <a href="{{ site.baseurl }}/writing" class="post-card-link">Read the writing</a>
-  </article>
-
-  <article class="post-card">
-    <div class="post-card-meta">Contact</div>
-    <h2 class="post-card-title"><a href="{{ site.baseurl }}/contact">Let's connect</a></h2>
-    <p class="post-card-excerpt">Email and social links for collaboration, speaking, and research.</p>
-    <a href="{{ site.baseurl }}/contact" class="post-card-link">Contact details</a>
-  </article>
-</div>
-
-
-<section class="page-intro">
-  <h2 class="page-title">Latest Writing</h2>
-  <p class="page-subtitle">All posts, newest first.</p>
-</section>
-
-<div class="post-list">
-  {% for post in site.posts %}
+  {% for post in site.posts limit: 5 %}
     <article class="post-card">
       <div class="post-card-meta">{{ post.date | date: "%B %e, %Y" }}</div>
       <h3 class="post-card-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
