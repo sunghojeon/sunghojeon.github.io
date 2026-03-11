@@ -9,7 +9,7 @@ title: 드론 기반 지상파 DTV 방송국 안테나 패턴 현장 검증 @ AT
 
  o 회차: 제72차 회의 (72nd Meeting)
 
- o 회의 일시: 2026-01-30 09:30 ~ 10:30 EST
+ o 회의 일시: 2026-02-27 09:30 ~ 10:30 EST
 
  o 발표 제목: *Field Verification Case of Terrestrial DTV Broadcasting Station Antenna Patterns Using Drone*
 
