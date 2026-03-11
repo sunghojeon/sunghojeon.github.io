@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 드론 기반 지상파 DTV 방송국 안테나 패턴 현장 검증 @ ATSC IT-5
+title: 드론 기반 지상파 DTV 방송국 안테나 패턴 현장 검증 @ ATSC IT-5 72nd Meeting
 ---
 
 □ 발표 개요
