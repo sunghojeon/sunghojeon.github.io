@@ -357,6 +357,12 @@ title: Research
 #### TTA
 
 - 드론을 이용한 지상파 DTV 방송국 안테나패턴 현장검증 사례 (Field Verification Case of Terrestrial DTV Broadcasting Station Antenna Patterns Using Drone), TTA Technical Report **TTAR-07.0048**, October 2025. (TTA WG80210 간사 — RRA·ETRI 협력)
+- 드론을 이용한 지상파 방송국 안테나 방사 패턴 측정 방법 - DTV, TTA 표준 제정 과제 **2024-0611** — 제정 진행 중 (TTA WG80210, 2026 제정 목표).
+
+#### KS (National Standards)
+
+- **KS X 3156** 지상파 디지털 TV 방송 송수신 정합표준 — 개정안 제안자 · 개정 연구반장 (2025 – ).
+- **KS X 3158-1 / 3158-3** 지상파 디지털멀티미디어방송(DMB) 송수신 정합 / 재난 경보 서비스 — 개정 검토위원 (2026 – ).
 
 #### ITU-R SG6
 
