@@ -17,6 +17,6 @@ MBC Broadcast RTK는 전국 100개 GNSS 기준국과 DMB·ATSC 3.0 방송망, LT
 
 - 장소 : COEX 컨퍼런스센터 307호
 
-![그림](/images/KOBA2026_Conference.jpg)
+![그림](/images/KOBA2026_Conference_web.png)
 
 [발표자료](https://speakerdeck.com/sunghojeon/20260514-koba2026-keonpeoreonseu-anseongjunetri-jeonseonghombc-upload)
