@@ -6,7 +6,7 @@ title: Work / Research
 
 ## Focus
 
-Broadcast systems engineering, ATSC 3.0 field trials, SFN performance, and standards work.
+Broadcast systems engineering, broadcast-based PNT — Broadcast RTK (eGPS) over ATSC 3.0/DMB, ATSC 3.0 field trials, SFN performance, drone-based antenna pattern verification, and standards work.
 
 ## Work
 
@@ -24,7 +24,7 @@ Full CV and service details: [Work details]({{ site.baseurl }}/about)
 
 ## Research
 
-- Topics: ATSC 3.0, 5G broadcast comparisons, SFN channel modeling, monitoring systems.
+- Topics: Broadcast RTK / eGPS (hybrid ATSC 3.0/LTE delivery), ATSC 3.0, 5G broadcast comparisons, SFN channel modeling, drone-based antenna measurement, monitoring systems.
 - Selected recent publications:
   - "Comparative Assessment of Physical Layer Performance: ATSC 3.0 vs. 5G Broadcast in Laboratory and Field Tests," IEEE Transactions on Broadcasting, 2025.
   - "Diversity Receiver for ATSC 3.0-in-Vehicle: Design and Field Evaluation in Metropolitan SFN," IEEE Transactions on Broadcasting, 2024.

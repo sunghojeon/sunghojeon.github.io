@@ -37,6 +37,10 @@ title: Research
 
 ### Conference Proceedings
 
+#### 2026
+
+- **Sungho Jeon**, Hong-Gi Shin, Doo-Kyung Park, Dong-Kwan Lee, Seung-Ho Lee, and Sung-Ik Park, "Coverage Overlap and Outage Bounding in Hybrid ATSC 3.0/LTE RTK Delivery: A Four-Region Field Digest," in *The 21st IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2026), João Pessoa, Brazil, July 2026. (to appear)
+
 #### 2025
 
 - **Sungho Jeon**, Seongman Min, Moonsun Kang, Jae Hun You, Sunhyoung Kwon and Sung-Ik Park, "[ATSC 3.0 STLTP Distribution over Multicast-Unsupported VPN](https://www.eeng.dcu.ie/~bmsb2025/program.html)," in *The 20th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2025),  Dublin City University, Ireland, June 2025. [[PPTX]](https://speakerdeck.com/sunghojeon/ieee-bmsb-2025-at-dublin-ireland)
@@ -345,6 +349,10 @@ title: Research
 - 이형극, **전성호**, 이상훈 (2005.6). [OFDM 기반 광대역 엑세스 망에서 세미-소프트 핸드오버 기술](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE02154970). 『한국통신학회 학술대회논문집』,404-407.
 
 ## Standards & Contributions
+
+#### TTA
+
+- 드론을 이용한 지상파 DTV 방송국 안테나패턴 현장검증 사례 (Field Verification Case of Terrestrial DTV Broadcasting Station Antenna Patterns Using Drone), TTA Technical Report **TTAR-07.0048**, October 2025. (TTA WG80210 간사 — RRA·ETRI 협력)
 
 #### ITU-R SG6
 
