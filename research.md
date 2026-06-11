@@ -41,6 +41,10 @@ title: Research
 
 - **Sungho Jeon**, Hong-Gi Shin, Doo-Kyung Park, Dong-Kwan Lee, Seung-Ho Lee, and Sung-Ik Park, "Coverage Overlap and Outage Bounding in Hybrid ATSC 3.0/LTE RTK Delivery: A Four-Region Field Digest," in *The 21st IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2026), João Pessoa, Brazil, July 2026. (to appear)
 
+- Sung-Ik Park, **Sungho Jeon**, Seongman Min, Bomi Lim, Sunhyoung Kwon, and Sungjun Ahn, "ATSC 3.0 End-to-End Latency: Analysis, Measurement, and Optimization for Emergency Alert Delivery," in *The 21st IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2026), João Pessoa, Brazil, July 2026. (to appear)
+
+- Sungjun Ahn, **Sungho Jeon**, Jaekwon Lee, Sunhyoung Kwon, and Sung-Ik Park, "Nationwide Time Sourcing Based on Terrestrial Broadcast Networks: BPS Project," in *The 21st IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2026), João Pessoa, Brazil, July 2026. (to appear)
+
 #### 2025
 
 - **Sungho Jeon**, Seongman Min, Moonsun Kang, Jae Hun You, Sunhyoung Kwon and Sung-Ik Park, "[ATSC 3.0 STLTP Distribution over Multicast-Unsupported VPN](https://www.eeng.dcu.ie/~bmsb2025/program.html)," in *The 20th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2025),  Dublin City University, Ireland, June 2025. [[PPTX]](https://speakerdeck.com/sunghojeon/ieee-bmsb-2025-at-dublin-ireland)
