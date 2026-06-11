@@ -356,8 +356,11 @@ title: Research
 
 #### TTA
 
-- 드론을 이용한 지상파 DTV 방송국 안테나패턴 현장검증 사례 (Field Verification Case of Terrestrial DTV Broadcasting Station Antenna Patterns Using Drone), TTA Technical Report **TTAR-07.0048**, October 2025. (TTA WG80210 간사 — RRA·ETRI 협력)
+- 드론을 이용한 지상파 DTV 방송국 안테나 패턴 현장 검증 (Field Verification of Terrestrial DTV Broadcast Station Antenna Patterns Using Drones), TTA Technical Report **TTAR-07.0048**, October 2025. (TTA WG80210 간사 — RRA·ETRI 협력)
 - 드론을 이용한 지상파 방송국 안테나 방사 패턴 측정 방법 - DTV, TTA 표준 제정 과제 **2024-0611** — 제정 진행 중 (TTA WG80210, 2026 제정 목표).
+- 지상파 UHD 시스템 모니터링 가이드라인 (Monitoring Guidelines for Terrestrial UHD Systems), TTA Standard **TTAK.KO-07.0154/R1**, December 2023. — 제정 (2021-12), R1 개정 (2023-12).
+- 지상파 UHD 무선설비 시험방법 가이드라인 (Measurement Guidelines for Transmitting Equipment on ATSC 3.0 Digital Broadcasting Signals), TTA Standard **TTAK.KO-07.0157**, December 2022.
+- 지상파 UHD 송신기 식별부호(TxID) 및 방송 스트림 식별자(BSID) 할당 가이드라인 (Guideline for Transmitter Identification (TxID) and Broadcast Stream Identifier (BSID) Assignment of Terrestrial UHD Systems), TTA Technical Report **TTAR-07.0026/R1**, May 2020. — 제정 (2018-11), R1 개정 (2020-05).
 
 #### KS (National Standards)
 
