@@ -7,9 +7,9 @@ title: About
 ## At a Glance
 
 - **Senior R&D Engineer (Deputy Director), MBC** — Broadcast RTK (eGPS) commercialization & global expansion, ATSC 3.0 data services (2025–)
-- **Standards** — TTA PG802 간사 · WG80210(드론 안테나 측정) 간사 · KS X 3156 개정 연구반장 · ITU-R WP6A Korea delegate
-- **Academia** — Ph.D. (Yonsei Univ.), IEEE Senior Member, IEEE BMSB TPC Co-Chair (2019–2023), IEEE TBC 등 국제 학술논문 다수
-- **Career** — KBS 18년 (기술연구소·TV송출, 2007–2025) → MBC (2025–)
+- **Standards** — Secretary of TTA PG802 (terrestrial broadcasting) and WG80210 (drone-based antenna measurement); lead of the KS X 3156 revision study group; ITU-R WP6A Korea delegate
+- **Academia** — Ph.D. (Yonsei Univ.), IEEE Senior Member, IEEE BMSB TPC Co-Chair (2019–2023), publications in *IEEE Transactions on Broadcasting* and more
+- **Career** — 18 years at KBS (Technical Research Institute / TV Transmission, 2007–2025) → MBC (2025–)
 
 ## Current Appointment
 

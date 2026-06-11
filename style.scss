@@ -606,6 +606,15 @@ th {
   .post-card {
     padding: 20px;
   }
+
+  .news-item {
+    padding: 11px 0;
+    gap: 8px;
+  }
+
+  .news-date {
+    font-size: 0.78rem;
+  }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
