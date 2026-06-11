@@ -4,6 +4,10 @@ permalink: /research/
 title: Research
 ---
 
+## Focus
+
+Broadcast systems engineering and broadcast-based PNT — Broadcast RTK (eGPS) over ATSC 3.0/DMB, hybrid ATSC 3.0/LTE delivery, ATSC 3.0 field trials, SFN performance and channel modeling, drone-based antenna pattern verification, monitoring systems, and standards work (TTA · KS · ITU-R).
+
 ## Research Links
 
 - [SpeakerDeck](https://speakerdeck.com/sunghojeon) (Talks & slides)
