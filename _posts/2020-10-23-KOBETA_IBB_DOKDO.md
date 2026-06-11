@@ -1,5 +1,6 @@
 ---
 layout: post
+category: news
 title: KBS ‘독도 파노라마 영상’ 안방에서 만난다, 10월 25일 독도의 날 맞아 IBB 통해 24시간 독도 현황 제공
 ---
 

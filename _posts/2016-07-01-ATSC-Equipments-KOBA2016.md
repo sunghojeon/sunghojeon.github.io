@@ -1,5 +1,6 @@
 ---
 layout: post
+category: article
 title: ATSC3.0 방송장비 동향 / KOBA2016 출품장비를 중심으로 
 ---
 

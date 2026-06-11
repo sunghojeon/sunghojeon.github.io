@@ -1,5 +1,6 @@
 ---
 layout: post
+category: talk
 title: 지상파 ATSC3.0 본방송 주요 성과 및 국내외 동향 @ KOBA 2024 미디어 컨퍼런스 [방송 표준] 세션
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: post
+category: paper
 title: ATSC 3.0 STLTP Distribution over Multicast-Unsupported VPN @ IEEE BMSB 2025 (Dublin)
 ---
 

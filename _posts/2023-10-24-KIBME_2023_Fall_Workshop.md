@@ -1,5 +1,6 @@
 ---
 layout: post
+category: talk
 title: (Session 2) 국내 차세대 방송 서비스 도입 기반 조성 현황 @ 2023년 추계 방송과 미디어 기술 워크숍
 ---
 

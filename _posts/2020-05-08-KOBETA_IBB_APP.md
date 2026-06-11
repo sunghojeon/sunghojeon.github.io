@@ -1,5 +1,6 @@
 ---
 layout: post
+category: news
 title: KBS1 UHD 채널 재난정보 부가서비스(IBB App) 개발
 ---
 

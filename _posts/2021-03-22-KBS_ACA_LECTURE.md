@@ -1,5 +1,6 @@
 ---
 layout: post
+category: talk
 title: 디지털지식.dma 과정 "방송네트워크의 기본과 진화
 ---
 

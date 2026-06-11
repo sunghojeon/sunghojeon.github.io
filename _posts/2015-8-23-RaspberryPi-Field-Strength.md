@@ -1,5 +1,6 @@
 ---
 layout: post
+category: article
 title: Raspberry Pi based RTL-SDR Input Level and In-Band Fluctuation Measurement Tool
 ---
 

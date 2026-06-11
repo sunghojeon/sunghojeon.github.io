@@ -1,5 +1,6 @@
 ---
 layout: post
+category: talk
 title: The Status of ATSC 3.0 Broadcasting in Korea @ NAB Show 2017 
 ---
 

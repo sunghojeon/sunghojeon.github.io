@@ -1,5 +1,6 @@
 ---
 layout: post
+category: news
 title: 우리나라 TTA표준 '지상파UHD IBB 서비스' 기반 KBS1 채널 재난정보 부가서비스 개시
 ---
 

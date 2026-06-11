@@ -1,5 +1,6 @@
 ---
 layout: post
+category: talk
 title: 차세대 ‘방송·미디어 기술 세미나’ @ 온라인
 ---
 

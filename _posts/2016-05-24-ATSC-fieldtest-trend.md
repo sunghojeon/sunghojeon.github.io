@@ -1,5 +1,6 @@
 ---
 layout: post
+category: article
 title: ATSC3.0 실험방송 동향
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: post
+category: event
 title: WebDMB 기술 소개 @ Google HackFair 2012
 ---
 

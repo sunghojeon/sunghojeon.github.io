@@ -1,5 +1,6 @@
 ---
 layout: post
+category: event
 title: ETRI-KBS-한국방송기술인연합회, 글로벌 8K-UHD 워크숍 개최 @ KBS경기감악산UHDTV실험국 인근
 ---
 

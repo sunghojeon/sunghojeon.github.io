@@ -1,5 +1,6 @@
 ---
 layout: post
+category: standard
 title: ITU-R BT.[UHDTV-DTT TRIALS] - Field Trials of UHDTV over DTT Networks
 ---
 

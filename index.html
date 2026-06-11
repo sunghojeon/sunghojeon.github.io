@@ -4,27 +4,34 @@ layout: default
 
 <section class="page-intro">
   <h1 class="page-title">Bridging Broadcast, Data, and Policy for Scalable National Services</h1>
-  <p class="page-subtitle">ATSC 3.0&ndash;based data delivery, positioning, and resilient broadcast infrastructure design.</p>
+  <p class="page-subtitle">ATSC 3.0&ndash;based data delivery, positioning (Broadcast RTK / eGPS), and resilient broadcast infrastructure design.</p>
   <ul class="tag-list" aria-label="Identity">
     <li><span class="tag">Broadcast Systems Engineer</span></li>
     <li><span class="tag">ATSC 3.0 / Data Services</span></li>
-    <li><span class="tag">Policy &amp; Standardization Insight</span></li>
+    <li><span class="tag">Broadcast RTK / eGPS</span></li>
+    <li><span class="tag">Standards &amp; Policy Insight</span></li>
   </ul>
 </section>
 
-<section class="page-intro">
-  <h2 class="page-title">Latest News</h2>
-  <p class="page-subtitle">Recent posts and updates.</p>
-  <p><a href="{{ site.baseurl }}/writing">View all posts</a></p>
+<section class="home-section">
+  <h2 class="home-section-title">Highlights</h2>
+  <ul class="highlight-list">
+    <li>Three papers to appear at <a href="{{ site.baseurl }}/research/">IEEE BMSB 2026</a> (Jo&atilde;o Pessoa, Brazil, July 2026) &mdash; hybrid ATSC 3.0/LTE RTK delivery, end-to-end latency, and BPS.</li>
+    <li>Broadcast RTK (eGPS) &mdash; world-first commercial cm-level positioning over terrestrial broadcast networks &rarr; <a href="{{ site.baseurl }}/work-research">Work / Research</a></li>
+    <li>TTA Technical Report <a href="{{ site.baseurl }}/TTAR-07-0048/">TTAR-07.0048</a> &mdash; drone-based field verification of DTV antenna patterns (Oct 2025), presented at <a href="{{ site.baseurl }}/ATSC-IT5-Drone-Measurement/">ATSC IT-5</a>.</li>
+  </ul>
 </section>
 
-<div class="post-list">
-  {% for post in site.posts limit: 5 %}
-    <article class="post-card">
-      <div class="post-card-meta">{{ post.date | date: "%B %e, %Y" }}</div>
-      <h3 class="post-card-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-      <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncate: 180 }}</p>
-      <a href="{{ site.baseurl }}{{ post.url }}" class="post-card-link">Read more</a>
-    </article>
-  {% endfor %}
-</div>
+<section class="home-section">
+  <h2 class="home-section-title">Recent News &amp; Talks</h2>
+  <ul class="news-list">
+    {% for post in site.posts limit: 6 %}
+    <li class="news-item">
+      <span class="news-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+      {% if post.category %}<span class="news-tag news-tag--{{ post.category }}">{{ post.category }}</span>{% endif %}
+      <a class="news-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+  <p class="news-more"><a href="{{ site.baseurl }}/writing">All news &amp; talks &rarr;</a></p>
+</section>

@@ -1,5 +1,6 @@
 ---
 layout: post
+category: article
 title: ATSC3.0 기반 UHD 표준과 SFN 구축 방안
 ---
 

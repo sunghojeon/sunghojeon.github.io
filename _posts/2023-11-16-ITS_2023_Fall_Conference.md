@@ -1,5 +1,6 @@
 ---
 layout: post
+category: talk
 title: ATSC 3.0 모바일 방송 추진현황과 서비스 개발 계획 @ 한국ITS학회 2023년도 추계학술대회
 ---
 

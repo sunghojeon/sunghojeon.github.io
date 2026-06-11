@@ -1,5 +1,6 @@
 ---
 layout: post
+category: news
 title: 2021년 7월 19일 5시, KBS에서 UHD 혁신서비스(모바일/다채널/양방향)를 시작합니다.
 ---
 

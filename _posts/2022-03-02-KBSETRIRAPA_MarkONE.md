@@ -1,5 +1,6 @@
 ---
 layout: post
+category: event
 title: 지상파 UHD 스마트폰 직접수신 시연 및 세미나 @ KBS 시청자광장(UHD 체험관)
 ---
 

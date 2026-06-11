@@ -1,5 +1,6 @@
 ---
 layout: post
+category: talk
 title: 지상파 방송망을 활용한 초정밀 PNT 인프라 — BPS와 Broadcast RTK(eGPS) 기술 개발 동향 @ KOBA 2026 미디어 컨퍼런스
 ---
 

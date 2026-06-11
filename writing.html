@@ -1,20 +1,24 @@
 ---
 layout: default
 permalink: /writing/
+title: News & Talks
 ---
 
 <section class="page-intro">
-  <h1 class="page-title">Writing</h1>
-  <p class="page-subtitle">Updates, notes, and technical write-ups.</p>
+  <h1 class="page-title">News &amp; Talks</h1>
+  <p class="page-subtitle">Talks, papers, standards, articles, and announcements &mdash; grouped by year.</p>
 </section>
 
-<div class="post-list">
-  {% for post in site.posts %}
-    <article class="post-card">
-      <div class="post-card-meta">{{ post.date | date: "%B %e, %Y" }}</div>
-      <h2 class="post-card-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-      <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncate: 220 }}</p>
-      <a href="{{ site.baseurl }}{{ post.url }}" class="post-card-link">Read more</a>
-    </article>
+{% assign postsByYear = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+{% for year in postsByYear %}
+<h2 class="archive-year">{{ year.name }}</h2>
+<ul class="news-list">
+  {% for post in year.items %}
+  <li class="news-item">
+    <span class="news-date">{{ post.date | date: "%m-%d" }}</span>
+    {% if post.category %}<span class="news-tag news-tag--{{ post.category }}">{{ post.category }}</span>{% endif %}
+    <a class="news-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+  </li>
   {% endfor %}
-</div>
+</ul>
+{% endfor %}

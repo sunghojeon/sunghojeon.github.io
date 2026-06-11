@@ -1,5 +1,6 @@
 ---
 layout: post
+category: news
 title: 우리나라 ATSC 3.0 TxID 분배표 홈페이지 개통
 ---
 

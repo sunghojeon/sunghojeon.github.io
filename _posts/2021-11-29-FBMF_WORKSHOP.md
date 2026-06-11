@@ -1,5 +1,6 @@
 ---
 layout: post
+category: talk
 title: KBS UHD 혁신서비스 현황 @ 미래방송미디어표준포럼 ‘2021년 미래 ATSC 표준 기술 워크숍’
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: post
+category: article
 title: 공공재인 지상파 방송망, 차세대 기술 ATSC 3.0 방식을 통해 개선하고 있습니다 @ 방송문화 2020년 겨울호
 ---
 

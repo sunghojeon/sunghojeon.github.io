@@ -1,5 +1,6 @@
 ---
 layout: post
+category: article
 title: ATSC 3.0과 5G 연동, 나아가 5G-Broadcast
 ---
 

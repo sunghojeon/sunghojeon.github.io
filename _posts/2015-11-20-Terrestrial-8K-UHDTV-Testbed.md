@@ -1,5 +1,6 @@
 ---
 layout: post
+category: article
 title: Terrestrial 8K-UHDTV Testbed based on Dual-Band Dual-Polarization MIMO-OFDM Systems
 ---
 

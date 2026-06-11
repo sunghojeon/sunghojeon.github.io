@@ -1,5 +1,6 @@
 ---
 layout: post
+category: article
 title: 자주하는 질문 9가지로 파헤지는 'UHD 혁신서비스' @ KBS기술인협회보 100호 특집호
 ---
 

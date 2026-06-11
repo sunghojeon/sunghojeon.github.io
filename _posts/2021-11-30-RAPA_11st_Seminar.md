@@ -1,5 +1,6 @@
 ---
 layout: post
+category: talk
 title: The status of multi-channel/mobile/interactive services by KBS in Korea @ 제11회 차세대 방송 미디어 기술 세미나
 ---
 

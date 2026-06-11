@@ -1,5 +1,6 @@
 ---
 layout: post
+category: talk
 title: 방송망 구축을 위한 ATSC 3.0 전송 기술 
 ---
 

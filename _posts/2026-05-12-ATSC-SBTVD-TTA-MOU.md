@@ -1,5 +1,6 @@
 ---
 layout: post
+category: news
 title: ATSC–SBTVD 포럼–TTA, 차세대 방송 표준 3자 전략적 MOU 체결 @ KOBA 2026
 ---
 

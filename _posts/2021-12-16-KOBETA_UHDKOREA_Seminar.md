@@ -1,5 +1,6 @@
 ---
 layout: post
+category: talk
 title: UHD 혁신 서비스 경과 보고 @ 지상파 UHD 방송 세미나
 ---
 
