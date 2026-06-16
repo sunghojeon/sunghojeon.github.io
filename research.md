@@ -10,7 +10,6 @@ Broadcast systems engineering and broadcast-based PNT — Broadcast RTK (eGPS) o
 
 ## Research Links
 
-- [SpeakerDeck](https://speakerdeck.com/sunghojeon) (Talks & slides)
 - [Google Scholar](https://scholar.google.com/citations?user=K-uP94QAAAAJ&hl=en) (Citations)
 
 ## Publications
@@ -387,4 +386,3 @@ Broadcast systems engineering and broadcast-based PNT — Broadcast RTK (eGPS) o
 #### W3C Web and TV IG
 
 - Sanghun Kim, **Sungho Jeon**, Ilsoo Kyung, Geunsoo Park, "Statement of interest in participating in the Workshop," The Third W3C Web and TV workshop, Hollywood, California, USA, September, 2011.
-
