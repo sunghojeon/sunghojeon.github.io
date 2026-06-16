@@ -1,0 +1,84 @@
+---
+layout: default
+permalink: /talks/
+title: Presentations
+---
+
+{% assign talks = site.data.talks | sort: "sortkey" | reverse %}
+{% assign years = talks | map: "year" | uniq | sort | reverse %}
+
+<section class="page-intro">
+  <h1 class="page-title">Presentations</h1>
+  <p class="page-subtitle">{{ site.data.talks_meta.decks }} decks &middot; {{ site.data.talks_meta.slides }} slides &middot; 2012&ndash;2026. Click a card to view the slides on SpeakerDeck; full PDFs are on Google Drive.</p>
+  <p class="talks-actions">
+    <a class="drive-btn" href="https://drive.google.com/drive/folders/1X6XBzKdW9xUJVtJ0l0yQeni7ldPWFYiJ" target="_blank" rel="noopener">&#8595; All PDFs (Google Drive)</a>
+    <a class="sd-btn" href="https://speakerdeck.com/sunghojeon" target="_blank" rel="noopener">SpeakerDeck profile &rarr;</a>
+  </p>
+</section>
+
+<div class="talks-controls">
+  <input type="search" id="talk-search" class="talk-search" placeholder="Search title&hellip;" aria-label="Search presentations" />
+  <div class="talk-filters" id="year-filters" aria-label="Filter by year">
+    <button class="filter-chip is-active" data-year="all">All years</button>
+    {% for y in years %}{% if y != "" %}<button class="filter-chip" data-year="{{ y }}">{{ y }}</button>{% endif %}{% endfor %}
+  </div>
+</div>
+
+<div class="talk-grid" id="talk-grid">
+{% for t in talks %}
+  <a class="talk-card"
+     href="{% if t.drive_url and t.drive_url != '' %}{{ t.drive_url }}{% else %}{{ t.sd_url }}{% endif %}"
+     target="_blank" rel="noopener"
+     data-year="{{ t.year }}" data-title="{{ t.title | downcase | escape }}">
+    <div class="talk-thumb">
+      <img loading="lazy" src="{{ site.baseurl }}/images/talks/{{ t.id }}.webp" alt="{{ t.title | escape }}" />
+      <span class="talk-slides">{{ t.slides }}p</span>
+    </div>
+    <div class="talk-meta">
+      <span class="talk-tags">
+        <span class="talk-date">{% if t.date != "" %}{{ t.date }}{% elsif t.year != "" %}{{ t.year }}{% else %}&mdash;{% endif %}</span>
+        <span class="talk-theme">{{ t.theme }}</span>
+      </span>
+      <span class="talk-title">{{ t.title }}</span>
+    </div>
+  </a>
+{% endfor %}
+</div>
+<p class="talk-empty" id="talk-empty" hidden>No presentations match your filter.</p>
+
+<script>
+(function () {
+  var grid = document.getElementById('talk-grid');
+  var cards = Array.prototype.slice.call(grid.querySelectorAll('.talk-card'));
+  var empty = document.getElementById('talk-empty');
+  var search = document.getElementById('talk-search');
+  var year = 'all';
+  var q = '';
+
+  function apply() {
+    var shown = 0;
+    cards.forEach(function (c) {
+      var okYear = year === 'all' || c.getAttribute('data-year') === year;
+      var okQ = q === '' || c.getAttribute('data-title').indexOf(q) !== -1;
+      var show = okYear && okQ;
+      c.style.display = show ? '' : 'none';
+      if (show) shown++;
+    });
+    empty.hidden = shown !== 0;
+  }
+
+  document.getElementById('year-filters').addEventListener('click', function (e) {
+    var btn = e.target.closest('.filter-chip');
+    if (!btn) return;
+    this.querySelectorAll('.filter-chip').forEach(function (b) { b.classList.remove('is-active'); });
+    btn.classList.add('is-active');
+    year = btn.getAttribute('data-year');
+    apply();
+  });
+
+  search.addEventListener('input', function () {
+    q = this.value.trim().toLowerCase();
+    apply();
+  });
+})();
+</script>

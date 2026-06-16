@@ -637,6 +637,210 @@ th {
   }
 }
 
+/****************/
+/* PRESENTATIONS */
+/****************/
+
+.talks-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+.drive-btn,
+.sd-btn {
+  display: inline-block;
+  padding: 9px 16px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: 1px solid $border;
+}
+
+.drive-btn {
+  background: $ink;
+  color: #fff;
+  border-color: $ink;
+}
+
+.drive-btn:hover,
+.drive-btn:focus {
+  background: $accentStrong;
+  color: #fff;
+}
+
+.sd-btn {
+  background: $paperMuted;
+  color: $ink;
+}
+
+.sd-btn:hover,
+.sd-btn:focus {
+  border-color: $accentStrong;
+}
+
+.talks-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 26px 0 18px;
+}
+
+.talk-search {
+  flex: 1 1 220px;
+  max-width: 320px;
+  padding: 8px 12px;
+  font: inherit;
+  font-size: 0.9rem;
+  color: $ink;
+  background: $paper;
+  border: 1px solid $border;
+  border-radius: 6px;
+}
+
+.talk-search:focus {
+  outline: none;
+  border-color: $accentStrong;
+}
+
+.talk-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.filter-chip {
+  padding: 5px 11px;
+  font: inherit;
+  font-size: 0.8rem;
+  color: $inkMuted;
+  background: $paperMuted;
+  border: 1px solid $border;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.filter-chip:hover {
+  color: $ink;
+  border-color: $inkMuted;
+}
+
+.filter-chip.is-active {
+  color: #fff;
+  background: $ink;
+  border-color: $ink;
+}
+
+.talk-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 22px;
+  margin: 8px 0 40px;
+}
+
+.talk-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid $border;
+  border-radius: 8px;
+  overflow: hidden;
+  background: $paper;
+  transition: box-shadow 0.18s ease, transform 0.18s ease, border-color 0.18s ease;
+}
+
+.talk-card:hover,
+.talk-card:focus {
+  border-color: $inkMuted;
+  box-shadow: 0 8px 22px rgba(20, 20, 20, 0.13);
+  transform: translateY(-2px);
+}
+
+.talk-thumb {
+  position: relative;
+  background: $paperMuted;
+  border-bottom: 1px solid $border;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+}
+
+.talk-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0;
+  display: block;
+}
+
+.talk-slides {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  padding: 2px 7px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #fff;
+  background: rgba(20, 20, 20, 0.78);
+  border-radius: 4px;
+}
+
+.talk-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 12px 14px 15px;
+}
+
+.talk-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  font-size: 0.74rem;
+  color: $inkMuted;
+}
+
+.talk-theme {
+  padding: 1px 8px;
+  background: $paperMuted;
+  border: 1px solid $border;
+  border-radius: 999px;
+}
+
+.talk-title {
+  font-size: 0.92rem;
+  font-weight: 500;
+  line-height: 1.45;
+  color: $ink;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.talk-empty {
+  color: $inkMuted;
+  text-align: center;
+  padding: 40px 0;
+}
+
+@media screen and (max-width: 640px) {
+  .talk-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 14px;
+  }
+  .talks-controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .talk-search {
+    max-width: none;
+  }
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
