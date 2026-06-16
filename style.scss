@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  background: #ffffff;
+  background: $paper;
   color: $ink;
   font: 16px/1.7 $sans;
   min-height: 100vh;
@@ -186,7 +186,7 @@ th {
 .site-sidebar {
   width: 260px;
   padding: 48px 32px;
-  background: #ffffff;
+  background: $paper;
   border-right: 1px solid $border;
   position: sticky;
   top: 0;
@@ -343,7 +343,7 @@ th {
   padding: 4px 10px;
   border-radius: 0;
   background: transparent;
-  border: 1px solid #c9c9c5;
+  border: 1px solid $border;
   color: $inkMuted;
   font-family: $sans;
   font-size: 0.82rem;
@@ -410,7 +410,7 @@ th {
 }
 
 .hl {
-  border-bottom: 3px solid $ink;
+  border-bottom: 3px solid $accent;
   padding: 0 1px;
 }
 
@@ -481,7 +481,7 @@ th {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #8a8a8a;
+  color: $inkMuted;
 }
 
 .news-link {

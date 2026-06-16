@@ -3,14 +3,14 @@
 // VARIABLES
 //
 
-// Colors
-$ink: #141414;
-$inkMuted: #5a5a5a;
-$accent: #141414;
-$accentStrong: #000000;
-$paper: #ffffff;
-$paperMuted: #f7f7f5;
-$border: #e3e3e0;
+// Colors — warm white-paper / journal palette
+$ink: #141414;          // body text
+$inkMuted: #66625a;     // warm muted gray (secondary text, tags)
+$accent: #9a7a3a;       // restrained gold accent
+$accentStrong: #846433; // deeper gold for hover / active
+$paper: #faf9f5;        // warm paper background
+$paperMuted: #f2efe6;   // warm muted surface (chips, thumbs, cards)
+$border: #d8d2c4;       // warm hairline
 $shadow: rgba(22, 27, 32, 0);
 
 // Font stacks
