@@ -1,5 +1,29 @@
 [
  {
+  "id": "2026-bje-tta-special",
+  "title": "방송공학회 하계학술대회 TTA 특별세션 — 차세대 방송 표준 동향",
+  "date": "2026-06-19",
+  "year": "2026",
+  "sortkey": "2026-06-19",
+  "slides": 81,
+  "theme": "표준화·정책",
+  "theme_code": "STD",
+  "sd_url": "",
+  "drive_url": "https://drive.google.com/drive/folders/1X6XBzKdW9xUJVtJ0l0yQeni7ldPWFYiJ"
+ },
+ {
+  "id": "2026-bje-rapa-special",
+  "title": "방송공학회 하계학술대회 RAPA 특별세션",
+  "date": "2026-06-19",
+  "year": "2026",
+  "sortkey": "2026-06-19",
+  "slides": 50,
+  "theme": "교육·세미나·학회",
+  "theme_code": "EDU",
+  "sd_url": "",
+  "drive_url": "https://drive.google.com/drive/folders/1X6XBzKdW9xUJVtJ0l0yQeni7ldPWFYiJ"
+ },
+ {
   "id": "3c2de51664d64bd3af1094282798cdc9",
   "title": "20260514 KOBA2026 컨퍼런스 안성준ETRI 전성호MBC upload",
   "date": "2026-05-14",
