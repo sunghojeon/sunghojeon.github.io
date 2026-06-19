@@ -797,14 +797,14 @@ th {
   position: relative;
   background: $paperMuted;
   border-bottom: 1px solid $border;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 16 / 9;
   overflow: hidden;
 }
 
 .talk-thumb img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 0;
   display: block;
 }
