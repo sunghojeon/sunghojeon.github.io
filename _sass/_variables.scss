@@ -13,9 +13,9 @@ $paperMuted: #f2efe6;   // warm muted surface (chips, thumbs, cards)
 $border: #d8d2c4;       // warm hairline
 $shadow: rgba(22, 27, 32, 0);
 
-// Font stacks
+// Font stacks — use Noto Serif KR consistently across the site.
 $serif: "Noto Serif KR", "Noto Serif", Georgia, "Apple SD Gothic Neo", serif;
-$sans: "Noto Sans KR", "Noto Sans", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+$sans: $serif;
 
 // Mobile breakpoints
 @mixin mobile {

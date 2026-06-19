@@ -19,7 +19,7 @@ html {
 body {
   background: $paper;
   color: $ink;
-  font: 16px/1.7 $sans;
+  font: 16px/1.75 $sans;
   min-height: 100vh;
 }
 
@@ -120,7 +120,7 @@ h4 {
 
 h1 {
   font-size: 1.9rem;
-  letter-spacing: -0.02em;
+  letter-spacing: 0;
 }
 
 h2 {
@@ -135,7 +135,7 @@ h4 {
   font-size: 1.05rem;
   color: $inkMuted;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0;
 }
 
 ul,
@@ -277,7 +277,7 @@ th {
 .site-nav a {
   font-size: 0.82rem;
   text-transform: uppercase;
-  letter-spacing: 0.16em;
+  letter-spacing: 0;
   color: $inkMuted;
   border-bottom: none;
   border-left: 3px solid transparent;
@@ -297,7 +297,7 @@ th {
 .sidebar-title {
   font-family: $sans;
   text-transform: uppercase;
-  letter-spacing: 0.14em;
+  letter-spacing: 0;
   font-size: 0.72rem;
   color: $inkMuted;
   margin-bottom: 12px;
@@ -368,7 +368,7 @@ th {
   color: $inkMuted;
   font-family: $sans;
   font-size: 0.82rem;
-  letter-spacing: 0.02em;
+  letter-spacing: 0;
 }
 
 .page-header {
@@ -405,7 +405,7 @@ th {
   font-family: $sans;
   font-size: 0.85rem;
   text-transform: uppercase;
-  letter-spacing: 0.12em;
+  letter-spacing: 0;
   color: $inkMuted;
 }
 
@@ -435,14 +435,6 @@ th {
   padding: 0 1px;
 }
 
-.hero-tags {
-  margin: 1.2rem 0 0;
-  font-family: $sans;
-  font-size: 0.85rem;
-  letter-spacing: 0;
-  color: $inkMuted;
-}
-
 .home-section {
   margin: 2.8rem 0;
 }
@@ -453,7 +445,7 @@ th {
   font-size: 0.85rem;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.14em;
+  letter-spacing: 0;
   color: $ink;
   border-bottom: 1px solid $ink;
   padding-bottom: 8px;
@@ -509,7 +501,7 @@ th {
   font-size: 0.66rem;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0;
   color: $inkMuted;
 }
 
