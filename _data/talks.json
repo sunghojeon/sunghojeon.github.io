@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-nab-theme-pavilion",
+  "title": "NAB Show 2026 한국 방송기술 공동홍보관(테마관) 운영성과 — RAPA 주관",
+  "date": "2026-06-05",
+  "year": "2026",
+  "sortkey": "2026-06-05",
+  "slides": 5,
+  "theme": "기타",
+  "theme_code": "ETC",
+  "sd_url": "",
+  "drive_url": "https://drive.google.com/drive/folders/1X6XBzKdW9xUJVtJ0l0yQeni7ldPWFYiJ"
+ },
+ {
   "id": "2026-bje-tta-special",
   "title": "방송공학회 하계학술대회 TTA 특별세션 — 차세대 방송 표준 동향",
   "date": "2026-06-19",
