@@ -13,7 +13,7 @@
  },
  {
   "id": "2026-bje-tta-special",
-  "title": "방송공학회 하계학술대회 TTA 특별세션 — 차세대 방송 표준 동향",
+  "title": "TTA 특별세션 — 차세대 방송 표준 동향 @ 한국방송미디어공학회 2026 하계학술대회",
   "date": "2026-06-19",
   "year": "2026",
   "sortkey": "2026-06-19",
@@ -25,7 +25,7 @@
  },
  {
   "id": "2026-bje-rapa-special",
-  "title": "방송공학회 하계학술대회 RAPA 특별세션 — 지상파 방송망 기반 신규 서비스",
+  "title": "RAPA 특별세션 — 지상파 방송망 기반 신규 서비스 @ 한국방송미디어공학회 2026 하계학술대회",
   "date": "2026-06-19",
   "year": "2026",
   "sortkey": "2026-06-19",
@@ -97,7 +97,7 @@
  },
  {
   "id": "1d13c8452a0f4359a6bcf8548f87ef83",
-  "title": "IEEE BMSB 2025 @ Dublin, Ireland",
+  "title": "ATSC 3.0 STLTP Distribution over Multicast-Unsupported VPN @ IEEE BMSB 2025",
   "date": "2025-06-11",
   "year": "2025",
   "sortkey": "2025-06-11",
@@ -169,7 +169,7 @@
  },
  {
   "id": "6f611f395f8249c285ef145489605508",
-  "title": "ITS학회 Session B-6 발표 출력",
+  "title": "ATSC 3.0 모바일 방송 추진현황과 서비스 개발 계획 @ 한국ITS학회 2023 추계학술대회",
   "date": "2023-11-16",
   "year": "2023",
   "sortkey": "2023-11-16",
@@ -181,7 +181,7 @@
  },
  {
   "id": "04f1b4c2256c44d587614460ba759ab9",
-  "title": "차세대방송추진단 발표",
+  "title": "우리나라 ATSC 3.0 지상파 방송 기술개발 동향 @ RAPA 차세대 방송 추진반 3차 회의",
   "date": "2023-09-05",
   "year": "2023",
   "sortkey": "2023-09-05",
@@ -193,7 +193,7 @@
  },
  {
   "id": "bc6578b4f3454e76bca53a2cc6268e9d",
-  "title": "KOBETA방송기술교육원 광주지역교육",
+  "title": "ATSC 3.0 혁신서비스 동향: SFN 방송망 설계/관리 및 심층 Q&A @ 방송기술교육원 2023 전남권 지역 방송기술 교육",
   "date": "2023-09-01",
   "year": "2023",
   "sortkey": "2023-09-01",
@@ -217,7 +217,7 @@
  },
  {
   "id": "3426d61a2ffc4c5ba0fd973473c0855b",
-  "title": "IEEE BMSB 2023 @ Beijing, China",
+  "title": "Simple Anomaly Detection from Long-term Time-series Data of an ATSC 3.0 SFN Monitoring System @ IEEE BMSB 2023",
   "date": "2023-06-15",
   "year": "2023",
   "sortkey": "2023-06-15",
@@ -313,7 +313,7 @@
  },
  {
   "id": "6367ed79bf744a0f805f1226124c396f",
-  "title": "IEEE BMSB 2022 @ Bilbao, Spain",
+  "title": "Nationwide Integrated 24/7 Monitoring System for ATSC 3.0 Single Frequency Broadcast Networks @ IEEE BMSB 2022",
   "date": "2022-06-15",
   "year": "2022",
   "sortkey": "2022-06-15",
@@ -841,7 +841,7 @@
  },
  {
   "id": "61fd7225ad4042d093f482c4f51f4688",
-  "title": "네트워크운용부 현장직무교육(1차)",
+  "title": "UHD 방송망 구축 및 운용 실무: ATSC 3.0 표준 기반 단일 주파수 방송 @ 네트워크운용부 현장직무교육 (1차)",
   "date": "2016-11-10",
   "year": "2016",
   "sortkey": "2016-11-10",
@@ -853,7 +853,7 @@
  },
  {
   "id": "481aa7b6facb4d729fdf5ceb917b8639",
-  "title": "특허청 전문가 초청 교육 @ 대전정부종합청사 4동",
+  "title": "국내 UHD 방송 표준 및 실험방송 현황 @ 특허청 전문가 초청 교육 (대전정부종합청사 4동)",
   "date": "2016-11-08",
   "year": "2016",
   "sortkey": "2016-11-08",
