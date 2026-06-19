@@ -15,6 +15,7 @@ title: Timeline
     <a class="tl-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>{% if post.category %} <span class="tl-cat">{{ post.category }}</span>{% endif %}
     <div class="tl-date">{{ post.date | date: "%B %-d, %Y" }}</div>
     {% if post.excerpt %}<p class="tl-desc">{{ post.excerpt | strip_html | strip_newlines | truncate: 120 }}</p>{% endif %}
+    {% if post.slides %}<a class="tl-slides" href="{{ post.slides }}" target="_blank" rel="noopener">Slides &rarr;</a>{% endif %}
   </li>
 {% endfor %}
 </ol>

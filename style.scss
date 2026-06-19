@@ -648,6 +648,15 @@ th {
   color: $ink;
 }
 
+.tl-slides {
+  display: inline-block;
+  margin-top: 5px;
+  font-family: $sans;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border-bottom: none;
+}
+
 .entry {
   max-width: 920px;
 }
