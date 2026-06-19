@@ -9,7 +9,7 @@ title: Presentations
 
 <section class="page-intro">
   <h1 class="page-title">Presentations</h1>
-  <p class="page-subtitle">{{ site.data.talks_meta.decks }} decks &middot; {{ site.data.talks_meta.slides }} slides &middot; 2012&ndash;2026. Click a card to view the slides on SpeakerDeck; full PDFs are on Google Drive.</p>
+  <p class="page-subtitle">{{ site.data.talks_meta.decks }} decks &middot; {{ site.data.talks_meta.slides }} slides &middot; 2012&ndash;2026. Click a card to preview the full deck on Google Drive.</p>
 </section>
 
 <div class="talks-controls">
@@ -23,7 +23,7 @@ title: Presentations
 <div class="talk-grid" id="talk-grid">
 {% for t in talks %}
   <a class="talk-card"
-     href="{% if t.drive_url and t.drive_url != '' %}{{ t.drive_url }}{% else %}{{ t.sd_url }}{% endif %}"
+     href="{{ t.drive_url }}"
      target="_blank" rel="noopener"
      data-year="{{ t.year }}" data-title="{{ t.title | downcase | escape }}">
     <div class="talk-thumb">
