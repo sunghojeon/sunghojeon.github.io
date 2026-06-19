@@ -491,7 +491,7 @@ th {
 
 .news-item {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: baseline;
   gap: 10px;
   margin: 0;
@@ -518,6 +518,7 @@ th {
 }
 
 .news-link {
+  flex: 1 1 auto;
   min-width: 0;
   line-height: 1.5;
   font-weight: 500;
