@@ -448,6 +448,43 @@ th {
   padding: 0 1px;
 }
 
+/* Research: selected list & type badges (quiet label style) */
+.selected-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.selected-list li {
+  margin: 0 0 10px;
+  line-height: 1.5;
+}
+
+.pub-badge {
+  display: inline-block;
+  margin-right: 8px;
+  padding: 1px 7px;
+  border: 1px solid $border;
+  border-radius: 3px;
+  background: $paperMuted;
+  color: $inkMuted;
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.pub-badge--journal {
+  color: $ink;
+  border-color: $inkMuted;
+}
+
+.pub-badge--standard {
+  border-style: dashed;
+}
+
 .home-section {
   margin: 2.8rem 0;
 }
