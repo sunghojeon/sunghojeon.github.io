@@ -584,6 +584,70 @@ th {
   font-weight: 600;
 }
 
+/* News & Talks timeline */
+.timeline {
+  list-style: none;
+  margin: 1.6rem 0 0 6px;
+  padding: 0;
+  border-left: 1px solid $border;
+}
+
+.tl-item {
+  position: relative;
+  padding: 0 0 1.7em 26px;
+}
+
+.tl-item:last-child {
+  padding-bottom: 0;
+}
+
+.tl-item::before {
+  content: "";
+  position: absolute;
+  left: -6px;
+  top: 5px;
+  width: 11px;
+  height: 11px;
+  background: $paper;
+  border: 1.5px solid $inkMuted;
+  border-radius: 50%;
+}
+
+.tl-title {
+  font-weight: 600;
+  color: $ink;
+  border-bottom: none;
+}
+
+.tl-title:hover,
+.tl-title:focus {
+  color: $accentStrong;
+}
+
+.tl-cat {
+  margin-left: 8px;
+  font-family: $sans;
+  font-size: 0.62rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: $inkMuted;
+  vertical-align: middle;
+}
+
+.tl-date {
+  font-family: $sans;
+  font-style: italic;
+  font-size: 0.82rem;
+  color: $inkMuted;
+  margin: 3px 0 7px;
+}
+
+.tl-desc {
+  margin: 0;
+  color: $ink;
+}
+
 .entry {
   max-width: 920px;
 }

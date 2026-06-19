@@ -5,20 +5,16 @@ title: News & Talks
 ---
 
 <section class="page-intro">
-  <h1 class="page-title">News &amp; Talks</h1>
-  <p class="page-subtitle">Talks, papers, standards, articles, and announcements &mdash; grouped by year.</p>
+  <h1 class="page-title">Timeline</h1>
+  <p class="page-subtitle">Talks, papers, standards, and announcements &mdash; newest first.</p>
 </section>
 
-{% assign postsByYear = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
-{% for year in postsByYear %}
-<h2 class="archive-year">{{ year.name }}</h2>
-<ul class="news-list">
-  {% for post in year.items %}
-  <li class="news-item">
-    <span class="news-date">{{ post.date | date: "%m-%d" }}</span>
-    {% if post.category %}<span class="news-tag news-tag--{{ post.category }}">{{ post.category }}</span>{% endif %}
-    <a class="news-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+<ol class="timeline">
+{% for post in site.posts %}
+  <li class="tl-item">
+    <a class="tl-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>{% if post.category %} <span class="tl-cat">{{ post.category }}</span>{% endif %}
+    <div class="tl-date">{{ post.date | date: "%B %-d, %Y" }}</div>
+    {% if post.excerpt %}<p class="tl-desc">{{ post.excerpt | strip_html | strip_newlines | truncate: 120 }}</p>{% endif %}
   </li>
-  {% endfor %}
-</ul>
 {% endfor %}
+</ol>
