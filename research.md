@@ -18,12 +18,14 @@ Broadcast systems engineering for terrestrial networks, with emphasis on data se
 
 ## Selected & Recent
 
-- <span class="pub-badge pub-badge--conf">CONF · IEEE BMSB 2026</span> Coverage overlap & outage bounding in hybrid ATSC 3.0/LTE RTK delivery *(to appear)*
-- <span class="pub-badge pub-badge--conf">CONF · IEEE BMSB 2026</span> ATSC 3.0 end-to-end latency for emergency alert delivery *(to appear)*
-- <span class="pub-badge pub-badge--conf">CONF · IEEE BMSB 2026</span> Nationwide time sourcing over terrestrial broadcast networks — BPS Project *(to appear)*
-- <span class="pub-badge pub-badge--journal">JOURNAL · IEEE Trans. Broadcasting</span> [Comparative assessment: ATSC 3.0 vs. 5G Broadcast in lab and field tests](https://doi.org/10.1109/TBC.2024.3482183) (2025)
-- <span class="pub-badge pub-badge--standard">STANDARD · TTA</span> [Drone-based DTV antenna pattern verification — TTAR-07.0048](/TTAR-07-0048/) (2025)
-- <span class="pub-badge pub-badge--standard">ONGOING</span> Active standardization — TTA WG80210 (drone antenna measurement) &amp; ITU-R WP6A
+<ul class="selected-list">
+<li><span class="pub-badge pub-badge--conf">CONF · IEEE BMSB</span> Coverage overlap &amp; outage bounding in hybrid ATSC 3.0/LTE RTK delivery <em>(2026, to appear)</em></li>
+<li><span class="pub-badge pub-badge--conf">CONF · IEEE BMSB</span> ATSC 3.0 end-to-end latency for emergency alert delivery <em>(2026, to appear)</em></li>
+<li><span class="pub-badge pub-badge--conf">CONF · IEEE BMSB</span> Nationwide time sourcing over terrestrial broadcast networks — BPS Project <em>(2026, to appear)</em></li>
+<li><span class="pub-badge pub-badge--journal">JOURNAL · IEEE TBC</span> <a href="https://doi.org/10.1109/TBC.2024.3482183">Comparative assessment: ATSC 3.0 vs. 5G Broadcast in lab and field tests</a> (2025)</li>
+<li><span class="pub-badge pub-badge--standard">STANDARD · TTA</span> <a href="/TTAR-07-0048/">Drone-based DTV antenna pattern verification — TTAR-07.0048</a> (2025)</li>
+<li><span class="pub-badge pub-badge--standard">ONGOING</span> Active standardization — TTA WG80210 (drone antenna measurement) &amp; ITU-R WP6A</li>
+</ul>
 
 ## Full Publication Archive
 
