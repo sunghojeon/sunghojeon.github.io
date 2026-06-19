@@ -7,7 +7,12 @@ hide_page_title: true
 
 ## Focus
 
-Broadcast systems engineering and broadcast-based PNT — Broadcast RTK (eGPS) over ATSC 3.0/DMB, hybrid ATSC 3.0/LTE delivery, ATSC 3.0 field trials, SFN performance and channel modeling, drone-based antenna pattern verification, monitoring systems, and standards work (TTA · KS · ITU-R).
+Broadcast systems engineering for terrestrial networks, with emphasis on data services, precise positioning, and resilient public infrastructure.
+
+- **Broadcast-based PNT** — Broadcast RTK (eGPS), BPS, and hybrid ATSC 3.0/LTE delivery
+- **ATSC 3.0 systems** — field trials, SFN performance, channel modeling, and monitoring
+- **Measurement & verification** — drone-based antenna pattern verification and field measurement methods
+- **Standards & policy** — TTA, KS, and ITU-R contributions for terrestrial broadcasting
 
 ## Research Links
 
@@ -25,11 +30,11 @@ Broadcast systems engineering and broadcast-based PNT — Broadcast RTK (eGPS) o
 
 #### 2024
 
-- Sungjun Ahn, Bo-Mi Lim, Sunhyoung Kwon, **Sungho Jeon**, Xianbin Wang, and Sung-Ik Park, "[Diversity Receiver for ATSC 3.0-in-Vehicle: Design and Field Evaluation in Metropolitan SFN](https://ieeexplore.ieee.org/document/10479571)," *IEEE Transactions on Broadcasting*, vol. 70, no. 2, pp. 367 - 381, June 2024.
+- Sungjun Ahn, Bo-Mi Lim, Sunhyoung Kwon, **Sungho Jeon**, Xianbin Wang, and Sung-Ik Park, "[Diversity Receiver for ATSC 3.0-in-Vehicle: Design and Field Evaluation in Metropolitan SFN](https://ieeexplore.ieee.org/document/10479571)," *IEEE Transactions on Broadcasting*, vol. 70, no. 2, pp. 367-381, June 2024.
 
 #### 2023
 
-- Seok-Ki Ahn, Sungjun Ahn, Jeongchang Kim, Hyeongseok Kim, Sunhyoung Kwon, **Sungho Jeon**, Mats Ek, Sesh Simha, Anindya Saha, Prashant Maru, Parag Naik, Mark Aitken, Pablo Angueira, Yiyan Wu, and Sung-Ik Park, "[Evaluation of ATSC 3.0 and 3GPP Rel-17 5G Broadcasting Systems for Mobile Handheld Applications](https://doi.org/10.1109/TBC.2022.3222988)," *IEEE Transactions on Broadcasting*, vol. 69, no. 2, pp. 338 - 356, June 2023.
+- Seok-Ki Ahn, Sungjun Ahn, Jeongchang Kim, Hyeongseok Kim, Sunhyoung Kwon, **Sungho Jeon**, Mats Ek, Sesh Simha, Anindya Saha, Prashant Maru, Parag Naik, Mark Aitken, Pablo Angueira, Yiyan Wu, and Sung-Ik Park, "[Evaluation of ATSC 3.0 and 3GPP Rel-17 5G Broadcasting Systems for Mobile Handheld Applications](https://doi.org/10.1109/TBC.2022.3222988)," *IEEE Transactions on Broadcasting*, vol. 69, no. 2, pp. 338-356, June 2023.
 
 #### 2022
 
@@ -59,17 +64,17 @@ Broadcast systems engineering and broadcast-based PNT — Broadcast RTK (eGPS) o
 
 #### 2024
 
-- Sunhyoung Kwon, Seok-Ki Ahn, **Sungho Jeon**, Sesh Simha, Mark Aitken, and Sung-Ik Park, "[Performance Evaluation of Time and Frequency Interelavers in ATSC 3.0 Through Laboratory and Field Tests](https://doi.org/10.1109/BMSB62888.2024.10608219)," in *The 19th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2024), Toronto, ON, Canada, June 2024. 
+- Sunhyoung Kwon, Seok-Ki Ahn, **Sungho Jeon**, Sesh Simha, Mark Aitken, and Sung-Ik Park, "[Performance Evaluation of Time and Frequency Interleavers in ATSC 3.0 Through Laboratory and Field Tests](https://doi.org/10.1109/BMSB62888.2024.10608219)," in *The 19th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2024), Toronto, ON, Canada, June 2024.
 
-- Sunhyoung Kwon, Seok-Ki Ahn, **Sungho Jeon**, Sesh Simha, Mark Aitken, and Sung-Ik Park, "[Physical layer performance comparison results of ATSC 3.0 and 5G Broadcast through laboratory and field tests](https://doi.org/10.1109/BMSB62888.2024.10608311)," in *The 19th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2024), Toronto, ON, Canada, June 2024. 
+- Sunhyoung Kwon, Seok-Ki Ahn, **Sungho Jeon**, Sesh Simha, Mark Aitken, and Sung-Ik Park, "[Physical layer performance comparison results of ATSC 3.0 and 5G Broadcast through laboratory and field tests](https://doi.org/10.1109/BMSB62888.2024.10608311)," in *The 19th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2024), Toronto, ON, Canada, June 2024.
 
 - Sung-Ik Park, Seok-Ki Ahn, Soyoung Han, **Sungho Jeon**, Sesh Simha, and Mark Aitken, "[Performance Evaluation of 5G Broadcast and ATSC 3.0 for Cellular Broadcasting Scenarios](https://doi.org/10.1109/BMSB62888.2024.10608271)," in *The 19th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2024), Toronto, ON, Canada, June 2024.
 
 #### 2023
 
 - **Sungho Jeon**, Seong-Man Min, Dawoon Chung, Kangsoo Kim, Jahoon Ku, Sunhyoung Kwon and Sung-Ik Park, "[Simple Anomaly Detection Technique from Long-term Time-series Data by ATSC 3.0 Single Frequency Broadcast Network Monitoring System](https://doi.org/10.1109/BMSB58369.2023.10211288)," in *The 18th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2023), Beijing, China, June 2023. [[Slide](https://speakerdeck.com/sunghojeon/20220615-ieee-bmsb-2023-at-beijing-china)]
- 
-- Sungjun Ahn, Seok-Ki Ahn, Sung-Ik Park, Jeongchang Kim, **Sungho Jeon**, Mats Ek, Sesh Simha, Mark Aitken, Anindya Saha, Prashant Maru, Parag Naig and Joonhyuk Kang, "[Adaptive Modification of Fading Channel Models for Terrestrial SFN Environments](https://www.bmsb2023.com/index.html)," in *The 18th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2023), Beijing, China, June 2023. [Best Student Paper Award](http://journal.kobeta.com/%ec%95%88%ec%84%b1%ec%a4%80-kaist-%eb%b0%95%ec%82%ac%ea%b3%bc%ec%a0%95-ieee-bmsb-2023-%ed%95%99%ec%88%a0%eb%8c%80%ed%9a%8c%ec%84%9c-%ec%88%98%ec%83%81/)
+
+- Sungjun Ahn, Seok-Ki Ahn, Sung-Ik Park, Jeongchang Kim, **Sungho Jeon**, Mats Ek, Sesh Simha, Mark Aitken, Anindya Saha, Prashant Maru, Parag Naik and Joonhyuk Kang, "[Adaptive Modification of Fading Channel Models for Terrestrial SFN Environments](https://www.bmsb2023.com/index.html)," in *The 18th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2023), Beijing, China, June 2023. [Best Student Paper Award](http://journal.kobeta.com/%ec%95%88%ec%84%b1%ec%a4%80-kaist-%eb%b0%95%ec%82%ac%ea%b3%bc%ec%a0%95-ieee-bmsb-2023-%ed%95%99%ec%88%a0%eb%8c%80%ed%9a%8c%ec%84%9c-%ec%88%98%ec%83%81/)
 
 #### 2022
 
@@ -91,7 +96,7 @@ Broadcast systems engineering and broadcast-based PNT — Broadcast RTK (eGPS) o
 
 #### 2019
 
-- Jaekwon Lee, **Sungho Jeon**, Sung-Ik Park, Dong Ku Kim, "[Efficient ATSC 3.0 TxID Signal Detection for Single Frequency Networks](https://doi.org/10.1109/TBC.2018.2874548)," *IEEE Transactions on Broadcasting*, vol. 65, no. 2, pp. 326-332, June 2019. 
+- Jaekwon Lee, **Sungho Jeon**, Sung-Ik Park, Dong Ku Kim, "[Efficient ATSC 3.0 TxID Signal Detection for Single Frequency Networks](https://doi.org/10.1109/TBC.2018.2874548)," *IEEE Transactions on Broadcasting*, vol. 65, no. 2, pp. 326-332, June 2019.
 
 - Sung-Ik Park, Jae-young Lee, Sunhyoung Kwon, Bo-mi Lim, Sungjun Ahn, Heung Mook Kim, **Sungho Jeon**, Jaekwon Lee, Michael Simon, Mark Aitken, Kevin Gage, Yiyan Wu, Liang Zhang, Wei Li, and Jeongchang Kim, "[Performance Analysis of All Modulation and Code Combinations in ATSC 3.0 Physical Layer Protocol](https://doi.org/10.1109/TBC.2018.2871372)," *IEEE Transactions on Broadcasting*, vol. 65, no. 2, pp. 197-210, June 2019.
 
@@ -101,11 +106,11 @@ Broadcast systems engineering and broadcast-based PNT — Broadcast RTK (eGPS) o
 
 #### 2016
 
-- Yuting Tao, Hak-Jin Kim, **Sungho Jeon**, and Jong-Soo Seo, "[Low Complexity Switched Soft Demapper for Rotated QAM Constellations](http://dx.doi.org/10.1109/TBC.2016.2570007)," *IEEE Transactions on Broadcasting*, vol. 62, no. 3, pp. 532 - 539, September 2016.
+- Yuting Tao, Hak-Jin Kim, **Sungho Jeon**, and Jong-Soo Seo, "[Low Complexity Switched Soft Demapper for Rotated QAM Constellations](http://dx.doi.org/10.1109/TBC.2016.2570007)," *IEEE Transactions on Broadcasting*, vol. 62, no. 3, pp. 532-539, September 2016.
 
 - Jaekwon Lee, **Sungho Jeon**, and Dong Ku Kim, "[A Pre-Correction Algorithm for Broadcasting Transmitter](http://dx.doi.org/10.1109/TBC.2016.2540521)," *IEEE Transactions on Broadcasting*, vol. 62, no. 2, pp. 487-495, June 2016.
 
-- Soonki Jo, [Jae-Shin Han](https://sites.google.com/site/hjs4015/contact), **Sungho Jeon**, [Jeong-Min Choi](https://kr.linkedin.com/pub/jeong-min-choi/8a/a59/93/en), and Jong-Soo Seo, "[Distributed differential quasi-orthogonal space-time block coded system for multiple-relay networks](http://link.springer.com/article/10.1007/s11277-015-3074-y)," *Wireless Personal Communications*, vol. 87, no. 4, pp 1401-1414, April 2016.
+- Soonki Jo, [Jae-Shin Han](https://sites.google.com/site/hjs4015/contact), **Sungho Jeon**, [Jeong-Min Choi](https://kr.linkedin.com/pub/jeong-min-choi/8a/a59/93/en), and Jong-Soo Seo, "[Distributed differential quasi-orthogonal space-time block coded system for multiple-relay networks](http://link.springer.com/article/10.1007/s11277-015-3074-y)," *Wireless Personal Communications*, vol. 87, no. 4, pp. 1401-1414, April 2016.
 
 #### 2015
 
@@ -120,32 +125,32 @@ Broadcast systems engineering and broadcast-based PNT — Broadcast RTK (eGPS) o
 
 - Jeong-Min Choi, Jae-Shin Han, **Sungho Jeon**, and Jong-Soo Seo, "[Design of Training Sequences and Channel Estimation for Amplify-and-Forward Two-Path Relaying Networks](http://jwcn.eurasipjournals.com/content/2014/1/113)," *EURASIP Journal of Wireless Communications and Networking*, vol. 2014:113, July 2014.
 - Jae-Shin Han, Jong-Seob Baek, **Sungho Jeon**, and Jong-Soo Seo, "[Cooperative networks with amplify-and-forward multiple-full-duplex relays](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6760609)," *IEEE Transactions on Wireless Communications*, vol. 13, no. 4, pp. 2137-2149, April 2014.
-- **Sungho Jeon**, Jaekwon Lee, Jeong-Min Choi, and Jong-Soo Seo, "[Definition and Properties of the Erasure Effect in Single Frequency Network with Two Synchronized Transmitters](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6755499)," *IEEE Antenna and Wireless Propagation Letters*, vol. 13, pp. 439-442 , March 2014.
-- **Sungho Jeon**, Jong-Seob Baek, Junghyun Kim, and Jong-Soo Seo, "[Analysis on the Network Gains of SISO and MISO Single Frequency Network Broadcast Systems](http://search.ieice.org/bin/summary.php?id=e97-b_1_182&category=B&lang=E&year=2014&abst=)," *IEICE Transactions on Communications*, vol. E97-B, no. 01, pp. 182-189, January 2014.
+- **Sungho Jeon**, Jaekwon Lee, Jeong-Min Choi, and Jong-Soo Seo, "[Definition and Properties of the Erasure Effect in Single Frequency Network with Two Synchronized Transmitters](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6755499)," *IEEE Antennas and Wireless Propagation Letters*, vol. 13, pp. 439-442, March 2014.
+- **Sungho Jeon**, Jong-Seob Baek, Junghyun Kim, and Jong-Soo Seo, "[Analysis on the Network Gains of SISO and MISO Single Frequency Network Broadcast Systems](http://search.ieice.org/bin/summary.php?id=e97-b_1_182&category=B&lang=E&year=2014&abst=)," *IEICE Transactions on Communications*, vol. E97-B, no. 1, pp. 182-189, January 2014.
 
 #### 2013
 
-- Jaekwon Lee, **Sungho Jeon**, Junghyun Kim, and Young-Woo Suh, "[Adaptive HPA Linearization Technique for Practical ATSC DTV System](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6516520)," *IEEE Transactions on Broadcasting*, vol. 59, no.2, pp. 376-381, June 2013.
+- Jaekwon Lee, **Sungho Jeon**, Junghyun Kim, and Young-Woo Suh, "[Adaptive HPA Linearization Technique for Practical ATSC DTV System](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6516520)," *IEEE Transactions on Broadcasting*, vol. 59, no. 2, pp. 376-381, June 2013.
 
 #### 2012
 
-- **Sungho Jeon**, Zungkon Yim, and Jong-Soo Seo, "[Path Loss Model for Coupling Loop Interference with Multiple Reflections over Single Frequency Network](http://www.tandfonline.com/doi/abs/10.4103/0256-4602.105006#.VdpywvTSnJF)," *IETE Technical Review*, vol. 29, no. 6, pp. 499-505, November-December 2012.  
+- **Sungho Jeon**, Zungkon Yim, and Jong-Soo Seo, "[Path Loss Model for Coupling Loop Interference with Multiple Reflections over Single Frequency Network](http://www.tandfonline.com/doi/abs/10.4103/0256-4602.105006#.VdpywvTSnJF)," *IETE Technical Review*, vol. 29, no. 6, pp. 499-505, November-December 2012.
 
-- **Sungho Jeon**, Jin-Yong Choi, Zungkon Yim, and Jong-Soo Seo, "[Error Floor Analysis of Signal Space Diversity Schemes under Erasure Effect in Single Frequency Network](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6196185)," *IEEE transactions on Broadcasting*, vol. 58, no.3, pp. 508-513, September 2012.
+- **Sungho Jeon**, Jin-Yong Choi, Zungkon Yim, and Jong-Soo Seo, "[Error Floor Analysis of Signal Space Diversity Schemes under Erasure Effect in Single Frequency Network](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6196185)," *IEEE Transactions on Broadcasting*, vol. 58, no. 3, pp. 508-513, September 2012.
 
-- **Sungho Jeon**, Junghyun Kim, Jaekwon Lee, Young-Woo Suh, and Jong-Soo Seo, "[Adaptive Digital Predistortion with Iterative Noise Cancelation for Power Amplifier Linearization](http://search.ieice.org/bin/summary.php?id=e95-b_3_943&category=B&lang=E&year=2012&abst=)," *IEICE Transactions on Communications*, vol. E95-B, no.3, pp. 943-949, March 2012.  
+- **Sungho Jeon**, Junghyun Kim, Jaekwon Lee, Young-Woo Suh, and Jong-Soo Seo, "[Adaptive Digital Predistortion with Iterative Noise Cancelation for Power Amplifier Linearization](http://search.ieice.org/bin/summary.php?id=e95-b_3_943&category=B&lang=E&year=2012&abst=)," *IEICE Transactions on Communications*, vol. E95-B, no. 3, pp. 943-949, March 2012.
 
 #### 2011
 
-- Zungkon Yim and **Sungho Jeon**, "[Normalization Factor of Hierarchically Modulated Symbols for Advanced T-DMB System](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=5759727)," *IEEE transactions on Broadcasting*, vol. 57, no. 3, pp. 713-717, September 2011.
+- Zungkon Yim and **Sungho Jeon**, "[Normalization Factor of Hierarchically Modulated Symbols for Advanced T-DMB System](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=5759727)," *IEEE Transactions on Broadcasting*, vol. 57, no. 3, pp. 713-717, September 2011.
 
 #### 2010
 
-- **Sungho Jeon**, Soon Up Hwang, Ilsoo Kyung, and Jong-soo Seo, "[On the Distribution of MISO Channel Capacity in the Interference-limited System](http://search.ieice.org/bin/summary.php?id=e93-b_2_377&category=B&lang=E&year=2010&abst=)," *IEICE transactions on Communications*, vol. E93-B, no.02, pp. 377-380, February 2010.
+- **Sungho Jeon**, Soon Up Hwang, Ilsoo Kyung, and Jong-soo Seo, "[On the Distribution of MISO Channel Capacity in the Interference-limited System](http://search.ieice.org/bin/summary.php?id=e93-b_2_377&category=B&lang=E&year=2010&abst=)," *IEICE transactions on Communications*, vol. E93-B, no. 2, pp. 377-380, February 2010.
 
 #### 2009
 
-- Soon Up Hwang, **Sungho Jeon**, Sangjin Lee, and Jong-soo Seo, "[Soft-Output ML Detector for Spatial Modulation OFDM Systems]( http://doi.org/10.1587/elex.6.1426)," *IEICE Electronics Express*, vol. 6, no.19, pp.1426-1431, 2009.
+- Soon Up Hwang, **Sungho Jeon**, Sangjin Lee, and Jong-soo Seo, "[Soft-Output ML Detector for Spatial Modulation OFDM Systems]( http://doi.org/10.1587/elex.6.1426)," *IEICE Electronics Express*, vol. 6, no. 19, pp. 1426-1431, 2009.
 
 #### 2008
 
@@ -153,7 +158,7 @@ Broadcast systems engineering and broadcast-based PNT — Broadcast RTK (eGPS) o
 
 #### 2007
 
-- **Sungho Jeon**, and Sanghoon Lee, "[A Relay-Assisted Handover Technique with Network Coding over Multihop Cellular Networks](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=4133913)," *IEEE Communications Letters*, vol.11, no.3, pp.252-254, March 2007. [IPR](https://patents.google.com/patent/US20080085709A1/)
+- **Sungho Jeon**, and Sanghoon Lee, "[A Relay-Assisted Handover Technique with Network Coding over Multihop Cellular Networks](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=4133913)," *IEEE Communications Letters*, vol.11, no. 3, pp. 252-254, March 2007. [IPR](https://patents.google.com/patent/US20080085709A1/)
 
 #### 2006
 
@@ -165,7 +170,7 @@ Broadcast systems engineering and broadcast-based PNT — Broadcast RTK (eGPS) o
 
 #### 2015
 
-- Injoon Cho, Byungsun Kim, Sangjin Hahm, Sanghun Kim, and **Sungho Jeon**, "[Terrestrial 4K UHD Live Broadcasting of Sports Events](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=0CCMQFjABahUKEwiO152M8-THAhVh4qYKHaNKBHQ&url=http%3A%2F%2Fdata.abu.org.my%2Ftechnical%2Ftdwebsite%2Ftr%2F261%2520Q1%25202015.pdf&usg=AFQjCNEnlQaKtbLLVTo9_XcZo9vtf5luvQ&sig2=ksfmTKEYZq53LCMK3ZCesg&cad=rja)," *ABU Technical Review*, vol. 261, no. 1, pp.2-8, January-March 2015. (The Second Commended Article Prize)
+- Injoon Cho, Byungsun Kim, Sangjin Hahm, Sanghun Kim, and **Sungho Jeon**, "[Terrestrial 4K UHD Live Broadcasting of Sports Events](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=0CCMQFjABahUKEwiO152M8-THAhVh4qYKHaNKBHQ&url=http%3A%2F%2Fdata.abu.org.my%2Ftechnical%2Ftdwebsite%2Ftr%2F261%2520Q1%25202015.pdf&usg=AFQjCNEnlQaKtbLLVTo9_XcZo9vtf5luvQ&sig2=ksfmTKEYZq53LCMK3ZCesg&cad=rja)," *ABU Technical Review*, vol. 261, no. 1, pp. 2-8, January-March 2015. (The Second Commended Article Prize)
 
 #### 2013
 
@@ -193,13 +198,13 @@ Broadcast systems engineering and broadcast-based PNT — Broadcast RTK (eGPS) o
 
 #### 2016
 
-- **Sungho Jeon**, Sanghun Kim, Jeong-Deok Kim, Zungkon Yim, and Jong-Soo Seo, "[Field Trial Results of 4K-UHD over DVB-T2 Single Frequency Network in Republic of Korea](http://dx.doi.org/10.1109/BMSB.2016.7522002)," in *The 11th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2016), Nara, Japan, June 2016. 
+- **Sungho Jeon**, Sanghun Kim, Jeong-Deok Kim, Zungkon Yim, and Jong-Soo Seo, "[Field Trial Results of 4K-UHD over DVB-T2 Single Frequency Network in Republic of Korea](http://dx.doi.org/10.1109/BMSB.2016.7522002)," in *The 11th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2016), Nara, Japan, June 2016.
 - **Sungho Jeon**, Junghyun Kim, Jaekwon Lee, Sanghun Kim, Jeong-Deok Kim, Young-Woo Suh, and Zungkon Yim, "[Laboratory Measurement to Provide Threshold of Visibility for Terrestrial 4K-UHDTV Broadcasting Based on HEVC over DVB-T2 in AWGN Channel](https://drive.google.com/open?id=0B6BaHnN-e1f9ZDlRLTlpdTl4bkk)," in *The 19th International Workshop on Advanced Image Technology* (IWAIT 2016), Busan, Republic of Korea, January 2016.
 - Young-Woo Suh, Junghyun Kim, **Sungho Jeon**, Zungkon Yim, and Sung-Choon Park, "[Implementation of Integrated Multi-Media Measurement and Monitoring System](https://drive.google.com/open?id=0B6BaHnN-e1f9ZVZXZV9oWmlSbDQ)," in *The 19th International Workshop on Advanced Image Technology* (IWAIT 2016), Busan, Republic of Korea, January 2016.
 
 #### 2015
 
-- **Sungho Jeon**, Junghyun Kim, Jae-Shin Han, Sang-Hun Kim, Jeong-Deok Kim, and Jong-Soo Seo, "[Numerical Analysis on the Net Gross MISO-SFNG in DVB-T2 System](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7177217)," in *The 10th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2015), Ghent, Belgium, June 2015. [[Slide](https://speakerdeck.com/sunghojeon/bmsb2015-numerical-analysis-on-the-net-gross-miso-sfng-in-dvb-t2-system)] 
+- **Sungho Jeon**, Junghyun Kim, Jae-Shin Han, Sang-Hun Kim, Jeong-Deok Kim, and Jong-Soo Seo, "[Numerical Analysis on the Net Gross MISO-SFNG in DVB-T2 System](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7177217)," in *The 10th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2015), Ghent, Belgium, June 2015. [[Slide](https://speakerdeck.com/sunghojeon/bmsb2015-numerical-analysis-on-the-net-gross-miso-sfng-in-dvb-t2-system)]
 - Zifeng Kui, Jae-Shin Han, Jeong-Min Choi, **Sungho Jeon**, Youngho Oh and Jong-Soo Seo, "[Improved Preamble Scheme Utilizing Hybrid Differential Modulation in Polarized DVB-T2 MISO System](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7177210)," in *The 10th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2015), Ghent, Belgium, June 2015.
 - Jae-Shin Han, Jeong-Min Choi, **Sungho Jeon**, Robin Shrestha, and Jong-Soo Seo, "[Interference Suppression and Link Selection for Non-Regenerative Multiple Full Duplex Relaying](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7177201)," in *The 10th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2015), Ghent, Belgium, June 2015.
 - Sansung Kim, Byungsun Kim, Sangjin Hahm, Injoon Cho, Sanghoon Kim, and **Sungho Jeon**, "[The New Phase of Terrestrial UHD Service: Live 4K UHD Broadcasting via Terrestrial Channel](http://nab15.mapyourshow.com/6_0/sessions/session-details.cfm?ScheduleID=75)," in *NAB Broadcast Engineer Conference 2015*, Las Vegas, NV, April 2015.
@@ -207,14 +212,14 @@ Broadcast systems engineering and broadcast-based PNT — Broadcast RTK (eGPS) o
 #### 2014
 
 - Yuting Tao, Hak-Jin Kim, **Sungho Jeon**, and Jong-Soo Seo, "[Low complexity adaptive soft demapper based on decision criterion for rotated QAM/APSK](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6873525)," in *The 9th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2014), Beijing, China, June 2014. (Best Student Paper Award)
-- **Sungho Jeon**, Jae-Shin Han, Hak-Jin Kim, Yuting Tao, Sung Ik Park, Zungkon Yim, Heung Mook Kim, and Jong-Soo Seo, "[Multiple-Input Multiple-Output Cloud Transmission for High Data Rate Contents Delivery](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6873521)," in *The 9th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2014), Beijing, China, June 2014. [[Slide](https://speakerdeck.com/sunghojeon/bmsb2014-multiple-input-multiple-output-cloud-transmission-for-high-data-rate-local-contents-delivery)] 
+- **Sungho Jeon**, Jae-Shin Han, Hak-Jin Kim, Yuting Tao, Sung Ik Park, Zungkon Yim, Heung Mook Kim, and Jong-Soo Seo, "[Multiple-Input Multiple-Output Cloud Transmission for High Data Rate Contents Delivery](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6873521)," in *The 9th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2014), Beijing, China, June 2014. [[Slide](https://speakerdeck.com/sunghojeon/bmsb2014-multiple-input-multiple-output-cloud-transmission-for-high-data-rate-local-contents-delivery)]
 
 #### 2013
 
 - Sangjin Hahm, Zungkon Yim, Byungsun Kim, **Sungho Jeon**, and Injoon Cho, "[Application of HEVC and DVB-T2 to Terrestrial 4K UHDTV Broadcast Over-the-Air Trials](http://www.researchgate.net/publication/269075260_Application_of_HEVC_and_DVB-T2_to_terrestrial_4K_UHDTV_broadcast_over-the-air_trials)," in *The 2013 International Broadcasting Convention* (IBC 2013) Conference, Amsterdam, Netherlands, September 2013. (Best Paper Award)
 - Young-Woo Suh, Yeong-Seok Jeong, **Sungho Jeon**, Il-Soo Kyung, Hae-Sul Yang, "[An Efficient Mobile Coverage Measurement System for ATSC DTV Network](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6621776)," in *The 8th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2013), West London, United Kingdom, June 2013.
 - Jae-Shin Han, Jong-Seob Baek, **Sungho Jeon**, and Jong-Soo Seo, "[Full-Duplex Multiple Relays: A High Data Rate Cooperative Communications over Rayleigh Fading Channels](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6621744)," in *The 8th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2013), West London, United Kingdom, June 2013.
-- **Sungho Jeon**, Zungkon Yim, Hyeun-Pil Jin, Jeong-Min Choi, and Jong-Soo Seo, "[Performance of maximal ratio combining digital on-channel repeater for terrestrial DMB/DAB](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6621748)," in *The 8th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2013), West London, United Kingdom, June 2013. [[Slide](https://speakerdeck.com/sunghojeon/dab)] 
+- **Sungho Jeon**, Zungkon Yim, Hyeun-Pil Jin, Jeong-Min Choi, and Jong-Soo Seo, "[Performance of maximal ratio combining digital on-channel repeater for terrestrial DMB/DAB](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6621748)," in *The 8th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2013), West London, United Kingdom, June 2013. [[Slide](https://speakerdeck.com/sunghojeon/dab)]
 
 #### 2012
 
@@ -268,7 +273,7 @@ Broadcast systems engineering and broadcast-based PNT — Broadcast RTK (eGPS) o
 
 #### 2018
 
-- 신유상, 이재권, **전성호**, 박승근, 김재만, 오대겸, 정행운 (2018.4). [2018 평창 동계올림픽 ATSC 3.0 표준기반 4K-UHD/모바일 HD 방송 추진 결과](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07434494). 『한국방송미디어공학회 학회지』 <특집: 2018 평창 동계올림픽 방송>, 23(2), 33-42. 
+- 신유상, 이재권, **전성호**, 박승근, 김재만, 오대겸, 정행운 (2018.4). [2018 평창 동계올림픽 ATSC 3.0 표준기반 4K-UHD/모바일 HD 방송 추진 결과](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07434494). 『한국방송미디어공학회 학회지』 <특집: 2018 평창 동계올림픽 방송>, 23(2), 33-42.
 
 #### 2016
 
@@ -376,7 +381,7 @@ Broadcast systems engineering and broadcast-based PNT — Broadcast RTK (eGPS) o
 - ITU-R WP6A Contribution 354, "[Proposed revision of Report ITU-R BT.2343-2 - Collection of field trials of UHDTV over DTT networks](https://www.itu.int/md/R15-WP6A-C-0354/en)," April 2018.
     - Adopted in [Preliminary draft revision to Report ITU-R BT.2343-2 - Collection of field trials of UHDTV over DTT networks](https://www.itu.int/md/R15-WP6A-C-0387/en).
 
-- ITU-R WP6A Contribution 532, "[Proposed text for the preliminary draft new Report ITU-R BT.[UHDTV-DTT TRIALS] - Status of field trials of UHDTV over DVB-T2 networks in Korea](http://www.itu.int/md/R12-WP6A-C-0532/en)," February 2015. 
+- ITU-R WP6A Contribution 532, "[Proposed text for the preliminary draft new Report ITU-R BT.[UHDTV-DTT TRIALS] - Status of field trials of UHDTV over DVB-T2 networks in Korea](http://www.itu.int/md/R12-WP6A-C-0532/en)," February 2015.
     - Adopted in [Draft new Report ITU-R BT.[UHDTV-DTT TRIALS] - Collection of field trials of UHDTV over DTT networks](http://www.itu.int/md/R12-SG06-C-0356).
 
 #### DVB
