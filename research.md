@@ -12,11 +12,9 @@ Broadcast systems engineering for terrestrial networks, with emphasis on data se
 - **Broadcast-based PNT** — Broadcast RTK (eGPS), BPS, and hybrid ATSC 3.0/LTE delivery
 - **ATSC 3.0 systems** — field trials, SFN performance, channel modeling, and monitoring
 - **Measurement & verification** — drone-based antenna pattern verification and field measurement methods
-- **Standards & policy** — TTA, KS, and ITU-R contributions for terrestrial broadcasting
+- **Standards & policy** — active in TTA and ITU-R, plus KS, for terrestrial broadcasting
 
-## Research Links
-
-- [Google Scholar](https://scholar.google.com/citations?user=K-uP94QAAAAJ&hl=en) (Citations)
+[Google Scholar](https://scholar.google.com/citations?user=K-uP94QAAAAJ&hl=en) · Citations and publication profile
 
 ## Publications
 
