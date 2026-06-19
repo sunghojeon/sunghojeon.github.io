@@ -16,22 +16,12 @@ Broadcast systems engineering for terrestrial networks, with emphasis on data se
 
 [Google Scholar](https://scholar.google.com/citations?user=K-uP94QAAAAJ&hl=en) · Citations and publication profile
 
-## Selected & Recent
+## Recent Research Output
+
+A three-year window (2024-2026) of representative journals, conferences, and standards. The complete list is in the [Full Publication Archive](#full-publication-archive) below.
 
 <ul class="selected-list">
-<li><span class="pub-badge pub-badge--conf">CONF · IEEE BMSB</span> Coverage overlap &amp; outage bounding in hybrid ATSC 3.0/LTE RTK delivery <em>(2026, to appear)</em></li>
-<li><span class="pub-badge pub-badge--conf">CONF · IEEE BMSB</span> ATSC 3.0 end-to-end latency for emergency alert delivery <em>(2026, to appear)</em></li>
-<li><span class="pub-badge pub-badge--conf">CONF · IEEE BMSB</span> Nationwide time sourcing over terrestrial broadcast networks — BPS Project <em>(2026, to appear)</em></li>
-<li><span class="pub-badge pub-badge--journal">JOURNAL · IEEE TBC</span> <a href="https://doi.org/10.1109/TBC.2024.3482183">Comparative assessment: ATSC 3.0 vs. 5G Broadcast in lab and field tests</a> (2025)</li>
-<li><span class="pub-badge pub-badge--standard">STANDARD · TTA</span> <a href="/TTAR-07-0048/">Drone-based DTV antenna pattern verification — TTAR-07.0048</a> (2025)</li>
-<li><span class="pub-badge pub-badge--standard">ONGOING</span> Active standardization — TTA WG80210 (drone antenna measurement) &amp; ITU-R WP6A</li>
-</ul>
-
-## Research Output
-
-A quick map of representative output since 2021 (international journals, conferences, and standards). The complete list is in the [Full Publication Archive](#full-publication-archive) below.
-
-<ul class="selected-list">
+<li><span class="pub-year">—</span> <span class="pub-badge pub-badge--contrib">ONGOING</span> Active standardization — TTA WG80210 (drone antenna measurement) &amp; ITU-R WP6A</li>
 <li><span class="pub-year">2026</span> <span class="pub-badge pub-badge--conf">CONF · IEEE BMSB</span> Coverage &amp; outage bounding in hybrid ATSC 3.0/LTE RTK delivery <em>(to appear)</em></li>
 <li><span class="pub-year">2026</span> <span class="pub-badge pub-badge--conf">CONF · IEEE BMSB</span> ATSC 3.0 end-to-end latency for emergency alert delivery <em>(to appear)</em></li>
 <li><span class="pub-year">2026</span> <span class="pub-badge pub-badge--conf">CONF · IEEE BMSB</span> Nationwide time sourcing over terrestrial broadcast networks — BPS Project <em>(to appear)</em></li>
@@ -40,14 +30,6 @@ A quick map of representative output since 2021 (international journals, confere
 <li><span class="pub-year">2025</span> <span class="pub-badge pub-badge--standard">STANDARD · TTA</span> <a href="/TTAR-07-0048/">Drone-based DTV antenna pattern verification — TTAR-07.0048</a></li>
 <li><span class="pub-year">2025</span> <span class="pub-badge pub-badge--standard">STANDARD · KS</span> KS X 3156 terrestrial DTV transmission/reception standard — revision lead</li>
 <li><span class="pub-year">2024</span> <span class="pub-badge pub-badge--journal">JOURNAL · IEEE TBC</span> <a href="https://ieeexplore.ieee.org/document/10479571">Diversity receiver for ATSC 3.0-in-vehicle — metropolitan SFN</a></li>
-<li><span class="pub-year">2023</span> <span class="pub-badge pub-badge--journal">JOURNAL · IEEE TBC</span> <a href="https://doi.org/10.1109/TBC.2022.3222988">ATSC 3.0 vs. 3GPP 5G Broadcast for mobile handheld</a></li>
-<li><span class="pub-year">2023</span> <span class="pub-badge pub-badge--conf">CONF · IEEE BMSB</span> <a href="https://doi.org/10.1109/BMSB58369.2023.10211288">Anomaly detection from ATSC 3.0 SFN monitoring data</a></li>
-<li><span class="pub-year">2023</span> <span class="pub-badge pub-badge--standard">STANDARD · TTA</span> UHD system monitoring guidelines — TTAK.KO-07.0154/R1</li>
-<li><span class="pub-year">2022</span> <span class="pub-badge pub-badge--journal">JOURNAL · IEEE TBC</span> <a href="https://doi.org/10.1109/TBC.2022.3210382">UHF channel modeling in terrestrial SFNs — urban fading profiles</a></li>
-<li><span class="pub-year">2022</span> <span class="pub-badge pub-badge--conf">CONF · IEEE BMSB</span> <a href="https://doi.org/10.1109/BMSB55706.2022.9828672">Nationwide integrated 24/7 ATSC 3.0 SFN monitoring system</a></li>
-<li><span class="pub-year">2022</span> <span class="pub-badge pub-badge--standard">STANDARD · TTA</span> ATSC 3.0 transmitter measurement guidelines — TTAK.KO-07.0157</li>
-<li><span class="pub-year">2021</span> <span class="pub-badge pub-badge--journal">JOURNAL · IEEE TBC</span> <a href="https://doi.org/10.1109/TBC.2021.3081928">ATSC 3.0 MIMO for 8K-UHD terrestrial broadcasting</a></li>
-<li><span class="pub-year">—</span> <span class="pub-badge pub-badge--contrib">CONTRIB · ITU-R</span> WP6A — Korea delegate, terrestrial broadcasting <em>(ongoing)</em></li>
 </ul>
 
 ## Full Publication Archive
