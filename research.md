@@ -2,6 +2,7 @@
 layout: page
 permalink: /research/
 title: Research
+hide_page_title: true
 ---
 
 ## Focus

@@ -2,6 +2,7 @@
 layout: page
 permalink: /about/
 title: About
+hide_page_title: true
 ---
 
 ## At a Glance
