@@ -112,12 +112,12 @@ title: About
 ## Licenses & Certifications
 
 - 과학기술정보통신부 / [한국정보통신공사협회](https://career.kica.or.kr/)
-  - 정보통신특급기술자 (등록번호 111202511193E), 2025년 12월 2일
-  - 정보통신특급감리원 (등록번호 110202508862SE), 2025년 12월 18일
+  - **정보통신특급기술자** — Special-Grade Information &amp; Communication Engineer (highest grade) · 등록번호 111202511193E · 2025년 12월 2일
+  - **정보통신특급감리원** — Special-Grade Information &amp; Communication Construction Supervisor (highest grade) · 등록번호 110202508862SE · 2025년 12월 18일
 
 - 국가기술자격 / [한국방송통신전파진흥원(KCA)](https://www.cq.or.kr/)
-  - [방송통신기사](https://www.cq.or.kr/qh_quagm01_008.do) (자격번호 24081100023), 2024년 5월 31일
-  - [제한무선통신사](https://www.cq.or.kr/qh_acegm08_001.do) (자격번호 163221164), 2016년 10월 11일
+  - [**방송통신기사**](https://www.cq.or.kr/qh_quagm01_008.do) — Engineer, Broadcasting &amp; Communications · 자격번호 24081100023 · 2024년 5월 31일
+  - [**제한무선통신사**](https://www.cq.or.kr/qh_acegm08_001.do) — Restricted Radio Operator · 자격번호 163221164 · 2016년 10월 11일
 
 ## Awards
 
