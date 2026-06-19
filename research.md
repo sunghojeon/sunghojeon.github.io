@@ -158,13 +158,13 @@ Broadcast systems engineering for terrestrial networks, with emphasis on data se
 
 #### 2007
 
-- **Sungho Jeon**, and Sanghoon Lee, "[A Relay-Assisted Handover Technique with Network Coding over Multihop Cellular Networks](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=4133913)," *IEEE Communications Letters*, vol.11, no. 3, pp. 252-254, March 2007. [IPR](https://patents.google.com/patent/US20080085709A1/)
+- **Sungho Jeon**, and Sanghoon Lee, "[A Relay-Assisted Handover Technique with Network Coding over Multihop Cellular Networks](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=4133913)," *IEEE Communications Letters*, vol. 11, no. 3, pp. 252-254, March 2007. [IPR](https://patents.google.com/patent/US20080085709A1/)
 
 #### 2006
 
 - **Sungho Jeon**, and Sanghoon Lee, "[A Radio Synchronization Technique for Asynchronous Broadband Networks](http://search.ieice.org/bin/summary.php?id=e89-b_12_3433&category=B&lang=E&year=2006&abst=)," *IEICE Transactions on Communications*, vol. E89-B, no. 12, pp. 3433-3437, December 2006.
 
-- Younghyun Jeon, **Sungho Jeon**, and Sanghoon Lee, "[Performance Gain Analysis of Dynamic Carrier Allocation using Order Statistics](http://search.ieice.org/bin/summary.php?id=e89-b_11_3143&category=B&lang=E&year=2006&abst=)," *IEICE Transactions on Communications*, vol.E89-B, no. 11, pp. 3143-3147, November 2006.
+- Younghyun Jeon, **Sungho Jeon**, and Sanghoon Lee, "[Performance Gain Analysis of Dynamic Carrier Allocation using Order Statistics](http://search.ieice.org/bin/summary.php?id=e89-b_11_3143&category=B&lang=E&year=2006&abst=)," *IEICE Transactions on Communications*, vol. E89-B, no. 11, pp. 3143-3147, November 2006.
 
 ### Articles
 
@@ -373,8 +373,8 @@ Broadcast systems engineering for terrestrial networks, with emphasis on data se
 
 #### KS (National Standards)
 
-- **KS X 3156** 지상파 디지털 TV 방송 송수신 정합표준 — 개정안 제안자 · 개정 연구반장 (2025 – ).
-- **KS X 3158-1 / 3158-3** 지상파 디지털멀티미디어방송(DMB) 송수신 정합 / 재난 경보 서비스 — 개정 검토위원 (2026 – ).
+- KS X 3156 지상파 디지털 TV 방송 송수신 정합표준 — 개정안 제안자 · 개정 연구반장 (2025 – ).
+- KS X 3158-1 / 3158-3 지상파 디지털멀티미디어방송(DMB) 송수신 정합 / 재난 경보 서비스 — 개정 검토위원 (2026 – ).
 
 #### ITU-R SG6
 
