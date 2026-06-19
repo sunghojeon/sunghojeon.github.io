@@ -29,7 +29,11 @@
           <div class="profile-text">
             <h1 class="profile-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
             {% if site.name_ko %}<p class="profile-name-ko">{{ site.name_ko }}</p>{% endif %}
-            <p class="profile-role">{{ site.role_title }}<br>{{ site.role_focus }}<br>{{ site.role_creds }}</p>
+            <p class="profile-role">
+              <span class="role-title">{{ site.role_title }}</span>
+              <span class="role-meta">{{ site.role_focus }}</span>
+              <span class="role-meta">{{ site.role_creds }}</span>
+            </p>
           </div>
         </div>
 
