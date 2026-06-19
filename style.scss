@@ -485,6 +485,15 @@ th {
   border-style: dashed;
 }
 
+.pub-year {
+  display: inline-block;
+  min-width: 2.6em;
+  margin-right: 4px;
+  color: $inkMuted;
+  font-size: 0.78rem;
+  font-variant-numeric: tabular-nums;
+}
+
 .home-section {
   margin: 2.8rem 0;
 }
