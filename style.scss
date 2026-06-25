@@ -668,16 +668,36 @@ th {
 }
 
 .cv-timeline--awards .cv-row {
-  grid-template-columns: 120px minmax(0, 1fr) minmax(190px, 210px);
+  grid-template-columns: 162px minmax(0, 1fr) minmax(184px, 208px);
 }
 
 .cv-period {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
   font-family: $sans;
+  text-align: right;
+  padding: 1px 22px 0 0;
+}
+
+.cv-period-range {
   font-style: italic;
   font-size: 0.82rem;
   color: $inkMuted;
-  text-align: right;
-  padding: 1px 22px 0 0;
+}
+
+.cv-period-dur {
+  font-size: 0.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: $accentStrong;
+  background: $paperMuted;
+  border: 1px solid $border;
+  border-radius: 11px;
+  padding: 1px 8px;
+  white-space: nowrap;
 }
 
 .cv-entry {
@@ -734,13 +754,12 @@ th {
 }
 
 .cv-awards {
+  align-self: start;
   margin-left: 24px;
-  border-left: 1px solid $border;
-  padding: 0 0 1.9em 20px;
-}
-
-.cv-row:last-child .cv-awards {
-  padding-bottom: 0.2em;
+  padding: 11px 15px;
+  background: $paperMuted;
+  border: 1px solid $border;
+  border-radius: 7px;
 }
 
 .cv-award {
@@ -799,6 +818,7 @@ th {
 
   .cv-period {
     position: relative;
+    align-items: flex-start;
     text-align: left;
     border-left: 1px solid $border;
     padding: 0 0 0.4em 26px;
@@ -829,8 +849,13 @@ th {
   }
 
   .cv-awards {
+    align-self: stretch;
     margin-left: 0;
-    padding: 0 0 1.6em 26px;
+    padding: 2px 0 1.6em 26px;
+    background: none;
+    border: 0;
+    border-left: 1px solid $border;
+    border-radius: 0;
   }
 
   .cv-row:last-child .cv-entry {

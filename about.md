@@ -16,7 +16,7 @@ hide_page_title: true
 
 <div class="cv-timeline cv-timeline--awards">
   <div class="cv-row">
-    <div class="cv-period">August 2025 &ndash; Present</div>
+    <div class="cv-period"><span class="cv-period-range">August 2025 &ndash; Present</span><span class="cv-period-dur">10 mos</span></div>
     <div class="cv-entry">
       <div class="cv-role">Senior R&amp;D Engineer <span class="cv-rank">Deputy Director</span></div>
       <div class="cv-org"><a href="https://with.mbc.co.kr/">MBC 문화방송</a> · Seoul, Republic of Korea</div>
@@ -28,7 +28,7 @@ hide_page_title: true
     </div>
   </div>
   <div class="cv-row">
-    <div class="cv-period">November 2018 &ndash; August 2025</div>
+    <div class="cv-period"><span class="cv-period-range">November 2018 &ndash; August 2025</span><span class="cv-period-dur">6 yrs 9 mos</span></div>
     <div class="cv-entry">
       <div class="cv-role">Team Leader, Systems Engineering &amp; Master Control Room <span class="cv-rank">Deputy Director</span></div>
       <div class="cv-org"><a href="http://open.kbs.co.kr/">Korean Broadcasting System (KBS)</a> · Seoul, Republic of Korea</div>
@@ -41,7 +41,7 @@ hide_page_title: true
     </div>
   </div>
   <div class="cv-row">
-    <div class="cv-period">March 2007 &ndash; November 2018</div>
+    <div class="cv-period"><span class="cv-period-range">March 2007 &ndash; November 2018</span><span class="cv-period-dur">11 yrs 8 mos</span></div>
     <div class="cv-entry">
       <div class="cv-role">Lead R&amp;D Engineer</div>
       <div class="cv-org"><a href="http://open.kbs.co.kr/">Korean Broadcasting System (KBS)</a> · Seoul, Republic of Korea</div>
@@ -65,7 +65,7 @@ hide_page_title: true
 
 <div class="cv-timeline">
   <div class="cv-row">
-    <div class="cv-period">March 2011 &ndash; February 2016</div>
+    <div class="cv-period"><span class="cv-period-range">March 2011 &ndash; February 2016</span><span class="cv-period-dur">5 yrs</span></div>
     <div class="cv-entry">
       <div class="cv-role">Ph.D. in Electrical and Electronic Engineering</div>
       <div class="cv-org"><a href="http://www.yonsei.ac.kr/">Yonsei University</a> · Seoul, Republic of Korea</div>
@@ -74,7 +74,7 @@ hide_page_title: true
     </div>
   </div>
   <div class="cv-row">
-    <div class="cv-period">September 2005 &ndash; February 2007</div>
+    <div class="cv-period"><span class="cv-period-range">September 2005 &ndash; February 2007</span><span class="cv-period-dur">1 yr 5 mos</span></div>
     <div class="cv-entry">
       <div class="cv-role">M.S. in Electrical and Electronic Engineering <span class="cv-rank">Early Graduation</span></div>
       <div class="cv-org"><a href="http://www.yonsei.ac.kr/">Yonsei University</a> · Seoul, Republic of Korea</div>
@@ -83,7 +83,7 @@ hide_page_title: true
     </div>
   </div>
   <div class="cv-row">
-    <div class="cv-period">March 2002 &ndash; August 2005</div>
+    <div class="cv-period"><span class="cv-period-range">March 2002 &ndash; August 2005</span><span class="cv-period-dur">3 yrs 5 mos</span></div>
     <div class="cv-entry">
       <div class="cv-role">B.S. in Electrical and Electronic Engineering <span class="cv-rank">High Honors · Early Graduation</span></div>
       <div class="cv-org"><a href="http://www.yonsei.ac.kr/">Yonsei University</a> · Seoul, Republic of Korea</div>
@@ -190,17 +190,87 @@ hide_page_title: true
 
 ### Conference Service
 
-- Technical Program Committee Co-Chairs, [IEEE BMSB 2023](https://www.bmsb2023.com/committee.html)
-- Technical Program Committee Co-Chairs, [IEEE BMSB 2022](https://bmsb2022.com/)
-- Technical Program Committee Co-Chairs, [IEEE BMSB 2021](https://bts.ieee.org/images/files/BMSB/CFP-BMSB2021_v2.19.pdf)
-- Technical Program Committee Co-Chairs, [IEEE BMSB 2020](https://bmsb2020.isep.fr/organization.html)
-- Technical Program Committee Co-Chair, [IEEE BMSB 2019](https://www.bmsb2019.org/organizing_committee.do)
-- Co-Chair, [Session 4: Broadcast systems at IEEE BMSB 2015](http://www.wica.intec.ugent.be/bmsb2015/wednesday-june-17#session4), Ghent, Belgium, 17 June 2015.
+<div class="cv-timeline">
+  <div class="cv-row">
+    <div class="cv-period"><span class="cv-period-range">2023</span></div>
+    <div class="cv-entry">
+      <div class="cv-role">Technical Program Committee Co-Chairs</div>
+      <div class="cv-org"><a href="https://www.bmsb2023.com/committee.html">IEEE BMSB 2023</a></div>
+    </div>
+  </div>
+  <div class="cv-row">
+    <div class="cv-period"><span class="cv-period-range">2022</span></div>
+    <div class="cv-entry">
+      <div class="cv-role">Technical Program Committee Co-Chairs</div>
+      <div class="cv-org"><a href="https://bmsb2022.com/">IEEE BMSB 2022</a></div>
+    </div>
+  </div>
+  <div class="cv-row">
+    <div class="cv-period"><span class="cv-period-range">2021</span></div>
+    <div class="cv-entry">
+      <div class="cv-role">Technical Program Committee Co-Chairs</div>
+      <div class="cv-org"><a href="https://bts.ieee.org/images/files/BMSB/CFP-BMSB2021_v2.19.pdf">IEEE BMSB 2021</a></div>
+    </div>
+  </div>
+  <div class="cv-row">
+    <div class="cv-period"><span class="cv-period-range">2020</span></div>
+    <div class="cv-entry">
+      <div class="cv-role">Technical Program Committee Co-Chairs</div>
+      <div class="cv-org"><a href="https://bmsb2020.isep.fr/organization.html">IEEE BMSB 2020</a></div>
+    </div>
+  </div>
+  <div class="cv-row">
+    <div class="cv-period"><span class="cv-period-range">2019</span></div>
+    <div class="cv-entry">
+      <div class="cv-role">Technical Program Committee Co-Chair</div>
+      <div class="cv-org"><a href="https://www.bmsb2019.org/organizing_committee.do">IEEE BMSB 2019</a></div>
+    </div>
+  </div>
+  <div class="cv-row">
+    <div class="cv-period"><span class="cv-period-range">2015</span></div>
+    <div class="cv-entry">
+      <div class="cv-role">Co-Chair, Session 4: Broadcast Systems</div>
+      <div class="cv-org"><a href="http://www.wica.intec.ugent.be/bmsb2015/wednesday-june-17#session4">IEEE BMSB 2015</a> · Ghent, Belgium · 17 June 2015</div>
+    </div>
+  </div>
+</div>
 
 ### Editorial & Review
 
-- [Review Editor](https://loop.frontiersin.org/people/977903/overview), Frontiers in Space Technology (Aerial and Space Networks)
-- Reviewer, IEEE Transactions on Broadcasting (2011 -)
-- Reviewer, IEEE Communications Letters (2009 -)
-- Reviewer, IEEE Transactions on Vehicular Technology (2010)
-- Reviewer, IEEE Transactions on Wireless Communications (2010)
+<div class="cv-timeline">
+  <div class="cv-row">
+    <div class="cv-period"><span class="cv-period-range">Present</span></div>
+    <div class="cv-entry">
+      <div class="cv-role">Review Editor</div>
+      <div class="cv-org"><a href="https://loop.frontiersin.org/people/977903/overview">Frontiers in Space Technology</a> · Aerial and Space Networks</div>
+    </div>
+  </div>
+  <div class="cv-row">
+    <div class="cv-period"><span class="cv-period-range">2011 &ndash; Present</span></div>
+    <div class="cv-entry">
+      <div class="cv-role">Reviewer</div>
+      <div class="cv-org">IEEE Transactions on Broadcasting</div>
+    </div>
+  </div>
+  <div class="cv-row">
+    <div class="cv-period"><span class="cv-period-range">2009 &ndash; Present</span></div>
+    <div class="cv-entry">
+      <div class="cv-role">Reviewer</div>
+      <div class="cv-org">IEEE Communications Letters</div>
+    </div>
+  </div>
+  <div class="cv-row">
+    <div class="cv-period"><span class="cv-period-range">2010</span></div>
+    <div class="cv-entry">
+      <div class="cv-role">Reviewer</div>
+      <div class="cv-org">IEEE Transactions on Vehicular Technology</div>
+    </div>
+  </div>
+  <div class="cv-row">
+    <div class="cv-period"><span class="cv-period-range">2010</span></div>
+    <div class="cv-entry">
+      <div class="cv-role">Reviewer</div>
+      <div class="cv-org">IEEE Transactions on Wireless Communications</div>
+    </div>
+  </div>
+</div>
