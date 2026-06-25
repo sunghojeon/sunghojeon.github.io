@@ -161,21 +161,21 @@ hide_page_title: true
 
 ### Best Paper Award
 
-- **2015** — [The Second Commended Article Prize](http://www.abu.org.my/Latest_News-@-GA_2015_ABU_Engineering_Awards_%E2%80%93_Winners_announced_in_Istanbul_.aspx), ABU Technical Review
-- **2014** — Best Student Paper Award, IEEE BMSB
-- **2013** — The First Commended Article Prize, ABU Technical Review
-- **2012** — Bronze Award, IEEE Seoul Section Student Paper Contest
+- [The Second Commended Article Prize](http://www.abu.org.my/Latest_News-@-GA_2015_ABU_Engineering_Awards_%E2%80%93_Winners_announced_in_Istanbul_.aspx), ABU Technical Review 2015
+- Best Student Paper Award, IEEE BMSB 2014
+- The First Commended Article Prize, ABU Technical Review 2013
+- Bronze Award, IEEE Seoul Section Student Paper Contest 2012
 
 ## Professional Activities
 
 ### Conference Service
 
-- **2023** — Technical Program Committee Co-Chairs, [IEEE BMSB 2023](https://www.bmsb2023.com/committee.html)
-- **2022** — Technical Program Committee Co-Chairs, [IEEE BMSB 2022](https://bmsb2022.com/)
-- **2021** — Technical Program Committee Co-Chairs, [IEEE BMSB 2021](https://bts.ieee.org/images/files/BMSB/CFP-BMSB2021_v2.19.pdf)
-- **2020** — Technical Program Committee Co-Chairs, [IEEE BMSB 2020](https://bmsb2020.isep.fr/organization.html)
-- **2019** — Technical Program Committee Co-Chair, [IEEE BMSB 2019](https://www.bmsb2019.org/organizing_committee.do)
-- **2015** — Co-Chair, [Session 4: Broadcast systems at IEEE BMSB 2015](http://www.wica.intec.ugent.be/bmsb2015/wednesday-june-17#session4), 17 June, Ghent, Belgium
+- Technical Program Committee Co-Chairs, [IEEE BMSB 2023](https://www.bmsb2023.com/committee.html)
+- Technical Program Committee Co-Chairs, [IEEE BMSB 2022](https://bmsb2022.com/)
+- Technical Program Committee Co-Chairs, [IEEE BMSB 2021](https://bts.ieee.org/images/files/BMSB/CFP-BMSB2021_v2.19.pdf)
+- Technical Program Committee Co-Chairs, [IEEE BMSB 2020](https://bmsb2020.isep.fr/organization.html)
+- Technical Program Committee Co-Chair, [IEEE BMSB 2019](https://www.bmsb2019.org/organizing_committee.do)
+- Co-Chair, [Session 4: Broadcast systems at IEEE BMSB 2015](http://www.wica.intec.ugent.be/bmsb2015/wednesday-june-17#session4), Ghent, Belgium, 17 June 2015
 
 ### Editorial & Review
 
