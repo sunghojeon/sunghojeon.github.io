@@ -16,7 +16,7 @@ hide_page_title: true
 
 <div class="cv-timeline">
   <div class="cv-row">
-    <div class="cv-period"><span class="cv-period-range">August 2025 &ndash; Present</span></div>
+    <div class="cv-period"><span class="cv-period-start">August 2025</span><span class="cv-period-end">Present</span></div>
     <div class="cv-entry">
       <div class="cv-role">Senior R&amp;D Engineer <span class="cv-rank">Deputy Director</span></div>
       <div class="cv-org"><a href="https://with.mbc.co.kr/">MBC 문화방송</a> · Seoul, Republic of Korea</div>
@@ -24,7 +24,7 @@ hide_page_title: true
     </div>
   </div>
   <div class="cv-row">
-    <div class="cv-period"><span class="cv-period-range">November 2018 &ndash; August 2025</span></div>
+    <div class="cv-period"><span class="cv-period-start">November 2018</span><span class="cv-period-end">August 2025</span></div>
     <div class="cv-entry">
       <div class="cv-role">Team Leader, Systems Engineering &amp; Master Control Room <span class="cv-rank">Deputy Director</span></div>
       <div class="cv-org"><a href="http://open.kbs.co.kr/">Korean Broadcasting System (KBS)</a> · Seoul, Republic of Korea</div>
@@ -32,7 +32,7 @@ hide_page_title: true
     </div>
   </div>
   <div class="cv-row">
-    <div class="cv-period"><span class="cv-period-range">March 2007 &ndash; November 2018</span></div>
+    <div class="cv-period"><span class="cv-period-start">March 2007</span><span class="cv-period-end">November 2018</span></div>
     <div class="cv-entry">
       <div class="cv-role">Lead R&amp;D Engineer</div>
       <div class="cv-org"><a href="http://open.kbs.co.kr/">Korean Broadcasting System (KBS)</a> · Seoul, Republic of Korea</div>
@@ -45,7 +45,7 @@ hide_page_title: true
 
 <div class="cv-timeline">
   <div class="cv-row">
-    <div class="cv-period"><span class="cv-period-range">March 2011 &ndash; February 2016</span></div>
+    <div class="cv-period"><span class="cv-period-start">March 2011</span><span class="cv-period-end">February 2016</span></div>
     <div class="cv-entry">
       <div class="cv-role">Ph.D. in Electrical and Electronic Engineering</div>
       <div class="cv-org"><a href="http://www.yonsei.ac.kr/">Yonsei University</a> · Seoul, Republic of Korea</div>
@@ -54,7 +54,7 @@ hide_page_title: true
     </div>
   </div>
   <div class="cv-row">
-    <div class="cv-period"><span class="cv-period-range">September 2005 &ndash; February 2007</span></div>
+    <div class="cv-period"><span class="cv-period-start">September 2005</span><span class="cv-period-end">February 2007</span></div>
     <div class="cv-entry">
       <div class="cv-role">M.S. in Electrical and Electronic Engineering <span class="cv-rank">Early Graduation</span></div>
       <div class="cv-org"><a href="http://www.yonsei.ac.kr/">Yonsei University</a> · Seoul, Republic of Korea</div>
@@ -63,7 +63,7 @@ hide_page_title: true
     </div>
   </div>
   <div class="cv-row">
-    <div class="cv-period"><span class="cv-period-range">March 2002 &ndash; August 2005</span></div>
+    <div class="cv-period"><span class="cv-period-start">March 2002</span><span class="cv-period-end">August 2005</span></div>
     <div class="cv-entry">
       <div class="cv-role">B.S. in Electrical and Electronic Engineering <span class="cv-rank">High Honors · Early Graduation</span></div>
       <div class="cv-org"><a href="http://www.yonsei.ac.kr/">Yonsei University</a> · Seoul, Republic of Korea</div>

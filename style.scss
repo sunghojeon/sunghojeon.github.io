@@ -668,12 +668,20 @@ th {
 }
 
 .cv-period {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
   font-family: $sans;
   font-style: italic;
   font-size: 0.82rem;
+  line-height: 1.4;
   color: $inkMuted;
   text-align: right;
   padding: 1px 22px 0 0;
+}
+
+.cv-period-end::before {
+  content: "– ";
 }
 
 .cv-entry {
