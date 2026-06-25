@@ -657,6 +657,195 @@ th {
   border-bottom: none;
 }
 
+/* CV timeline — period (left) paired with role (right) */
+.cv-timeline {
+  margin: 1.6rem 0 0;
+}
+
+.cv-row {
+  display: grid;
+  grid-template-columns: 175px 1fr;
+}
+
+.cv-timeline--awards .cv-row {
+  grid-template-columns: 120px minmax(0, 1fr) minmax(190px, 210px);
+}
+
+.cv-period {
+  font-family: $sans;
+  font-style: italic;
+  font-size: 0.82rem;
+  color: $inkMuted;
+  text-align: right;
+  padding: 1px 22px 0 0;
+}
+
+.cv-entry {
+  position: relative;
+  border-left: 1px solid $border;
+  padding: 0 0 1.9em 26px;
+}
+
+.cv-row:last-child .cv-entry {
+  padding-bottom: 0.2em;
+}
+
+.cv-entry::before {
+  content: "";
+  position: absolute;
+  left: -6px;
+  top: 5px;
+  width: 11px;
+  height: 11px;
+  background: $paper;
+  border: 1.5px solid $inkMuted;
+  border-radius: 50%;
+}
+
+.cv-role {
+  font-weight: 600;
+  color: $ink;
+  line-height: 1.45;
+}
+
+.cv-rank {
+  margin-left: 6px;
+  font-family: $sans;
+  font-size: 0.62rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: $inkMuted;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.cv-org {
+  margin-top: 2px;
+  font-family: $sans;
+  font-size: 0.9rem;
+  color: $inkMuted;
+}
+
+.cv-detail {
+  margin-top: 2px;
+  font-size: 0.92rem;
+  color: $ink;
+}
+
+.cv-awards {
+  margin-left: 24px;
+  border-left: 1px solid $border;
+  padding: 0 0 1.9em 20px;
+}
+
+.cv-row:last-child .cv-awards {
+  padding-bottom: 0.2em;
+}
+
+.cv-award {
+  display: grid;
+  grid-template-columns: 12px 34px minmax(0, 1fr);
+  column-gap: 5px;
+  align-items: baseline;
+  margin-bottom: 0.48em;
+  font-family: $sans;
+  font-size: 0.72rem;
+  line-height: 1.35;
+  color: $inkMuted;
+}
+
+.cv-award:last-child {
+  margin-bottom: 0;
+}
+
+.cv-award::before {
+  content: "★";
+  color: $accent;
+  font-size: 0.72rem;
+  line-height: 1;
+}
+
+.cv-award--license::before {
+  content: "◆";
+  font-size: 0.62rem;
+}
+
+.cv-award-year {
+  color: $accentStrong;
+  font-size: 0.66rem;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
+}
+
+.cv-award a {
+  color: $inkMuted;
+  overflow-wrap: anywhere;
+}
+
+.cv-award a:hover,
+.cv-award a:focus {
+  color: $accentStrong;
+}
+
+@include mobile {
+  .cv-row {
+    grid-template-columns: 1fr;
+  }
+
+  .cv-timeline--awards .cv-row {
+    grid-template-columns: 1fr;
+  }
+
+  .cv-period {
+    position: relative;
+    text-align: left;
+    border-left: 1px solid $border;
+    padding: 0 0 0.4em 26px;
+  }
+
+  .cv-period::before {
+    content: "";
+    position: absolute;
+    left: -6px;
+    top: 3px;
+    width: 11px;
+    height: 11px;
+    background: $paper;
+    border: 1.5px solid $inkMuted;
+    border-radius: 50%;
+  }
+
+  .cv-entry {
+    padding-bottom: 1.6em;
+  }
+
+  .cv-entry::before {
+    display: none;
+  }
+
+  .cv-timeline--awards .cv-entry {
+    padding-bottom: 0.75em;
+  }
+
+  .cv-awards {
+    margin-left: 0;
+    padding: 0 0 1.6em 26px;
+  }
+
+  .cv-row:last-child .cv-entry {
+    padding-bottom: 0;
+  }
+
+  .cv-timeline--awards .cv-row:last-child .cv-entry {
+    padding-bottom: 0.75em;
+  }
+
+  .cv-row:last-child .cv-awards {
+    padding-bottom: 0;
+  }
+}
+
 .entry {
   max-width: 920px;
 }

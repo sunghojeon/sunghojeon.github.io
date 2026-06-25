@@ -12,37 +12,84 @@ hide_page_title: true
 - **Academia** — Ph.D. (Yonsei Univ.), IEEE Senior Member, IEEE BMSB TPC Co-Chair (2019–2023), publications in *IEEE Transactions on Broadcasting* and more
 - **Career** — 18 years at KBS (Technical Research Institute / TV Transmission, 2007–2025) → MBC (2025–)
 
-## Current Appointment
+## Experience
 
-- **Senior R&D Engineer (Deputy Director)**
-  - 혁신성장본부 BIZ혁신국 기술정보사업팀 (August 2025 - Present)
-  - [MBC 문화방송](https://with.mbc.co.kr/), Seoul, Republic of Korea
-
-## Previous Appointments
-
-- **Team Leader Systems Engineering Master Control Room (Deputy Director)**
-  - TV Transmission & Control Office (November 2018 - July 2019 - August 2025)
-  - [Korean Broadcasting System (KBS)](http://open.kbs.co.kr/), Seoul, Republic of Korea
-
-- **Lead R&D Engineer**
-  - [Technical Research Institute](http://office.kbs.co.kr/tri/) (March 2007 - July 2014 - November 2018)
-  - [Korean Broadcasting System (KBS)](http://open.kbs.co.kr/), Seoul, Republic of Korea
+<div class="cv-timeline cv-timeline--awards">
+  <div class="cv-row">
+    <div class="cv-period">August 2025 &ndash; Present</div>
+    <div class="cv-entry">
+      <div class="cv-role">Senior R&amp;D Engineer <span class="cv-rank">Deputy Director</span></div>
+      <div class="cv-org"><a href="https://with.mbc.co.kr/">MBC 문화방송</a> · Seoul, Republic of Korea</div>
+      <div class="cv-detail">혁신성장본부 BIZ혁신국 기술정보사업팀</div>
+    </div>
+    <div class="cv-awards" aria-label="Awards and certifications during this appointment">
+      <div class="cv-award cv-award--license"><span class="cv-award-year">2025</span><a href="#licenses--certifications">정보통신특급기술자</a></div>
+      <div class="cv-award cv-award--license"><span class="cv-award-year">2025</span><a href="#licenses--certifications">정보통신특급감리원</a></div>
+    </div>
+  </div>
+  <div class="cv-row">
+    <div class="cv-period">November 2018 &ndash; August 2025</div>
+    <div class="cv-entry">
+      <div class="cv-role">Team Leader, Systems Engineering &amp; Master Control Room <span class="cv-rank">Deputy Director</span></div>
+      <div class="cv-org"><a href="http://open.kbs.co.kr/">Korean Broadcasting System (KBS)</a> · Seoul, Republic of Korea</div>
+      <div class="cv-detail">TV Transmission &amp; Control Office</div>
+    </div>
+    <div class="cv-awards" aria-label="Awards and certifications during this appointment">
+      <div class="cv-award"><span class="cv-award-year">2024</span><a href="#awards">과기정통부 장관표창</a></div>
+      <div class="cv-award"><span class="cv-award-year">2020</span><a href="#awards">장관표창 · 전파연구원장</a></div>
+      <div class="cv-award cv-award--license"><span class="cv-award-year">2024</span><a href="https://www.cq.or.kr/qh_quagm01_008.do">방송통신기사</a></div>
+    </div>
+  </div>
+  <div class="cv-row">
+    <div class="cv-period">March 2007 &ndash; November 2018</div>
+    <div class="cv-entry">
+      <div class="cv-role">Lead R&amp;D Engineer</div>
+      <div class="cv-org"><a href="http://open.kbs.co.kr/">Korean Broadcasting System (KBS)</a> · Seoul, Republic of Korea</div>
+      <div class="cv-detail"><a href="http://office.kbs.co.kr/tri/">Technical Research Institute</a></div>
+    </div>
+    <div class="cv-awards" aria-label="Awards and certifications during this appointment">
+      <div class="cv-award"><span class="cv-award-year">2018</span><a href="http://tta.or.kr/news/certify_view.jsp?notice_num=6442">TTA 우수위원</a></div>
+      <div class="cv-award"><span class="cv-award-year">2017</span><a href="#awards">과기정통부 장관표창</a></div>
+      <div class="cv-award"><span class="cv-award-year">2016</span><a href="#awards">국립전파연구원장 표창</a></div>
+      <div class="cv-award"><span class="cv-award-year">2016</span><a href="http://www.kobeta.com/notice/?uid=2291&amp;mod=document">방송기술대상 최우수상</a></div>
+      <div class="cv-award"><span class="cv-award-year">2015</span><a href="http://www.abu.org.my/Latest_News-@-GA_2015_ABU_Engineering_Awards_%E2%80%93_Winners_announced_in_Istanbul_.aspx">ABU Best Article</a></div>
+      <div class="cv-award"><span class="cv-award-year">2014</span><a href="#awards">BMSB Best Student Paper</a></div>
+      <div class="cv-award"><span class="cv-award-year">2013</span><a href="#awards">ABU Commended Article</a></div>
+      <div class="cv-award"><span class="cv-award-year">2012</span><a href="#awards">IEEE Seoul Bronze</a></div>
+      <div class="cv-award cv-award--license"><span class="cv-award-year">2016</span><a href="https://www.cq.or.kr/qh_acegm08_001.do">제한무선통신사</a></div>
+    </div>
+  </div>
+</div>
 
 ## Education
 
-- **Ph.D. in Electrical and Electronic Engineering**
-  - [Digital Transmission Laboratory](http://web.yonsei.ac.kr/dtlab/) (March 2011 - February 2016)
-  - [Yonsei University](http://www.yonsei.ac.kr/), Seoul, Republic of Korea
-  - Thesis: [Analysis of Net SISO-SFN and MISO-SFN Gains in Single Frequency Broadcast Network](http://library.yonsei.ac.kr/search/detail/CAT000001779729)
-
-- **M.S. in Electrical and Electronic Engineering**
-  - Wireless Network Laboratory (September 2005 - February 2007, Early Graduation)
-  - [Yonsei University](http://www.yonsei.ac.kr/), Seoul, Republic of Korea
-  - Thesis: [Cross layer optimization based on unequal power allocation for closed-loop downlink MIMO systems](http://library.yonsei.ac.kr/search/detail/CAT000000189586)
-
-- **B.S. in Electrical and Electronic Engineering**, *High Honors*
-  - March 2002 - August 2005, Early Graduation
-  - [Yonsei University](http://www.yonsei.ac.kr/), Seoul, Republic of Korea
+<div class="cv-timeline">
+  <div class="cv-row">
+    <div class="cv-period">March 2011 &ndash; February 2016</div>
+    <div class="cv-entry">
+      <div class="cv-role">Ph.D. in Electrical and Electronic Engineering</div>
+      <div class="cv-org"><a href="http://www.yonsei.ac.kr/">Yonsei University</a> · Seoul, Republic of Korea</div>
+      <div class="cv-detail"><a href="http://web.yonsei.ac.kr/dtlab/">Digital Transmission Laboratory</a></div>
+      <div class="cv-detail">Thesis: <a href="http://library.yonsei.ac.kr/search/detail/CAT000001779729">Analysis of Net SISO-SFN and MISO-SFN Gains in Single Frequency Broadcast Network</a></div>
+    </div>
+  </div>
+  <div class="cv-row">
+    <div class="cv-period">September 2005 &ndash; February 2007</div>
+    <div class="cv-entry">
+      <div class="cv-role">M.S. in Electrical and Electronic Engineering <span class="cv-rank">Early Graduation</span></div>
+      <div class="cv-org"><a href="http://www.yonsei.ac.kr/">Yonsei University</a> · Seoul, Republic of Korea</div>
+      <div class="cv-detail">Wireless Network Laboratory</div>
+      <div class="cv-detail">Thesis: <a href="http://library.yonsei.ac.kr/search/detail/CAT000000189586">Cross layer optimization based on unequal power allocation for closed-loop downlink MIMO systems</a></div>
+    </div>
+  </div>
+  <div class="cv-row">
+    <div class="cv-period">March 2002 &ndash; August 2005</div>
+    <div class="cv-entry">
+      <div class="cv-role">B.S. in Electrical and Electronic Engineering <span class="cv-rank">High Honors · Early Graduation</span></div>
+      <div class="cv-org"><a href="http://www.yonsei.ac.kr/">Yonsei University</a> · Seoul, Republic of Korea</div>
+    </div>
+  </div>
+</div>
 
 ## Professional Memberships & Service
 
