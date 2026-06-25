@@ -775,6 +775,56 @@ th {
   }
 }
 
+/* Service & credentials list — label left, muted date right */
+.svc {
+  margin: 1.3rem 0 0;
+}
+
+.svc-group {
+  font-family: $sans;
+  font-weight: 600;
+  color: $ink;
+  margin: 1.5em 0 0.3em;
+}
+
+.svc-group:first-child {
+  margin-top: 0;
+}
+
+.svc-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(20, 20, 20, 0.06);
+}
+
+.svc-item--sub {
+  padding-left: 20px;
+}
+
+.svc-label {
+  color: $ink;
+}
+
+.svc-date {
+  flex: none;
+  font-family: $sans;
+  font-size: 0.78rem;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.01em;
+  color: $inkMuted;
+  white-space: nowrap;
+}
+
+@include mobile {
+  .svc-item {
+    flex-wrap: wrap;
+    gap: 2px 16px;
+  }
+}
+
 .entry {
   max-width: 920px;
 }
