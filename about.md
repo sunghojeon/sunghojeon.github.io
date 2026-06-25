@@ -14,17 +14,13 @@ hide_page_title: true
 
 ## Experience
 
-<div class="cv-timeline cv-timeline--awards">
+<div class="cv-timeline">
   <div class="cv-row">
     <div class="cv-period"><span class="cv-period-range">August 2025 &ndash; Present</span><span class="cv-period-dur">10 mos</span></div>
     <div class="cv-entry">
       <div class="cv-role">Senior R&amp;D Engineer <span class="cv-rank">Deputy Director</span></div>
       <div class="cv-org"><a href="https://with.mbc.co.kr/">MBC 문화방송</a> · Seoul, Republic of Korea</div>
       <div class="cv-detail">혁신성장본부 BIZ혁신국 기술정보사업팀</div>
-    </div>
-    <div class="cv-awards" aria-label="Awards and certifications during this appointment">
-      <div class="cv-award cv-award--license"><span class="cv-award-year">2025</span><a href="#licenses--certifications">정보통신특급기술자</a></div>
-      <div class="cv-award cv-award--license"><span class="cv-award-year">2025</span><a href="#licenses--certifications">정보통신특급감리원</a></div>
     </div>
   </div>
   <div class="cv-row">
@@ -34,11 +30,6 @@ hide_page_title: true
       <div class="cv-org"><a href="http://open.kbs.co.kr/">Korean Broadcasting System (KBS)</a> · Seoul, Republic of Korea</div>
       <div class="cv-detail">TV Transmission &amp; Control Office</div>
     </div>
-    <div class="cv-awards" aria-label="Awards and certifications during this appointment">
-      <div class="cv-award"><span class="cv-award-year">2024</span><a href="#awards">과기정통부 장관표창</a></div>
-      <div class="cv-award"><span class="cv-award-year">2020</span><a href="#awards">장관표창 · 전파연구원장</a></div>
-      <div class="cv-award cv-award--license"><span class="cv-award-year">2024</span><a href="https://www.cq.or.kr/qh_quagm01_008.do">방송통신기사</a></div>
-    </div>
   </div>
   <div class="cv-row">
     <div class="cv-period"><span class="cv-period-range">March 2007 &ndash; November 2018</span><span class="cv-period-dur">11 yrs 8 mos</span></div>
@@ -46,17 +37,6 @@ hide_page_title: true
       <div class="cv-role">Lead R&amp;D Engineer</div>
       <div class="cv-org"><a href="http://open.kbs.co.kr/">Korean Broadcasting System (KBS)</a> · Seoul, Republic of Korea</div>
       <div class="cv-detail"><a href="http://office.kbs.co.kr/tri/">Technical Research Institute</a></div>
-    </div>
-    <div class="cv-awards" aria-label="Awards and certifications during this appointment">
-      <div class="cv-award"><span class="cv-award-year">2018</span><a href="http://tta.or.kr/news/certify_view.jsp?notice_num=6442">TTA 우수위원</a></div>
-      <div class="cv-award"><span class="cv-award-year">2017</span><a href="#awards">과기정통부 장관표창</a></div>
-      <div class="cv-award"><span class="cv-award-year">2016</span><a href="#awards">국립전파연구원장 표창</a></div>
-      <div class="cv-award"><span class="cv-award-year">2016</span><a href="http://www.kobeta.com/notice/?uid=2291&amp;mod=document">방송기술대상 최우수상</a></div>
-      <div class="cv-award"><span class="cv-award-year">2015</span><a href="http://www.abu.org.my/Latest_News-@-GA_2015_ABU_Engineering_Awards_%E2%80%93_Winners_announced_in_Istanbul_.aspx">ABU Best Article</a></div>
-      <div class="cv-award"><span class="cv-award-year">2014</span><a href="#awards">BMSB Best Student Paper</a></div>
-      <div class="cv-award"><span class="cv-award-year">2013</span><a href="#awards">ABU Commended Article</a></div>
-      <div class="cv-award"><span class="cv-award-year">2012</span><a href="#awards">IEEE Seoul Bronze</a></div>
-      <div class="cv-award cv-award--license"><span class="cv-award-year">2016</span><a href="https://www.cq.or.kr/qh_acegm08_001.do">제한무선통신사</a></div>
     </div>
   </div>
 </div>
