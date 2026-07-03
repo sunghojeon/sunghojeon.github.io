@@ -94,7 +94,7 @@ hide_page_title: true
   <div class="svc-group">Co-project Manager, Next Generation Terrestrial Broadcasting (T/NGTB) in <a href="https://www.abu.org.my/2019/05/04/study-topics-projects/">Distribution Topic Area</a>, ABU Technical Department</div>
   <div class="svc-item svc-item--sub"><span class="svc-label"><a href="https://www.abu.org.my/wp-content/uploads/2012/04/7-Topic-Chairmans-Report-Transmission.pdf">Transmission topic report</a></span><span class="svc-date">2022.11.27</span></div>
   <div class="svc-item svc-item--sub"><span class="svc-label"><a href="https://www.abu.org.my/wp-content/uploads/2024/11/T-24-7-Distribution.pdf">Distribution topic report</a></span><span class="svc-date">2024.09.30</span></div>
-  <div class="svc-item"><span class="svc-label">Member, <a href="https://sagroups.ieee.org/btsc/">IEEE Broadcast Technology Standards Committee</a></span><span class="svc-date">2023.06</span></div>
+  <div class="svc-item"><span class="svc-label"><strong>Member, <a href="https://sagroups.ieee.org/btsc/">IEEE Broadcast Technology Standards Committee</a></strong></span><span class="svc-date">2023.06</span></div>
 </div>
 
 ### National Standards / Working Groups
