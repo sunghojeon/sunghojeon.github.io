@@ -402,25 +402,26 @@ def evolve(store: dict, items: list[dict], use_llm: bool, auto_yes: bool) -> Non
 
 
 def render(items: list[dict], since: datetime) -> str:
+    """Render as the site's dot-and-line timeline (.timeline / .tl-item)."""
     stamp = datetime.now().strftime("%Y-%m-%d")
     lines = [
         MARK_START,
         f'<p class="page-subtitle">ATSC 3.0 · DTV+ (TV 3.0) · Broadcast RTK · '
         f'EdgeBeam — auto-collected news since {since.strftime("%B %d, %Y")} '
         f'(last updated {stamp}).</p>',
-        '<div class="svc">',
+        '<ol class="timeline">',
     ]
     for it in items:
         title = html.escape(it["title"], quote=False)
         source = html.escape(it["source"], quote=False)
         meta = f'{source} · {it["region"]}' if source else it["region"]
         lines.append(
-            '  <div class="svc-item"><span class="svc-label">'
-            f'<a href="{it["link"]}" target="_blank" rel="noopener">{title}</a> '
-            f'<span class="ko-gloss">{meta}</span></span>'
-            f'<span class="svc-date">{it["date"].strftime("%Y.%m.%d")}</span></div>'
+            '  <li class="tl-item">'
+            f'<a class="tl-title" href="{it["link"]}" target="_blank" '
+            f'rel="noopener">{title}</a> <span class="tl-cat">{meta}</span>'
+            f'<div class="tl-date">{it["date"].strftime("%Y.%m.%d")}</div></li>'
         )
-    lines += ["</div>", MARK_END]
+    lines += ["</ol>", MARK_END]
     return "\n".join(lines)
 
 
