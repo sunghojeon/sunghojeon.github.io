@@ -28,7 +28,7 @@ hide_page_title: true
     <div class="cv-entry">
       <div class="cv-role">Team Leader, Systems Engineering &amp; Master Control Room <span class="cv-rank">Deputy Director</span></div>
       <div class="cv-org"><a href="http://open.kbs.co.kr/">Korean Broadcasting System (KBS)</a> · Seoul, Republic of Korea</div>
-      <div class="cv-detail">TV Transmission &amp; Control Office</div>
+      <div class="cv-detail">TV Transmission &amp; Control Office <span class="ko-gloss">미디어송출부</span></div>
     </div>
   </div>
   <div class="cv-row">
