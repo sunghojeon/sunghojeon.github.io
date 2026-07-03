@@ -43,6 +43,13 @@ footer-links:
   googleplus: # anything in your profile username that comes after plus.google.com/
   slideshare: 
 
+# Academic and professional profiles shown in the sidebar.
+profile-links:
+  google_scholar: https://scholar.google.com/citations?user=K-uP94QAAAAJ&hl=en
+  ieee_xplore: https://ieeexplore.ieee.org/author/37292893500
+  orcid:
+  linkedin:
+
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account

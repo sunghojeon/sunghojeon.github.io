@@ -44,6 +44,16 @@
           <a href="{{ site.baseurl }}/talks" class="{% if page.url == '/talks/' or page.url == '/talks' %}is-active{% endif %}">Presentations</a>
         </nav>
 
+        {% assign profiles = site.profile-links %}
+        {% if profiles.google_scholar or profiles.ieee_xplore or profiles.orcid or profiles.linkedin %}
+        <div class="sidebar-block">
+          <div class="sidebar-title">Profiles</div>
+          <div class="sidebar-links">
+            {% include profile-links.html %}
+          </div>
+        </div>
+        {% endif %}
+
         <div class="sidebar-block">
           <div class="sidebar-title">Contact</div>
           <div class="sidebar-icons">
