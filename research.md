@@ -14,8 +14,6 @@ Broadcast systems engineering for terrestrial networks, with emphasis on data se
 - **Measurement & verification** — drone-based antenna pattern verification and field measurement methods
 - **Standards & policy** — active in TTA and ITU-R, plus KS, for terrestrial broadcasting
 
-[Google Scholar](https://scholar.google.com/citations?user=K-uP94QAAAAJ&hl=en) · Citations and publication profile
-
 ## Recent Research Output
 
 A three-year window (2024-2026) of representative journals, conferences, and standards. The complete list is in the [Full Publication Archive](#full-publication-archive) below.

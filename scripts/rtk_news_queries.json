@@ -1,0 +1,29 @@
+{
+  "seeds": [
+    {
+      "region": "US",
+      "q": "\"ATSC 3.0\" OR \"NextGen TV\""
+    },
+    {
+      "region": "US",
+      "q": "\"EdgeBeam\""
+    },
+    {
+      "region": "US",
+      "q": "\"Broadcast RTK\" OR \"broadcast positioning system\""
+    },
+    {
+      "region": "KR",
+      "q": "ATSC 3.0"
+    },
+    {
+      "region": "KR",
+      "q": "정밀측위 방송 OR RTK OR eGPS"
+    },
+    {
+      "region": "BR",
+      "q": "\"TV 3.0\" OR \"DTV+\""
+    }
+  ],
+  "learned": []
+}
