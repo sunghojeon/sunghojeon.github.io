@@ -19,8 +19,8 @@ hide_page_title: true
     <div class="cv-period"><span class="cv-period-start">August 2025</span><span class="cv-period-end">Present</span></div>
     <div class="cv-entry">
       <div class="cv-role">Senior R&amp;D Engineer <span class="cv-rank">Deputy Director</span></div>
-      <div class="cv-org"><a href="https://with.mbc.co.kr/">MBC 문화방송</a> · Seoul, Republic of Korea</div>
-      <div class="cv-detail">혁신성장본부 BIZ혁신국 기술정보사업팀</div>
+      <div class="cv-org"><a href="https://with.mbc.co.kr/">MBC</a> <span class="ko-gloss">문화방송</span> · Seoul, Republic of Korea</div>
+      <div class="cv-detail">Technology &amp; Information Business Team <span class="ko-gloss">혁신성장본부 BIZ혁신국 기술정보사업팀</span></div>
     </div>
   </div>
   <div class="cv-row">
@@ -100,47 +100,47 @@ hide_page_title: true
 ### National Standards / Working Groups
 
 <div class="svc">
-  <div class="svc-group">한국ITU연구위원회 SG6(방송업무) 연구반</div>
-  <div class="svc-item svc-item--sub"><span class="svc-label">반원</span><span class="svc-date">2013.11 – <a href="https://www.koreaitu.or.kr/ITU_R/user_menu6/index.do?menu_gubun=mid&amp;menu_no=2&amp;menu_no2=6&amp;menu_no3=&amp;params=">현재</a></span></div>
-  <div class="svc-group">TTA PG802(지상파방송 프로젝트 그룹)</div>
-  <div class="svc-item svc-item--sub"><span class="svc-label">간사</span><span class="svc-date">2020.02 – <a href="http://committee.tta.or.kr/standard/general.jsp?commit_code=PG802&amp;firstDepthCode=TC8&amp;secondDepthCode=PG802&amp;thirdDepthCode=">현재</a></span></div>
-  <div class="svc-group">TTA WG8027(지상파UHD RF 정합테스트 실무반)</div>
-  <div class="svc-item svc-item--sub"><span class="svc-label">의장</span><span class="svc-date">2018.02 – <a href="http://committee.tta.or.kr/standard/general.jsp?commit_code=WG8027&amp;firstDepthCode=TC8&amp;secondDepthCode=PG802&amp;thirdDepthCode=WG8027">2023.11</a></span></div>
-  <div class="svc-item svc-item--sub"><span class="svc-label">간사</span><span class="svc-date">2016.06 – 2018.02</span></div>
-  <div class="svc-group">TTA WG80210(VHF 및 UHF 방송대역 안테나 특성 및 현장 측정 방법)</div>
-  <div class="svc-item svc-item--sub"><span class="svc-label">간사</span><span class="svc-date">2024.09 – <a href="https://committee.tta.or.kr/standard/schedule_view.jsp?thirdDepthCode=WG80210&amp;secondDepthCode=PG802&amp;thirdSubmit=%BC%B1%C5%C3&amp;meeting_no=ME-WG80210-002&amp;commit_code=WG80210">현재</a></span></div>
+  <div class="svc-group">Korea ITU Committee, SG6 Study Group (Broadcasting Service) <span class="ko-gloss">한국ITU연구위원회 SG6(방송업무) 연구반</span></div>
+  <div class="svc-item svc-item--sub"><span class="svc-label">Member <span class="ko-gloss">반원</span></span><span class="svc-date">2013.11 – <a href="https://www.koreaitu.or.kr/ITU_R/user_menu6/index.do?menu_gubun=mid&amp;menu_no=2&amp;menu_no2=6&amp;menu_no3=&amp;params=">Present</a></span></div>
+  <div class="svc-group">TTA PG802 — Terrestrial Broadcasting Project Group <span class="ko-gloss">지상파방송 프로젝트 그룹</span></div>
+  <div class="svc-item svc-item--sub"><span class="svc-label">Secretary <span class="ko-gloss">간사</span></span><span class="svc-date">2020.02 – <a href="http://committee.tta.or.kr/standard/general.jsp?commit_code=PG802&amp;firstDepthCode=TC8&amp;secondDepthCode=PG802&amp;thirdDepthCode=">Present</a></span></div>
+  <div class="svc-group">TTA WG8027 — Terrestrial UHD RF Conformance Testing Working Group <span class="ko-gloss">지상파UHD RF 정합테스트 실무반</span></div>
+  <div class="svc-item svc-item--sub"><span class="svc-label">Chair <span class="ko-gloss">의장</span></span><span class="svc-date">2018.02 – <a href="http://committee.tta.or.kr/standard/general.jsp?commit_code=WG8027&amp;firstDepthCode=TC8&amp;secondDepthCode=PG802&amp;thirdDepthCode=WG8027">2023.11</a></span></div>
+  <div class="svc-item svc-item--sub"><span class="svc-label">Secretary <span class="ko-gloss">간사</span></span><span class="svc-date">2016.06 – 2018.02</span></div>
+  <div class="svc-group">TTA WG80210 — Antenna Characteristics &amp; Field Measurement Methods in VHF/UHF Broadcast Bands <span class="ko-gloss">VHF 및 UHF 방송대역 안테나 특성 및 현장 측정 방법</span></div>
+  <div class="svc-item svc-item--sub"><span class="svc-label">Secretary <span class="ko-gloss">간사</span></span><span class="svc-date">2024.09 – <a href="https://committee.tta.or.kr/standard/schedule_view.jsp?thirdDepthCode=WG80210&amp;secondDepthCode=PG802&amp;thirdSubmit=%BC%B1%C5%C3&amp;meeting_no=ME-WG80210-002&amp;commit_code=WG80210">Present</a></span></div>
 </div>
 
 ### Advisory & Committees
 
 <div class="svc">
-  <div class="svc-item"><span class="svc-label">국립전파연구원 방송통신표준 방송기술전문위원회 위원</span><span class="svc-date">2024.04 – 현재</span></div>
-  <div class="svc-item svc-item--sub"><span class="svc-label">반장, KS X 3156(지상파 디지털TV 방송 송수신 정합표준) 표준 개정 연구반</span><span class="svc-date">2025.07 – 현재</span></div>
-  <div class="svc-item svc-item--sub"><span class="svc-label">검토위원, KS X 3158-1/3158-3(지상파 디지털멀티미디어방송(DMB)) 표준 개정</span><span class="svc-date">2026.04 – 현재</span></div>
-  <div class="svc-group">KOSEN(한민족과학기술자네트워크) 전문가 · 미래창조과학부/한국과학기술정보연구원</div>
-  <div class="svc-item svc-item--sub"><span class="svc-label"><a href="http://kosen21.org/notice/noticeView.do?noticeSeq=NOT_0000000000025932">2016/2017년도</a></span><span class="svc-date">2016.10 – 2017.12</span></div>
-  <div class="svc-item svc-item--sub"><span class="svc-label"><a href="http://kosen21.org/notice/noticeView.do?noticeSeq=NOT_0000000000074464">2018년도</a></span><span class="svc-date">2018.01 – 2018.12</span></div>
-  <div class="svc-item svc-item--sub"><span class="svc-label"><a href="http://www.kosen21.org/notice/noticeView.do?noticeSeq=NOT_0000000000103130">2019년도</a></span><span class="svc-date">2019.01 – 2019.12</span></div>
-  <div class="svc-group"><a href="http://www.kobeta.com/organization/">한국방송기술인연합회(KOBETA)</a></div>
-  <div class="svc-item svc-item--sub"><span class="svc-label">제27대 정책실장</span><span class="svc-date">2020.07 – <a href="http://journal.kobeta.com/%ed%95%9c%ea%b5%ad%eb%b0%a9%ec%86%a1%ea%b8%b0%ec%88%a0%ec%9d%b8%ec%97%b0%ed%95%a9%ed%9a%8c-2022%eb%85%84-%ec%a0%95%ea%b8%b0-%eb%8c%80%ec%9d%98%ec%9b%90%eb%8c%80%ed%9a%8c-%ea%b0%9c%ec%b5%9c/">2021.12</a></span></div>
-  <div class="svc-item svc-item--sub"><span class="svc-label">제29대 정책실장</span><span class="svc-date">2024.01 – <a href="http://journal.kobeta.com/%ec%a0%9c29-30%eb%8c%80-%ed%95%9c%ea%b5%ad%eb%b0%a9%ec%86%a1%ea%b8%b0%ec%88%a0%ec%9d%b8%ec%97%b0%ed%95%a9%ed%9a%8c-%ec%9d%b4%ec%b7%a8%ec%9e%84%ec%8b%9d-%ec%97%b4%eb%a0%a4/">2025.12</a></span></div>
-  <div class="svc-item"><span class="svc-label"><a href="http://ezone.iitp.kr/">정보통신기획평가원(IITP)</a> 평가위원</span><span class="svc-date">2020.02 – 현재</span></div>
-  <div class="svc-item"><span class="svc-label"><a href="https://smtech.go.kr/front/main/main.do">중소기업기술정보진흥원(SMTECH)</a> 평가위원</span><span class="svc-date">2020.07 – 현재</span></div>
-  <div class="svc-item"><span class="svc-label"><a href="http://www.kibme.org/research/transmissionTech">방송전송기술연구회</a> 위원 (한국방송미디어공학회)</span></div>
-  <div class="svc-item"><span class="svc-label"><a href="https://www.cq.or.kr/qh_cusgm17_001.do">KCA국가기술자격검정</a> 시험위원 (방송통신기사·제한무선통신사 종목)</span><span class="svc-date">2022.12 – 현재</span></div>
-  <div class="svc-item"><span class="svc-label"><a href="https://pms.kocca.kr/epms/">KOCCA한국콘텐츠진흥원</a> 평가위원</span><span class="svc-date">2023.03 – 현재</span></div>
-  <div class="svc-item"><span class="svc-label"><a href="https://hrd.work24.go.kr/hrdp/kc/pkcfo/PKCFO0100D.do?pageIndex=1&amp;orderKey=1&amp;orderBy=ASC&amp;hnfMnno=2224107&amp;upperNcsCd=&amp;middleNcsCd=&amp;ncsCd=&amp;srchAplYy=&amp;srchCstmrNm=%EC%A0%84%EC%84%B1%ED%98%B8&amp;pageOrder=1ASC&amp;pageRow=10">NCS확인강사</a> (200302) 방송플랫폼기술</span><span class="svc-date">2023.09 – 현재</span></div>
+  <div class="svc-item"><span class="svc-label">Member, Broadcasting Technology Expert Committee, National Radio Research Agency (RRA) <span class="ko-gloss">국립전파연구원 방송통신표준 방송기술전문위원회 위원</span></span><span class="svc-date">2024.04 – Present</span></div>
+  <div class="svc-item svc-item--sub"><span class="svc-label">Lead, KS X 3156 Revision Study Group — terrestrial DTV transmission/reception <span class="ko-gloss">반장, KS X 3156(지상파 디지털TV 방송 송수신 정합표준) 표준 개정 연구반</span></span><span class="svc-date">2025.07 – Present</span></div>
+  <div class="svc-item svc-item--sub"><span class="svc-label">Reviewer, KS X 3158-1/3158-3 Revision — T-DMB <span class="ko-gloss">검토위원, KS X 3158-1/3158-3(지상파 디지털멀티미디어방송(DMB)) 표준 개정</span></span><span class="svc-date">2026.04 – Present</span></div>
+  <div class="svc-group">KOSEN Expert — Global Network of Korean Scientists &amp; Engineers <span class="ko-gloss">한민족과학기술자네트워크 전문가 · 미래창조과학부/한국과학기술정보연구원</span></div>
+  <div class="svc-item svc-item--sub"><span class="svc-label"><a href="http://kosen21.org/notice/noticeView.do?noticeSeq=NOT_0000000000025932">2016/2017 term</a></span><span class="svc-date">2016.10 – 2017.12</span></div>
+  <div class="svc-item svc-item--sub"><span class="svc-label"><a href="http://kosen21.org/notice/noticeView.do?noticeSeq=NOT_0000000000074464">2018 term</a></span><span class="svc-date">2018.01 – 2018.12</span></div>
+  <div class="svc-item svc-item--sub"><span class="svc-label"><a href="http://www.kosen21.org/notice/noticeView.do?noticeSeq=NOT_0000000000103130">2019 term</a></span><span class="svc-date">2019.01 – 2019.12</span></div>
+  <div class="svc-group"><a href="http://www.kobeta.com/organization/">Korea Broadcasting Engineers &amp; Technicians Association (KOBETA)</a> <span class="ko-gloss">한국방송기술인연합회</span></div>
+  <div class="svc-item svc-item--sub"><span class="svc-label">Director of Policy, 27th term <span class="ko-gloss">제27대 정책실장</span></span><span class="svc-date">2020.07 – <a href="http://journal.kobeta.com/%ed%95%9c%ea%b5%ad%eb%b0%a9%ec%86%a1%ea%b8%b0%ec%88%a0%ec%9d%b8%ec%97%b0%ed%95%a9%ed%9a%8c-2022%eb%85%84-%ec%a0%95%ea%b8%b0-%eb%8c%80%ec%9d%98%ec%9b%90%eb%8c%80%ed%9a%8c-%ea%b0%9c%ec%b5%9c/">2021.12</a></span></div>
+  <div class="svc-item svc-item--sub"><span class="svc-label">Director of Policy, 29th term <span class="ko-gloss">제29대 정책실장</span></span><span class="svc-date">2024.01 – <a href="http://journal.kobeta.com/%ec%a0%9c29-30%eb%8c%80-%ed%95%9c%ea%b5%ad%eb%b0%a9%ec%86%a1%ea%b8%b0%ec%88%a0%ec%9d%b8%ec%97%b0%ed%95%a9%ed%9a%8c-%ec%9d%b4%ec%b7%a8%ec%9e%84%ec%8b%9d-%ec%97%b4%eb%a0%a4/">2025.12</a></span></div>
+  <div class="svc-item"><span class="svc-label">Evaluation Committee Member, <a href="http://ezone.iitp.kr/">IITP</a> <span class="ko-gloss">정보통신기획평가원 평가위원</span></span><span class="svc-date">2020.02 – Present</span></div>
+  <div class="svc-item"><span class="svc-label">Evaluation Committee Member, <a href="https://smtech.go.kr/front/main/main.do">SMTECH</a> <span class="ko-gloss">중소기업기술정보진흥원 평가위원</span></span><span class="svc-date">2020.07 – Present</span></div>
+  <div class="svc-item"><span class="svc-label">Member, <a href="http://www.kibme.org/research/transmissionTech">Broadcast Transmission Technology Research Group</a>, KIBME <span class="ko-gloss">방송전송기술연구회 위원 (한국방송미디어공학회)</span></span></div>
+  <div class="svc-item"><span class="svc-label">Examiner, <a href="https://www.cq.or.kr/qh_cusgm17_001.do">KCA National Technical Qualification Exams</a> <span class="ko-gloss">국가기술자격검정 시험위원 (방송통신기사·제한무선통신사 종목)</span></span><span class="svc-date">2022.12 – Present</span></div>
+  <div class="svc-item"><span class="svc-label">Evaluation Committee Member, <a href="https://pms.kocca.kr/epms/">KOCCA</a> <span class="ko-gloss">한국콘텐츠진흥원 평가위원</span></span><span class="svc-date">2023.03 – Present</span></div>
+  <div class="svc-item"><span class="svc-label"><a href="https://hrd.work24.go.kr/hrdp/kc/pkcfo/PKCFO0100D.do?pageIndex=1&amp;orderKey=1&amp;orderBy=ASC&amp;hnfMnno=2224107&amp;upperNcsCd=&amp;middleNcsCd=&amp;ncsCd=&amp;srchAplYy=&amp;srchCstmrNm=%EC%A0%84%EC%84%B1%ED%98%B8&amp;pageOrder=1ASC&amp;pageRow=10">NCS Certified Instructor</a> — Broadcasting Platform Technology (200302) <span class="ko-gloss">NCS확인강사 방송플랫폼기술</span></span><span class="svc-date">2023.09 – Present</span></div>
 </div>
 
 ## Licenses & Certifications
 
 <div class="svc">
-  <div class="svc-group">과학기술정보통신부 / <a href="https://career.kica.or.kr/">한국정보통신공사협회</a></div>
-  <div class="svc-item"><span class="svc-label"><strong>정보통신특급기술자</strong>, Special-Grade Information &amp; Communication Engineer (highest grade) · 등록번호 111202511193E</span><span class="svc-date">2025.12.02</span></div>
-  <div class="svc-item"><span class="svc-label"><strong>정보통신특급감리원</strong>, Special-Grade Information &amp; Communication Construction Supervisor (highest grade) · 등록번호 110202508862SE</span><span class="svc-date">2025.12.18</span></div>
-  <div class="svc-group">국가기술자격 / <a href="https://www.cq.or.kr/">한국방송통신전파진흥원(KCA)</a></div>
-  <div class="svc-item"><span class="svc-label"><strong><a href="https://www.cq.or.kr/qh_quagm01_008.do">방송통신기사</a></strong>, Engineer, Broadcasting &amp; Communications · 자격번호 24081100023</span><span class="svc-date">2024.05.31</span></div>
-  <div class="svc-item"><span class="svc-label"><strong><a href="https://www.cq.or.kr/qh_acegm08_001.do">제한무선통신사</a></strong>, Restricted Radio Operator · 자격번호 163221164</span><span class="svc-date">2016.10.11</span></div>
+  <div class="svc-group">Ministry of Science and ICT / <a href="https://career.kica.or.kr/">Korea Information &amp; Communication Contractors Association (KICA)</a> <span class="ko-gloss">과학기술정보통신부 / 한국정보통신공사협회</span></div>
+  <div class="svc-item"><span class="svc-label"><strong>Special-Grade Information &amp; Communication Engineer</strong> (highest grade) <span class="ko-gloss">정보통신특급기술자</span> · Reg. No. 111202511193E</span><span class="svc-date">2025.12.02</span></div>
+  <div class="svc-item"><span class="svc-label"><strong>Special-Grade Information &amp; Communication Construction Supervisor</strong> (highest grade) <span class="ko-gloss">정보통신특급감리원</span> · Reg. No. 110202508862SE</span><span class="svc-date">2025.12.18</span></div>
+  <div class="svc-group">National Technical Qualification / <a href="https://www.cq.or.kr/">Korea Communications Agency (KCA)</a> <span class="ko-gloss">국가기술자격 / 한국방송통신전파진흥원</span></div>
+  <div class="svc-item"><span class="svc-label"><strong><a href="https://www.cq.or.kr/qh_quagm01_008.do">Engineer, Broadcasting &amp; Communications</a></strong> <span class="ko-gloss">방송통신기사</span> · Reg. No. 24081100023</span><span class="svc-date">2024.05.31</span></div>
+  <div class="svc-item"><span class="svc-label"><strong><a href="https://www.cq.or.kr/qh_acegm08_001.do">Restricted Radio Operator</a></strong> <span class="ko-gloss">제한무선통신사</span> · Reg. No. 163221164</span><span class="svc-date">2016.10.11</span></div>
 </div>
 
 ## Awards
@@ -148,13 +148,13 @@ hide_page_title: true
 ### Achievement Award
 
 <div class="svc">
-  <div class="svc-item"><span class="svc-label">표창장, 과학기술정보통신부 장관</span><span class="svc-date">2024.12</span></div>
-  <div class="svc-item"><span class="svc-label">표창장, 과학기술정보통신부 장관</span><span class="svc-date">2020.12</span></div>
-  <div class="svc-item"><span class="svc-label">표창장, 국립전파연구원장</span><span class="svc-date">2020.12</span></div>
-  <div class="svc-item"><span class="svc-label"><a href="http://tta.or.kr/news/certify_view.jsp?notice_num=6442">표창패</a>, 지상파방송프로젝트그룹(PG802) 우수 위원상, 한국정보통신기술협회(TTA)</span><span class="svc-date">2018.12</span></div>
-  <div class="svc-item"><span class="svc-label">표창장, 과학기술정보통신부 장관</span><span class="svc-date">2017.12</span></div>
-  <div class="svc-item"><span class="svc-label">국립전파연구원장 표창, 미래창조과학부/국립전파연구원</span><span class="svc-date">2016.12</span></div>
-  <div class="svc-item"><span class="svc-label"><a href="http://www.kobeta.com/notice/?uid=2291&amp;mod=document">2016 방송기술대상 최우수상</a>, 한국방송기술인연합회</span><span class="svc-date">2016.11</span></div>
+  <div class="svc-item"><span class="svc-label">Minister's Commendation, Ministry of Science and ICT <span class="ko-gloss">표창장, 과학기술정보통신부 장관</span></span><span class="svc-date">2024.12</span></div>
+  <div class="svc-item"><span class="svc-label">Minister's Commendation, Ministry of Science and ICT <span class="ko-gloss">표창장, 과학기술정보통신부 장관</span></span><span class="svc-date">2020.12</span></div>
+  <div class="svc-item"><span class="svc-label">Commendation, Director General of the National Radio Research Agency <span class="ko-gloss">표창장, 국립전파연구원장</span></span><span class="svc-date">2020.12</span></div>
+  <div class="svc-item"><span class="svc-label"><a href="http://tta.or.kr/news/certify_view.jsp?notice_num=6442">Outstanding Committee Member Award</a>, TTA PG802 <span class="ko-gloss">표창패, 지상파방송프로젝트그룹 우수 위원상, 한국정보통신기술협회</span></span><span class="svc-date">2018.12</span></div>
+  <div class="svc-item"><span class="svc-label">Minister's Commendation, Ministry of Science and ICT <span class="ko-gloss">표창장, 과학기술정보통신부 장관</span></span><span class="svc-date">2017.12</span></div>
+  <div class="svc-item"><span class="svc-label">Commendation, National Radio Research Agency / MSIP <span class="ko-gloss">국립전파연구원장 표창, 미래창조과학부/국립전파연구원</span></span><span class="svc-date">2016.12</span></div>
+  <div class="svc-item"><span class="svc-label"><a href="http://www.kobeta.com/notice/?uid=2291&amp;mod=document">Grand Prize, 2016 Korea Broadcasting Technology Awards</a>, KOBETA <span class="ko-gloss">방송기술대상 최우수상, 한국방송기술인연합회</span></span><span class="svc-date">2016.11</span></div>
 </div>
 
 ### Best Paper Award

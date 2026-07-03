@@ -793,6 +793,15 @@ th {
   }
 }
 
+/* Korean gloss — official Korean title shown muted after the English */
+.ko-gloss {
+  font-family: $sans;
+  font-size: 0.8em;
+  font-weight: 400;
+  color: $inkMuted;
+  margin-left: 6px;
+}
+
 /* Service & credentials list — label left, muted date right */
 .svc {
   margin: 1.3rem 0 0;
