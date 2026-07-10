@@ -503,6 +503,14 @@ th {
   border-style: dashed;
 }
 
+.pub-badge--award {
+  margin-right: 0;
+  margin-left: 4px;
+  color: $paper;
+  background: $ink;
+  border-color: $ink;
+}
+
 .pub-year {
   display: inline-block;
   min-width: 2.6em;

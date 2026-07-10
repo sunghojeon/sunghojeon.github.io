@@ -21,7 +21,7 @@ A three-year window (2024-2026) of representative journals, conferences, and sta
 <ul class="selected-list">
 <li><span class="pub-year">—</span> <span class="pub-badge pub-badge--contrib">ONGOING</span> Active standardization — TTA WG80210 (drone antenna measurement) &amp; ITU-R WP6A</li>
 <li><span class="pub-year">2026</span> <span class="pub-badge pub-badge--conf">CONF · IEEE BMSB</span> Coverage &amp; outage bounding in hybrid ATSC 3.0/LTE RTK delivery <em>(to appear)</em></li>
-<li><span class="pub-year">2026</span> <span class="pub-badge pub-badge--conf">CONF · IEEE BMSB</span> ATSC 3.0 end-to-end latency for emergency alert delivery <em>(to appear)</em></li>
+<li><span class="pub-year">2026</span> <span class="pub-badge pub-badge--conf">CONF · IEEE BMSB</span> ATSC 3.0 end-to-end latency for emergency alert delivery <span class="pub-badge pub-badge--award">Best Paper Award</span></li>
 <li><span class="pub-year">2026</span> <span class="pub-badge pub-badge--conf">CONF · IEEE BMSB</span> Nationwide time sourcing over terrestrial broadcast networks — BPS Project <em>(to appear)</em></li>
 <li><span class="pub-year">2025</span> <span class="pub-badge pub-badge--journal">JOURNAL · IEEE TBC</span> <a href="https://doi.org/10.1109/TBC.2024.3482183">ATSC 3.0 vs. 5G Broadcast — comparative physical-layer assessment</a></li>
 <li><span class="pub-year">2025</span> <span class="pub-badge pub-badge--conf">CONF · IEEE BMSB</span> <a href="https://www.eeng.dcu.ie/~bmsb2025/program.html">ATSC 3.0 STLTP distribution over multicast-unsupported VPN</a></li>
@@ -64,7 +64,7 @@ The complete list — author lists, volumes, and pages.
 
 - **Sungho Jeon**, Hong-Gi Shin, Doo-Kyung Park, Dong-Kwan Lee, Seung-Ho Lee, and Sung-Ik Park, "Coverage Overlap and Outage Bounding in Hybrid ATSC 3.0/LTE RTK Delivery: A Four-Region Field Digest," in *The 21st IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2026), João Pessoa, Brazil, July 2026. (to appear)
 
-- Sung-Ik Park, **Sungho Jeon**, Seongman Min, Bomi Lim, Sunhyoung Kwon, and Sungjun Ahn, "ATSC 3.0 End-to-End Latency: Analysis, Measurement, and Optimization for Emergency Alert Delivery," in *The 21st IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2026), João Pessoa, Brazil, July 2026. (to appear)
+- Sung-Ik Park, **Sungho Jeon**, Seongman Min, Bomi Lim, Sunhyoung Kwon, and Sungjun Ahn, "ATSC 3.0 End-to-End Latency: Analysis, Measurement, and Optimization for Emergency Alert Delivery," in *The 21st IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2026), João Pessoa, Brazil, July 2026. ([Best Paper Award](http://journal.kobeta.com/etri%C2%B7mbc%C2%B7kbs-%EC%97%B0%EA%B5%AC%ED%8C%80-ieee-bmsb-%EC%B5%9C%EC%9A%B0%EC%88%98-%EB%85%BC%EB%AC%B8%EC%83%81-%EC%88%98%EC%83%81/))
 
 - Sungjun Ahn, **Sungho Jeon**, Jaekwon Lee, Sunhyoung Kwon, and Sung-Ik Park, "Nationwide Time Sourcing Based on Terrestrial Broadcast Networks: BPS Project," in *The 21st IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2026), João Pessoa, Brazil, July 2026. (to appear)
 

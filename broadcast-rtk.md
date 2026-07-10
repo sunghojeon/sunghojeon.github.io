@@ -132,7 +132,7 @@ A terrestrial broadcast network inverts that economics. One transmitter delivers
 
 <div class="svc">
   <div class="svc-item"><span class="svc-label">Coverage &amp; outage bounding in hybrid ATSC 3.0/LTE RTK delivery — IEEE BMSB 2026 <em>(to appear)</em></span></div>
-  <div class="svc-item"><span class="svc-label">ATSC 3.0 end-to-end latency for emergency alert delivery — IEEE BMSB 2026 <em>(to appear)</em></span></div>
+  <div class="svc-item"><span class="svc-label">ATSC 3.0 end-to-end latency for emergency alert delivery — IEEE BMSB 2026 <strong>(Best Paper Award)</strong></span></div>
   <div class="svc-item"><span class="svc-label">Nationwide time sourcing over terrestrial broadcast networks (BPS Project) — IEEE BMSB 2026 <em>(to appear)</em></span></div>
   <div class="svc-item"><span class="svc-label"><a href="https://speakerdeck.com/sunghojeon/20260514-koba2026-keonpeoreonseu-anseongjunetri-jeonseonghombc-upload">Ultra-precise PNT infrastructure over terrestrial broadcast — BPS &amp; Broadcast RTK</a> — KOBA 2026 deck</span><span class="svc-date">2026.05</span></div>
   <div class="svc-item"><span class="svc-label"><a href="https://drive.google.com/file/d/1Hs1RZii6ePm6hQfI36hVfPl9xzAHaoqp/preview">Broadcast RTK &amp; global expansion (Global eGPS)</a> — KIBME TTA special session deck</span><span class="svc-date">2026.06</span></div>
