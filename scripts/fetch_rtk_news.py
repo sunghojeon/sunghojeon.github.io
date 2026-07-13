@@ -30,6 +30,7 @@ import argparse
 import email.utils
 import html
 import json
+import os
 import re
 import shutil
 import subprocess
@@ -295,12 +296,8 @@ def mine_candidates(items: list[dict], covered: str) -> list[tuple[str, str]]:
     return out[:5]
 
 
-def propose_with_claude(items: list[dict], store: dict,
-                        bodies: dict[str, str]) -> list[dict] | None:
-    """Ask the claude CLI to propose new queries. None on any failure."""
-    claude = find_claude()
-    if not claude:
-        return None
+def _proposal_prompt(items: list[dict], store: dict,
+                     bodies: dict[str, str]) -> str:
     current = [{"region": q["region"], "q": q["q"]} for q in active_queries(store)]
     lines = []
     for it in items:
@@ -309,7 +306,7 @@ def propose_with_claude(items: list[dict], store: dict,
         if body:
             line += f'\n  excerpt: {body[:300]}'
         lines.append(line)
-    prompt = (
+    return (
         "You maintain Google News RSS search queries that track news about "
         "ATSC 3.0 / NextGen TV, Brazil TV 3.0 (DTV+), Broadcast RTK / eGPS, "
         "BPS (Broadcast Positioning System), and EdgeBeam Wireless in the US, "
@@ -327,6 +324,15 @@ def propose_with_claude(items: list[dict], store: dict,
         '[{"q": "...", "region": "US|KR|BR", "why": "one short sentence"}] '
         "— return [] if nothing new is warranted."
     )
+
+
+def propose_with_claude(items: list[dict], store: dict,
+                        bodies: dict[str, str]) -> list[dict] | None:
+    """Ask the claude CLI to propose new queries. None on any failure."""
+    claude = find_claude()
+    if not claude:
+        return None
+    prompt = _proposal_prompt(items, store, bodies)
     try:
         res = subprocess.run(
             [claude, "-p", prompt, "--output-format", "text"],
@@ -341,6 +347,57 @@ def propose_with_claude(items: list[dict], store: dict,
                 if isinstance(p, dict) and p.get("q")
                 and p.get("region") in REGION_LOCALE]
     except Exception:
+        return None
+
+
+def propose_with_api(items: list[dict], store: dict,
+                     bodies: dict[str, str]) -> list[dict] | None:
+    """Same as propose_with_claude, but over the Anthropic API.
+
+    Used where the claude CLI isn't installed (CI). None on any failure.
+    """
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        return None
+    try:
+        import anthropic
+    except ImportError:
+        return None
+
+    schema = {
+        "type": "object",
+        "properties": {
+            "queries": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "q": {"type": "string"},
+                        "region": {"type": "string",
+                                   "enum": list(REGION_LOCALE)},
+                        "why": {"type": "string"},
+                    },
+                    "required": ["q", "region", "why"],
+                    "additionalProperties": False,
+                },
+            }
+        },
+        "required": ["queries"],
+        "additionalProperties": False,
+    }
+    try:
+        client = anthropic.Anthropic()
+        resp = client.messages.create(
+            model="claude-opus-4-8",
+            max_tokens=2000,
+            output_config={"format": {"type": "json_schema", "schema": schema},
+                           "effort": "low"},
+            messages=[{"role": "user",
+                       "content": _proposal_prompt(items, store, bodies)}],
+        )
+        text = next(b.text for b in resp.content if b.type == "text")
+        return json.loads(text)["queries"]
+    except Exception as exc:
+        print(f"  API proposal failed: {exc}", file=sys.stderr)
         return None
 
 
@@ -362,7 +419,10 @@ def evolve(store: dict, items: list[dict], use_llm: bool, auto_yes: bool) -> Non
         print(f"  body excerpts fetched: {len(bodies)}/{min(BODY_SAMPLE, len(items))}")
         proposals = propose_with_claude(items, store, bodies)
         if proposals is None:
-            print("  claude CLI unavailable/failed -> falling back to heuristic")
+            print("  claude CLI unavailable/failed -> trying the Anthropic API")
+            proposals = propose_with_api(items, store, bodies)
+        if proposals is None:
+            print("  no LLM available -> falling back to heuristic")
 
     if proposals is None:
         covered = " ".join(q["q"].lower() for q in active_queries(store))
