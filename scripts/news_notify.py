@@ -213,18 +213,24 @@ def _via_api(prompt: str) -> str | None:
 
 
 def _via_cli(prompt: str) -> str | None:
-    """The claude CLI, for local runs with no API key."""
+    """The claude CLI, for local runs with no API key.
+
+    The prompt goes over stdin — as an argv element it blows past Windows'
+    ~32K command-line limit once a few dozen article bodies are attached.
+    """
     claude = find_claude()
     if not claude:
         return None
     try:
         res = subprocess.run(
-            [claude, "-p", prompt + '\n\n오직 JSON만 출력하라: {"articles": '
-             '[{"index": 0, "keep": true, "summary": "...", '
-             '"drop_reason": ""}]}',
-             "--output-format", "text"],
+            [claude, "-p", "--output-format", "text"],
+            input=prompt + '\n\n오직 JSON만 출력하라: {"articles": '
+            '[{"index": 0, "keep": true, "summary": "...", '
+            '"drop_reason": ""}]}',
             capture_output=True, text=True, timeout=600, encoding="utf-8")
         if res.returncode != 0:
+            print(f"  CLI exited {res.returncode}: {res.stderr[:200]}",
+                  file=sys.stderr)
             return None
         m = re.search(r"\{.*\}", res.stdout, re.S)
         return m.group(0) if m else None
@@ -243,18 +249,37 @@ def vet_and_summarize(items: list[dict]) -> dict[int, dict]:
     if not items:
         return {}
 
+    bodies = []
+    for it in items:
+        bodies.append(fetch_body_excerpt(it["link"]))
+    print(f"  body fetched for {sum(1 for b in bodies if b)}/{len(items)} "
+          f"article(s)")
+
+    out: dict[int, dict] = {}
+    CHUNK = 15
+    for base in range(0, len(items), CHUNK):
+        chunk = items[base:base + CHUNK]
+        out.update({base + k: v for k, v in
+                    _vet_chunk(chunk, bodies[base:base + CHUNK]).items()})
+
+    kept = sum(1 for a in out.values() if a["keep"])
+    print(f"  vetted: {kept} kept / {len(out) - kept} dropped")
+    for i, a in sorted(out.items()):
+        if not a["keep"]:
+            print(f"    dropped: {items[i]['title'][:55]} "
+                  f"-- {a['drop_reason']}")
+    return out
+
+
+def _vet_chunk(items: list[dict], bodies: list[str]) -> dict[int, dict]:
     lines = []
-    with_body = 0
     for i, it in enumerate(items):
-        excerpt = fetch_body_excerpt(it["link"])
         entry = f'{i}. [{it["source"]} · {it["date"]}] {it["title"]}'
-        if excerpt:
-            entry += f"\n   본문: {excerpt[:700]}"
-            with_body += 1
+        if bodies[i]:
+            entry += f"\n   본문: {bodies[i][:700]}"
         else:
             entry += "\n   본문: (본문을 가져오지 못함)"
         lines.append(entry)
-    print(f"  body fetched for {with_body}/{len(items)} article(s)")
 
     prompt = (
         "다음은 방송·측위 뉴스 피드가 수집한 기사 목록이다. 이 피드는 다음을 "
@@ -300,18 +325,11 @@ def vet_and_summarize(items: list[dict]) -> dict[int, dict]:
         return {}
     try:
         data = json.loads(text)
-        out = {
+        return {
             a["index"]: a
             for a in data["articles"]
             if 0 <= a["index"] < len(items)
         }
-        kept = sum(1 for a in out.values() if a["keep"])
-        print(f"  vetted: {kept} kept / {len(out) - kept} dropped")
-        for i, a in sorted(out.items()):
-            if not a["keep"]:
-                print(f"    dropped: {items[i]['title'][:55]} "
-                      f"-- {a['drop_reason']}")
-        return out
     except Exception as exc:
         print(f"  vet parse failed: {exc}", file=sys.stderr)
         return {}
@@ -438,11 +456,26 @@ def main() -> int:
           f"(changed={changed})")
     print(f"unreported: {len(fresh)} (ledger holds {len(seen_keys)} titles)")
 
-    to_vet = fresh[:VET_MAX]
-    if len(fresh) > VET_MAX:
-        print(f"  vetting the {VET_MAX} newest of {len(fresh)}; the rest are "
+    # Reuse ledger verdicts (from earlier runs / backfills); vet only the rest.
+    verdicts: dict[int, dict] = {}
+    to_vet, vet_map = [], []
+    for i, it in enumerate(fresh):
+        key = norm_title(it["title"])
+        if key in set(seen["dropped"]):
+            verdicts[i] = {"keep": False, "summary": "",
+                           "drop_reason": "이력상 제외"}
+        elif key in seen["summaries"]:
+            verdicts[i] = {"keep": True, "summary": seen["summaries"][key],
+                           "drop_reason": ""}
+        else:
+            vet_map.append(i)
+            to_vet.append(it)
+    if len(to_vet) > VET_MAX:
+        print(f"  vetting the {VET_MAX} newest of {len(to_vet)}; the rest are "
               f"listed unvetted")
-    verdicts = vet_and_summarize(to_vet)
+        to_vet, vet_map = to_vet[:VET_MAX], vet_map[:VET_MAX]
+    for bi, v in vet_and_summarize(to_vet).items():
+        verdicts[vet_map[bi]] = v
 
     kept, dropped = [], 0
     for i, it in enumerate(fresh):
@@ -456,7 +489,8 @@ def main() -> int:
                 seen["summaries"][key] = v["summary"]
         else:
             dropped += 1
-            seen["dropped"].append(key)
+            if key not in set(seen["dropped"]):
+                seen["dropped"].append(key)
 
     send_telegram(build_messages(kept, dropped, len(new_items)))
 
