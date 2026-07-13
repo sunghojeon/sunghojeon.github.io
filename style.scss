@@ -69,6 +69,13 @@ hr {
   margin: 2.5em 0;
 }
 
+// Emphatic break between a page's main content and an appendix-like
+// trailing section (e.g. the auto-collected news feed on /broadcast-rtk/).
+hr.section-rule {
+  border-top: 3px double $border;
+  margin: 4em 0 2.5em;
+}
+
 code,
 pre {
   font-family: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", monospace;
