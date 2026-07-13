@@ -42,8 +42,10 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-PAGE = SCRIPT_DIR.parent / "broadcast-rtk.md"
+PAGE = SCRIPT_DIR.parent / "news.md"
 QUERIES_FILE = SCRIPT_DIR / "rtk_news_queries.json"
+# Written by news_notify.py: reported titles, Korean summaries, vetted-out junk.
+LEDGER_FILE = SCRIPT_DIR / "news_seen.json"
 MARK_START = "<!-- NEWS-TIMELINE:START -->"
 MARK_END = "<!-- NEWS-TIMELINE:END -->"
 USER_AGENT = "Mozilla/5.0 (compatible; rtk-news-fetcher/2.0)"
@@ -71,14 +73,19 @@ TITLE_BLOCKLIST = [
 
 # Relevance scoring — (weight, regex on the title). Items below --min-score
 # are dropped; when more than --limit remain, the highest-scored survive.
+# MBC RTK ecosystem partners are whitelisted by name: their headlines usually
+# lack positioning words (긴트 → 스마트팜/자율주행), so without an entry here a
+# partner query fetches articles that this filter then throws away.
 RELEVANCE_PATTERNS = [
     (3, r"broadcast\s*rtk|egps|broadcast positioning|\bbps\b|merkhet"),
     (2, r"atsc\s*3\.?0|nextgen\s*tv|tv\s*3\.0|dtv\+|edgebeam"),
     (2, r"측위|방송망|지상파"),
+    (2, r"긴트|\bgint\b|씨너렉스|지알엠"),
+    (2, r"pearl\s*tv|zinwell|\btolka\b"),
     (1, r"positioning|gnss|\bgps\b|\bpnt\b|timing|broadcast|방송|측량|위치정보"),
 ]
 
-MAX_LEARNED_ACTIVE = 8      # cap on enabled learned queries
+MAX_LEARNED_ACTIVE = 12     # cap on enabled learned queries
 DISABLE_AFTER_MISSES = 3    # empty runs before a learned query is disabled
 BODY_SAMPLE = 8             # articles to try fetching bodies from in --evolve
 BODY_CHARS = 1200           # excerpt length per article
@@ -240,7 +247,10 @@ def collect(store: dict, since: datetime, max_per_query: int) -> list[dict]:
             for lq in store["learned"]:
                 if lq["q"] == query["q"] and lq["region"] == query["region"]:
                     lq["misses"] = 0 if kept else lq.get("misses", 0) + 1
-                    if lq["misses"] >= DISABLE_AFTER_MISSES:
+                    # pinned = user-designated partner/ecosystem keyword: keep
+                    # polling even through dry spells (news may be sporadic).
+                    if (lq["misses"] >= DISABLE_AFTER_MISSES
+                            and not lq.get("pinned")):
                         lq["enabled"] = False
                         print(f"    (disabled after {lq['misses']} empty runs)")
     out.sort(key=lambda x: x["date"], reverse=True)
@@ -461,24 +471,49 @@ def evolve(store: dict, items: list[dict], use_llm: bool, auto_yes: bool) -> Non
 # ---------------------------------------------------------------------------
 
 
-def render(items: list[dict], since: datetime) -> str:
-    """Render as the site's dot-and-line timeline (.timeline / .tl-item)."""
+def load_ledger() -> dict:
+    """news_notify.py's ledger: seen titles, Korean summaries, vetted-out junk."""
+    if LEDGER_FILE.exists():
+        try:
+            return json.loads(LEDGER_FILE.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+    return {}
+
+
+def render(items: list[dict], since: datetime, ledger: dict | None = None) -> str:
+    """Render as the site's dot-and-line timeline (.timeline / .tl-item).
+
+    Articles that the notifier vetted out (photo-library stubs, giveaways,
+    off-topic name collisions) are excluded, and its one-line Korean summaries
+    are carried onto the page as .tl-note.
+    """
+    ledger = ledger or {}
+    summaries = ledger.get("summaries", {})
+    dropped = set(ledger.get("dropped", []))
     stamp = datetime.now().strftime("%Y-%m-%d")
     lines = [
         MARK_START,
         f'<p class="page-subtitle">ATSC 3.0 · DTV+ (TV 3.0) · Broadcast RTK · '
-        f'EdgeBeam — auto-collected news since {since.strftime("%B %d, %Y")} '
-        f'(last updated {stamp}).</p>',
+        f'EdgeBeam · MBC RTK ecosystem — auto-collected news since '
+        f'{since.strftime("%B %d, %Y")} (last updated {stamp}).</p>',
         '<ol class="timeline">',
     ]
     for it in items:
+        key = norm_title(it["title"])
+        if key in dropped:
+            continue
         title = html.escape(it["title"], quote=False)
         source = html.escape(it["source"], quote=False)
         meta = f'{source} · {it["region"]}' if source else it["region"]
+        note = summaries.get(key, "")
+        note_html = (f'<div class="tl-note">{html.escape(note, quote=False)}'
+                     f'</div>') if note else ""
         lines.append(
             '  <li class="tl-item">'
             f'<a class="tl-title" href="{it["link"]}" target="_blank" '
             f'rel="noopener">{title}</a> <span class="tl-cat">{meta}</span>'
+            f'{note_html}'
             f'<div class="tl-date">{it["date"].strftime("%Y.%m.%d")}</div></li>'
         )
     lines += ["</ol>", MARK_END]
@@ -533,7 +568,7 @@ def main() -> int:
         evolve(store, items, use_llm=not args.no_llm, auto_yes=args.yes)
     save_store(store)
 
-    blockText = render(items, since)
+    blockText = render(items, since, load_ledger())
     if args.dry_run:
         print("\n" + blockText)
         return 0

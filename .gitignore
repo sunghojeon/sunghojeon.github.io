@@ -8,3 +8,4 @@ Gemfile.lock
 node_modules
 package.json
 _notes/
+__pycache__/
