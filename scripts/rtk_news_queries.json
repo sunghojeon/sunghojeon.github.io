@@ -117,7 +117,7 @@
       "pinned": true,
       "why": "User-designated: Tolka makes ATSC 3.0 / DTV+ receivers. Zero press since 2026-05 (bare name is Dublin's Tolka Park football); pinned so the dry spell doesn't auto-disable it.",
       "added": "2026-07-13",
-      "misses": 2,
+      "misses": 3,
       "enabled": true
     },
     {
@@ -141,7 +141,7 @@
       "region": "US",
       "why": "frequent new entity in fetched titles",
       "added": "2026-07-14",
-      "misses": 0,
+      "misses": 1,
       "enabled": true
     }
   ]
