@@ -105,13 +105,21 @@ VET_SCHEMA = {
                                        "Only for keep=true with "
                                        "duplicate_of=''.",
                     },
+                    "sibling_query": {
+                        "type": "string",
+                        "description": "For representatives only: a 2-4 word "
+                                       "Google News query, in the article's "
+                                       "own language, to find other outlets' "
+                                       "coverage of the same story. '' "
+                                       "otherwise.",
+                    },
                     "drop_reason": {
                         "type": "string",
                         "description": "Why it was dropped. Empty when kept.",
                     },
                 },
                 "required": ["index", "keep", "duplicate_of", "summary",
-                             "drop_reason"],
+                             "sibling_query", "drop_reason"],
                 "additionalProperties": False,
             },
         }
@@ -217,7 +225,7 @@ def _via_cli(prompt: str) -> str | None:
             [claude, "-p", "--output-format", "text"],
             input=prompt + '\n\n오직 JSON만 출력하라: {"articles": '
             '[{"index": 0, "keep": true, "duplicate_of": "", '
-            '"summary": "...", "drop_reason": ""}]}',
+            '"summary": "...", "sibling_query": "...", "drop_reason": ""}]}',
             capture_output=True, text=True, timeout=600, encoding="utf-8")
         if res.returncode != 0:
             print(f"  CLI exited {res.returncode}: {res.stderr[:200]}",
@@ -327,7 +335,10 @@ def _vet_chunk(items: list[dict], bodies: list[str],
         "  (다) MBC RTK 생태계의 파트너·고객·응용 — 지알엠(GRM)·씨너렉스·"
         "서울도시가스(측위/측량 사업), 긴트(GINT, 정밀농업·자율주행 트랙터), "
         "얀마(농기계), 그린라이드(이륜차), 시스테크(드론), Pearl TV·Zinwell·"
-        "Tolka(수신기), Merkhet·Cerinet, ETRI·IEEE BMSB 학술 성과 등.\n\n"
+        "Tolka(수신기), Merkhet·Cerinet, ETRI·IEEE BMSB 학술 성과 등,\n"
+        "  (라) 학회·표준화 기관(KIBME 한국방송·미디어공학회, TTA, "
+        "미래방송미디어표준포럼, ATSC 등)의 ATSC 3.0·UHD·방송기술 관련 공지, "
+        "워크숍, 학술대회, 표준화 행사 — 뉴스 기사가 아니어도 keep.\n\n"
         f"{chr(10).join(lines)}{rep_block}\n\n"
         "각 기사(번호별)에 대해 판단하라.\n\n"
         "1) keep — 위 (가)(나)(다) 중 하나에 해당하는 실제 기사면 true.\n"
@@ -339,6 +350,10 @@ def _vet_chunk(items: list[dict], bodies: list[str],
         "대표기사면 'R2'처럼). 스스로가 대표가 될 기사(가장 상세하거나 원 "
         "출처에 가까운 것 하나)는 ''로 둔다. 같은 회사의 서로 다른 소식은 "
         "중복이 아니다.\n\n"
+        "2.5) sibling_query — 대표기사(keep=true, duplicate_of='')마다, 다른 "
+        "매체의 같은 사건 보도를 찾을 구글뉴스 검색어를 기사 언어로 2~4단어 "
+        "제안하라 (예: 'KBS 적자 지상파', 'Anatel TV 3.0 250 MHz'). 중복·"
+        "junk면 ''.\n\n"
         "3) summary — duplicate_of가 ''이고 keep=true인 기사만, 한국어 한 문장"
         "(40~80자). 읽는 사람은 포르투갈어·영어를 편하게 읽지 못한다 — 요약만 "
         "읽고 내용을 파악할 수 있어야 한다. 본문을 반영하고 제목 직역은 "
@@ -436,11 +451,11 @@ def outlet(source: str) -> str:
 
 
 def related_line_html(rels: list[dict]) -> str:
-    links = " · ".join(
-        f'<a href="{esc(m["link"])}" target="_blank" rel="noopener">'
-        f'{esc(outlet(m["source"]))}</a>'
+    rows = "<br>".join(
+        f'· <a href="{esc(m["link"])}" target="_blank" rel="noopener">'
+        f'{esc(m["title"])}</a> ({esc(outlet(m["source"]))})'
         for m in rels)
-    return f'<div class="tl-related">관련기사 {len(rels)} — {links}</div>'
+    return f'<div class="tl-related">관련기사 {len(rels)}<br>{rows}</div>'
 
 
 def query_digest() -> str:
@@ -491,11 +506,10 @@ def build_messages(kept: list[tuple[dict, str, list]], dropped: int,
         if summary:
             parts.append(f"  {esc(summary)}")
         parts.append(f'  <i>{esc(it["source"])} · {esc(it["date"])}</i>')
-        if rels:
-            links = " · ".join(
-                f'<a href="{esc(m["link"])}">{esc(outlet(m["source"]))}</a>'
-                for m in rels)
-            parts.append(f"  ↳ 관련기사: {links}")
+        for m in rels:
+            title = m["title"] if len(m["title"]) <= 60 else m["title"][:57] + "…"
+            parts.append(f'  ↳ <a href="{esc(m["link"])}">{esc(title)}</a> '
+                         f'({esc(outlet(m["source"]))})')
         blocks.append("\n".join(parts))
 
     if queries:
@@ -576,6 +590,91 @@ def patch_page(path: Path, seen: dict) -> None:
 
 
 # ---------------------------------------------------------------------------
+
+
+def _bigrams(s: str) -> set:
+    s = norm_title(s)
+    return {s[i:i + 2] for i in range(len(s) - 1)}
+
+
+SIBLING_MAX_SEARCHES = 10   # reverse lookups per run
+SIBLING_MAX_HITS = 4        # related articles adopted per representative
+
+
+def sibling_search(rep: dict, query: str, seen: dict) -> list[dict]:
+    """유사 기사 역검색 — 대표기사의 검색어로 구글 뉴스를 되짚어, 같은 사건을
+    다룬 타 매체 보도를 관련기사로 가져온다.
+
+    Articles arriving via an outlet feed or a notice board have no query
+    siblings in the collection (nothing else searched for that topic), so
+    without this, coverage that every other outlet also ran would look like a
+    single-outlet story. Title-bigram similarity + a date window guard
+    against grouping a different story that merely matched the query.
+    """
+    from fetch_rtk_news import REGION_LOCALE, fetch_rss
+    region = rep["source"].rsplit(" · ", 1)[-1].strip()
+    loc = REGION_LOCALE.get(region, REGION_LOCALE["US"])
+    try:
+        items = fetch_rss({"q": query, **loc, "region": region})
+    except Exception:
+        return []
+    rep_key = norm_title(rep["title"])
+    rep_bg = _bigrams(rep["title"])
+    try:
+        rep_date = datetime.strptime(rep["date"], "%Y.%m.%d")
+    except Exception:
+        rep_date = None
+    known = (set(seen["titles"]) | set(seen["related_members"])
+             | set(seen["dropped"]) | {rep_key})
+    out = []
+    for it in sorted(items, key=lambda x: x["date"], reverse=True):
+        key = norm_title(it["title"])
+        if key in known:
+            continue
+        if rep_date and abs((it["date"].replace(tzinfo=None)
+                             - rep_date).days) > 6:
+            continue
+        bg = _bigrams(it["title"])
+        if len(rep_bg & bg) / max(1, len(rep_bg | bg)) < 0.18:
+            continue
+        out.append({"title": it["title"], "link": it["link"],
+                    "source": f'{it["source"]} · {region}',
+                    "date": it["date"].strftime("%Y.%m.%d")})
+        known.add(key)
+        if len(out) >= SIBLING_MAX_HITS:
+            break
+    return out
+
+
+def enrich_with_siblings(kept: list, verdicts: dict[int, dict],
+                         fresh: list[dict], seen: dict) -> int:
+    """Reverse-search siblings for this run's new representatives."""
+    sib_q = {}
+    for i, v in verdicts.items():
+        if v.get("keep") and not v.get("duplicate_of") \
+                and v.get("sibling_query"):
+            sib_q[norm_title(fresh[i]["title"])] = v["sibling_query"]
+    searches = found = 0
+    for it, _summary, rels in kept:
+        if searches >= SIBLING_MAX_SEARCHES:
+            break
+        key = norm_title(it["title"])
+        q = sib_q.get(key)
+        if not q or len(rels) >= 2:     # already well-connected
+            continue
+        searches += 1
+        sibs = sibling_search(it, q, seen)
+        for m in sibs:
+            mkey = norm_title(m["title"])
+            seen["related_members"][mkey] = key
+            seen["related"].setdefault(key, []).append(m)
+            seen["titles"].append(mkey)
+            rels.append(m)
+            found += 1
+    if searches:
+        print(f"  sibling search: {searches} queries -> {found} related "
+              f"article(s) adopted")
+    return found
 
 
 def recent_rep_list(seen: dict) -> list[dict]:
@@ -686,6 +785,7 @@ def main() -> int:
                                  seen["outlets"])
     kept, dropped = apply_verdicts(fresh, verdicts, seen, recent_rep_list(seen))
     grouped = len(fresh) - len(kept) - dropped
+    grouped += enrich_with_siblings(kept, verdicts, fresh, seen)
 
     send_telegram(build_messages(kept, dropped, grouped, len(new_items)))
     seen["titles"].extend(sorted(fresh_keys))

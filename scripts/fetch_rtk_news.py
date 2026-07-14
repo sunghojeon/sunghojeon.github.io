@@ -192,6 +192,33 @@ def fetch_feed(feed: dict) -> list[dict]:
     return items
 
 
+def fetch_watch_page(w: dict) -> list[dict]:
+    """Scrape an org notice board (KIBME, TTA, …) that has no RSS.
+
+    Every anchor text long enough to be a post title becomes a candidate;
+    the relevance pre-filter in collect() keeps only on-topic announcements
+    (ATSC 3.0 sessions, UHD workshops), not 휴무 안내 and the like. Dates are
+    discovery dates — boards rarely expose machine-readable ones — and are
+    pinned to first-seen by the ledger on later runs.
+    """
+    page = http_get(w["url"], timeout=20).decode("utf-8", "ignore")
+    items, dedup = [], set()
+    for href, text in re.findall(
+            r'<a[^>]+href=["\']([^"\']+)["\'][^>]*>(.*?)</a>', page, re.S):
+        t = html.unescape(re.sub(r"<[^>]+>", " ", text))
+        t = re.sub(r"\s+", " ", t).strip()
+        if len(t) < 12 or t in dedup or href.startswith(("javascript", "#")):
+            continue
+        dedup.add(t)
+        items.append({"title": t,
+                      "link": urllib.parse.urljoin(w["url"], href),
+                      "date": datetime.now(timezone.utc),
+                      "source": w.get("source", ""),
+                      "region": w.get("region", "KR"),
+                      "_watch": True})
+    return items
+
+
 def fetch_naver(query: dict) -> list[dict]:
     """Naver News search — reaches the Korean outlets Google News misses.
 
@@ -245,7 +272,12 @@ def find_claude() -> str | None:
 def relevance(item: dict) -> int:
     """Keyword-weighted relevance score of an article title."""
     t = item["title"].lower()
-    return sum(w for w, pat in RELEVANCE_PATTERNS if re.search(pat, t))
+    score = sum(w for w, pat in RELEVANCE_PATTERNS if re.search(pat, t))
+    # Watch-page notices already passed a curated source + the pre-filter;
+    # don't let them lose the over-limit ranking to score-2 wire copy.
+    if item.get("_watch") and score >= 1:
+        score += 2
+    return score
 
 
 def curate_with_claude(items: list[dict]) -> list[dict]:
@@ -347,6 +379,21 @@ def collect(store: dict, since: datetime, max_per_query: int) -> list[dict]:
         kept = keep_items(items, max_per_query, pre_relevance=True)
         print(f"  {feed.get('region', 'KR'):2} [feed] "
               f"'{feed.get('source', feed['url'])[:42]}' -> {kept} kept")
+
+    # Org notice boards (no RSS): announcements and events. Relevance
+    # pre-filter is what keeps this from swallowing whole homepages.
+    for w in store.get("watch_pages", []):
+        if not w.get("enabled", True):
+            continue
+        try:
+            items = fetch_watch_page(w)
+        except Exception as exc:
+            print(f"  ! watch '{w.get('source', w['url'])}': {exc}",
+                  file=sys.stderr)
+            continue
+        kept = keep_items(items, max_per_query, pre_relevance=True)
+        print(f"  {w.get('region', 'KR'):2} [board] "
+              f"'{w.get('source', w['url'])[:42]}' -> {kept} kept")
 
     out.sort(key=lambda x: x["date"], reverse=True)
     return out
@@ -703,13 +750,13 @@ def render(items: list[dict], since: datetime, ledger: dict | None = None) -> st
                      f'</div>') if note else ""
         rel_html = ""
         if related.get(key):
-            links = " · ".join(
-                f'<a href="{html.escape(m["link"])}" target="_blank" '
-                f'rel="noopener">'
-                f'{html.escape(m["source"].split(" · ")[0], quote=False)}</a>'
+            rows = "<br>".join(
+                f'· <a href="{html.escape(m["link"])}" target="_blank" '
+                f'rel="noopener">{html.escape(m["title"], quote=False)}</a> '
+                f'({html.escape(m["source"].split(" · ")[0], quote=False)})'
                 for m in related[key])
             rel_html = (f'<div class="tl-related">관련기사 '
-                        f'{len(related[key])} — {links}</div>')
+                        f'{len(related[key])}<br>{rows}</div>')
         lines.append(
             '  <li class="tl-item">'
             f'<a class="tl-title" href="{it["link"]}" target="_blank" '
@@ -769,7 +816,24 @@ def main() -> int:
         evolve(store, items, use_llm=not args.no_llm, auto_yes=args.yes)
     save_store(store)
 
-    blockText = render(items, since, load_ledger())
+    ledger = load_ledger()
+    # Watch-page items carry discovery dates; pin them to first-seen so they
+    # don't drift forward on every run.
+    known = dict(ledger.get("reps", {}))
+    for rels in ledger.get("related", {}).values():
+        for m in rels:
+            known.setdefault(norm_title(m["title"]), m)
+    for it in items:
+        if it.get("_watch"):
+            meta = known.get(norm_title(it["title"]))
+            if meta:
+                try:
+                    it["date"] = datetime.strptime(
+                        meta["date"], "%Y.%m.%d").replace(tzinfo=timezone.utc)
+                except Exception:
+                    pass
+
+    blockText = render(items, since, ledger)
     if args.dry_run:
         print("\n" + blockText)
         return 0
