@@ -113,13 +113,19 @@ VET_SCHEMA = {
                                        "coverage of the same story. '' "
                                        "otherwise.",
                     },
+                    "has_figures": {
+                        "type": "boolean",
+                        "description": "True if the article carries official "
+                                       "presentation slides, maps, charts, or "
+                                       "technical figures (not stock photos).",
+                    },
                     "drop_reason": {
                         "type": "string",
                         "description": "Why it was dropped. Empty when kept.",
                     },
                 },
                 "required": ["index", "keep", "duplicate_of", "summary",
-                             "sibling_query", "drop_reason"],
+                             "sibling_query", "has_figures", "drop_reason"],
                 "additionalProperties": False,
             },
         }
@@ -154,7 +160,8 @@ def parse_items(path: Path) -> list[dict]:
 
 def load_seen() -> dict:
     seen = {"titles": [], "summaries": {}, "dropped": [],
-            "reps": {}, "related": {}, "related_members": {}, "outlets": {}}
+            "reps": {}, "related": {}, "related_members": {}, "outlets": {},
+            "tags": {}}
     if SEEN_FILE.exists():
         try:
             seen.update(json.loads(SEEN_FILE.read_text(encoding="utf-8")))
@@ -169,7 +176,8 @@ def save_seen(seen: dict) -> None:
     # drop/summary verdicts and let vetted-out duplicates resurface.)
     seen["titles"] = seen["titles"][-SEEN_KEEP:]
     seen["dropped"] = seen["dropped"][-SEEN_KEEP:]
-    for k in ("summaries", "reps", "related", "related_members", "outlets"):
+    for k in ("summaries", "reps", "related", "related_members", "outlets",
+              "tags"):
         d = seen[k]
         if len(d) > DICT_KEEP:
             seen[k] = dict(list(d.items())[-DICT_KEEP:])
@@ -225,7 +233,8 @@ def _via_cli(prompt: str) -> str | None:
             [claude, "-p", "--output-format", "text"],
             input=prompt + '\n\n오직 JSON만 출력하라: {"articles": '
             '[{"index": 0, "keep": true, "duplicate_of": "", '
-            '"summary": "...", "sibling_query": "...", "drop_reason": ""}]}',
+            '"summary": "...", "sibling_query": "...", '
+            '"has_figures": false, "drop_reason": ""}]}',
             capture_output=True, text=True, timeout=600, encoding="utf-8")
         if res.returncode != 0:
             print(f"  CLI exited {res.returncode}: {res.stderr[:200]}",
@@ -239,12 +248,14 @@ def _via_cli(prompt: str) -> str | None:
 
 
 def vet_and_summarize(items: list[dict], recent_reps: list[dict],
-                      outlets: dict | None = None) -> dict[int, dict]:
+                      outlets: dict | None = None,
+                      tag_stats: dict | None = None) -> dict[int, dict]:
     """Vet each article, group duplicates, summarize keepers in Korean.
 
     recent_reps: representatives from earlier runs, offered as R0..Rn dup
     targets so a late-arriving outlet's copy folds under the original story.
     outlets: optional {domain: count} tally, incremented for kept articles.
+    tag_stats: optional {tag_lower: {t, n}} tally of article tags, ditto.
     Returns {index: verdict}; {} when no LLM is reachable.
     """
     if not items:
@@ -281,16 +292,26 @@ def vet_and_summarize(items: list[dict], recent_reps: list[dict],
     for base in range(0, len(live_idx), CHUNK):
         idxs = live_idx[base:base + CHUNK]
         out.update(_vet_chunk([items[i] for i in idxs],
-                              [infos[i]["text"] for i in idxs],
+                              [infos[i] for i in idxs],
                               recent_reps, idxs))
 
-    # Outlet tracking — which publishers keep producing on-topic coverage.
-    # evolve_outlets() turns the frequent ones into direct-RSS subscriptions.
-    if outlets is not None:
-        for i, info in enumerate(infos):
-            v = out.get(i)
-            if info["domain"] and v is not None and v["keep"]:
-                outlets[info["domain"]] = outlets.get(info["domain"], 0) + 1
+    # Outlet + tag tracking, for kept articles only. Outlets feed
+    # evolve_outlets() (direct-RSS promotion); tags feed --evolve's query
+    # proposals — an editor-assigned tag recurring across kept articles is
+    # the strongest evolution signal there is (this is how entities like
+    # Anatel should surface without anyone noticing them by hand).
+    for i, info in enumerate(infos):
+        v = out.get(i)
+        if v is None or not v["keep"]:
+            continue
+        if outlets is not None and info["domain"]:
+            outlets[info["domain"]] = outlets.get(info["domain"], 0) + 1
+        if tag_stats is not None:
+            for tag in info.get("tags", []):
+                key = tag.lower()
+                e = tag_stats.get(key, {"t": tag, "n": 0})
+                e["n"] += 1
+                tag_stats[key] = e
 
     kept = sum(1 for a in out.values() if a["keep"] and not a["duplicate_of"])
     grouped = sum(1 for a in out.values() if a["keep"] and a["duplicate_of"])
@@ -306,7 +327,7 @@ def vet_and_summarize(items: list[dict], recent_reps: list[dict],
     return out
 
 
-def _vet_chunk(items: list[dict], bodies: list[str],
+def _vet_chunk(items: list[dict], infos: list[dict],
                recent_reps: list[dict],
                numbers: list[int]) -> dict[int, dict]:
     """numbers: the global index shown for (and returned with) each item, so
@@ -314,10 +335,12 @@ def _vet_chunk(items: list[dict], bodies: list[str],
     lines = []
     for i, it in enumerate(items):
         entry = f'{numbers[i]}. [{it["source"]} · {it["date"]}] {it["title"]}'
-        if bodies[i]:
-            entry += f"\n   본문: {bodies[i][:700]}"
+        if infos[i]["text"]:
+            entry += f"\n   본문: {infos[i]['text'][:700]}"
         else:
             entry += "\n   본문: (본문을 가져오지 못함)"
+        if infos[i].get("images"):
+            entry += f"\n   이미지: {'; '.join(infos[i]['images'])}"
         lines.append(entry)
 
     rep_lines = [f'R{j}. [{r["date"]}] {r["title"]}'
@@ -338,7 +361,11 @@ def _vet_chunk(items: list[dict], bodies: list[str],
         "Tolka(수신기), Merkhet·Cerinet, ETRI·IEEE BMSB 학술 성과 등,\n"
         "  (라) 학회·표준화 기관(KIBME 한국방송·미디어공학회, TTA, "
         "미래방송미디어표준포럼, ATSC 등)의 ATSC 3.0·UHD·방송기술 관련 공지, "
-        "워크숍, 학술대회, 표준화 행사 — 뉴스 기사가 아니어도 keep.\n\n"
+        "워크숍, 학술대회, 표준화 행사 — 뉴스 기사가 아니어도 keep,\n"
+        "  (마) 규제기관(Anatel, FCC, 과기정통부 등)의 방송·주파수·측위·"
+        "차세대미디어·AI 규제 정책, 공공 자문(consulta/consultation), 제도 "
+        "개편 — 단, 개별 통신사 요금·개별 기업 인허가 같은 통신 실무 잡보는 "
+        "제외.\n\n"
         f"{chr(10).join(lines)}{rep_block}\n\n"
         "각 기사(번호별)에 대해 판단하라.\n\n"
         "1) keep — 위 (가)(나)(다) 중 하나에 해당하는 실제 기사면 true.\n"
@@ -347,9 +374,13 @@ def _vet_chunk(items: list[dict], bodies: list[str],
         "무관한 것(단어만 우연히 겹친 경우).\n\n"
         "2) duplicate_of — 같은 사건·발표를 다룬 기사가 목록이나 R목록에 있으면 "
         "그 번호를 문자열로 적는다 (목록 내 기사면 '3'처럼 번호, 이미 보도된 "
-        "대표기사면 'R2'처럼). 스스로가 대표가 될 기사(가장 상세하거나 원 "
-        "출처에 가까운 것 하나)는 ''로 둔다. 같은 회사의 서로 다른 소식은 "
-        "중복이 아니다.\n\n"
+        "대표기사면 'R2'처럼). 스스로가 대표가 될 기사는 ''로 둔다. 대표 선정 "
+        "기준: ① 공식 발표자료 슬라이드·지도·차트 등 기술 자료 이미지를 실은 "
+        "기사 우선(이미지 목록으로 판단), ② 그다음 가장 상세하거나 원 출처에 "
+        "가까운 것. 같은 회사의 서로 다른 소식은 중복이 아니다.\n\n"
+        "2.7) has_figures — 이미지 목록의 파일명·캡션으로 판단해, 공식 발표 "
+        "슬라이드·지도·차트·표 등 기술 자료가 실렸으면 true (기자 스케치·"
+        "인물사진·스톡이미지는 false).\n\n"
         "2.5) sibling_query — 대표기사(keep=true, duplicate_of='')마다, 다른 "
         "매체의 같은 사건 보도를 찾을 구글뉴스 검색어를 기사 언어로 2~4단어 "
         "제안하라 (예: 'KBS 적자 지상파', 'Anatel TV 3.0 250 MHz'). 중복·"
@@ -431,6 +462,10 @@ def apply_verdicts(fresh: list[dict], verdicts: dict[int, dict],
                 kept[rep_key][2].append(item_meta(it))
         else:
             summary = v["summary"].strip()
+            # 📊 = carries official slides/figures — the articles worth
+            # opening, per the reader.
+            if v.get("has_figures") and summary and "📊" not in summary:
+                summary = "📊 " + summary
             seen["reps"][key] = item_meta(it)
             if summary:
                 seen["summaries"][key] = summary
@@ -480,7 +515,19 @@ def query_digest() -> str:
         head += f" + 학습 {len(learned)}"
     if feeds:
         head += f" + 매체 {len(feeds)}"
-    return head + "\n" + "\n".join(lines)
+    out = head + "\n" + "\n".join(lines)
+
+    # 누적 태그 — 기사들이 스스로 말해주는 다음 진화 후보
+    try:
+        tags = json.loads(SEEN_FILE.read_text(encoding="utf-8")).get("tags", {})
+        top = sorted(tags.values(), key=lambda e: -e["n"])[:8]
+        top = [e for e in top if e["n"] >= 2]
+        if top:
+            out += ("\n\n🏷 <b>누적 태그</b>: "
+                    + " · ".join(f'{esc(e["t"])}({e["n"]})' for e in top))
+    except Exception:
+        pass
+    return out
 
 
 def build_messages(kept: list[tuple[dict, str, list]], dropped: int,
@@ -615,10 +662,17 @@ def sibling_search(rep: dict, query: str, seen: dict) -> list[dict]:
     """
     from fetch_rtk_news import REGION_LOCALE, fetch_rss
     region = rep["source"].rsplit(" · ", 1)[-1].strip()
-    loc = REGION_LOCALE.get(region, REGION_LOCALE["US"])
-    try:
-        items = fetch_rss({"q": query, **loc, "region": region})
-    except Exception:
+    # Brazilian stories are also covered by Spanish-language LatAm outlets —
+    # search both locales for them.
+    regions = {"BR": ["BR", "MX"]}.get(region, [region])
+    items = []
+    for rg in regions:
+        loc = REGION_LOCALE.get(rg, REGION_LOCALE["US"])
+        try:
+            items += fetch_rss({"q": query, **loc, "region": rg})
+        except Exception:
+            continue
+    if not items:
         return []
     rep_key = norm_title(rep["title"])
     rep_bg = _bigrams(rep["title"])
@@ -640,7 +694,7 @@ def sibling_search(rep: dict, query: str, seen: dict) -> list[dict]:
         if len(rep_bg & bg) / max(1, len(rep_bg | bg)) < 0.18:
             continue
         out.append({"title": it["title"], "link": it["link"],
-                    "source": f'{it["source"]} · {region}',
+                    "source": f'{it["source"]} · {it["region"]}',
                     "date": it["date"].strftime("%Y.%m.%d")})
         known.add(key)
         if len(out) >= SIBLING_MAX_HITS:
@@ -784,7 +838,7 @@ def main() -> int:
         fresh_keys = {norm_title(it["title"]) for it in fresh}
 
     verdicts = vet_and_summarize(fresh, recent_rep_list(seen),
-                                 seen["outlets"])
+                                 seen["outlets"], seen["tags"])
     kept, dropped = apply_verdicts(fresh, verdicts, seen, recent_rep_list(seen))
     grouped = len(fresh) - len(kept) - dropped
     grouped += enrich_with_siblings(kept, verdicts, fresh, seen)
@@ -807,7 +861,7 @@ def main() -> int:
             print(f"self-heal: re-vetting {len(stale)} article(s) reported "
                   f"without a verdict")
             heal_verdicts = vet_and_summarize(stale, recent_rep_list(seen),
-                                              seen["outlets"])
+                                              seen["outlets"], seen["tags"])
             if heal_verdicts:
                 apply_verdicts(stale, heal_verdicts, seen,
                                recent_rep_list(seen))

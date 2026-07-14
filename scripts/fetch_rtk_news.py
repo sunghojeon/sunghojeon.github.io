@@ -54,6 +54,9 @@ REGION_LOCALE = {
     "US": {"hl": "en-US", "gl": "US", "ceid": "US:en"},
     "KR": {"hl": "ko", "gl": "KR", "ceid": "KR:ko"},
     "BR": {"hl": "pt-BR", "gl": "BR", "ceid": "BR:pt-419"},
+    # Spanish-language Latin America — Mexican/regional outlets cover both
+    # Brazil's TV 3.0 rollout and Mexico's own ATSC 3.0 track.
+    "MX": {"hl": "es-419", "gl": "MX", "ceid": "MX:es-419"},
 }
 
 SEED_QUERIES = [
@@ -83,6 +86,7 @@ RELEVANCE_PATTERNS = [
     (2, r"긴트|\bgint\b|씨너렉스|지알엠"),
     (2, r"pearl\s*tv|zinwell|\btolka\b|cerinet"),
     (2, r"\bbmsb\b|\betri\b|한국전자통신연구원"),
+    (1, r"anatel|radiodifusão|espectro"),
     (1, r"positioning|gnss|\bgps\b|\bpnt\b|timing|broadcast|방송|측량|위치정보"),
 ]
 
@@ -457,6 +461,49 @@ _PUB_DATE_RES = [
     re.compile(r'<time[^>]+datetime=["\']([^"\']+)', re.I),
 ]
 
+# Article tags/hashtags — the outlet's own topical labels. These are the
+# strongest raw material for query evolution: an editor already decided the
+# article is "about" these entities.
+_TAG_RES = [
+    re.compile(r'property=["\']article:tag["\'][^>]*?content=["\']([^"\']+)',
+               re.I),
+    re.compile(r'content=["\']([^"\']+)["\'][^>]*?property=["\']article:tag',
+               re.I),
+    re.compile(r'name=["\'](?:news_)?keywords["\'][^>]*?'
+               r'content=["\']([^"\']+)', re.I),
+    re.compile(r'content=["\']([^"\']+)["\'][^>]*?'
+               r'name=["\'](?:news_)?keywords', re.I),
+    re.compile(r'<a[^>]+rel=["\']tag["\'][^>]*>([^<]+)</a>', re.I),
+    re.compile(r'"keywords"\s*:\s*"([^"]+)"'),
+]
+_TAG_MAX = 15
+
+# CMS boilerplate and adtech markers that outlets ship as "keywords" but that
+# say nothing about the article (serversidehawk is an ad-stack marker).
+_TAG_BLOCKLIST = {
+    "serversidehawk", "platform", "broadcast", "destaque", "featured",
+    "news", "notícias", "noticias", "home", "기사", "뉴스", "일반",
+    "article", "press release",
+}
+
+
+def extract_tags(page_html: str) -> list[str]:
+    """The article's own tags, deduped, order-preserving."""
+    out, seen = [], set()
+    for pat in _TAG_RES:
+        for raw in pat.findall(page_html):
+            for tag in re.split(r"[,;|]", html.unescape(raw)):
+                tag = re.sub(r"\s+", " ", tag).strip(" #​")
+                key = tag.lower()
+                if (not 2 <= len(tag) <= 40 or key in seen
+                        or key in _TAG_BLOCKLIST):
+                    continue
+                seen.add(key)
+                out.append(tag)
+                if len(out) >= _TAG_MAX:
+                    return out
+    return out
+
 
 def _parse_pub_date(raw: str):
     raw = raw.strip()[:19].replace("/", "-").replace(".", "-")
@@ -477,7 +524,7 @@ def fetch_article_info(link: str) -> dict:
     Google News sometimes re-serves years-old archive pages with a fresh
     date, and the page metadata is how we catch that.
     """
-    info = {"text": "", "date": None, "domain": ""}
+    info = {"text": "", "date": None, "domain": "", "tags": [], "images": []}
     try:
         target = link
         if "news.google.com" in link:
@@ -486,6 +533,23 @@ def fetch_article_info(link: str) -> dict:
                 return info
         art = http_get(target, timeout=15).decode("utf-8", "ignore")
         info["domain"] = urllib.parse.urlparse(target).netloc.removeprefix("www.")
+        info["tags"] = extract_tags(art)
+
+        # Content images (filename + alt/caption), so the vetting model can
+        # tell articles carrying official presentation slides / technical
+        # figures from text-only wire copy — those get preference.
+        for m in re.finditer(r'<img[^>]+src=["\']([^"\']+)["\'][^>]*>', art):
+            src = m.group(1)
+            if re.search(r"logo|icon|avatar|banner|\.svg|pixel|badge|button",
+                         src, re.I):
+                continue
+            alt = re.search(r'alt=["\']([^"\']{4,120})["\']', m.group(0))
+            name = src.rsplit("/", 1)[-1].split("?")[0][:60]
+            entry = name + (f' — {html.unescape(alt.group(1))}' if alt else "")
+            if entry not in info["images"]:
+                info["images"].append(entry)
+            if len(info["images"]) >= 5:
+                break
 
         for pat in _PUB_DATE_RES:
             m = pat.search(art)
@@ -551,12 +615,29 @@ def _proposal_prompt(items: list[dict], store: dict,
         if body:
             line += f'\n  excerpt: {body[:300]}'
         lines.append(line)
+    # Editor-assigned article tags, accumulated across runs by news_notify.py
+    # for kept articles — the strongest signal for what the feed is actually
+    # about. A tag recurring here that no query covers is a coverage gap.
+    tag_block = ""
+    ledger_tags = load_ledger().get("tags", {})
+    covered = " ".join(q["q"].lower() for q in active_queries(store))
+    recurring = sorted(
+        ((e["t"], e["n"]) for e in ledger_tags.values()
+         if e["n"] >= 2 and e["t"].lower() not in covered),
+        key=lambda x: -x[1])[:20]
+    if recurring:
+        tag_block = (
+            "Recurring editor-assigned tags on kept articles (tag, count) — "
+            "treat these as PRIME query candidates:\n"
+            + "\n".join(f"- {t} ({n})" for t, n in recurring) + "\n\n")
+
     return (
         "You maintain Google News RSS search queries that track news about "
         "ATSC 3.0 / NextGen TV, Brazil TV 3.0 (DTV+), Broadcast RTK / eGPS, "
         "BPS (Broadcast Positioning System), and EdgeBeam Wireless in the US, "
         "Korea (KR), and Brazil (BR).\n\n"
         f"Current queries:\n{json.dumps(current, ensure_ascii=False, indent=1)}\n\n"
+        f"{tag_block}"
         f"Articles fetched this run:\n" + "\n".join(lines) + "\n\n"
         "Based on what these articles actually discuss, propose up to 3 NEW "
         "queries that would catch important related coverage the current "
