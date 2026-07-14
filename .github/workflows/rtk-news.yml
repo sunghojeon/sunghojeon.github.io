@@ -38,7 +38,9 @@ jobs:
       - name: Fetch news
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python scripts/fetch_rtk_news.py --since 2026-06-01 --limit 50 --evolve --yes
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+        run: python scripts/fetch_rtk_news.py --since 2026-06-01 --limit 60 --max-per-query 20 --evolve --yes
 
       - name: Summarize new articles and notify Telegram
         id: notify

@@ -675,6 +675,18 @@ th {
   margin: 2px 0 0;
 }
 
+// Same-story coverage folded under the representative article
+.tl-related {
+  font-size: 0.74rem;
+  color: $inkMuted;
+  margin: 2px 0 0;
+
+  a {
+    color: $inkMuted;
+    border-bottom: 1px dotted $border;
+  }
+}
+
 .tl-date {
   font-family: $sans;
   font-style: italic;

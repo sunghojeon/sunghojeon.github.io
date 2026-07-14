@@ -38,7 +38,7 @@ import sys
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -81,7 +81,8 @@ RELEVANCE_PATTERNS = [
     (2, r"atsc\s*3\.?0|nextgen\s*tv|tv\s*3\.0|dtv\+|edgebeam"),
     (2, r"측위|방송망|지상파"),
     (2, r"긴트|\bgint\b|씨너렉스|지알엠"),
-    (2, r"pearl\s*tv|zinwell|\btolka\b"),
+    (2, r"pearl\s*tv|zinwell|\btolka\b|cerinet"),
+    (2, r"\bbmsb\b|\betri\b|한국전자통신연구원"),
     (1, r"positioning|gnss|\bgps\b|\bpnt\b|timing|broadcast|방송|측량|위치정보"),
 ]
 
@@ -161,6 +162,69 @@ def norm_title(title: str) -> str:
     return re.sub(r"[\W_]+", "", title.lower())
 
 
+def fetch_feed(feed: dict) -> list[dict]:
+    """Fetch an outlet's own RSS — for Korean trade press (방송기술저널, 더비즈,
+    …) that Google News doesn't index, so no search query can surface them."""
+    tree = ET.fromstring(http_get(feed["url"]))
+    items = []
+    for it in tree.iter("item"):
+        title = html.unescape((it.findtext("title") or "").strip())
+        link = (it.findtext("link") or "").strip()
+        pub = (it.findtext("pubDate")
+               or it.findtext("{http://purl.org/dc/elements/1.1/}date")
+               or "").strip()
+        if not title or not link:
+            continue
+        dt = None
+        try:
+            dt = email.utils.parsedate_to_datetime(pub)
+        except Exception:
+            try:  # ndsoft CMS style: "2026-07-03 09:12:34"
+                dt = datetime.fromisoformat(pub)
+            except Exception:
+                continue
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone(
+                timedelta(hours=feed.get("tz_hours", 9))))
+        items.append({"title": title, "link": link, "date": dt,
+                      "source": feed.get("source", ""),
+                      "region": feed.get("region", "KR")})
+    return items
+
+
+def fetch_naver(query: dict) -> list[dict]:
+    """Naver News search — reaches the Korean outlets Google News misses.
+
+    Active only when NAVER_CLIENT_ID / NAVER_CLIENT_SECRET are set (free keys
+    from developers.naver.com). Returns [] otherwise.
+    """
+    cid = os.environ.get("NAVER_CLIENT_ID")
+    secret = os.environ.get("NAVER_CLIENT_SECRET")
+    if not cid or not secret:
+        return []
+    url = ("https://openapi.naver.com/v1/search/news.json?"
+           + urllib.parse.urlencode({"query": query["q"], "display": 30,
+                                     "sort": "date"}))
+    req = urllib.request.Request(url, headers={
+        "X-Naver-Client-Id": cid, "X-Naver-Client-Secret": secret})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        data = json.loads(resp.read())
+    items = []
+    for it in data.get("items", []):
+        title = html.unescape(re.sub(r"</?b>", "", it.get("title", ""))).strip()
+        link = it.get("originallink") or it.get("link", "")
+        try:
+            dt = email.utils.parsedate_to_datetime(it.get("pubDate", ""))
+        except Exception:
+            continue
+        if not title or not link:
+            continue
+        source = urllib.parse.urlparse(link).netloc.removeprefix("www.")
+        items.append({"title": title, "link": link, "date": dt,
+                      "source": source, "region": "KR"})
+    return items
+
+
 def find_claude() -> str | None:
     """Locate the claude CLI: PATH, then editor-bundled binaries."""
     exe = shutil.which("claude")
@@ -222,19 +286,16 @@ def curate_with_claude(items: list[dict]) -> list[dict]:
 def collect(store: dict, since: datetime, max_per_query: int) -> list[dict]:
     seen, out = set(), []
     block = [re.compile(p, re.I) for p in TITLE_BLOCKLIST]
-    for query in active_queries(store):
-        tag = "learned" if query["learned"] else "seed"
-        try:
-            items = fetch_rss(query)
-        except Exception as exc:
-            print(f"  ! {query['region']} '{query['q']}': {exc}", file=sys.stderr)
-            continue
+
+    def keep_items(items: list[dict], cap: int, pre_relevance: bool = False) -> int:
         items.sort(key=lambda x: x["date"], reverse=True)
         kept = 0
         for item in items:
-            if item["date"] < since or kept >= max_per_query:
+            if item["date"] < since or kept >= cap:
                 continue
             if any(p.search(item["title"]) for p in block):
+                continue
+            if pre_relevance and relevance(item) < 1:
                 continue
             key = norm_title(item["title"])
             if key in seen:
@@ -242,6 +303,23 @@ def collect(store: dict, since: datetime, max_per_query: int) -> list[dict]:
             seen.add(key)
             out.append(item)
             kept += 1
+        return kept
+
+    for query in active_queries(store):
+        tag = "learned" if query["learned"] else "seed"
+        try:
+            items = fetch_rss(query)
+        except Exception as exc:
+            print(f"  ! {query['region']} '{query['q']}': {exc}", file=sys.stderr)
+            items = []
+        # Google News barely indexes the Korean trade press — for KR queries,
+        # also ask Naver News (active when NAVER_CLIENT_ID/SECRET are set).
+        if query["region"] == "KR":
+            try:
+                items += fetch_naver(query)
+            except Exception as exc:
+                print(f"  ! naver '{query['q']}': {exc}", file=sys.stderr)
+        kept = keep_items(items, max_per_query)
         print(f"  {query['region']:2} [{tag}] '{query['q'][:42]}' -> {kept} kept")
         if query["learned"]:
             for lq in store["learned"]:
@@ -253,6 +331,23 @@ def collect(store: dict, since: datetime, max_per_query: int) -> list[dict]:
                             and not lq.get("pinned")):
                         lq["enabled"] = False
                         print(f"    (disabled after {lq['misses']} empty runs)")
+
+    # Outlet feeds: whole-site RSS from unindexed trade press. Everything
+    # off-topic is pre-filtered by the relevance patterns (the feeds carry the
+    # outlet's full output, not a search result).
+    for feed in store.get("feeds", []):
+        if not feed.get("enabled", True):
+            continue
+        try:
+            items = fetch_feed(feed)
+        except Exception as exc:
+            print(f"  ! feed '{feed.get('source', feed['url'])}': {exc}",
+                  file=sys.stderr)
+            continue
+        kept = keep_items(items, max_per_query, pre_relevance=True)
+        print(f"  {feed.get('region', 'KR'):2} [feed] "
+              f"'{feed.get('source', feed['url'])[:42]}' -> {kept} kept")
+
     out.sort(key=lambda x: x["date"], reverse=True)
     return out
 
@@ -262,23 +357,116 @@ def collect(store: dict, since: datetime, max_per_query: int) -> list[dict]:
 # ---------------------------------------------------------------------------
 
 
-def fetch_body_excerpt(gn_link: str) -> str:
-    """Best-effort: follow a Google News item to the publisher and grab text."""
+_GN_URL_CACHE: dict[str, str | None] = {}
+
+
+def resolve_google_news(link: str) -> str | None:
+    """news.google.com/rss/articles/<token> -> the publisher's article URL.
+
+    Google encrypts the token, so the only reliable route is its own
+    batchexecute endpoint: read a signature + timestamp off the article page,
+    then ask DotsSplashUi to expand the token. Returns None on any failure.
+    """
+    if link in _GN_URL_CACHE:
+        return _GN_URL_CACHE[link]
+    result = None
     try:
-        page = http_get(gn_link, timeout=15).decode("utf-8", "ignore")
-        urls = re.findall(r'https?://[^\s"\'<>]+', page)
-        target = next((u for u in urls
-                       if "google.com" not in u and "gstatic" not in u
-                       and "googleusercontent" not in u and len(u) > 25), None)
-        if not target:
-            return ""
+        m = re.search(r"/articles/([^?]+)", link)
+        token = m.group(1)
+        page = http_get(link, timeout=15).decode("utf-8", "ignore")
+        sig = re.search(r'data-n-a-sg="([^"]+)"', page).group(1)
+        ts = re.search(r'data-n-a-ts="([^"]+)"', page).group(1)
+        inner = json.dumps([
+            "garturlreq",
+            [["X", "X", ["X", "X"], None, None, 1, 1, "US:en", None, 1,
+              None, None, None, None, None, 0, 1], "X", "X", 1, [1, 1, 1],
+             1, 1, None, 0, 0, None, 0],
+            token, int(ts), sig,
+        ])
+        payload = urllib.parse.urlencode({
+            "f.req": json.dumps([[["Fbv4je", inner, None, "generic"]]])
+        }).encode()
+        req = urllib.request.Request(
+            "https://news.google.com/_/DotsSplashUi/data/batchexecute",
+            data=payload,
+            headers={"User-Agent": USER_AGENT,
+                     "Content-Type":
+                         "application/x-www-form-urlencoded;charset=UTF-8"})
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            body = resp.read().decode("utf-8", "ignore")
+        chunk = json.loads(body.split("\n\n", 1)[1])  # strip )]}' preamble
+        result = json.loads(chunk[0][2])[1]
+    except Exception:
+        result = None
+    _GN_URL_CACHE[link] = result
+    return result
+
+_PUB_DATE_RES = [
+    re.compile(r'property=["\']article:published_time["\'][^>]*?'
+               r'content=["\']([^"\']+)', re.I),
+    re.compile(r'content=["\']([^"\']+)["\'][^>]*?'
+               r'property=["\']article:published_time', re.I),
+    re.compile(r'"datePublished"\s*:\s*"([^"]+)"'),
+    re.compile(r'<time[^>]+datetime=["\']([^"\']+)', re.I),
+]
+
+
+def _parse_pub_date(raw: str):
+    raw = raw.strip()[:19].replace("/", "-").replace(".", "-")
+    try:
+        return datetime.fromisoformat(raw).replace(tzinfo=None)
+    except Exception:
+        try:
+            return datetime.strptime(raw[:10], "%Y-%m-%d")
+        except Exception:
+            return None
+
+
+def fetch_article_info(link: str) -> dict:
+    """Best-effort {text, date, domain} for an article.
+
+    Google News links are followed to the publisher; direct links (Naver /
+    outlet RSS) are read as-is. `date` is the page's own publication date —
+    Google News sometimes re-serves years-old archive pages with a fresh
+    date, and the page metadata is how we catch that.
+    """
+    info = {"text": "", "date": None, "domain": ""}
+    try:
+        target = link
+        if "news.google.com" in link:
+            target = resolve_google_news(link)
+            if not target:
+                return info
         art = http_get(target, timeout=15).decode("utf-8", "ignore")
-        art = re.sub(r"(?is)<(script|style|nav|header|footer)[^>]*>.*?</\1>", " ", art)
+        info["domain"] = urllib.parse.urlparse(target).netloc.removeprefix("www.")
+
+        for pat in _PUB_DATE_RES:
+            m = pat.search(art)
+            if m:
+                info["date"] = _parse_pub_date(m.group(1))
+                if info["date"]:
+                    break
+
+        art = re.sub(r"(?is)<(script|style|nav|header|footer)[^>]*>.*?</\1>",
+                     " ", art)
         text = re.sub(r"(?s)<[^>]+>", " ", art)
         text = html.unescape(re.sub(r"\s+", " ", text)).strip()
-        return text[:BODY_CHARS]
+        info["text"] = text[:BODY_CHARS]
+
+        if info["date"] is None:  # visible byline date, e.g. "2015/06/18"
+            m = re.search(r"\b(20\d{2})[./-](\d{1,2})[./-](\d{1,2})\b",
+                          text[:2500])
+            if m:
+                info["date"] = _parse_pub_date(
+                    f"{m.group(1)}-{m.group(2):0>2}-{m.group(3):0>2}")
     except Exception:
-        return ""
+        pass
+    return info
+
+
+def fetch_body_excerpt(link: str) -> str:
+    """Back-compat wrapper: just the article text."""
+    return fetch_article_info(link)["text"]
 
 
 def mine_candidates(items: list[dict], covered: str) -> list[tuple[str, str]]:
@@ -326,10 +514,12 @@ def _proposal_prompt(items: list[dict], store: dict,
         "Based on what these articles actually discuss, propose up to 3 NEW "
         "queries that would catch important related coverage the current "
         "queries would miss — e.g. newly emerged companies, products, "
-        "regulators, or programs central to this space. Prefer precise "
-        "proper-noun queries over broad topics. Do not duplicate or trivially "
-        "rephrase current queries. Korean queries must avoid quoted OR "
-        "expressions.\n\n"
+        "regulators, or programs central to this space. Pay special "
+        "attention to article tags/hashtags visible in the excerpts and to "
+        "entities that recur across several articles — those are the "
+        "strongest signals. Prefer precise proper-noun queries over broad "
+        "topics. Do not duplicate or trivially rephrase current queries. "
+        "Korean queries must avoid quoted OR expressions.\n\n"
         'Respond with ONLY a JSON array: '
         '[{"q": "...", "region": "US|KR|BR", "why": "one short sentence"}] '
         "— return [] if nothing new is warranted."
@@ -491,6 +681,8 @@ def render(items: list[dict], since: datetime, ledger: dict | None = None) -> st
     ledger = ledger or {}
     summaries = ledger.get("summaries", {})
     dropped = set(ledger.get("dropped", []))
+    members = ledger.get("related_members", {})
+    related = ledger.get("related", {})
     stamp = datetime.now().strftime("%Y-%m-%d")
     lines = [
         MARK_START,
@@ -501,7 +693,7 @@ def render(items: list[dict], since: datetime, ledger: dict | None = None) -> st
     ]
     for it in items:
         key = norm_title(it["title"])
-        if key in dropped:
+        if key in dropped or key in members:
             continue
         title = html.escape(it["title"], quote=False)
         source = html.escape(it["source"], quote=False)
@@ -509,11 +701,20 @@ def render(items: list[dict], since: datetime, ledger: dict | None = None) -> st
         note = summaries.get(key, "")
         note_html = (f'<div class="tl-note">{html.escape(note, quote=False)}'
                      f'</div>') if note else ""
+        rel_html = ""
+        if related.get(key):
+            links = " · ".join(
+                f'<a href="{html.escape(m["link"])}" target="_blank" '
+                f'rel="noopener">'
+                f'{html.escape(m["source"].split(" · ")[0], quote=False)}</a>'
+                for m in related[key])
+            rel_html = (f'<div class="tl-related">관련기사 '
+                        f'{len(related[key])} — {links}</div>')
         lines.append(
             '  <li class="tl-item">'
             f'<a class="tl-title" href="{it["link"]}" target="_blank" '
             f'rel="noopener">{title}</a> <span class="tl-cat">{meta}</span>'
-            f'{note_html}'
+            f'{note_html}{rel_html}'
             f'<div class="tl-date">{it["date"].strftime("%Y.%m.%d")}</div></li>'
         )
     lines += ["</ol>", MARK_END]

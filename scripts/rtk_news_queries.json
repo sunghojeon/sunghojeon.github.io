@@ -23,6 +23,14 @@
     {
       "region": "BR",
       "q": "\"TV 3.0\" OR \"DTV+\""
+    },
+    {
+      "region": "KR",
+      "q": "지상파 UHD"
+    },
+    {
+      "region": "KR",
+      "q": "UHDTV 방송"
     }
   ],
   "learned": [
@@ -117,32 +125,44 @@
       "pinned": true,
       "why": "User-designated: Tolka makes ATSC 3.0 / DTV+ receivers. Zero press since 2026-05 (bare name is Dublin's Tolka Park football); pinned so the dry spell doesn't auto-disable it.",
       "added": "2026-07-13",
-      "misses": 3,
+      "misses": 2,
       "enabled": true
     },
     {
-      "q": "\"Anatel\"",
-      "region": "BR",
-      "why": "frequent new entity in fetched titles",
-      "added": "2026-07-14",
-      "misses": 0,
-      "enabled": true
-    },
-    {
-      "q": "\"Samsung\"",
-      "region": "BR",
-      "why": "frequent new entity in fetched titles",
-      "added": "2026-07-14",
-      "misses": 0,
-      "enabled": true
-    },
-    {
-      "q": "\"Digital Alert Systems\"",
+      "q": "\"Cerinet\"",
       "region": "US",
-      "why": "frequent new entity in fetched titles",
+      "pinned": true,
+      "why": "Cerinet's broad ATSC 3.0 SEP patent campaign against Samsung, LG and 10 others (E.D. Tex.). Coverage often lacks 'ATSC 3.0' in the headline; the campaign will run for years.",
       "added": "2026-07-14",
       "misses": 1,
       "enabled": true
+    },
+    {
+      "q": "\"eGPS\" (positioning OR broadcast OR RTK OR GPS OR ATSC)",
+      "region": "US",
+      "pinned": true,
+      "why": "MBC's global service brand. Zero news hits today (only LinkedIn/industry posts so far) — pinned so the feed is already listening when press coverage starts. Qualifier avoids the Economic Group Pension Services (EGPS) collision.",
+      "added": "2026-07-14",
+      "misses": 1,
+      "enabled": true
+    }
+  ],
+  "feeds": [
+    {
+      "url": "https://www.the-biz.co.kr/rss/allArticle.xml",
+      "source": "THE Biz",
+      "region": "KR",
+      "tz_hours": 9,
+      "enabled": true,
+      "why": "Biz/law outlet not indexed by Google News KR — carried the Cerinet-v-Samsung ATSC 3.0 patent-suit story the feed missed."
+    },
+    {
+      "url": "http://journal.kobeta.com/feed/",
+      "source": "방송기술저널",
+      "region": "KR",
+      "tz_hours": 9,
+      "enabled": true,
+      "why": "KOBETA broadcast-tech journal, not indexed by Google News KR — carried the ETRI·MBC·KBS IEEE BMSB Best Paper story."
     }
   ]
 }
