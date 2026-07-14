@@ -95,7 +95,10 @@
   "anatelautorizatimaexpandirsinalmóvelemoitoestadoscomnovasfrequências",
   "brasilanatelabreconsultassobrestarlinkereestruturaçãodabandas",
   "quandoocéuviraumaantenaadecisãodaanatelquepodetransformaratelefoniamóvelnobrasil",
-  "sinaldatimpodemelhorarem18cidadesapósautorizaçãodaanatel"
+  "sinaldatimpodemelhorarem18cidadesapósautorizaçãodaanatel",
+  "anatelapruebareorganizacióndelespectroparaviabilizarlatv30enbrasil",
+  "dtvdesembarcaenelmundial2026yreabreeldebatepublicitarioenbrasilylaregión",
+  "redelegislativautilizatecnologíadeappearenlaspruebasdetv30enbrasil"
  ],
  "summaries": {
   "지상파올해도빨간불kbs올해100억원대적자예상": "방송 광고 급감으로 KBS가 올해 100억 원대 적자를 예상하고 MBC·SBS도 적자 국면에 들어서는 등 지상파 경영난이 심화되고 있다.",
@@ -136,7 +139,10 @@
   "cj올리브네트웍스uhdai중계차구축한다스포츠방송혁신주도": "CJ올리브네트웍스가 UHD와 AI 기술을 접목한 스포츠 중계차를 구축해 스포츠 방송 제작 혁신에 나선다.",
   "지알엠씨너렉스고정밀위치정보활용측량솔루션사업화나서": "지알엠과 씨너렉스가 GNSS RTK 기반 센티미터급 정밀 측위 기술로 GIS 구축 없이도 쓸 수 있는 범용 측량 솔루션 사업화를 위한 업무협약을 체결했다.",
   "anatelabreconsultaparadiscutirusodeianaregulaçãodastelecomunicações": "Anatel이 통신 분야 AI 활용의 거버넌스·윤리 규칙 마련을 위한 공개 의견수렴 'Tomada de Subsídios 6/2026'을 개시했다.",
-  "brasilanatelabreconsultassobrestarlinkereestruturaçãodabandas": "Anatel이 브라질 주파수 재배치(refarming) 계획과 맞물려 Starlink 등 위성사업자의 S밴드 운용에 관한 공개 의견수렴을 시작했다."
+  "brasilanatelabreconsultassobrestarlinkereestruturaçãodabandas": "Anatel이 브라질 주파수 재배치(refarming) 계획과 맞물려 Starlink 등 위성사업자의 S밴드 운용에 관한 공개 의견수렴을 시작했다.",
+  "anatelapruebareorganizacióndelespectroparaviabilizarlatv30enbrasil": "📊 브라질 Anatel이 TV 3.0 도입을 위해 250~322MHz 대역을 방송용으로 재배치하는 주파수 계획(PDFF) 개정을 만장일치로 승인했다",
+  "redelegislativautilizatecnologíadeappearenlaspruebasdetv30enbrasil": "브라질 Rede Legislativa가 DTV+ 시험방송에서 Appear의 X5 플랫폼으로 브라질리아-상파울루 간 생방송 신호를 공공 인터넷으로 전송했다",
+  "dtvdesembarcaenelmundial2026yreabreeldebatepublicitarioenbrasilylaregión": "ATSC 3.0 기반 DTV+가 어드레서블 광고를 지원하며 Globo가 2026 월드컵에서 상용 개시, ISDB-T에 머문 아르헨티나 광고시장에 논쟁을 불렀다"
  },
  "dropped": [
   "entertowinanextgentvequipmentpackage",
@@ -386,6 +392,24 @@
    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTnVncGVhbEFJUkZOclBuNXZjSmNQbjBZMmluR2t3NW1JVzlvVmpILU1vNmVvM0R1Yl9Rcldsc1VnLUk5TGNDSEc3eS1tNVRYeGhxLUdIVUFEQjYxZWlzLU03RUlMc096bm8wZ0lvdDg2dmpFU3k2YUxCTUV5dGwtSnQzN1B2c2RsYXBHbHJtQURGY1hxb0hv?oc=5",
    "source": "DPL News · BR",
    "date": "2026.07.13"
+  },
+  "anatelapruebareorganizacióndelespectroparaviabilizarlatv30enbrasil": {
+   "title": "Anatel aprueba reorganización del espectro para viabilizar la TV 3.0 en Brasil",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE43OWYxRGdtX05meHlVWGNXSEpyWUpQRVhSNEFFV3N1ZUd5bWdfbGpXLThlWXFucXI2OUlnX0FUcGxTM3V5YU0zMzVuTmxYNC1PaW1SN1R2VHpxbm0wZlp3bGdPNVRDYWl3eHMtNzJFUUdaMzktZnRtU1A4b05NZw?oc=5",
+   "source": "DPL News · MX",
+   "date": "2026.07.02"
+  },
+  "redelegislativautilizatecnologíadeappearenlaspruebasdetv30enbrasil": {
+   "title": "Rede Legislativa utiliza tecnología de Appear en las pruebas de TV 3.0 en Brasil",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMkp3R3RiRGpqSk9wWUJUUHczTHFmVnEtbV82Y01lQUctMHgybjZNdHowNDRDcE56YU5HM1U2VWVGTG1CUWhkZ2d4d29kWGR2VFVyejZOaC1HYWNGUTdSNFNHSl8yMi1uXzFHa0lQcFdBN3U3d0U3a1NRWjBtSzVxZ0UtMnBxcHBNb3YxcjNMY1Y5ZXAxTU0xQi1JR3J6dmd4dGhzMUUweFdSclkwVUVrYlJyS2lEenIxOXhjU0xRNHV3dEhD?oc=5",
+   "source": "Newsline Report · MX",
+   "date": "2026.06.29"
+  },
+  "dtvdesembarcaenelmundial2026yreabreeldebatepublicitarioenbrasilylaregión": {
+   "title": "DTV+ desembarca en el Mundial 2026 y reabre el debate publicitario en Brasil y la región",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNLUtURi11S3YyY0lWWlM3T0RPYkFab3EwSWlmVEg3a2Ryd0sxNFpvWGNiZWRiT3VVMnRuVzNZZXE5OC1FUV9JQTkyZVNoQUltTnpCTnFhaEFGNkNTLTNtRFAzT1RxcE1iLWttdzFGUEVnX3lPTFBLbEFtdDY3bGRYT1pvRXFhRTB2SUxZVXA4TXFmMlkxazhJbk1ncy1uaFZBX280Um5YZU1tZ3FGWHA5SEQtWE5UQmlDRVVVaDdxNHdjS1JsNHJ4TXdqaw?oc=5",
+   "source": "mercado.com.ar · MX",
+   "date": "2026.06.02"
   }
  },
  "related": {
@@ -692,6 +716,26 @@
     "source": "www.gov.br · BR",
     "date": "2026.07.09"
    }
+  ],
+  "anatelapruebareorganizacióndelespectroparaviabilizarlatv30enbrasil": [
+   {
+    "title": "Nicaragua | Maestros Conectados apoya la transformación digital de las aulas",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQalFZaVM5NXg5SWdmOHJPNUpib2lieVVnSkpIMy1zaWVTZDNrRUZaQzlIWm1yOURtd25lVXowYTdVM0c2dU4yd21QMTh4bzN4TTMzdmVRZkwzc21zSk12RWNsYklLYmRUN1B4bWtVNWNTOUdJWXh4TFRtNzBnR25mVXRzQzZma0duVWpyaXZDTWRfbEt5Q2pBcFRKOA?oc=5",
+    "source": "DPL News · MX",
+    "date": "2026.07.03"
+   },
+   {
+    "title": "El Salvador | Renuncia director ejecutivo de la Agencia de Inteligencia Artificial y anuncia incursión en energía",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTTVZMHhLb24zVXg3X2RkRzR5QlA5MDAwbU5CM3NQamF5LXlUUmRGR1ZwX2Y5OXJELU05dEs0eEFmZWh0RFNkbmhjcFMtX2hYd19lVmpMVEJnWjJYYWpYcHRvamlxb3ktaEtiakQxR3c0WHVHXzRWbXNjdlpNOWtzdEtLV2VGYThMdDVSMTFNN2VqMElnWHdOS0NSYW9KVDlqcXd1Y2NNQUZuYVNhRmVkQnc0QmJ0Y2N4aHY3QUJoRmlNMTNvMU1USTVSeEs?oc=5",
+    "source": "DPL News · MX",
+    "date": "2026.07.02"
+   },
+   {
+    "title": "La nueva ambición de Brasil para 2030 es convertirse en un referente en IA: Carlos Baigorri",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQWVsUnpXTFZvRGZ2OFBoY3JJdEtjcVloeTh2cnJZZGw1UDhQUzFwNmNHNWhpaVRvbEo4QjBlbFRPblFnSG9vOTJaUk9mMkxCaGthOGxpTFFab0NQSVI0UzE1QzRva2dfLWdhOWZXNHFxdnMxOC1MOFBsRVg1ZUhUcm9EOHJKYkRY?oc=5",
+    "source": "DPL News · MX",
+    "date": "2026.06.30"
+   }
   ]
  },
  "related_members": {
@@ -738,7 +782,10 @@
   "brasiltimrecebeusosecundáriode23ghzem299cidadesdonordeste": "brasilanatelabreconsultassobrestarlinkereestruturaçãodabandas",
   "adeusstarlinkbrasileirosestãopróximosdeganharnovaopçãodeinternetviasatélite": "brasilanatelabreconsultassobrestarlinkereestruturaçãodabandas",
   "anatelabreconsultassobrestarlinkereestruturaçãodabandas": "brasilanatelabreconsultassobrestarlinkereestruturaçãodabandas",
-  "superintendênciadeoutorgaerecursosàprestaçãodaanatelabreconsultapúblicanº29sobreusodabandaspelosatélitestarlink": "brasilanatelabreconsultassobrestarlinkereestruturaçãodabandas"
+  "superintendênciadeoutorgaerecursosàprestaçãodaanatelabreconsultapúblicanº29sobreusodabandaspelosatélitestarlink": "brasilanatelabreconsultassobrestarlinkereestruturaçãodabandas",
+  "nicaraguamaestrosconectadosapoyalatransformacióndigitaldelasaulas": "anatelapruebareorganizacióndelespectroparaviabilizarlatv30enbrasil",
+  "elsalvadorrenunciadirectorejecutivodelaagenciadeinteligenciaartificialyanunciaincursiónenenergía": "anatelapruebareorganizacióndelespectroparaviabilizarlatv30enbrasil",
+  "lanuevaambicióndebrasilpara2030esconvertirseenunreferenteeniacarlosbaigorri": "anatelapruebareorganizacióndelespectroparaviabilizarlatv30enbrasil"
  },
  "outlets": {
   "fatopaulista.com.br": 1,
@@ -748,7 +795,9 @@
   "e-platform.net": 1,
   "pinpointnews.co.kr": 1,
   "rede98.com.br": 1,
-  "dplnews.com": 2
+  "dplnews.com": 4,
+  "newslinereport.com": 2,
+  "mercado.com.ar": 2
  },
  "tags": {
   "긴트": {
@@ -841,11 +890,11 @@
   },
   "anatel": {
    "t": "anatel",
-   "n": 2
+   "n": 4
   },
   "brasil": {
    "t": "brasil",
-   "n": 3
+   "n": 5
   },
   "conversordigital": {
    "t": "conversordigital",
@@ -934,6 +983,106 @@
   "starlink": {
    "t": "Starlink",
    "n": 1
+  },
+  "espectro": {
+   "t": "espectro",
+   "n": 2
+  },
+  "relevante": {
+   "t": "relevante",
+   "n": 2
+  },
+  "tv 3.0": {
+   "t": "TV 3.0",
+   "n": 2
+  },
+  "contenidos": {
+   "t": "Contenidos",
+   "n": 2
+  },
+  "tv paga": {
+   "t": "TV Paga",
+   "n": 2
+  },
+  "tecnología": {
+   "t": "Tecnología",
+   "n": 2
+  },
+  "cine": {
+   "t": "Cine",
+   "n": 2
+  },
+  "satélite": {
+   "t": "Satélite",
+   "n": 2
+  },
+  "convergencia": {
+   "t": "Convergencia",
+   "n": 2
+  },
+  "andina link": {
+   "t": "Andina Link",
+   "n": 2
+  },
+  "tepal": {
+   "t": "Tepal",
+   "n": 2
+  },
+  "canitec": {
+   "t": "Canitec",
+   "n": 2
+  },
+  "jornadas": {
+   "t": "Jornadas",
+   "n": 2
+  },
+  "caper": {
+   "t": "Caper",
+   "n": 2
+  },
+  "natpe": {
+   "t": "NATPE",
+   "n": 2
+  },
+  "mipcom": {
+   "t": "MIPCOM",
+   "n": 2
+  },
+  "screenings": {
+   "t": "Screenings",
+   "n": 2
+  },
+  "nab": {
+   "t": "NAB",
+   "n": 2
+  },
+  "negocios": {
+   "t": "negocios",
+   "n": 2
+  },
+  "economía": {
+   "t": "economía",
+   "n": 2
+  },
+  "finanzas": {
+   "t": "finanzas",
+   "n": 2
+  },
+  "management": {
+   "t": "management",
+   "n": 2
+  },
+  "empresas": {
+   "t": "empresas",
+   "n": 2
+  },
+  "mercado": {
+   "t": "mercado",
+   "n": 2
+  },
+  "argentina": {
+   "t": "argentina",
+   "n": 2
   }
  }
 }
