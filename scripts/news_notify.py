@@ -362,9 +362,11 @@ def _vet_chunk(items: list[dict], bodies: list[str],
         "index는 위 목록의 번호를 그대로 쓴다."
     )
 
-    text = _via_api(prompt) or _via_cli(prompt)
+    # CLI first: locally and in CI (CLAUDE_CODE_OAUTH_TOKEN) it runs on the
+    # Claude subscription at no extra cost; the metered API key is the fallback.
+    text = _via_cli(prompt) or _via_api(prompt)
     if not text:
-        print("  no LLM available (ANTHROPIC_API_KEY / claude CLI) "
+        print("  no LLM available (claude CLI / ANTHROPIC_API_KEY) "
               "-> deferring vetting to a later run", file=sys.stderr)
         return {}
     try:

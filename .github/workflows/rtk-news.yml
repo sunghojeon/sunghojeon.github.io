@@ -26,6 +26,12 @@ jobs:
 
       - run: pip install anthropic
 
+      # Claude Code CLI — vetting/summaries run on the Claude subscription
+      # (CLAUDE_CODE_OAUTH_TOKEN from `claude setup-token`) instead of the
+      # metered API. ANTHROPIC_API_KEY remains a fallback path in the script.
+      - name: Install Claude Code CLI
+        run: npm install -g @anthropic-ai/claude-code
+
       # The committed page, to diff the fetched articles against.
       - name: Snapshot current page
         run: cp news.md /tmp/news.before.md
@@ -37,6 +43,7 @@ jobs:
       # runs running are disabled automatically.
       - name: Fetch news
         env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
           NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
@@ -45,6 +52,7 @@ jobs:
       - name: Summarize new articles and notify Telegram
         id: notify
         env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
