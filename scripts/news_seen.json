@@ -102,7 +102,8 @@
   "pdffepdffmilitarsãopublicadospelaanatel",
   "anateldefinecomoserátransiçãoparatv30vejacomoficanoseuestado",
   "dtventendacomovaifuncionaratv30",
-  "vivensisfabricaemmanausreceptornacionaldetv30"
+  "vivensisfabricaemmanausreceptornacionaldetv30",
+  "vivensisdesenvolveoprimeiroreceptorbrasileiroparatv30"
  ],
  "summaries": {
   "지상파올해도빨간불kbs올해100억원대적자예상": "방송 광고 급감으로 KBS가 올해 100억 원대 적자를 예상하고 MBC·SBS도 적자 국면에 들어서는 등 지상파 경영난이 심화되고 있다.",
@@ -769,6 +770,14 @@
     "source": "TELETIME News · BR",
     "date": "2026.07.13"
    }
+  ],
+  "vivensisfabricaemmanausreceptornacionaldetv30": [
+   {
+    "title": "Vivensis desenvolve o primeiro receptor brasileiro para TV 3.0",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNellYTzdEcmVCSUlVN3VUN1hZYjVHdG1iN3duTmYzUm0yb283RVdNRndQdjZjV0NjU1J4OTl1MFk1M2ZGWHZ6Z0UwOEtzRllNXzNyQ09Dc2tWQ0NtWkVPNXF0Mk5jUVloenRyNWJUdlZLRFEwZTJJc1poaWcxenRLc2MyOUh4UWp4SzI1eWRuWnh0MW85MFZMSDBraHlKblk?oc=5",
+    "source": "TELA VIVA News · BR",
+    "date": "2026.07.15"
+   }
   ]
  },
  "related_members": {
@@ -819,7 +828,8 @@
   "nicaraguamaestrosconectadosapoyalatransformacióndigitaldelasaulas": "anatelapruebareorganizacióndelespectroparaviabilizarlatv30enbrasil",
   "elsalvadorrenunciadirectorejecutivodelaagenciadeinteligenciaartificialyanunciaincursiónenenergía": "anatelapruebareorganizacióndelespectroparaviabilizarlatv30enbrasil",
   "lanuevaambicióndebrasilpara2030esconvertirseenunreferenteeniacarlosbaigorri": "anatelapruebareorganizacióndelespectroparaviabilizarlatv30enbrasil",
-  "pdffepdffmilitarsãopublicadospelaanatel": "anateldefinecomoserátransiçãoparatv30vejacomoficanoseuestado"
+  "pdffepdffmilitarsãopublicadospelaanatel": "anateldefinecomoserátransiçãoparatv30vejacomoficanoseuestado",
+  "vivensisdesenvolveoprimeiroreceptorbrasileiroparatv30": "vivensisfabricaemmanausreceptornacionaldetv30"
  },
  "outlets": {
   "fatopaulista.com.br": 1,
@@ -834,7 +844,8 @@
   "mercado.com.ar": 2,
   "estadao.com.br": 1,
   "convergenciadigital.com.br": 1,
-  "canaltech.com.br": 1
+  "canaltech.com.br": 1,
+  "telaviva.com.br": 1
  },
  "tags": {
   "긴트": {
