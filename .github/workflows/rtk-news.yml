@@ -1,10 +1,13 @@
 name: Refresh RTK news
 
-# 09:00 and 21:00 KST (UTC+9).
+# Target: ~09:00 and ~21:00 KST (UTC+9). GitHub cron is queued best-effort,
+# and minute-0 slots — 00:00 UTC worst of all — are so congested that the
+# first three scheduled runs each started 1-2 h late. An off-peak minute,
+# scheduled ~25 min ahead of the target, absorbs the typical queue delay.
 on:
   schedule:
-    - cron: "0 0 * * *"
-    - cron: "0 12 * * *"
+    - cron: "37 23 * * *"
+    - cron: "37 11 * * *"
   workflow_dispatch:
 
 permissions:
