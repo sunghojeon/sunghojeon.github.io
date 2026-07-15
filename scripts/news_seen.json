@@ -103,7 +103,12 @@
   "anateldefinecomoserátransiçãoparatv30vejacomoficanoseuestado",
   "dtventendacomovaifuncionaratv30",
   "vivensisfabricaemmanausreceptornacionaldetv30",
-  "vivensisdesenvolveoprimeiroreceptorbrasileiroparatv30"
+  "vivensisdesenvolveoprimeiroreceptorbrasileiroparatv30",
+  "keepingfreetelevisionstrongrequiresmoderntechnology",
+  "anateldefinecomoatv30usaráafaixade250mhzemcadaestado",
+  "nabnextgentvrepresentsanessentialinvestmentinthefutureoffreelocaltelevision",
+  "tcudá15diasparaanatelexplicargestãodosr95bilhõesdoleilão5gvoltadosàconectividade",
+  "tv30suaantenadigitalatualvaifuncionarcomanovatecnologia"
  ],
  "summaries": {
   "지상파올해도빨간불kbs올해100억원대적자예상": "방송 광고 급감으로 KBS가 올해 100억 원대 적자를 예상하고 MBC·SBS도 적자 국면에 들어서는 등 지상파 경영난이 심화되고 있다.",
@@ -150,7 +155,9 @@
   "dtvdesembarcaenelmundial2026yreabreeldebatepublicitarioenbrasilylaregión": "ATSC 3.0 기반 DTV+가 어드레서블 광고를 지원하며 Globo가 2026 월드컵에서 상용 개시, ISDB-T에 머문 아르헨티나 광고시장에 논쟁을 불렀다",
   "dtventendacomovaifuncionaratv30": "Estadão가 브라질 TV 3.0(DTV+) 도입 배경과 방송사별 제공 서비스, 시청 가능 시점 등을 정리한 해설 기사.",
   "vivensisfabricaemmanausreceptornacionaldetv30": "브라질 Vivensis사가 마나우스 공장에서 TV 3.0 수신기를 자국 최초로 생산해 EAD에 공급하기 시작했다.",
-  "anateldefinecomoserátransiçãoparatv30vejacomoficanoseuestado": "Anatel이 지난 13일 브라질 각 주별 TV 3.0 전환 일정과 방식을 정한 새 규칙을 발표했다."
+  "anateldefinecomoserátransiçãoparatv30vejacomoficanoseuestado": "Anatel이 지난 13일 브라질 각 주별 TV 3.0 전환 일정과 방식을 정한 새 규칙을 발표했다.",
+  "tv30suaantenadigitalatualvaifuncionarcomanovatecnologia": "Canaltech이 기존 디지털 안테나로 브라질 TV 3.0(DTV+) 수신이 가능한지 설명하는 기사를 실었다.",
+  "nabnextgentvrepresentsanessentialinvestmentinthefutureoffreelocaltelevision": "NAB가 NextGen TV를 무료 지상파 방송의 미래를 위한 필수 투자라고 강조하는 성명을 냈다."
  },
  "dropped": [
   "entertowinanextgentvequipmentpackage",
@@ -164,7 +171,8 @@
   "vod한번에보세요lgu지상파jtbc묶은방송패스출시",
   "anatelampliaprazoparainíciodeoperaçãodosatélitegx8daviasat",
   "sinaldatimpodemelhorarem18cidadesapósautorizaçãodaanatel",
-  "anatelautorizatimaexpandirsinalmóvelemoitoestadoscomnovasfrequências"
+  "anatelautorizatimaexpandirsinalmóvelemoitoestadoscomnovasfrequências",
+  "tcudá15diasparaanatelexplicargestãodosr95bilhõesdoleilão5gvoltadosàconectividade"
  ],
  "reps": {
   "지상파올해도빨간불kbs올해100억원대적자예상": {
@@ -436,6 +444,18 @@
    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdWJaR3lMc0RkNVVmLUpvbzVpSU9BVWdNbmh1aXAtcm5Rd1VtSzZGMkI0dXpFUHlna3hvbEw5LTdrR0pLcy1FdWFyVHQ0Tm1Na1BwbHBvczJ1c0QzRVdmY054WGpaOURWU3lNb2x4T29JUmFYaGVJZXNNb1QzTTMtNkpzQ2FwNFBLY09KVFVudmtMWXhHaDhUUlVPRVZGRGtlWEJrdHZrRXJJbjhD?oc=5",
    "source": "Canaltech · BR",
    "date": "2026.07.14"
+  },
+  "tv30suaantenadigitalatualvaifuncionarcomanovatecnologia": {
+   "title": "TV 3.0: sua antena digital atual vai funcionar com a nova tecnologia?",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTW9DcFQzSlNxdC1DejRlNWdnOUI1N2VqQ0JpT2xhYWtFLUpoZTJLVmJmeDY1djg1SGRwTTV5dXlSVlM0NUZQaDg0N2diMEtYQ3ZUOUE2ZlJLNXdEbTNucmpQbEpFdFdnOGtLaE1GSG5nN3dtN1lGYjJ1UUZQZk9UWWZQMWxONnc3WFlNbmtFOUlBX0QtU0NidzhNVHp1anFnUVhV?oc=5",
+   "source": "Canaltech · BR",
+   "date": "2026.07.15"
+  },
+  "nabnextgentvrepresentsanessentialinvestmentinthefutureoffreelocaltelevision": {
+   "title": "NAB: NextGen TV Represents 'an Essential Investment in the Future of Free, Local Television'",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQMkVUYW50MnRNU3M2NFYxZTd2SndmYUp3WmVUYVk1Wk9BZFRaY3VzdWE4VUNBckRFZHppSEd0UWdyNWsxTWtzVGVmanJZZVJobnAzTm8wSHlFUmRWTTcxZDJ3NmpOd3VmcldqVXRyN2ZkamhMMURFdWN0LXlUa2ZodGYxUWpFaGlubm5OekhBS2cwU3RQdC1Vb25rSHVrX3E0ZXNiRFE5UHV2MkVhcjBzX1N1SXRrSEkyVmhWd2pVUVdBY09LQWhXVXJLWTZkaWVadzliQ3JzalhFMHlCVEZZ?oc=5",
+   "source": "TVTechnology · US",
+   "date": "2026.07.15"
   }
  },
  "related": {
@@ -769,6 +789,12 @@
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOT2l1dkl2ZENEV0U5MmdjbDY3RndLS0M1NVRfRXlGQmh6MTdHcml1TlFEV0xhLWNmRVFQYlZ1bmtid3hfejBkZ1RwV0Fic0ZIQ09yeTg1azhmUzl2d0wtWXljems3MmZXM1kxcTlmLUZWQUVad0tueV9uZGY3UkI1TVk5d3h1bzVRRGc?oc=5",
     "source": "TELETIME News · BR",
     "date": "2026.07.13"
+   },
+   {
+    "title": "Anatel define como a TV 3.0 usará a faixa de 250 MHz em cada estado",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNd0F5dFkxSkdvLTlIMFZENzh0WF85czNJclM3ZU5ZY2xzSDVYS0RaS0pxMWExbDFOSEFVSVVjd0szRGdtV3RFVmxiYWVnQU5RYVcwQXZULUp3T0JUdFVIcGRTV1hVMDcxcFY0QkpNVUNic2ZSY0thRjZsQTRsQXM0OUQ4cVZ5ZnAybWo4N3Z0WmJMTmM1R2NWaXpHNS1FV09VYUtjV2JxOFpadmkycTJ0TkYwbw?oc=5",
+    "source": "Mundo Conectado · BR",
+    "date": "2026.07.15"
    }
   ],
   "vivensisfabricaemmanausreceptornacionaldetv30": [
@@ -777,6 +803,14 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNellYTzdEcmVCSUlVN3VUN1hZYjVHdG1iN3duTmYzUm0yb283RVdNRndQdjZjV0NjU1J4OTl1MFk1M2ZGWHZ6Z0UwOEtzRllNXzNyQ09Dc2tWQ0NtWkVPNXF0Mk5jUVloenRyNWJUdlZLRFEwZTJJc1poaWcxenRLc2MyOUh4UWp4SzI1eWRuWnh0MW85MFZMSDBraHlKblk?oc=5",
     "source": "TELA VIVA News · BR",
     "date": "2026.07.15"
+   }
+  ],
+  "nabnextgentvrepresentsanessentialinvestmentinthefutureoffreelocaltelevision": [
+   {
+    "title": "Keeping Free Television Strong Requires Modern Technology",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeElfRHAwRXZkN3FhbzJwQllMN0dwNW95U3NyQVl1YWxHWWFFN2dYUUMxMTdVRmRFZXRueWtmMU9ZNHYxcThBY1RSUHpNVnM4WV94U1NpNmJPbEtNdUlaZzJNbWVzZEx5NDFNTVRid2QzVWZ5RkQ1YmxaeWVyaXhxZTZnbWkxM055SEpCWHo3ZVpWbGlvTnFJdkln?oc=5",
+    "source": "NAB Blog - · US",
+    "date": "2026.07.14"
    }
   ]
  },
@@ -829,7 +863,9 @@
   "elsalvadorrenunciadirectorejecutivodelaagenciadeinteligenciaartificialyanunciaincursiónenenergía": "anatelapruebareorganizacióndelespectroparaviabilizarlatv30enbrasil",
   "lanuevaambicióndebrasilpara2030esconvertirseenunreferenteeniacarlosbaigorri": "anatelapruebareorganizacióndelespectroparaviabilizarlatv30enbrasil",
   "pdffepdffmilitarsãopublicadospelaanatel": "anateldefinecomoserátransiçãoparatv30vejacomoficanoseuestado",
-  "vivensisdesenvolveoprimeiroreceptorbrasileiroparatv30": "vivensisfabricaemmanausreceptornacionaldetv30"
+  "vivensisdesenvolveoprimeiroreceptorbrasileiroparatv30": "vivensisfabricaemmanausreceptornacionaldetv30",
+  "anateldefinecomoatv30usaráafaixade250mhzemcadaestado": "anateldefinecomoserátransiçãoparatv30vejacomoficanoseuestado",
+  "keepingfreetelevisionstrongrequiresmoderntechnology": "nabnextgentvrepresentsanessentialinvestmentinthefutureoffreelocaltelevision"
  },
  "outlets": {
   "fatopaulista.com.br": 1,
@@ -844,8 +880,10 @@
   "mercado.com.ar": 2,
   "estadao.com.br": 1,
   "convergenciadigital.com.br": 1,
-  "canaltech.com.br": 1,
-  "telaviva.com.br": 1
+  "canaltech.com.br": 2,
+  "telaviva.com.br": 1,
+  "mundoconectado.com.br": 1,
+  "tvtechnology.com": 1
  },
  "tags": {
   "긴트": {
@@ -910,7 +948,7 @@
   },
   "atsc 3.0": {
    "t": "ATSC 3.0",
-   "n": 3
+   "n": 4
   },
   "federal communications commission (fcc)": {
    "t": "Federal Communications Commission (FCC)",
@@ -918,7 +956,7 @@
   },
   "nextgen tv": {
    "t": "NextGen TV",
-   "n": 2
+   "n": 3
   },
   "weigel broadcasting": {
    "t": "Weigel Broadcasting",
@@ -970,7 +1008,7 @@
   },
   "fcc": {
    "t": "FCC",
-   "n": 2
+   "n": 3
   },
   "digital alert systems": {
    "t": "Digital Alert Systems",
@@ -986,7 +1024,7 @@
   },
   "standards": {
    "t": "Standards",
-   "n": 1
+   "n": 2
   },
   "sam matheny": {
    "t": "Sam Matheny",
@@ -1102,7 +1140,7 @@
   },
   "nab": {
    "t": "NAB",
-   "n": 2
+   "n": 3
   },
   "negocios": {
    "t": "negocios",
@@ -1131,6 +1169,18 @@
   "argentina": {
    "t": "argentina",
    "n": 2
+  },
+  "insights": {
+   "t": "Insights",
+   "n": 1
+  },
+  "regulatory & legal": {
+   "t": "Regulatory & Legal",
+   "n": 1
+  },
+  "blog": {
+   "t": "blog",
+   "n": 1
   }
  }
 }
