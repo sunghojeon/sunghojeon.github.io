@@ -98,7 +98,11 @@
   "sinaldatimpodemelhorarem18cidadesapósautorizaçãodaanatel",
   "anatelapruebareorganizacióndelespectroparaviabilizarlatv30enbrasil",
   "dtvdesembarcaenelmundial2026yreabreeldebatepublicitarioenbrasilylaregión",
-  "redelegislativautilizatecnologíadeappearenlaspruebasdetv30enbrasil"
+  "redelegislativautilizatecnologíadeappearenlaspruebasdetv30enbrasil",
+  "pdffepdffmilitarsãopublicadospelaanatel",
+  "anateldefinecomoserátransiçãoparatv30vejacomoficanoseuestado",
+  "dtventendacomovaifuncionaratv30",
+  "vivensisfabricaemmanausreceptornacionaldetv30"
  ],
  "summaries": {
   "지상파올해도빨간불kbs올해100억원대적자예상": "방송 광고 급감으로 KBS가 올해 100억 원대 적자를 예상하고 MBC·SBS도 적자 국면에 들어서는 등 지상파 경영난이 심화되고 있다.",
@@ -142,7 +146,10 @@
   "brasilanatelabreconsultassobrestarlinkereestruturaçãodabandas": "Anatel이 브라질 주파수 재배치(refarming) 계획과 맞물려 Starlink 등 위성사업자의 S밴드 운용에 관한 공개 의견수렴을 시작했다.",
   "anatelapruebareorganizacióndelespectroparaviabilizarlatv30enbrasil": "📊 브라질 Anatel이 TV 3.0 도입을 위해 250~322MHz 대역을 방송용으로 재배치하는 주파수 계획(PDFF) 개정을 만장일치로 승인했다",
   "redelegislativautilizatecnologíadeappearenlaspruebasdetv30enbrasil": "브라질 Rede Legislativa가 DTV+ 시험방송에서 Appear의 X5 플랫폼으로 브라질리아-상파울루 간 생방송 신호를 공공 인터넷으로 전송했다",
-  "dtvdesembarcaenelmundial2026yreabreeldebatepublicitarioenbrasilylaregión": "ATSC 3.0 기반 DTV+가 어드레서블 광고를 지원하며 Globo가 2026 월드컵에서 상용 개시, ISDB-T에 머문 아르헨티나 광고시장에 논쟁을 불렀다"
+  "dtvdesembarcaenelmundial2026yreabreeldebatepublicitarioenbrasilylaregión": "ATSC 3.0 기반 DTV+가 어드레서블 광고를 지원하며 Globo가 2026 월드컵에서 상용 개시, ISDB-T에 머문 아르헨티나 광고시장에 논쟁을 불렀다",
+  "dtventendacomovaifuncionaratv30": "Estadão가 브라질 TV 3.0(DTV+) 도입 배경과 방송사별 제공 서비스, 시청 가능 시점 등을 정리한 해설 기사.",
+  "vivensisfabricaemmanausreceptornacionaldetv30": "브라질 Vivensis사가 마나우스 공장에서 TV 3.0 수신기를 자국 최초로 생산해 EAD에 공급하기 시작했다.",
+  "anateldefinecomoserátransiçãoparatv30vejacomoficanoseuestado": "Anatel이 지난 13일 브라질 각 주별 TV 3.0 전환 일정과 방식을 정한 새 규칙을 발표했다."
  },
  "dropped": [
   "entertowinanextgentvequipmentpackage",
@@ -410,6 +417,24 @@
    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNLUtURi11S3YyY0lWWlM3T0RPYkFab3EwSWlmVEg3a2Ryd0sxNFpvWGNiZWRiT3VVMnRuVzNZZXE5OC1FUV9JQTkyZVNoQUltTnpCTnFhaEFGNkNTLTNtRFAzT1RxcE1iLWttdzFGUEVnX3lPTFBLbEFtdDY3bGRYT1pvRXFhRTB2SUxZVXA4TXFmMlkxazhJbk1ncy1uaFZBX280Um5YZU1tZ3FGWHA5SEQtWE5UQmlDRVVVaDdxNHdjS1JsNHJ4TXdqaw?oc=5",
    "source": "mercado.com.ar · MX",
    "date": "2026.06.02"
+  },
+  "dtventendacomovaifuncionaratv30": {
+   "title": "DTV+: entenda como vai funcionar a TV 3.0",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUEoyWFN6dmtKMHBWS0VPT29hSlNwcHBSYXFaSTRLbFlFLTZyVlBWQVNfMmdBeHFBSFdKQjBVRE14bGtOT2w4dl9LOGxVZURqRzlwNEVVa2R0b095SzNxQklicEU4M1VWeGRYZEtqTEVxR0xqalk4cndJTENvNlB3R2JVT2RNTDR4a2RtTmNabEZIN2oxdEQ2NEJHdnNfaWRRQmdYMkM0c1ZrYUg0c1RoSTJFLXVxN2FIeGhTZmFNanBXUW45cFZ2RFY4d0VvZw?oc=5",
+   "source": "Estadão · BR",
+   "date": "2026.07.14"
+  },
+  "vivensisfabricaemmanausreceptornacionaldetv30": {
+   "title": "Vivensis fabrica em Manaus receptor nacional de TV 3.0",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQnBCbURmQ2R5Y0N6dkJXMkhWcjVwZUd6V3VfQjAxanVYZ1E1UkZUOHZFaWNoZm1Jd291RDFBcFBzMktOSmhESzNPSndUYkx1b3pFM29EZmFqaXRpWXVIR2NfSXFiU2U4QTlTd3JoYV9VTmVWbUJvbm96cjJ6N3VIRFU5YVVqY0g1SndXcEJkZkIwWE9PVWxaaEEzc2xLMU0?oc=5",
+   "source": "ConvergenciaDigital · BR",
+   "date": "2026.07.14"
+  },
+  "anateldefinecomoserátransiçãoparatv30vejacomoficanoseuestado": {
+   "title": "Anatel define como será transição para TV 3.0; veja como fica no seu estado",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdWJaR3lMc0RkNVVmLUpvbzVpSU9BVWdNbmh1aXAtcm5Rd1VtSzZGMkI0dXpFUHlna3hvbEw5LTdrR0pLcy1FdWFyVHQ0Tm1Na1BwbHBvczJ1c0QzRVdmY054WGpaOURWU3lNb2x4T29JUmFYaGVJZXNNb1QzTTMtNkpzQ2FwNFBLY09KVFVudmtMWXhHaDhUUlVPRVZGRGtlWEJrdHZrRXJJbjhD?oc=5",
+   "source": "Canaltech · BR",
+   "date": "2026.07.14"
   }
  },
  "related": {
@@ -736,6 +761,14 @@
     "source": "DPL News · MX",
     "date": "2026.06.30"
    }
+  ],
+  "anateldefinecomoserátransiçãoparatv30vejacomoficanoseuestado": [
+   {
+    "title": "PDFF e PDFF-Militar são publicados pela Anatel",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOT2l1dkl2ZENEV0U5MmdjbDY3RndLS0M1NVRfRXlGQmh6MTdHcml1TlFEV0xhLWNmRVFQYlZ1bmtid3hfejBkZ1RwV0Fic0ZIQ09yeTg1azhmUzl2d0wtWXljems3MmZXM1kxcTlmLUZWQUVad0tueV9uZGY3UkI1TVk5d3h1bzVRRGc?oc=5",
+    "source": "TELETIME News · BR",
+    "date": "2026.07.13"
+   }
   ]
  },
  "related_members": {
@@ -785,7 +818,8 @@
   "superintendênciadeoutorgaerecursosàprestaçãodaanatelabreconsultapúblicanº29sobreusodabandaspelosatélitestarlink": "brasilanatelabreconsultassobrestarlinkereestruturaçãodabandas",
   "nicaraguamaestrosconectadosapoyalatransformacióndigitaldelasaulas": "anatelapruebareorganizacióndelespectroparaviabilizarlatv30enbrasil",
   "elsalvadorrenunciadirectorejecutivodelaagenciadeinteligenciaartificialyanunciaincursiónenenergía": "anatelapruebareorganizacióndelespectroparaviabilizarlatv30enbrasil",
-  "lanuevaambicióndebrasilpara2030esconvertirseenunreferenteeniacarlosbaigorri": "anatelapruebareorganizacióndelespectroparaviabilizarlatv30enbrasil"
+  "lanuevaambicióndebrasilpara2030esconvertirseenunreferenteeniacarlosbaigorri": "anatelapruebareorganizacióndelespectroparaviabilizarlatv30enbrasil",
+  "pdffepdffmilitarsãopublicadospelaanatel": "anateldefinecomoserátransiçãoparatv30vejacomoficanoseuestado"
  },
  "outlets": {
   "fatopaulista.com.br": 1,
@@ -797,7 +831,10 @@
   "rede98.com.br": 1,
   "dplnews.com": 4,
   "newslinereport.com": 2,
-  "mercado.com.ar": 2
+  "mercado.com.ar": 2,
+  "estadao.com.br": 1,
+  "convergenciadigital.com.br": 1,
+  "canaltech.com.br": 1
  },
  "tags": {
   "긴트": {
@@ -994,7 +1031,7 @@
   },
   "tv 3.0": {
    "t": "TV 3.0",
-   "n": 2
+   "n": 3
   },
   "contenidos": {
    "t": "Contenidos",
