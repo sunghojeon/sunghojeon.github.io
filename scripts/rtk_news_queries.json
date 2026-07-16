@@ -43,7 +43,7 @@
       "region": "US",
       "why": "NAB just launched Merkhet Solutions to commercialize BPS; company-name coverage (e.g. congressional testimony) won't always include 'broadcast positioning system'.",
       "added": "2026-07-13",
-      "misses": 0,
+      "misses": 1,
       "enabled": true
     },
     {
@@ -51,7 +51,7 @@
       "region": "US",
       "why": "NextNav is the main terrestrial PNT rival squaring off against broadcasters in FCC/House GPS proceedings, and NextNav-focused stories rarely mention ATSC 3.0 or BPS.",
       "added": "2026-07-13",
-      "misses": 0,
+      "misses": 1,
       "enabled": true
     },
     {
@@ -59,7 +59,7 @@
       "region": "US",
       "why": "Newly launched maker of a software-defined atomic clock for GPS-independent ATSC 3.0 timing, a direct BPS-adjacent product line.",
       "added": "2026-07-13",
-      "misses": 0,
+      "misses": 1,
       "enabled": true
     },
     {
@@ -67,7 +67,7 @@
       "region": "BR",
       "why": "Manaus Free Zone (Suframa/Zona Franca) receiver-manufacturing PPB rule change — the industrial-policy/jobs angle on the TV 3.0 receiver transition; absent from the TV 3.0/DTV+ seed.",
       "added": "2026-07-13",
-      "misses": 0,
+      "misses": 1,
       "enabled": true
     },
     {
@@ -75,7 +75,7 @@
       "region": "US",
       "why": "ATSC-as-institution beat (annual meeting, awards, leadership medal, standards MoUs incl. ATSC/SBTVD-Forum/TTA) that the 'ATSC 3.0'/'NextGen TV' seed misses because these headlines lack the '3.0' string.",
       "added": "2026-07-13",
-      "misses": 0,
+      "misses": 1,
       "enabled": true
     },
     {
@@ -83,7 +83,7 @@
       "region": "KR",
       "why": "MBC RTK partner GINT (precision agriculture / autonomous tractors). The OR group surfaces the GPS/RTK autonomous-driving coverage the bare name misses; titles rarely carry positioning words, so 긴트|gint is whitelisted in RELEVANCE_PATTERNS.",
       "added": "2026-07-13",
-      "misses": 0,
+      "misses": 1,
       "enabled": true,
       "pinned": true
     },
@@ -101,7 +101,7 @@
       "region": "KR",
       "why": "MBC RTK survey partner GRM (sold MBC RTK to Seoul City Gas). The 측량 qualifier strips the 단양마늘 fuzzy-match noise on the bare name and also returns the 서울도시가스 customer items.",
       "added": "2026-07-13",
-      "misses": 0,
+      "misses": 1,
       "enabled": true,
       "pinned": true
     },
@@ -111,7 +111,7 @@
       "pinned": true,
       "why": "User-designated: Pearl TV runs the NextGen TV / ATSC 3.0 converter-box program (EdgeBeam ecosystem). Qualifier strips the IMDb 'Black Pearl' and Shenzhen Pearl TV Tower noise.",
       "added": "2026-07-13",
-      "misses": 0,
+      "misses": 1,
       "enabled": true
     },
     {
@@ -120,7 +120,7 @@
       "pinned": true,
       "why": "User-designated: Zinwell builds ATSC 3.0 converter boxes for the Pearl program. Qualifier strips the TWSE:2485 stock-note noise.",
       "added": "2026-07-13",
-      "misses": 0,
+      "misses": 1,
       "enabled": true
     },
     {
@@ -129,7 +129,7 @@
       "pinned": true,
       "why": "User-designated: Tolka makes ATSC 3.0 / DTV+ receivers. Zero press since 2026-05 (bare name is Dublin's Tolka Park football); pinned so the dry spell doesn't auto-disable it.",
       "added": "2026-07-13",
-      "misses": 14,
+      "misses": 15,
       "enabled": true
     },
     {
@@ -138,7 +138,7 @@
       "pinned": true,
       "why": "Cerinet's broad ATSC 3.0 SEP patent campaign against Samsung, LG and 10 others (E.D. Tex.). Coverage often lacks 'ATSC 3.0' in the headline; the campaign will run for years.",
       "added": "2026-07-14",
-      "misses": 13,
+      "misses": 14,
       "enabled": true
     },
     {
@@ -147,7 +147,7 @@
       "pinned": true,
       "why": "MBC's global service brand. Zero news hits today (only LinkedIn/industry posts so far) — pinned so the feed is already listening when press coverage starts. Qualifier avoids the Economic Group Pension Services (EGPS) collision.",
       "added": "2026-07-14",
-      "misses": 13,
+      "misses": 14,
       "enabled": true
     },
     {
@@ -156,7 +156,7 @@
       "pinned": true,
       "why": "KBS 뉴스룸(MyloveKBS) — 보도자료 원문 소스. JS 렌더링이라 직접 스크랩 불가, site: 쿼리로 구독. 예능·다큐 등은 관련성 필터가 걸러낸다.",
       "added": "2026-07-14",
-      "misses": 0,
+      "misses": 1,
       "enabled": true
     },
     {
@@ -165,7 +165,7 @@
       "pinned": true,
       "why": "브라질 방송·통신 규제기관 전반. 한정어를 붙이면 'IA 규제 자문' 같은 정책 기사를 놓친다 (사용자 확인) — bare로 두고 노이즈는 관련성 필터 + 검증이 거른다.",
       "added": "2026-07-14",
-      "misses": 0,
+      "misses": 1,
       "enabled": true
     }
   ],
