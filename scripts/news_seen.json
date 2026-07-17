@@ -120,7 +120,9 @@
   "우주청한국형gps상용화시동기업들시험검증인프라시급",
   "통신사유료방송성패의해답은vod활용법nw리포트",
   "quandoatclvaivendertv30nósconversamoscomamarcaparadescobrir",
-  "tcureabredebatesobreasescolhasdaanatelnoleilãodo5gparaconectividadeescolar"
+  "tcureabredebatesobreasescolhasdaanatelnoleilãodo5gparaconectividadeescolar",
+  "tv30emoperaçãoemsãopauloampliatestesdeinteratividadeáudiopersonalizadoetransmissãoem4k",
+  "vivolideramercadomóvelcom379segundoanatel"
  ],
  "summaries": {
   "지상파올해도빨간불kbs올해100억원대적자예상": "방송 광고 급감으로 KBS가 올해 100억 원대 적자를 예상하고 MBC·SBS도 적자 국면에 들어서는 등 지상파 경영난이 심화되고 있다.",
@@ -171,7 +173,8 @@
   "tv30suaantenadigitalatualvaifuncionarcomanovatecnologia": "Canaltech이 기존 디지털 안테나로 브라질 TV 3.0(DTV+) 수신이 가능한지 설명하는 기사를 실었다.",
   "nabnextgentvrepresentsanessentialinvestmentinthefutureoffreelocaltelevision": "NAB가 NextGen TV를 무료 지상파 방송의 미래를 위한 필수 투자라고 강조하는 성명을 냈다.",
   "37조투입하는한국형gps개발단계부터산업계참여": "우주항공청이 2029년 1호기 발사를 목표로 한국형 GPS(KPS)에 3.7조원을 투입, 산업계와 함께 수신기·인증·서비스 기반 마련에 나선다.",
-  "quandoatclvaivendertv30nósconversamoscomamarcaparadescobrir": "TCL이 브라질에서 TV 3.0(DTV+) 지원 TV를 언제 출시할지 브랜드 측에 직접 문의한 인터뷰 기사."
+  "quandoatclvaivendertv30nósconversamoscomamarcaparadescobrir": "TCL이 브라질에서 TV 3.0(DTV+) 지원 TV를 언제 출시할지 브랜드 측에 직접 문의한 인터뷰 기사.",
+  "tv30emoperaçãoemsãopauloampliatestesdeinteratividadeáudiopersonalizadoetransmissãoem4k": "Globo가 상파울루·리우데자네이루 DTV+(TV 3.0) 운영 한 달째를 맞아 인터랙티브 기능, 개인화 오디오, 4K 전송 테스트를 확대 평가 중이다."
  },
  "dropped": [
   "entertowinanextgentvequipmentpackage",
@@ -195,7 +198,8 @@
   "lgu4개방송사유료vod한곳에서utv방송패스출시",
   "ai가깨우는미디어시대2026koba에서만난방송미디어의미래",
   "스튜디오메타케이美싱클레어와손잡고k콘텐츠미국방송시장공략",
-  "tcureabredebatesobreasescolhasdaanatelnoleilãodo5gparaconectividadeescolar"
+  "tcureabredebatesobreasescolhasdaanatelnoleilãodo5gparaconectividadeescolar",
+  "vivolideramercadomóvelcom379segundoanatel"
  ],
  "reps": {
   "지상파올해도빨간불kbs올해100억원대적자예상": {
@@ -490,6 +494,12 @@
    "title": "Quando a TCL vai vender TV 3.0? Nós conversamos com a marca para descobrir",
    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPY2txR1p5cjIyQUdjc1JndFNhT2RTT2VEVDZiam5oZ3paWmw1Y3FQU1hNcVU3TGU2UU1PM1hsTFVMcHp2eFczeXdOSzRXMlRaQWJGTkNRRDUtTnA2SVlvVUdMUzUzZzhzeVRnNGZsY05GSGFDOUdPbU5nLS1jX011NTN3WHlGVWJOSjlNemZSZ3BaM0ZaVHdoelRCSkdyNndnUG9WcHFhSHJsY00?oc=5",
    "source": "Canaltech · BR",
+   "date": "2026.07.16"
+  },
+  "tv30emoperaçãoemsãopauloampliatestesdeinteratividadeáudiopersonalizadoetransmissãoem4k": {
+   "title": "TV 3.0 em operação em São Paulo amplia testes de interatividade, áudio personalizado e transmissão em 4K",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUlNibVpDRFFWdzV0bHZ5NTY5TXU1LVg3QlBJRWo0TzgzU29GMmwzUmNmMERGbjFkZ3hNSHhmN0dGR3NZdEE1ZkpUNllHLXBqcHJlYXZpZVpXZG8tUHQ0SjQ1NndZMTd5YzFXUVhLWXhJUnl2aFRGNzRPRDg3MTVZWDE4dWp5SWkwdWxHLXhaczJxbzV6SkVXNTNqWll5VHFfZXF1cUVIVWdfSGw0R08xWjg5eTRxcmZsd1VrTk1lLVlLa0ppanVlUGJGYTQ?oc=5",
+   "source": "set.org.br · BR",
    "date": "2026.07.16"
   }
  },
@@ -929,7 +939,8 @@
   "mundoconectado.com.br": 1,
   "tvtechnology.com": 1,
   "newsis.com": 1,
-  "news1.kr": 1
+  "news1.kr": 1,
+  "set.org.br": 1
  },
  "tags": {
   "긴트": {
@@ -1238,6 +1249,38 @@
   },
   "gps": {
    "t": "GPS",
+   "n": 1
+  },
+  "4k hdr": {
+   "t": "4K HDR",
+   "n": 1
+  },
+  "áudio imersivo": {
+   "t": "áudio imersivo",
+   "n": 1
+  },
+  "broadband": {
+   "t": "broadband",
+   "n": 1
+  },
+  "copa do mundo": {
+   "t": "Copa do Mundo",
+   "n": 1
+  },
+  "dtv": {
+   "t": "DTV",
+   "n": 1
+  },
+  "feed": {
+   "t": "feed",
+   "n": 1
+  },
+  "globo": {
+   "t": "globo",
+   "n": 1
+  },
+  "são paulo": {
+   "t": "São Paulo",
    "n": 1
   }
  }
