@@ -2,10 +2,17 @@
 # -*- coding: utf-8 -*-
 """Report newly-collected Broadcast RTK / ATSC 3.0 news to Telegram.
 
-Reads the NEWS-TIMELINE block that fetch_rtk_news.py just wrote, works out
-which articles are genuinely new, reads each one's body, has Claude vet it,
-group duplicate coverage, and write a one-line Korean summary, then posts the
-digest and carries the results onto the page itself.
+Reads the NEWS-TIMELINE block that fetch_rtk_news.py just wrote (the
+scripts/news_timeline.html data store — there is no public page any more),
+works out which articles are genuinely new, reads each one's body, has
+Claude vet it, group duplicate coverage, and write a one-line Korean
+summary, then posts the digest and folds the results back into the store.
+
+The digest hides nothing: every article that was collected but not
+reported appears in it with the reason — low relevance score (from the
+fetch run report), vetted out as junk/off-topic, stale re-index, or
+folded under earlier coverage (♻️). Query evolution (added / disabled
+keywords) is reported with reasons the same way.
 
 Grouping: wire-copy coverage (the same announcement run by six outlets) is
 folded into one REPRESENTATIVE article; the other outlets appear as a
@@ -22,7 +29,8 @@ Dedup subtleties learned the hard way:
     (self-heal), so summaries and grouping catch up on their own.
 
 Usage (from the repository root):
-    python scripts/news_notify.py OLD_PAGE NEW_PAGE
+    python scripts/news_notify.py OLD_TIMELINE NEW_TIMELINE
+    (before/after copies of scripts/news_timeline.html)
 
 Environment:
     ANTHROPIC_API_KEY    vetting/summaries via the API (falls back to the
@@ -41,6 +49,7 @@ import os
 import re
 import subprocess
 import sys
+import tempfile
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -48,7 +57,7 @@ from pathlib import Path
 SCRIPT_DIR = Path(__file__).resolve().parent
 sys.path.insert(0, str(SCRIPT_DIR))
 
-from datetime import datetime  # noqa: E402
+from datetime import datetime, timezone  # noqa: E402
 
 from fetch_rtk_news import (  # noqa: E402
     QUERIES_FILE,
@@ -62,6 +71,9 @@ MARK_START = "<!-- NEWS-TIMELINE:START -->"
 MARK_END = "<!-- NEWS-TIMELINE:END -->"
 
 SEEN_FILE = SCRIPT_DIR / "news_seen.json"
+# Written by fetch_rtk_news.py in the same run: low-relevance drops,
+# per-region counts, query additions/disablings.
+REPORT_FILE = Path(tempfile.gettempdir()) / "rtk_news_run_report.json"
 SEEN_KEEP = 800           # titles retained in the ledger
 DICT_KEEP = 500           # summaries / reps / related entries retained
 
@@ -158,8 +170,22 @@ def parse_items(path: Path) -> list[dict]:
     ]
 
 
+def load_report() -> dict:
+    """fetch_rtk_news.py's run report; {} when absent or stale."""
+    try:
+        report = json.loads(REPORT_FILE.read_text(encoding="utf-8"))
+        gen = report.get("generated", "")
+        if gen:  # a report left over from an unrelated earlier run
+            age = datetime.now(timezone.utc) - datetime.fromisoformat(gen)
+            if age.total_seconds() > 6 * 3600:
+                return {}
+        return report
+    except Exception:
+        return {}
+
+
 def load_seen() -> dict:
-    seen = {"titles": [], "summaries": {}, "dropped": [],
+    seen = {"titles": [], "summaries": {}, "dropped": [], "low_reported": [],
             "reps": {}, "related": {}, "related_members": {}, "outlets": {},
             "tags": {}}
     if SEEN_FILE.exists():
@@ -176,6 +202,7 @@ def save_seen(seen: dict) -> None:
     # drop/summary verdicts and let vetted-out duplicates resurface.)
     seen["titles"] = seen["titles"][-SEEN_KEEP:]
     seen["dropped"] = seen["dropped"][-SEEN_KEEP:]
+    seen["low_reported"] = seen["low_reported"][-SEEN_KEEP:]
     for k in ("summaries", "reps", "related", "related_members", "outlets",
               "tags"):
         d = seen[k]
@@ -411,14 +438,20 @@ def _vet_chunk(items: list[dict], infos: list[dict],
 
 
 def apply_verdicts(fresh: list[dict], verdicts: dict[int, dict],
-                   seen: dict, recent_reps: list[dict]) -> tuple[list, int]:
-    """Fold verdicts into the ledger. Returns (kept_for_telegram, dropped_n).
+                   seen: dict, recent_reps: list[dict]
+                   ) -> tuple[list, list, list]:
+    """Fold verdicts into the ledger. Returns (kept, excluded, folded).
 
-    kept_for_telegram: [(item, summary, [related_meta...])] — only new
-    representatives; related articles ride along under their representative.
+    kept: [(item, summary, [related_meta...])] — new representatives;
+    related articles from the same batch ride along under them.
+    excluded: [{title, link, source, reason}] — vetted out, with the reason.
+    folded: [{title, link, source, rep_title}] — grouped under a rep that is
+    NOT in this batch (usually an already-reported story), so they would
+    otherwise vanish from the digest without a trace.
     """
     kept: dict[str, tuple[dict, str, list]] = {}   # rep_key -> entry
-    dropped = 0
+    excluded: list[dict] = []
+    folded: list[dict] = []
 
     def resolve_rep_key(ref: str, hop: int = 0) -> str | None:
         """duplicate_of reference -> representative's norm key."""
@@ -447,7 +480,8 @@ def apply_verdicts(fresh: list[dict], verdicts: dict[int, dict],
             kept[key] = (it, "", [])
             continue
         if not v["keep"]:
-            dropped += 1
+            excluded.append({**item_meta(it),
+                             "reason": v.get("drop_reason", "") or "기준 미달"})
             if key not in set(seen["dropped"]):
                 seen["dropped"].append(key)
             continue
@@ -460,6 +494,10 @@ def apply_verdicts(fresh: list[dict], verdicts: dict[int, dict],
                 seen["related"][rep_key].append(item_meta(it))
             if rep_key in kept:           # rep is in this batch — ride along
                 kept[rep_key][2].append(item_meta(it))
+            else:                         # rep already reported — show as ♻️
+                rep_meta = seen["reps"].get(rep_key, {})
+                folded.append({**item_meta(it),
+                               "rep_title": rep_meta.get("title", "")})
         else:
             summary = v["summary"].strip()
             # 📊 = carries official slides/figures — the articles worth
@@ -470,7 +508,7 @@ def apply_verdicts(fresh: list[dict], verdicts: dict[int, dict],
             if summary:
                 seen["summaries"][key] = summary
             kept[key] = (it, summary, [])
-    return list(kept.values()), dropped
+    return list(kept.values()), excluded, folded
 
 
 # ---------------------------------------------------------------------------
@@ -495,26 +533,38 @@ def related_line_html(rels: list[dict]) -> str:
     return f'<div class="tl-related">관련기사 {len(rels)}<br>{rows}</div>'
 
 
-def query_digest() -> str:
+def keyword_digest(report: dict) -> str:
+    """This run's query-evolution changes (with reasons), plus totals.
+
+    The full query list is in scripts/rtk_news_queries.json — the digest
+    reports what CHANGED, the way a human editor would."""
     try:
         store = json.loads(QUERIES_FILE.read_text(encoding="utf-8"))
     except Exception:
-        return ""
+        store = {}
     seeds = store.get("seeds", [])
     learned = [q for q in store.get("learned", []) if q.get("enabled", True)]
     feeds = [f for f in store.get("feeds", []) if f.get("enabled", True)]
-    lines = [f'  <code>[{q["region"]}] {esc(q["q"])}</code>' for q in seeds]
-    lines += [f'  <code>[{q["region"]}] {esc(q["q"])}</code> 🆕'
-              for q in learned]
-    lines += [f'  <code>[{f["region"]}] 매체구독: {esc(f["source"])}</code>'
-              for f in feeds]
-    if not lines:
-        return ""
-    head = f"🔎 <b>검색 키워드</b> — 시드 {len(seeds)}"
-    if learned:
-        head += f" + 학습 {len(learned)}"
+    boards = [w for w in store.get("watch_pages", [])
+              if w.get("enabled", True)]
+    head = f"🔎 <b>검색 키워드</b> — 시드 {len(seeds)} · 학습 {len(learned)}"
     if feeds:
-        head += f" + 매체 {len(feeds)}"
+        head += f" · 매체 {len(feeds)}"
+    if boards:
+        head += f" · 게시판 {len(boards)}"
+
+    lines = []
+    for q in report.get("queries_added", []):
+        lines.append(f'➕ 추가: <code>[{q["region"]}] {esc(q["q"])}</code>')
+        if q.get("why"):
+            lines.append(f'   이유: {esc(q["why"])}')
+    for q in report.get("queries_disabled", []):
+        lines.append(f'➖ 비활성화: <code>[{q["region"]}] {esc(q["q"])}</code>'
+                     f' — {q.get("misses", "?")}회 연속 무수확')
+    if report.get("evolve_note"):
+        lines.append(f'⚠️ {esc(report["evolve_note"])}')
+    if not lines:
+        lines.append("변경 없음")
     out = head + "\n" + "\n".join(lines)
 
     # 누적 태그 — 기사들이 스스로 말해주는 다음 진화 후보
@@ -530,24 +580,44 @@ def query_digest() -> str:
     return out
 
 
-def build_messages(kept: list[tuple[dict, str, list]], dropped: int,
-                   grouped: int, total: int) -> list[str]:
-    queries = query_digest()
+def _short(title: str, n: int = 70) -> str:
+    return title if len(title) <= n else title[: n - 1] + "…"
 
-    if not kept:
-        msg = f"📡 <b>Broadcast RTK 뉴스</b>\n\n새로 보낼 기사 없음 (수집 {total}건)."
-        if dropped or grouped:
-            msg += f"\n제외 {dropped}건 · 관련기사 묶음 {grouped}건."
-        return [msg + "\n\n" + queries] if queries else [msg]
 
+def _section_blocks(head: str, lines: list[str],
+                    chunk: int = 1600) -> list[str]:
+    """A section as one or more <=chunk-char blocks (long lists must not
+    produce a single block over the Telegram message cap); the header is
+    repeated with '계속' on continuation blocks."""
+    blocks, cur = [], head
+    for ln in lines:
+        if cur != head and len(cur) + len(ln) + 1 > chunk:
+            blocks.append(cur)
+            cur = head.replace("</b>", " — 계속</b>", 1)
+        cur += "\n" + ln
+    blocks.append(cur)
+    return blocks
+
+
+def build_messages(kept: list[tuple[dict, str, list]], excluded: list[dict],
+                   folded: list[dict], grouped: int, total: int,
+                   report: dict) -> list[str]:
     header = f"📡 <b>Broadcast RTK 뉴스 — 신규 {len(kept)}건</b> (수집 {total}건)"
+    region_counts = report.get("region_counts", {})
+    if region_counts:
+        header += ("\n<i>국가별 수집: "
+                   + " · ".join(f"{r} {n}"
+                                for r, n in sorted(region_counts.items()))
+                   + "</i>")
     extras = []
     if grouped:
         extras.append(f"관련기사 묶음 {grouped}건")
-    if dropped:
-        extras.append(f"제외 {dropped}건")
+    if excluded:
+        extras.append(f"제외 {len(excluded)}건")
     if extras:
         header += f"\n<i>{' · '.join(extras)}</i>"
+    if not kept:
+        header += "\n\n새로 보낼 기사 없음."
 
     blocks = []
     for it, summary, rels in kept:
@@ -556,13 +626,32 @@ def build_messages(kept: list[tuple[dict, str, list]], dropped: int,
             parts.append(f"  {esc(summary)}")
         parts.append(f'  <i>{esc(it["source"])} · {esc(it["date"])}</i>')
         for m in rels:
-            title = m["title"] if len(m["title"]) <= 60 else m["title"][:57] + "…"
-            parts.append(f'  ↳ <a href="{esc(m["link"])}">{esc(title)}</a> '
+            parts.append(f'  ↳ <a href="{esc(m["link"])}">'
+                         f'{esc(_short(m["title"], 60))}</a> '
                          f'({esc(outlet(m["source"]))})')
         blocks.append("\n".join(parts))
 
-    if queries:
-        blocks.append(queries)
+    # ♻️ — an outlet re-running an already-reported story. Listed, never
+    # silently swallowed (사용자 요청: 재게시도 표시해서 다시 알릴 것).
+    if folded:
+        lines = []
+        for m in folded:
+            line = (f'· <a href="{esc(m["link"])}">{esc(_short(m["title"]))}'
+                    f'</a> ({esc(outlet(m["source"]))})')
+            if m.get("rep_title"):
+                line += f' → 기존 보도 “{esc(_short(m["rep_title"], 45))}”'
+            lines.append(line)
+        blocks += _section_blocks(
+            f"♻️ <b>기존 보도로 묶음 {len(folded)}건</b>", lines)
+
+    # 🚫 — every article collected but not reported, with the reason.
+    if excluded:
+        lines = [f'· <a href="{esc(m["link"])}">{esc(_short(m["title"]))}</a>'
+                 f' ({esc(outlet(m["source"]))}) — {esc(m["reason"])}'
+                 for m in excluded]
+        blocks += _section_blocks(f"🚫 <b>제외 {len(excluded)}건</b>", lines)
+
+    blocks.append(keyword_digest(report))
 
     messages, current = [], header
     for block in blocks:
@@ -602,8 +691,8 @@ def send_telegram(messages: list[str]) -> None:
 
 
 def patch_page(path: Path, seen: dict) -> None:
-    """Rebuild the timeline items from the ledger: drop vetted-out junk, fold
-    related coverage under its representative, attach Korean summaries."""
+    """Rebuild the timeline data store from the ledger: drop vetted-out junk,
+    fold related coverage under its representative, attach summaries."""
     text = path.read_text(encoding="utf-8")
     if MARK_START not in text or MARK_END not in text:
         return
@@ -837,13 +926,33 @@ def main() -> int:
         fresh = fresh[:VET_MAX]
         fresh_keys = {norm_title(it["title"]) for it in fresh}
 
+    report = load_report()
     verdicts = vet_and_summarize(fresh, recent_rep_list(seen),
                                  seen["outlets"], seen["tags"])
-    kept, dropped = apply_verdicts(fresh, verdicts, seen, recent_rep_list(seen))
-    grouped = len(fresh) - len(kept) - dropped
-    grouped += enrich_with_siblings(kept, verdicts, fresh, seen)
+    kept, excluded, folded = apply_verdicts(fresh, verdicts, seen,
+                                            recent_rep_list(seen))
+    grouped = (len(folded) + sum(len(rels) for _, _, rels in kept)
+               + enrich_with_siblings(kept, verdicts, fresh, seen))
 
-    send_telegram(build_messages(kept, dropped, grouped, len(new_items)))
+    # Fetch-stage relevance drops — collected but never shown to the vetting
+    # LLM. Listed too: the digest accounts for every collected article.
+    # Each one is announced ONCE (low_reported ledger) — stock-note junk that
+    # re-fetches daily must not re-clutter every digest — and drops that
+    # sibling-search later adopted as related coverage are not "excluded".
+    known = (set(seen["titles"]) | set(seen["related_members"])
+             | set(seen["low_reported"]))
+    for it in report.get("low_relevance", []):
+        key = norm_title(it["title"])
+        if key in known:
+            continue
+        known.add(key)
+        seen["low_reported"].append(key)
+        excluded.append({"title": it["title"], "link": it["link"],
+                         "source": f'{it["source"]} · {it["region"]}',
+                         "reason": "관련성 점수 미달(키워드 필터)"})
+
+    send_telegram(build_messages(kept, excluded, folded, grouped,
+                                 len(new_items), report))
     seen["titles"].extend(sorted(fresh_keys))
 
     # Self-heal: articles reported by an LLM-less run sit on the page without

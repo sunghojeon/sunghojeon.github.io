@@ -35,9 +35,10 @@ jobs:
       - name: Install Claude Code CLI
         run: npm install -g @anthropic-ai/claude-code
 
-      # The committed page, to diff the fetched articles against.
-      - name: Snapshot current page
-        run: cp news.md /tmp/news.before.md
+      # The committed timeline data store (not a website page — the public
+      # In-the-news page was removed), to diff the fetched articles against.
+      - name: Snapshot current timeline
+        run: cp scripts/news_timeline.html /tmp/news.before.html
 
       # --evolve mines the fetched articles for new search queries (new
       # companies, programs, regulators) and adds the accepted ones to
@@ -59,17 +60,18 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python scripts/news_notify.py /tmp/news.before.md news.md
+        run: python scripts/news_notify.py /tmp/news.before.html scripts/news_timeline.html
 
-      # The page carries a "last updated" stamp that changes every run, so a
-      # run where no article changed still shows the page as modified. Discard
-      # that edit rather than pushing a no-op (each push rebuilds Pages).
+      # The timeline carries a "last updated" stamp that changes every run, so
+      # a run where no article changed still shows the file as modified.
+      # Discard that edit rather than pushing a no-op (every push still
+      # triggers a Pages rebuild, even though scripts/ is not rendered).
       # The learned-query file is committed on its own merit.
       - name: Commit
         run: |
           if [ "${{ steps.notify.outputs.changed }}" != "true" ]; then
             echo "Article list unchanged — discarding the timestamp-only edit."
-            git checkout -- news.md
+            git checkout -- scripts/news_timeline.html
           fi
           if git diff --quiet; then
             echo "Nothing to commit."
@@ -77,6 +79,6 @@ jobs:
           fi
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add news.md scripts/rtk_news_queries.json scripts/news_seen.json
+          git add scripts/news_timeline.html scripts/rtk_news_queries.json scripts/news_seen.json
           git commit -m "news: refresh timeline (${{ steps.notify.outputs.added }} new)"
           git push
