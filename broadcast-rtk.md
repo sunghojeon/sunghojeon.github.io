@@ -97,4 +97,4 @@ A terrestrial broadcast network inverts that economics. One transmitter delivers
   <div class="svc-item"><span class="svc-label"><a href="/TTAR-07-0048/">TTAR-07.0048 — drone-based DTV antenna pattern verification</a> — TTA technical report</span><span class="svc-date">2025.10</span></div>
 </div>
 
-<p class="news-more"><a href="/research/">All publications &rarr;</a> · <a href="/presentations/">All presentation decks &rarr;</a> · <a href="/news/">In the news &rarr;</a></p>
+<p class="news-more"><a href="/research/">All publications &rarr;</a> · <a href="/presentations/">All presentation decks &rarr;</a></p>

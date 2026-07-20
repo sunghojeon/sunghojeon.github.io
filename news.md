@@ -3,6 +3,9 @@ layout: page
 permalink: /news/
 title: In the news
 hide_page_title: true
+# Not rendered on the site — the file stays as the data store for the
+# twice-daily news pipeline (rtk-news.yml) and its Telegram digest.
+published: false
 ---
 
 <section class="page-intro">
