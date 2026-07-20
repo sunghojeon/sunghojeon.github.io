@@ -144,7 +144,10 @@
   "tv30semconversoraindasemprevisãodasfabricantes",
   "anateldefineprazoparastarlinkbrasil",
   "quandoasamsungvaivendertv30nósconversamoscomamarcaparadescobrir",
-  "tv30ganhacronogramaoficialquepodemudaraformadeassistirtelevisão"
+  "tv30ganhacronogramaoficialquepodemudaraformadeassistirtelevisão",
+  "vivensisacelerachegadadatv30comprimeiroreceptornacionaldesenvolvidoefabricadonobrasil",
+  "vivensisfabricaprimeiroreceptornacionalparatv30eentregaloteinicialparatestes",
+  "empresabrasileiraentregaprimeiroreceptordatv30fabricadonopaís"
  ],
  "summaries": {
   "지상파올해도빨간불kbs올해100억원대적자예상": "방송 광고 급감으로 KBS가 올해 100억 원대 적자를 예상하고 MBC·SBS도 적자 국면에 들어서는 등 지상파 경영난이 심화되고 있다.",
@@ -201,7 +204,8 @@
   "créditointernacionalfazfustdarumsaltode200er257bilhõesvãoparatv30": "브라질 Fust 관리위원회가 2027년 예산 38.7억 헤알을 승인했고, 이 중 25.7억 헤알을 TV 3.0 보급 프로그램 Brasil Mais TV 3.0에 배정했다.",
   "falanortenordeste2026amplíasuespaciodenegocioydebateelfuturodelaradiodifusiónconelfocoenlainnovaciónylaradioytv30": "브라질 세아라주 포르탈레자에서 격년으로 열리는 방송 행사 Fala Norte Nordeste 2026이 Radio·TV 3.0과 혁신을 주제로 사업·논의 공간을 확대한다.",
   "atsc30atnabshowfocusedonbrazillowcostreceivers": "TVTechnology가 2026 NAB Show에서 ATSC 3.0 관련 논의가 브라질 TV 3.0 진출과 저가형 수신기 개발에 초점을 맞췄다고 보도했다.",
-  "quandoasamsungvaivendertv30nósconversamoscomamarcaparadescobrir": "Canaltech가 삼성전자에 TV 3.0(DTV+) 지원 TV 판매 계획을 문의했으나 브라질 출시 일정은 아직 확정되지 않았다고 전했다."
+  "quandoasamsungvaivendertv30nósconversamoscomamarcaparadescobrir": "Canaltech가 삼성전자에 TV 3.0(DTV+) 지원 TV 판매 계획을 문의했으나 브라질 출시 일정은 아직 확정되지 않았다고 전했다.",
+  "empresabrasileiraentregaprimeiroreceptordatv30fabricadonopaís": "브라질 파라나 소재 통신사 Vivensis가 국내 최초로 자체 제조한 TV 3.0 수신기 초도 물량을 Fórum SBTVD·Gired와 협력해 EAD에 납품했다."
  },
  "dropped": [
   "entertowinanextgentvequipmentpackage",
@@ -565,6 +569,12 @@
    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVzJOU2xaUkpubjJGbEFSa2lveF9jd2xtdUdULWdNRWtibEp1czhFVExzYzZXdzZMZFlKcUEyMmpnanZSWjNKV1R5ZEJSWEU1OW1LaUpwSWdmYVdwNFdsM216VkxKd2JwbVhTWlg5WVRqS2VTaVhKNnN4YTBuRncxWWhyM1ZiQjBUcHhoZkxLQjBaaVk0cUN3NUJNam9ZN0xhV2VxU0ZlUWVyY1ZwcG9RMA?oc=5",
    "source": "Canaltech · BR",
    "date": "2026.07.18"
+  },
+  "empresabrasileiraentregaprimeiroreceptordatv30fabricadonopaís": {
+   "title": "Empresa brasileira entrega primeiro receptor da TV 3.0 fabricado no país",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPa0RaZS1jb0hFZlItRnc5dVZkR0V3YkdFOHJYajF5SHZIRlFPUkY3TkRtMDhid2t2MHJhU2N5NUZWcThlQU1Kb1EtaURDOV9JMVQ5ZGVjUjB1VVhtVy1wanBDOVRtOG51cFlsRDZDRVhrYUxlOE1jRXB1TTlXOFk2djZveS1aczFhYW9pc2doNm85ei1OOUVqWS03Q2dSNEUzYnZ4V0ROM2l6d2g2?oc=5",
+   "source": "glaucialima.com · BR",
+   "date": "2026.07.19"
   }
  },
  "related": {
@@ -995,6 +1005,20 @@
     "source": "SpaceMoney · BR",
     "date": "2026.07.13"
    }
+  ],
+  "empresabrasileiraentregaprimeiroreceptordatv30fabricadonopaís": [
+   {
+    "title": "Vivensis acelera chegada da TV 3.0 com primeiro receptor nacional desenvolvido e fabricado no Brasil",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPT2FpR3h2eUxPdUpwNGcwYnJIOEIwZ2t6bXJtY1RtbFpyWTNhenIzcWI2ckQteXdlYWF4ZHJ4MmFHYUFTRWwySjBlV1E3dlN4cVBjNFEzQ1Nhd3h5d2IxdDZFMXRzamt4SWVzMVlIamNnVjBJajQ2NHhUczcxbVdnMWZrNFlqYmw1a3JhOTI4TWxSVFFPaHpadVIxaUs5UmFDNFR3LXVYbXpaVmVIVGx0ZFUwYWtES1BVN0xweVc5RWFncWdiTVE1UFRB?oc=5",
+    "source": "AmazoniaPress · BR",
+    "date": "2026.07.17"
+   },
+   {
+    "title": "Vivensis fabrica primeiro receptor nacional para TV 3.0 e entrega lote inicial para testes",
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNV2cxbGl4MmUtSmJRTlFaZE5rRFZ5ZVkycHhsNjRsNUVVdmNlQkdQZE12TURnZzNRODVRVC1XSU5PbE4xMVBqQWFlUmZvRHF1YWF3VzBSSkh5ajhzc1BGOTJ0YXRSb0E2RlN3UklicGNhZWtleWYyRmpHQUJscDl4bDJkbFpIOU00Z3lJdkJtNTFvTXhCMFFGYlI3ZXVRNXJmMVg1OEx6UExveXdFOUNEU29mTFhRdjgwcEVTdUZpRDI5RHVHcXR2STZqTnN2M0dRODVvRE5haGFLZjA?oc=5",
+    "source": "Antenados na TV e Streaming · BR",
+    "date": "2026.07.15"
+   }
   ]
  },
  "related_members": {
@@ -1059,7 +1083,9 @@
   "fustdeverátriplicaroorçamentopara2027comcréditoexterno": "créditointernacionalfazfustdarumsaltode200er257bilhõesvãoparatv30",
   "conselhogestordofustaprovaorçamentoder387bilhõesdofundopara2027": "créditointernacionalfazfustdarumsaltode200er257bilhõesvãoparatv30",
   "tv30ganhacronogramaoficialquepodemudaraformadeassistirtelevisão": "anateldefinecomoserátransiçãoparatv30vejacomoficanoseuestado",
-  "tv30semconversoraindasemprevisãodasfabricantes": "quandoasamsungvaivendertv30nósconversamoscomamarcaparadescobrir"
+  "tv30semconversoraindasemprevisãodasfabricantes": "quandoasamsungvaivendertv30nósconversamoscomamarcaparadescobrir",
+  "vivensisacelerachegadadatv30comprimeiroreceptornacionaldesenvolvidoefabricadonobrasil": "empresabrasileiraentregaprimeiroreceptordatv30fabricadonopaís",
+  "vivensisfabricaprimeiroreceptornacionalparatv30eentregaloteinicialparatestes": "empresabrasileiraentregaprimeiroreceptordatv30fabricadonopaís"
  },
  "outlets": {
   "fatopaulista.com.br": 1,
@@ -1083,7 +1109,8 @@
   "set.org.br": 1,
   "telesintese.com.br": 1,
   "prensario.net": 1,
-  "diarinho.net": 1
+  "diarinho.net": 1,
+  "glaucialima.com": 1
  },
  "tags": {
   "긴트": {
