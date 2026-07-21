@@ -129,7 +129,7 @@
       "pinned": true,
       "why": "User-designated: Tolka makes ATSC 3.0 / DTV+ receivers. Zero press since 2026-05 (bare name is Dublin's Tolka Park football); pinned so the dry spell doesn't auto-disable it.",
       "added": "2026-07-13",
-      "misses": 27,
+      "misses": 28,
       "enabled": true
     },
     {
@@ -147,7 +147,7 @@
       "pinned": true,
       "why": "MBC's global service brand. Zero news hits today (only LinkedIn/industry posts so far) — pinned so the feed is already listening when press coverage starts. Qualifier avoids the Economic Group Pension Services (EGPS) collision.",
       "added": "2026-07-14",
-      "misses": 26,
+      "misses": 27,
       "enabled": true
     },
     {
@@ -181,7 +181,7 @@
       "region": "KR",
       "why": "삼성전자가 미국에서 ATSC 3.0 핵심특허 무단사용 혐의로 피소된 사건은 향후 판결·항소 등 후속 보도가 예상되는 특허 캠페인이라 별도 추적이 필요함",
       "added": "2026-07-20",
-      "misses": 2,
+      "misses": 3,
       "enabled": true
     },
     {
@@ -189,7 +189,7 @@
       "region": "MX",
       "why": "Canitec은 멕시코 케이블TV 산업 협회로 TV 3.0/ATSC 3.0 표준 도입 논의가 반복적으로 다뤄질 가능성이 높고, MX 지역 수집량이 특히 적어 보강이 필요함",
       "added": "2026-07-20",
-      "misses": 2,
+      "misses": 3,
       "enabled": true
     },
     {
@@ -205,7 +205,7 @@
       "region": "MX",
       "why": "Andina Link는 중남미 방송/유료TV 업계의 주요 컨퍼런스로 편집자 태그에서 반복 등장해 TV 3.0 관련 논의가 지속적으로 다뤄지는 행사로 판단됨",
       "added": "2026-07-20",
-      "misses": 2,
+      "misses": 3,
       "enabled": true
     },
     {
@@ -221,7 +221,7 @@
       "region": "US",
       "why": "싱클레어 산하 ONE Media가 ATSC 3.0 특허 라이선싱과 상호운용성 행사를 지속 주도하는 핵심 주체임",
       "added": "2026-07-21",
-      "misses": 1,
+      "misses": 2,
       "enabled": true
     },
     {
@@ -253,6 +253,38 @@
       "region": "BR",
       "pinned": true,
       "why": "브라질 방송사업자협회 — TV 3.0 전환의 정책·기술 대응 주체. 한정어로 라디오 시상식·회원 행사 잡보를 거른다. 자체 사이트 미색인 기사는 watch_page가 담당.",
+      "added": "2026-07-21",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "\"FUST\" (\"TV 3.0\" OR radiodifusão OR receptores)",
+      "region": "BR",
+      "why": "FUST 기금이 2027년 예산 중 R$2.57억을 TV 3.0에 배정하는 등 재원 조달 프로그램으로 계속 뉴스가 나올 가능성이 높음",
+      "added": "2026-07-21",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "\"PNID\" (\"TV 3.0\" OR \"letramento digital\" OR \"inclusão digital\")",
+      "region": "BR",
+      "why": "국가디지털포용계획(PNID)이 TV 3.0을 디지털 리터러시 확산 수단으로 활용한다는 정책 연계가 확인되어 지속 추적 가치가 있음",
+      "added": "2026-07-21",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "한국방송미디어공학회",
+      "region": "KR",
+      "why": "이번 수집에서 전파방송기술대상, 차세대방송 표준화 워크숍, 서머스쿨, 학술대회 등 4건의 관련 기사를 낸 단체로 표준화 동향의 핵심 발신원임",
+      "added": "2026-07-21",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "IEEE BMSB ETRI",
+      "region": "KR",
+      "why": "ETRI·MBC·KBS 공동연구팀이 IEEE BMSB 최우수 논문상을 수상한 사례처럼 국제 방송기술 표준 학회에서 한국 차세대방송 연구 성과가 꾸준히 나올 것으로 예상됨",
       "added": "2026-07-21",
       "misses": 0,
       "enabled": true
