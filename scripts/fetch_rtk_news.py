@@ -104,7 +104,8 @@ RELEVANCE_PATTERNS = [
 # There is NO cap on learned queries and nothing is retired automatically —
 # the user decided keyword growth is unbounded and cleanup is theirs to call.
 # Queries this many runs dry are merely SUGGESTED for cleanup in the digest.
-SUGGEST_CLEANUP_MISSES = 6
+# 33 runs ≈ 2.5 weeks at two runs/day — the user picked this number.
+SUGGEST_CLEANUP_MISSES = 33
 BODY_SAMPLE = 8             # articles to try fetching bodies from in --evolve
 BODY_CHARS = 1200           # excerpt length per article
 
