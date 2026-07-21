@@ -247,6 +247,15 @@
       "added": "2026-07-21",
       "misses": 0,
       "enabled": true
+    },
+    {
+      "q": "\"ABERT\" (radiodifusão OR \"TV 3.0\" OR regulação OR tecnologia OR ATSC)",
+      "region": "BR",
+      "pinned": true,
+      "why": "브라질 방송사업자협회 — TV 3.0 전환의 정책·기술 대응 주체. 한정어로 라디오 시상식·회원 행사 잡보를 거른다. 자체 사이트 미색인 기사는 watch_page가 담당.",
+      "added": "2026-07-21",
+      "misses": 0,
+      "enabled": true
     }
   ],
   "feeds": [
@@ -290,6 +299,13 @@
       "region": "KR",
       "enabled": true,
       "why": "학회 공지·행사(ATSC 3.0 특별세션, UHD 워크숍 등)는 뉴스 색인 밖이라 게시판을 직접 감시"
+    },
+    {
+      "url": "https://www.abert.org.br/site/imprensa/noticias",
+      "source": "ABERT",
+      "region": "BR",
+      "enabled": true,
+      "why": "브라질 방송사업자협회 뉴스룸. RSS 없음 + 구글뉴스가 일부만 색인 (조직개편 기사를 통째로 놓친 전례) — 목록 페이지를 직접 감시"
     }
   ]
 }

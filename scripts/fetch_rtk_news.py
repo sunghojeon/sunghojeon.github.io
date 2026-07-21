@@ -95,7 +95,7 @@ RELEVANCE_PATTERNS = [
     (2, r"긴트|\bgint\b|씨너렉스|지알엠"),
     (2, r"pearl\s*tv|zinwell|\btolka\b|cerinet"),
     (2, r"\bbmsb\b|\betri\b|한국전자통신연구원"),
-    (1, r"anatel|radiodifusão|espectro"),
+    (1, r"anatel|radiodifus|espectro|\babert\b"),
     (1, r"positioning|gnss|\bgps\b|\bpnt\b|timing|broadcast|방송|측량|위치정보"),
 ]
 
