@@ -11,8 +11,9 @@ summary, then posts the digest and folds the results back into the store.
 The digest hides nothing: every article that was collected but not
 reported appears in it with the reason — low relevance score (from the
 fetch run report), vetted out as junk/off-topic, stale re-index, or
-folded under earlier coverage (♻️). Query evolution (added / disabled
-keywords) is reported with reasons the same way.
+folded under earlier coverage (♻️). Query evolution reports additions
+with reasons; nothing is ever removed automatically — long-dry queries
+are listed as cleanup candidates for the user to decide on.
 
 Grouping: wire-copy coverage (the same announcement run by six outlets) is
 folded into one REPRESENTATIVE article; the other outlets appear as a
@@ -562,13 +563,16 @@ def keyword_digest(report: dict) -> str:
         lines.append(f'➕ 추가: <code>[{q["region"]}] {esc(q["q"])}</code>')
         if q.get("why"):
             lines.append(f'   이유: {esc(q["why"])}')
-    for q in report.get("queries_disabled", []):
-        lines.append(f'➖ 비활성화: <code>[{q["region"]}] {esc(q["q"])}</code>'
-                     f' — {q.get("misses", "?")}회 연속 무수확')
-    if report.get("evolve_note"):
-        lines.append(f'⚠️ {esc(report["evolve_note"])}')
     if not lines:
         lines.append("변경 없음")
+
+    # 무수확 키워드는 절대 자동 정리하지 않는다 — 사용자에게 물어볼 뿐.
+    cands = report.get("cleanup_candidates", [])
+    if cands:
+        lines.append("🧹 오래 무수확인 키워드 — 정리할지 알려주세요 "
+                     "(그때까지 계속 검색합니다):")
+        lines += [f'   <code>[{c["region"]}] {esc(c["q"])}</code>'
+                  f' — {c["misses"]}회 연속 무수확' for c in cands]
     out = head + "\n" + "\n".join(lines)
 
     # 누적 태그 — 기사들이 스스로 말해주는 다음 진화 후보

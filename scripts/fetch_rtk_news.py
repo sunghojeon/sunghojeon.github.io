@@ -15,8 +15,10 @@ Queries are NOT fixed: they live in scripts/rtk_news_queries.json
 (seeds + learned). With --evolve the script studies the articles it just
 fetched (titles, plus best-effort body excerpts) and proposes new
 queries — via the `claude` CLI when available, otherwise a frequency
-heuristic — which you approve interactively. Learned queries that come
-up empty three runs in a row are disabled automatically.
+heuristic — which you approve interactively. There is no cap on learned
+queries and none is ever disabled automatically: long-dry queries are
+listed in the Telegram digest as cleanup candidates for the user to
+decide on.
 
 A machine-readable run report (what was dropped as low-relevance, counts
 per region, query additions/disablings) is written to the system temp
@@ -99,8 +101,10 @@ RELEVANCE_PATTERNS = [
     (1, r"positioning|gnss|\bgps\b|\bpnt\b|timing|broadcast|방송|측량|위치정보"),
 ]
 
-MAX_LEARNED_ACTIVE = 12     # cap on enabled learned queries
-DISABLE_AFTER_MISSES = 3    # empty runs before a learned query is disabled
+# There is NO cap on learned queries and nothing is retired automatically —
+# the user decided keyword growth is unbounded and cleanup is theirs to call.
+# Queries this many runs dry are merely SUGGESTED for cleanup in the digest.
+SUGGEST_CLEANUP_MISSES = 6
 BODY_SAMPLE = 8             # articles to try fetching bodies from in --evolve
 BODY_CHARS = 1200           # excerpt length per article
 
@@ -110,7 +114,7 @@ RUN_REPORT = {
     "region_counts": {},         # region -> articles in the final list
     "low_relevance": [],         # dropped by the keyword score filter
     "queries_added": [],         # accepted --evolve proposals ({q, region, why})
-    "queries_disabled": [],      # learned queries retired ({q, region, misses})
+    "cleanup_candidates": [],    # dry learned queries, for the user to judge
 }
 
 # ---------------------------------------------------------------------------
@@ -378,16 +382,9 @@ def collect(store: dict, since: datetime, max_per_query: int) -> list[dict]:
         if query["learned"]:
             for lq in store["learned"]:
                 if lq["q"] == query["q"] and lq["region"] == query["region"]:
+                    # Dry spells are only counted — never auto-disabled. The
+                    # digest asks the user about long-dry queries instead.
                     lq["misses"] = 0 if kept else lq.get("misses", 0) + 1
-                    # pinned = user-designated partner/ecosystem keyword: keep
-                    # polling even through dry spells (news may be sporadic).
-                    if (lq["misses"] >= DISABLE_AFTER_MISSES
-                            and not lq.get("pinned")):
-                        lq["enabled"] = False
-                        RUN_REPORT["queries_disabled"].append(
-                            {"q": lq["q"], "region": lq["region"],
-                             "misses": lq["misses"]})
-                        print(f"    (disabled after {lq['misses']} empty runs)")
 
     # Outlet feeds: whole-site RSS from unindexed trade press. Everything
     # off-topic is pre-filtered by the relevance patterns (the feeds carry the
@@ -779,19 +776,6 @@ def propose_with_api(items: list[dict], store: dict,
 
 def evolve(store: dict, items: list[dict], use_llm: bool, auto_yes: bool) -> None:
     print("\nEvolving queries from fetched articles ...")
-    # Pinned queries are user-designated ecosystem beats, not evolution's
-    # doing — counting them against the cap once choked evolution completely
-    # (10 pinned + 5 learned ≥ 12 meant no proposal ever ran again).
-    enabled = [q for q in store["learned"]
-               if q.get("enabled", True) and not q.get("pinned")]
-    if len(enabled) >= MAX_LEARNED_ACTIVE:
-        RUN_REPORT["evolve_note"] = (
-            f"학습 키워드 상한({MAX_LEARNED_ACTIVE}) 도달 — 진화 중단됨. "
-            "rtk_news_queries.json에서 정리 필요")
-        print(f"  learned-query cap reached ({MAX_LEARNED_ACTIVE}); "
-              "disable some in rtk_news_queries.json first")
-        return
-
     proposals = None
     if use_llm:
         bodies = {}
@@ -960,6 +944,14 @@ def main() -> int:
     for it in items:
         RUN_REPORT["region_counts"][it["region"]] = (
             RUN_REPORT["region_counts"].get(it["region"], 0) + 1)
+    # Long-dry learned queries: never touched automatically, only offered to
+    # the user for a decision. Pinned ones are theirs already — skip.
+    RUN_REPORT["cleanup_candidates"] = sorted(
+        ({"q": q["q"], "region": q["region"], "misses": q.get("misses", 0)}
+         for q in store["learned"]
+         if q.get("enabled", True) and not q.get("pinned")
+         and q.get("misses", 0) >= SUGGEST_CLEANUP_MISSES),
+        key=lambda c: -c["misses"])[:8]
     RUN_REPORT["generated"] = datetime.now(timezone.utc).isoformat()
     REPORT_FILE.write_text(
         json.dumps(RUN_REPORT, ensure_ascii=False, indent=1),
