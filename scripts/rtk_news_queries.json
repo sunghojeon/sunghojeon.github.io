@@ -129,7 +129,7 @@
       "pinned": true,
       "why": "User-designated: Tolka makes ATSC 3.0 / DTV+ receivers. Zero press since 2026-05 (bare name is Dublin's Tolka Park football); pinned so the dry spell doesn't auto-disable it.",
       "added": "2026-07-13",
-      "misses": 33,
+      "misses": 34,
       "enabled": true
     },
     {
@@ -147,7 +147,7 @@
       "pinned": true,
       "why": "MBC's global service brand. Zero news hits today (only LinkedIn/industry posts so far) — pinned so the feed is already listening when press coverage starts. Qualifier avoids the Economic Group Pension Services (EGPS) collision.",
       "added": "2026-07-14",
-      "misses": 32,
+      "misses": 33,
       "enabled": true
     },
     {
@@ -181,7 +181,7 @@
       "region": "KR",
       "why": "삼성전자가 미국에서 ATSC 3.0 핵심특허 무단사용 혐의로 피소된 사건은 향후 판결·항소 등 후속 보도가 예상되는 특허 캠페인이라 별도 추적이 필요함",
       "added": "2026-07-20",
-      "misses": 8,
+      "misses": 9,
       "enabled": true
     },
     {
@@ -189,7 +189,7 @@
       "region": "MX",
       "why": "Canitec은 멕시코 케이블TV 산업 협회로 TV 3.0/ATSC 3.0 표준 도입 논의가 반복적으로 다뤄질 가능성이 높고, MX 지역 수집량이 특히 적어 보강이 필요함",
       "added": "2026-07-20",
-      "misses": 8,
+      "misses": 9,
       "enabled": true
     },
     {
@@ -205,7 +205,7 @@
       "region": "MX",
       "why": "Andina Link는 중남미 방송/유료TV 업계의 주요 컨퍼런스로 편집자 태그에서 반복 등장해 TV 3.0 관련 논의가 지속적으로 다뤄지는 행사로 판단됨",
       "added": "2026-07-20",
-      "misses": 8,
+      "misses": 9,
       "enabled": true
     },
     {
@@ -221,7 +221,7 @@
       "region": "US",
       "why": "싱클레어 산하 ONE Media가 ATSC 3.0 특허 라이선싱과 상호운용성 행사를 지속 주도하는 핵심 주체임",
       "added": "2026-07-21",
-      "misses": 7,
+      "misses": 8,
       "enabled": true
     },
     {
@@ -286,7 +286,7 @@
       "region": "KR",
       "why": "ETRI·MBC·KBS 공동연구팀이 IEEE BMSB 최우수 논문상을 수상한 사례처럼 국제 방송기술 표준 학회에서 한국 차세대방송 연구 성과가 꾸준히 나올 것으로 예상됨",
       "added": "2026-07-21",
-      "misses": 5,
+      "misses": 6,
       "enabled": true
     },
     {
@@ -294,7 +294,7 @@
       "region": "BR",
       "why": "브라질산 TV 3.0 수신기 제조사 Vivensis가 여러 매체에서 반복 보도되고 있어 롤아웃 진행 상황을 계속 추적할 가치가 있음.",
       "added": "2026-07-22",
-      "misses": 4,
+      "misses": 5,
       "enabled": true
     },
     {
@@ -326,7 +326,7 @@
       "region": "MX",
       "why": "아르헨티나 방송기술 컨퍼런스 Caper는 라틴아메리카 차세대방송 논의의 반복적 소스로 MX/LatAm 커버리지 부족을 보완할 수 있음.",
       "added": "2026-07-22",
-      "misses": 0,
+      "misses": 1,
       "enabled": true
     },
     {
@@ -342,7 +342,7 @@
       "region": "US",
       "why": "NAB의 ATSC 3.0 재난경보(Alerting) 진전 기사가 나왔는데, 이를 주도하는 표준화 단체 AWARN Alliance 자체를 추적하는 쿼리가 없음",
       "added": "2026-07-22",
-      "misses": 3,
+      "misses": 4,
       "enabled": true
     },
     {
@@ -382,7 +382,7 @@
       "region": "BR",
       "why": "Globo의 새 스트리밍·방송 통합 플랫폼 Globo X가 TV 3.0 전환과 함께 언급되기 시작해, 주요 방송사의 TV 3.0 대응 전략을 놓치지 않기 위한 쿼리",
       "added": "2026-07-23",
-      "misses": 2,
+      "misses": 3,
       "enabled": true
     },
     {
@@ -398,7 +398,7 @@
       "region": "US",
       "why": "Merkhet/BPS 정책을 주도하는 NAB 대변인으로 의회 증언 등 관련 발언이 앞으로도 반복 보도될 가능성이 높음",
       "added": "2026-07-23",
-      "misses": 1,
+      "misses": 2,
       "enabled": true
     },
     {
@@ -406,7 +406,7 @@
       "region": "BR",
       "why": "Appear가 브라질 TV 3.0 시험방송에 장비를 공급하는 벤더로 확인되어 향후 관련 계약·트라이얼 뉴스를 놓치지 않기 위함",
       "added": "2026-07-23",
-      "misses": 1,
+      "misses": 2,
       "enabled": true
     },
     {
@@ -414,7 +414,7 @@
       "region": "KR",
       "why": "삼성전자 소송 외에도 LG 등 다른 제조사로 특허분쟁이 확산될 가능성이 있어 포괄적으로 추적할 필요",
       "added": "2026-07-23",
-      "misses": 1,
+      "misses": 2,
       "enabled": true
     },
     {
@@ -438,7 +438,7 @@
       "region": "MX",
       "why": "TV 3.0 관련 기사에 TEPAL 태그가 반복 부착돼 있어 중남미 유료방송 업계 행사에서 나오는 관련 보도를 놓치지 않기 위함",
       "added": "2026-07-24",
-      "misses": 0,
+      "misses": 1,
       "enabled": true
     },
     {
@@ -446,13 +446,53 @@
       "region": "MX",
       "why": "NATPE 태그가 TV 3.0 기사에 반복 등장해 중남미향 콘텐츠 마켓에서의 관련 보도를 포착하기 위함",
       "added": "2026-07-24",
-      "misses": 0,
+      "misses": 1,
       "enabled": true
     },
     {
       "q": "\"MIPCOM\" (\"TV 3.0\" OR ATSC OR DTV+)",
       "region": "MX",
       "why": "MIPCOM 태그도 TV 3.0 기사에 반복 등장해 국제 콘텐츠 마켓에서 다뤄지는 브라질/중남미 TV 3.0 보도를 놓치지 않기 위함",
+      "added": "2026-07-24",
+      "misses": 1,
+      "enabled": true
+    },
+    {
+      "q": "\"TCL\" (\"TV 3.0\" OR DTV+ OR receptor)",
+      "region": "BR",
+      "why": "삼성처럼 TCL도 TV 3.0 지원 계획을 묻는 기사가 나오고 있어 제조사 동향을 추적할 필요가 있음",
+      "added": "2026-07-24",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "\"Technicolor\" (\"ATSC 3.0\" OR \"NextGen TV\" OR \"Pearl TV\" OR HDR)",
+      "region": "US",
+      "why": "Technicolor가 Pearl TV 컨버터박스 프로그램에 HDR 기술로 합류하며 지속적으로 보도될 신규 사업자로 부상함",
+      "added": "2026-07-24",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "긴트",
+      "region": "KR",
+      "why": "긴트-한화에어로스페이스 기사처럼 자율주행/트랙터 키워드가 없는 긴트 관련 소식을 기존 쿼리가 놓치고 있음",
+      "added": "2026-07-24",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "\"SET Expo\" (\"TV 3.0\" OR radiodifusão OR broadcast)",
+      "region": "BR",
+      "why": "브라질 방송기술 최대 행사인 SET Expo는 TV 3.0 관련 기사를 매년 지속적으로 생산하는 주요 행사임",
+      "added": "2026-07-24",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "(\"Televisa\" OR \"TV Azteca\") (\"ATSC 3.0\" OR \"TV 3.0\")",
+      "region": "MX",
+      "why": "멕시코 TV 3.0 전환의 핵심 방송사인 Televisa·TV Azteca가 현재 쿼리에 전혀 포함되어 있지 않아 MX 지역 보도 공백을 메울 수 있음",
       "added": "2026-07-24",
       "misses": 0,
       "enabled": true
