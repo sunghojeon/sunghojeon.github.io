@@ -235,7 +235,8 @@
   "primeiroprogramafeitoparaatv30estreianobrasilcomimagemem4k",
   "nextgentvlaunchinclevelandbringsservicetoalltop25usmarkets",
   "abertlançarácoletâneadeartigosdasériediálogos",
-  "conversordetv30quantocustaequemrealmenteprecisacomprar"
+  "conversordetv30quantocustaequemrealmenteprecisacomprar",
+  "novatv30jáchegouaobrasileprometeporfimnostelevisorestradicionais"
  ],
  "summaries": {
   "지상파올해도빨간불kbs올해100억원대적자예상": "방송 광고 급감으로 KBS가 올해 100억 원대 적자를 예상하고 MBC·SBS도 적자 국면에 들어서는 등 지상파 경영난이 심화되고 있다.",
@@ -1108,7 +1109,14 @@
   "habráprórrogaparaelregistrodecelularconcurpquedan14díasparahacereltrámite",
   "acpfraudster25lookingat40yearsbehindbarsafterpleadingguilty",
   "méxicodeverdadhackearonlosdatosdelospensionadosdelbienestar",
-  "diputadapotosinaproponequealertaambersedifundacomosistemadealertasmasivasencelulares"
+  "diputadapotosinaproponequealertaambersedifundacomosistemadealertasmasivasencelulares",
+  "부산ㆍ경남대학브리핑모음8월3일인제대캄보디아국립의대교",
+  "한여름방의꿈신림동빨래방72시간디지털kbs",
+  "whois정우진엔에이치엔대표이사",
+  "메트로신문8월3일자한줄뉴스",
+  "ai로읽는경제ㅣ숨은규제⑦조금바꾼제품은어떻게다르게볼것",
+  "펜앤마이크차세대리더발굴프로젝트나나는보수다준결선조편성",
+  "삼성전자브로드컴과2000억달러규모차세대ai인프라협력"
  ],
  "reps": {
   "지상파올해도빨간불kbs올해100억원대적자예상": {
@@ -2297,6 +2305,12 @@
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVTJiMmhDT2FWMTQ0c2VuMVVpem5NRFAtblUxLTZjRkhWdnF1czFzZmpjZFczUWtTUkdtM3F6WlNOMXBtV0dLSEV2S2pFeC1GYUtWdE4tVlgwUXE2SWJtYkszT1FTcXR0b3FTWTktZ3dSeW1Kdi1xMmpnMk9YYXJxWVlSQzNyWloxVzRpSHVGM2Z6TWJlMVdoVmhudE50NnFqZ1pKdlVvNGcyN0RGNHlKYnFTUmw?oc=5",
     "source": "Diário do Comércio · BR",
     "date": "2026.07.28"
+   },
+   {
+    "title": "Nova TV 3.0 já chegou ao Brasil e promete por fim nos televisores tradicionais",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcDNaZW1qNXlGZ0Qwcm1ic09rX1hKOG1oZURfLUc2SndEVjctOG5MN211Ynl5c2NJMmR6cGJ0aFA1UkJ5SHZQUGRKbVJxc1RrbEVCZmt5UnhPMmZrOHhSQjFPMUJtMm11elBfbjhwaFZBYjAzMXhtS2Ruamg0akVDVVJkUmpHbnRHRU5uZ3RLT3M2ZnozU3hSbHIwc1hoVkxLdWdRN3JGRHJmVjR0eWJKMW1lOEpaQQ?oc=5",
+    "source": "Diário do Comércio · BR",
+    "date": "2026.07.28"
    }
   ],
   "tv30fustdestinar257bilhõesaoprogramabrasilmaistv30napropostaorçamentáriade2027": [
@@ -2417,7 +2431,8 @@
   "novatv30jáchegouaobrasileprometepôrfimnostelevisorestradicionais": "dtvoqueéatv30comofuncionaeoquemudanoscanaisabertosdobrasil",
   "anatelpropõeorçamento84maiorpara2027": "tv30fustdestinar257bilhõesaoprogramabrasilmaistv30napropostaorçamentáriade2027",
   "anatelabrecaminhoparadirecttodevicenobrasil": "tv30anatelconfirmafaixaadicionalparaimplantaçãogradual",
-  "nextgentvlaunchinclevelandbringsservicetoalltop25usmarkets": "nextgentvlaunchesincleveland"
+  "nextgentvlaunchinclevelandbringsservicetoalltop25usmarkets": "nextgentvlaunchesincleveland",
+  "novatv30jáchegouaobrasileprometeporfimnostelevisorestradicionais": "dtvoqueéatv30comofuncionaeoquemudanoscanaisabertosdobrasil"
  },
  "outlets": {
   "fatopaulista.com.br": 1,
@@ -2459,7 +2474,7 @@
   "exame.com": 1,
   "etnews.com": 1,
   "93noticias.com.br": 1,
-  "diariodocomercio.com.br": 1,
+  "diariodocomercio.com.br": 2,
   "abcdoabc.com.br": 1,
   "seucreditodigital.com.br": 1,
   "blog.nab.org": 1
@@ -2659,7 +2674,7 @@
   },
   "tv 3.0": {
    "t": "TV 3.0",
-   "n": 17
+   "n": 18
   },
   "contenidos": {
    "t": "Contenidos",
