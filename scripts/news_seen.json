@@ -236,7 +236,8 @@
   "nextgentvlaunchinclevelandbringsservicetoalltop25usmarkets",
   "abertlançarácoletâneadeartigosdasériediálogos",
   "conversordetv30quantocustaequemrealmenteprecisacomprar",
-  "novatv30jáchegouaobrasileprometeporfimnostelevisorestradicionais"
+  "novatv30jáchegouaobrasileprometeporfimnostelevisorestradicionais",
+  "conversordetv30custar600epodetransformarradicalmenteoseuaparelhodetelevisão"
  ],
  "summaries": {
   "지상파올해도빨간불kbs올해100억원대적자예상": "방송 광고 급감으로 KBS가 올해 100억 원대 적자를 예상하고 MBC·SBS도 적자 국면에 들어서는 등 지상파 경영난이 심화되고 있다.",
@@ -1154,7 +1155,22 @@
   "ingresosdeintelcrecen25ensumayoralzaen15años",
   "삼성브로드컴290조원협력차세대ai가속기공급망구축",
   "weigellaunchesaudiencebasedadsplatformacrossmulticasttvnetworks",
-  "삐라와손전화디지털kbs"
+  "삐라와손전화디지털kbs",
+  "딥페이크규제강화ai보안수요확대이스트소프트크라우드웍스알",
+  "파커스자사주203만주소각완료주주환원정책이어간다",
+  "삼성전자아마존프라임에차세대고화질기술적용",
+  "나주시혁신도시이전공공기관과간담회정주여건상생협력과제논",
+  "더벨k콘텐츠기업밸류체인점검팬엔터테인먼트드라마넘어밸류",
+  "clarodefendemedidasdesoberanianacionalparad2dnobrasil",
+  "pfeemissorasapertamocercocontrastreamingspiratasentendaobloqueioeoquemuda",
+  "operadoresrechazanquestarlinkconcentrelabandasenbrasil",
+  "100pegatinasinfantilesdetaylorswiftresistentesalaguayreutilizablesperfectasparamaletasportátilespatinetesymuchomás",
+  "elderechodelasaudienciasylamanipulaciónestataldelaverdad",
+  "nextnavstockpriceforecastshouldyoubuynn",
+  "samsungybroadcomunenfuerzasenfundiciónymemoriasparalapróximageneracióndeia",
+  "stablecoinsdominan80delvolumenmensualdecriptoactivosenbrasil",
+  "국교없는나라미국기독교우파탄생왜디지털kbs",
+  "피아니스트손열음과kbs클래식fm이준비한한달간의독점라이브무대디지털kbs"
  ],
  "reps": {
   "지상파올해도빨간불kbs올해100억원대적자예상": {
@@ -2366,6 +2382,14 @@
     "source": "TeleSíntese · BR",
     "date": "2026.07.02"
    }
+  ],
+  "conversordetv30quantocustaequemrealmenteprecisacomprar": [
+   {
+    "title": "Conversor de TV 3.0 custa R$ 600 e pode transformar radicalmente o seu aparelho de televisão",
+    "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOUGhQRE91Z1dUcjliM2lmdmdhMEU0cm81WDlfcURBNkJBOWR1WmtLNkloVXlBOEp6VWVjaUh2R1ZvdzNJUkxMMVQza0JOQWcweEtxRkhmbVVRVl8xMG9KcGkxZWpKZ2ZJSHdrdEdVUl9QM2pzMm9OTlRId2E4Qy02a2lqOTRwZ3pMTm5UTGdCcFBHNEdXbzZrNmJTaGtEQm9mQnlxRGVsTzZkcS1SOEZ2M1B1MGd4YzRCVjZ4SzQ1NUNwSzJ5TS1fWDJIbWNVdEZZdldtalNtcWdwb3otVF9SLVgwXzRlUQ?oc=5",
+    "source": "Diário do Comércio · BR",
+    "date": "2026.08.03"
+   }
   ]
  },
  "related_members": {
@@ -2470,7 +2494,8 @@
   "anatelpropõeorçamento84maiorpara2027": "tv30fustdestinar257bilhõesaoprogramabrasilmaistv30napropostaorçamentáriade2027",
   "anatelabrecaminhoparadirecttodevicenobrasil": "tv30anatelconfirmafaixaadicionalparaimplantaçãogradual",
   "nextgentvlaunchinclevelandbringsservicetoalltop25usmarkets": "nextgentvlaunchesincleveland",
-  "novatv30jáchegouaobrasileprometeporfimnostelevisorestradicionais": "dtvoqueéatv30comofuncionaeoquemudanoscanaisabertosdobrasil"
+  "novatv30jáchegouaobrasileprometeporfimnostelevisorestradicionais": "dtvoqueéatv30comofuncionaeoquemudanoscanaisabertosdobrasil",
+  "conversordetv30custar600epodetransformarradicalmenteoseuaparelhodetelevisão": "conversordetv30quantocustaequemrealmenteprecisacomprar"
  },
  "outlets": {
   "fatopaulista.com.br": 1,
@@ -2512,7 +2537,7 @@
   "exame.com": 1,
   "etnews.com": 1,
   "93noticias.com.br": 1,
-  "diariodocomercio.com.br": 2,
+  "diariodocomercio.com.br": 3,
   "abcdoabc.com.br": 1,
   "seucreditodigital.com.br": 1,
   "blog.nab.org": 1
@@ -2632,7 +2657,7 @@
   },
   "tv": {
    "t": "tv",
-   "n": 1
+   "n": 2
   },
   "tv3.0": {
    "t": "tv3.0",
