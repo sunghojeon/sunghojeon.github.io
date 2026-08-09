@@ -94,11 +94,13 @@ RELEVANCE_PATTERNS = [
     (3, r"broadcast\s*rtk|egps|broadcast positioning|\bbps\b|merkhet"),
     (2, r"atsc\s*3\.?0|nextgen\s*tv|tv\s*3\.0|dtv\+|edgebeam"),
     (2, r"측위|방송망|지상파"),
+    (2, r"\bdmb\b|디엠비"),
     (2, r"긴트|\bgint\b|씨너렉스|지알엠"),
     (2, r"pearl\s*tv|zinwell|\btolka\b|cerinet"),
     (2, r"\bbmsb\b|\betri\b|한국전자통신연구원"),
     (1, r"anatel|radiodifus|espectro|\babert\b"),
     (1, r"positioning|gnss|\bgps\b|\bpnt\b|timing|broadcast|방송|측량|위치정보"),
+    (1, r"\buhd\b|주파수|방미통위|방송미디어통신위원회"),
 ]
 
 # There is NO cap on learned queries and nothing is retired automatically —
