@@ -10,7 +10,7 @@ hide_page_title: true
 - **Senior R&D Engineer (Deputy Director), MBC** — Broadcast RTK (eGPS) commercialization & global expansion, ATSC 3.0 data services (2025–)
 - **Standards** — Secretary of TTA PG802 (terrestrial broadcasting) and WG80210 (drone-based antenna measurement); lead of the KS X 3156 revision study group; ITU-R WP6A Korea delegate
 - **Academia** — Ph.D. (Yonsei Univ.), IEEE Senior Member, IEEE BMSB TPC Co-Chair (2019–2023), publications in *IEEE Transactions on Broadcasting* and more
-- **Flagship project** — [Broadcast RTK (eGPS)](/broadcast-rtk/): world-first commercial cm-level positioning over terrestrial broadcast, expanding to the U.S. · India · Brazil
+- **Flagship project** — Broadcast RTK (eGPS): world-first commercial cm-level positioning over terrestrial broadcast, expanding to the U.S. · India · Brazil
 
 ## Experience
 
