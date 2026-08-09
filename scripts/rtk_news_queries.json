@@ -1161,6 +1161,233 @@
       "added": "2026-08-09",
       "misses": 1,
       "enabled": true
+    },
+    {
+      "q": "AM라디오 폐지 OR AM 방송 종료",
+      "region": "KR",
+      "why": "AM 라디오 종료는 방미통위의 DMB·UHD 매체 정리 정책과 한 묶음인데 기존 쿼리는 DMB·UHD만 추적하고 있었음.",
+      "added": "2026-08-09",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "매체 효율화 OR 방송혁신 전략 OR 방송서비스 운영 효율화",
+      "region": "KR",
+      "why": "방미통위 정책 문서의 고유 문구(매체 효율화·방송혁신 전략)를 직접 추적해 연구→정책안→의결 단계를 조기 포착하기 위함.",
+      "added": "2026-08-09",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "주파수 회수 OR 주파수 재배치 OR 폐국 OR 허가 반납",
+      "region": "KR",
+      "why": "서비스 종료의 실제 절차 단계(폐국·허가반납·주파수 회수·재배치)를 잡기 위한 절차어 쿼리.",
+      "added": "2026-08-09",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "UHD 전국망 OR UHD 이동형 OR 재허가 조건",
+      "region": "KR",
+      "why": "UHD 정책 재검토 이후의 서비스 승계(전국망·이동형)와 재허가 조건 변화를 추적.",
+      "added": "2026-08-09",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "5G 브로드캐스트",
+      "region": "KR",
+      "why": "5G Broadcast/FeMBMS 진영은 지상파 방송기술의 경쟁·보완 트랙인데 한국어 쿼리가 전혀 없었음.",
+      "added": "2026-08-09",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "차세대방송 상호운용 OR ATSC SBTVD",
+      "region": "KR",
+      "why": "ATSC-TTA-SBTVD 3자 조화(A/300 국제 상호운용) 논의의 한국어 보도를 포착.",
+      "added": "2026-08-09",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "\"WAVE ROVER\" (RTK OR GNSS OR EdgeBeam OR receiver)",
+      "region": "US",
+      "why": "사용자 지정: MBC 양산 RTK 로버 제품명 상시 청취(딜러·데모·현장시험 등 상용화 신호). 한정어로 Waveshare 로봇 잡음 제거.",
+      "added": "2026-08-09",
+      "misses": 0,
+      "enabled": true,
+      "pinned": true
+    },
+    {
+      "q": "\"BMD-1000\"",
+      "region": "US",
+      "why": "사용자 지정: BitPath향 방송 데이터 모뎀 제품명 상시 청취.",
+      "added": "2026-08-09",
+      "misses": 0,
+      "enabled": true,
+      "pinned": true
+    },
+    {
+      "q": "\"Prism GeoSystems\"",
+      "region": "US",
+      "why": "사용자 지정: EdgeBeam RTK 딜러/파트너 — 딜러 추가·재고·교육·서비스 개시를 상용화 신호로 추적.",
+      "added": "2026-08-09",
+      "misses": 0,
+      "enabled": true,
+      "pinned": true
+    },
+    {
+      "q": "\"Digital Mapping Group\" (EdgeBeam OR RTK OR GNSS)",
+      "region": "US",
+      "why": "EdgeBeam 상용화 채널 파트너 — 일반명사형 사명이라 한정어 필수.",
+      "added": "2026-08-09",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "\"Sinclair\" (Starlink OR spectrum OR datacasting OR EdgeBeam)",
+      "region": "US",
+      "why": "기존 Sinclair 쿼리는 ATSC/특허 한정 — Starlink 협상·주파수 임대·datacasting 수익화 트랙을 별도 추적.",
+      "added": "2026-08-09",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "\"broadcast spectrum\" (lease OR sale OR monetization OR auction)",
+      "region": "US",
+      "why": "방송 주파수의 매각·임대·수익화 거래 흐름(Sinclair-Starlink형 딜의 확산)을 사업자 무관하게 포착.",
+      "added": "2026-08-09",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "\"ownership cap\" (FCC OR broadcast OR television)",
+      "region": "US",
+      "why": "FCC 39% 소유상한 재검토는 방송사 통합·주파수 재편의 전제가 되는 구조 변화 사안.",
+      "added": "2026-08-09",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "\"EchoStar\" (SpaceX OR AT&T OR spectrum)",
+      "region": "US",
+      "why": "EchoStar 주파수 매각은 위성-지상 주파수 시장 재편의 선행 사례로 방송 주파수 사업화와 맞닿음.",
+      "added": "2026-08-09",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "\"ATSC 1.0\" (sunset OR shutdown OR transition)",
+      "region": "US",
+      "why": "ATSC 1.0 종료(sunset) 일정·조건은 3.0 전환의 이면 절차인데 'ATSC 3.0 transition' 쿼리로는 놓칠 수 있음.",
+      "added": "2026-08-09",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "\"A/300\" (ATSC OR SBTVD OR TTA OR harmonization OR interoperability)",
+      "region": "US",
+      "why": "A/300 국제 상호운용/국가 프로파일 조화(ATSC-TTA-SBTVD)는 독립 고우선 기술 트랙.",
+      "added": "2026-08-09",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "\"5G Broadcast\" OR \"FeMBMS\" OR \"6G broadcasting\"",
+      "region": "US",
+      "why": "5G Broadcast/FeMBMS/6G 방송은 ATSC 3.0의 경쟁 표준 트랙인데 영문 쿼리가 없었음.",
+      "added": "2026-08-09",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "datacasting (GNSS OR RTK OR positioning OR PNT OR corrections)",
+      "region": "US",
+      "why": "방송 datacasting과 측위(GNSS/RTK/PNT)의 교차점 — 비방송 데이터 서비스가 측위로 연결되는 신호를 포착.",
+      "added": "2026-08-09",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "\"broadcast offload\" OR \"broadcast-assisted streaming\" OR \"hybrid broadcast broadband\"",
+      "region": "US",
+      "why": "라이브 스트리밍 트래픽의 방송 오프로딩/하이브리드 전송 구조 — one-to-many 전송 효율 비트.",
+      "added": "2026-08-09",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "\"direct-to-device\" (broadcast OR ATSC OR datacasting)",
+      "region": "US",
+      "why": "스마트폰 직접수신(D2D/direct-to-mobile) 흐름은 방송망 데이터 서비스의 차기 격전지.",
+      "added": "2026-08-09",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "\"300 MHz\" (\"TV 3.0\" OR DTV+ OR MIMO OR antena OR datacasting OR \"camada física\")",
+      "region": "BR",
+      "why": "DTV+ 300 MHz MIMO 물리계층·안테나·커버리지 논의는 최근 중요성이 커진 고우선 기술군.",
+      "added": "2026-08-09",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "\"Ginga\" (\"Perfil D\" OR \"D-Profile\" OR \"TV 3.0\" OR DTV+ OR NCL)",
+      "region": "BR",
+      "why": "Ginga D-Profile(하이브리드 broadcast-broadband 수신기 프로파일)은 TV 3.0 수신기 생태계의 핵심 트랙.",
+      "added": "2026-08-09",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "\"TV 3.0\" (smartphone OR celular OR \"no bolso\")",
+      "region": "BR",
+      "why": "'TV 3.0 no bolso' 등 스마트폰 직접수신 논의를 추적 — 수신기 트랙의 모바일 확장.",
+      "added": "2026-08-09",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "(\"EAD\" OR \"GIRED\") (\"TV 3.0\" OR receptores OR conversores)",
+      "region": "BR",
+      "why": "TV 3.0 수신기 보급 재원·거버넌스 기구(EAD/GIRED)를 FUST·BID와 함께 하나의 정책군으로 추적.",
+      "added": "2026-08-09",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "\"5G Broadcast\" (Brasil OR radiodifusão OR smartphone OR \"TV 3.0\")",
+      "region": "BR",
+      "why": "브라질 문맥의 5G Broadcast 논의(TV 3.0 대비 구도)를 포르투갈어권에서 포착.",
+      "added": "2026-08-09",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "interoperabilidade (\"TV 3.0\" OR SBTVD OR ATSC)",
+      "region": "BR",
+      "why": "A/300 국제 상호운용 논의의 포르투갈어 보도(interoperabilidade/harmonização)를 포착.",
+      "added": "2026-08-09",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "espectro (radiodifusión OR televisión) (transición OR recuperación OR licitación OR reasignación)",
+      "region": "MX",
+      "why": "MX 지역은 검색밀도가 가장 약한데 규제기관 개편(ATDT) 이후 주파수 회수·재배치 보도를 잡는 쿼리가 없었음.",
+      "added": "2026-08-09",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "\"5G Broadcast\" (México OR radiodifusión OR espectro)",
+      "region": "MX",
+      "why": "스페인어권의 5G Broadcast 논의를 포착 — ATSC 3.0 도입 논의와 경쟁 구도로 함께 등장함.",
+      "added": "2026-08-09",
+      "misses": 0,
+      "enabled": true
     }
   ],
   "feeds": [

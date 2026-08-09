@@ -101,6 +101,10 @@ RELEVANCE_PATTERNS = [
     (1, r"anatel|radiodifus|espectro|\babert\b"),
     (1, r"positioning|gnss|\bgps\b|\bpnt\b|timing|broadcast|방송|측량|위치정보"),
     (1, r"\buhd\b|주파수|방미통위|방송미디어통신위원회"),
+    (3, r"wave\s*rover|bmd-?1000|prism geosystems"),
+    (2, r"datacasting|5g\s*broadcast|fembms|\bginga\b|\bsbtvd\b|a/300"),
+    (1, r"\bspectrum\b|ownership cap|starlink|echostar|offload"
+        r"|direct-to-(device|mobile)|multicast|300\s*mhz|광고매출|방송평가"),
 ]
 
 # There is NO cap on learned queries and nothing is retired automatically —
@@ -319,7 +323,11 @@ def curate_with_claude(items: list[dict]) -> list[dict]:
     prompt = (
         "These headlines were collected for a page tracking ATSC 3.0 / "
         "NextGen TV, Brazil TV 3.0 (DTV+), Broadcast RTK / eGPS, BPS "
-        "(Broadcast Positioning System), and EdgeBeam Wireless.\n\n"
+        "(Broadcast Positioning System), EdgeBeam Wireless, broadcast "
+        "spectrum policy (UHD/DMB/AM shutdown, 700 MHz refarming, spectrum "
+        "sale/lease), 5G Broadcast, A/300 interoperability, and "
+        "broadcast-market indicators (ad revenue, ratings, license "
+        "evaluations).\n\n"
         f"{numbered}\n\n"
         "List the numbers of items that are NOT meaningfully about these "
         "topics (consumer promos, sweepstakes, tangential mentions). "
@@ -673,7 +681,10 @@ def _proposal_prompt(items: list[dict], store: dict,
     return (
         "You maintain Google News RSS search queries that track news about "
         "ATSC 3.0 / NextGen TV, Brazil TV 3.0 (DTV+), Broadcast RTK / eGPS, "
-        "BPS (Broadcast Positioning System), and EdgeBeam Wireless in the US, "
+        "BPS (Broadcast Positioning System), EdgeBeam Wireless, broadcast "
+        "spectrum policy (service shutdowns, refarming, spectrum "
+        "monetization), 5G Broadcast, A/300 interoperability, and "
+        "broadcast-market indicators in the US, "
         "Korea (KR), Brazil (BR), and Spanish-language Latin America (MX).\n\n"
         f"Current queries:\n{json.dumps(current, ensure_ascii=False, indent=1)}\n\n"
         f"{tag_block}"
