@@ -1580,6 +1580,49 @@
       "added": "2026-08-13",
       "misses": 0,
       "enabled": true
+    },
+    {
+      "q": "\"5G Broadcast\" (\"Part 74\" OR LPTV OR petition OR rulemaking OR FCC)",
+      "region": "US",
+      "pinned": true,
+      "why": "사용자 지정: 2026-08-12 LPTV 진영(XGN·X1 Mobile·Tyche Media)이 FCC에 Part 74 개정 청원 — LPTV가 ATSC 1.0/3.0 대신 3GPP 5G Broadcast를 자발적으로 쓸 수 있게 해달라는 규제 절차. RM 번호 부여·Public Notice·의견수렴 개시가 1순위 알림 대상.",
+      "added": "2026-08-13",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "\"Part 74\" (LPTV OR \"low power\" OR \"5G Broadcast\" OR translator)",
+      "region": "US",
+      "why": "LPTV·translator를 규율하는 FCC Part 74 규칙 개정 절차어 추적 — 5G Broadcast 청원 후속(NPRM·comment) 보도가 'Part 74'로만 표기될 수 있음.",
+      "added": "2026-08-13",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "\"WCRN-LD\" OR \"Tyche Media\"",
+      "region": "US",
+      "pinned": true,
+      "why": "사용자 지정: 실험 5G Broadcast 방송국 WCRN-LD(보스턴)와 보유사 Tyche Media — Part 74 청원 주체이자 실증 결과가 나올 국면. 보도 빈도가 낮아 pinned로 dry spell 자동비활성 방지.",
+      "added": "2026-08-13",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "(\"XGN\" OR \"X1 Mobile\") (LPTV OR FCC OR broadcast OR \"5G Broadcast\")",
+      "region": "US",
+      "pinned": true,
+      "why": "사용자 지정: Part 74 청원의 나머지 주체 XGN·X1 Mobile. XGN 단독은 게임 매체(XGN.nl) 노이즈가 커서 한정어 필수.",
+      "added": "2026-08-13",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "\"ATSC 3.0\" \"5G Broadcast\"",
+      "region": "US",
+      "why": "동일 방송주파수에서 ATSC 3.0 vs 3GPP 5G Broadcast가 대안 기술로 경쟁하는 구도(D2D·스마트폰 직접수신·주파수 자산화 연계)를 다루는 비교·규제 분석 기사를 포착.",
+      "added": "2026-08-13",
+      "misses": 0,
+      "enabled": true
     }
   ],
   "feeds": [

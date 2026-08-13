@@ -103,6 +103,7 @@ RELEVANCE_PATTERNS = [
     (1, r"\buhd\b|주파수|방미통위|방송미디어통신위원회"),
     (3, r"wave\s*rover|bmd-?1000|prism geosystems"),
     (2, r"datacasting|5g\s*broadcast|fembms|\bginga\b|\bsbtvd\b|a/300"),
+    (2, r"\blptv\b|part\s*74|wcrn-?ld|tyche\s*media|x1\s*mobile|\bxgn\b"),
     (1, r"\bspectrum\b|ownership cap|starlink|echostar|offload"
         r"|direct-to-(device|mobile)|multicast|300\s*mhz|광고매출|방송평가"),
 ]
