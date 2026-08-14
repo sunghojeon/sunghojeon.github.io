@@ -981,7 +981,20 @@ def main() -> int:
          "region": it["region"]} for it in dropped]
     items = [it for s, it in scored if s >= args.min_score]
     if len(items) > args.limit:
-        items.sort(key=lambda it: (relevance(it), it["date"]), reverse=True)
+        # Recency-weighted ranking: a fresh beat story (e.g. today's score-2
+        # drone-delivery article) must beat a weeks-old score-3 item, or the
+        # top-N line stays parked on stale flagship keywords and new-beat news
+        # never surfaces (it gets cut silently — no digest line, no vetting).
+        now = datetime.now(timezone.utc)
+        def rank(it):
+            s = relevance(it)
+            age = (now - it["date"]).days
+            if age <= 2:
+                s += 2
+            elif age <= 7:
+                s += 1
+            return (s, it["date"])
+        items.sort(key=rank, reverse=True)
         print(f"  over limit: keeping top {args.limit} of {len(items)} by relevance")
         items = items[: args.limit]
         items.sort(key=lambda it: it["date"], reverse=True)
