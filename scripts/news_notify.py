@@ -68,6 +68,11 @@ from fetch_rtk_news import (  # noqa: E402
     norm_title,
 )
 
+# norm_title keys of articles fetched by user-designated (pinned) queries —
+# filled from the fetch run report in main(); the vetter may drop these only
+# as duplicates or junk, never as off-topic.
+PINNED_KEYS: set[str] = set()
+
 MARK_START = "<!-- NEWS-TIMELINE:START -->"
 MARK_END = "<!-- NEWS-TIMELINE:END -->"
 
@@ -362,7 +367,8 @@ def _vet_chunk(items: list[dict], infos: list[dict],
     duplicate_of references stay valid across chunks."""
     lines = []
     for i, it in enumerate(items):
-        entry = f'{numbers[i]}. [{it["source"]} · {it["date"]}] {it["title"]}'
+        pin = "[PINNED] " if norm_title(it["title"]) in PINNED_KEYS else ""
+        entry = f'{numbers[i]}. {pin}[{it["source"]} · {it["date"]}] {it["title"]}'
         if infos[i]["text"]:
             entry += f"\n   본문: {infos[i]['text'][:700]}"
         else:
@@ -413,10 +419,15 @@ def _vet_chunk(items: list[dict], infos: list[dict],
         "제외하지 말 것.\n\n"
         f"{chr(10).join(lines)}{rep_block}\n\n"
         "각 기사(번호별)에 대해 판단하라.\n\n"
-        "1) keep — 위 (가)~(바) 중 하나에 해당하는 실제 기사면 true.\n"
+        "1) keep — 위 (가)~(사) 중 하나에 해당하는 실제 기사면 true.\n"
         "   다음만 keep=false: 실제 기사가 아닌 것(사진 라이브러리, 아카이브 "
         "색인, 행사 안내 스텁, 경품 응모, 주가·공시 단신), 또는 위 주제와 "
-        "무관한 것(단어만 우연히 겹친 경우).\n\n"
+        "무관한 것(단어만 우연히 겹친 경우).\n"
+        "   [PINNED] 표시 기사는 사용자가 직접 지정한 상시 추적 검색어로 "
+        "수집된 것이다 — 제목·본문 발췌에 관련 키워드가 안 보여도 keep=true로 "
+        "두라(예: 스마트도시 기사지만 본문 뒤쪽에 드론배송 상용화가 있는 "
+        "경우). [PINNED]를 keep=false로 만들 수 있는 경우는 실제 기사가 아닌 "
+        "것뿐이며, 같은 사건 중복은 keep=true + duplicate_of로 처리하라.\n\n"
         "2) duplicate_of — 같은 사건·발표를 다룬 기사가 목록이나 R목록에 있으면 "
         "그 번호를 문자열로 적는다 (목록 내 기사면 '3'처럼 번호, 이미 보도된 "
         "대표기사면 'R2'처럼). 스스로가 대표가 될 기사는 ''로 둔다. 대표 선정 "
@@ -948,6 +959,7 @@ def main() -> int:
         fresh_keys = {norm_title(it["title"]) for it in fresh}
 
     report = load_report()
+    PINNED_KEYS.update(report.get("pinned_keys", []))
     verdicts = vet_and_summarize(fresh, recent_rep_list(seen),
                                  seen["outlets"], seen["tags"])
     kept, excluded, folded = apply_verdicts(fresh, verdicts, seen,

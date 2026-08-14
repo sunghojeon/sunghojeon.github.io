@@ -1010,6 +1010,12 @@ def main() -> int:
     for it in items:
         RUN_REPORT["region_counts"][it["region"]] = (
             RUN_REPORT["region_counts"].get(it["region"], 0) + 1)
+    # Handed to news_notify.py so its vetting pass knows which articles came
+    # from user-designated (pinned) queries and must not be dropped as
+    # off-topic — the title/lead alone often hides the beat (e.g. a smart-city
+    # story whose drone-delivery angle sits deep in the body).
+    RUN_REPORT["pinned_keys"] = sorted(
+        {norm_title(it["title"]) for it in items if it.get("_pinned")})
     # Long-dry learned queries: never touched automatically, only offered to
     # the user for a decision. Pinned ones are theirs already — skip.
     RUN_REPORT["cleanup_candidates"] = sorted(
