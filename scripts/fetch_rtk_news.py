@@ -315,10 +315,12 @@ def relevance(item: dict) -> int:
     # don't let them lose the over-limit ranking to score-2 wire copy.
     if item.get("_watch") and score >= 1:
         score += 2
-    # Pinned-query items pass the min-score floor but don't outrank genuine
-    # keyword hits in the over-limit ranking.
-    if item.get("_pinned") and score < 1:
-        score = 1
+    # Pinned-query items: user-designated beats. Score 2 both passes the
+    # min-score floor and survives the over-limit ranking cut (600+ items can
+    # pass the floor; score-1 items sit below the top-N line), while still
+    # letting score-3 flagship keywords rank first.
+    if item.get("_pinned"):
+        score = max(score, 2)
     return score
 
 
