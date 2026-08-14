@@ -104,6 +104,8 @@ RELEVANCE_PATTERNS = [
     (3, r"wave\s*rover|bmd-?1000|prism geosystems"),
     (2, r"datacasting|5g\s*broadcast|fembms|\bginga\b|\bsbtvd\b|a/300"),
     (2, r"\blptv\b|part\s*74|wcrn-?ld|tyche\s*media|x1\s*mobile|\bxgn\b"),
+    (2, r"드론\s*배송|드론\s*실증|특별자유화구역|원격식별|k-?드론|정밀\s*이착륙"),
+    (2, r"lane\s*-?ai|디지털도로|tpeg|차로별|아이나비"),
     (1, r"\bspectrum\b|ownership cap|starlink|echostar|offload"
         r"|direct-to-(device|mobile)|multicast|300\s*mhz|광고매출|방송평가"),
 ]
@@ -326,9 +328,12 @@ def curate_with_claude(items: list[dict]) -> list[dict]:
         "NextGen TV, Brazil TV 3.0 (DTV+), Broadcast RTK / eGPS, BPS "
         "(Broadcast Positioning System), EdgeBeam Wireless, broadcast "
         "spectrum policy (UHD/DMB/AM shutdown, 700 MHz refarming, spectrum "
-        "sale/lease), 5G Broadcast, A/300 interoperability, and "
+        "sale/lease), 5G Broadcast, A/300 interoperability, "
         "broadcast-market indicators (ad revenue, ratings, license "
-        "evaluations).\n\n"
+        "evaluations), Korean drone programs that need precision "
+        "positioning (드론배송/drone delivery, 드론 실증도시, K-드론시스템, "
+        "remote ID), and Korea's Lane AI / digital-road AI program "
+        "(디지털도로 AI, lane-level traffic info, TPEG).\n\n"
         f"{numbered}\n\n"
         "List the numbers of items that are NOT meaningfully about these "
         "topics (consumer promos, sweepstakes, tangential mentions). "

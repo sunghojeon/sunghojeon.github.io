@@ -1671,6 +1671,56 @@
       "added": "2026-08-13",
       "misses": 0,
       "enabled": true
+    },
+    {
+      "q": "드론배송",
+      "region": "KR",
+      "pinned": true,
+      "why": "사용자 지정: 드론배송 상용화·실증(예: 서산시 전국 1호 주·야간 드론배송 상용화, 충남일보 2026-08-14)은 MBC RTK 정밀측위·정밀 이착륙 사업의 직접 수요처 — 상시 청취.",
+      "added": "2026-08-14",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "드론 실증도시 OR 드론 특별자유화구역",
+      "region": "KR",
+      "why": "국토부 드론 실증도시 공모사업·특별자유화구역 지정은 드론배송/RTK 실증 수요가 생기는 정책 트랙 — 서산시 6년 연속 선정 사례처럼 지자체별 보도가 반복됨.",
+      "added": "2026-08-14",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "K-드론시스템 OR 드론 원격식별",
+      "region": "KR",
+      "why": "K-드론시스템·원격식별(RID)은 MBC K-드론 RID 과제와 직결되는 규제·인프라 트랙.",
+      "added": "2026-08-14",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "\"LaneAI\" OR 디지털도로 AI",
+      "region": "KR",
+      "pinned": true,
+      "why": "사용자 지정: MBC 주관 국토부 '디지털도로 AI 신기술 지원사업'(LaneAI, 2026.07~2027.12, 3개 시범도시) — 과제 공고·선정·실증·성과 보도 상시 청취.",
+      "added": "2026-08-14",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "TPEG OR 차로별 교통정보",
+      "region": "KR",
+      "why": "LaneAI의 산출물인 TPEG Lane-Level Extension(차로별 교통정보)과 방송 데이터 서비스 TPEG 관련 보도를 포착.",
+      "added": "2026-08-14",
+      "misses": 0,
+      "enabled": true
+    },
+    {
+      "q": "아이나비시스템즈",
+      "region": "KR",
+      "why": "LaneAI 컨소시엄 참여기관(팅크웨어 자회사, 내비·HD맵) — 파트너 기업 비트. 고유명이라 bare로 청취.",
+      "added": "2026-08-14",
+      "misses": 0,
+      "enabled": true
     }
   ],
   "feeds": [
