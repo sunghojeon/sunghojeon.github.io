@@ -375,7 +375,7 @@ def curate_with_claude(items: list[dict]) -> list[dict]:
 
 
 def collect(store: dict, since: datetime, max_per_query: int) -> list[dict]:
-    seen, out = set(), []
+    seen, out, by_key = set(), [], {}
     block = [re.compile(p, re.I) for p in TITLE_BLOCKLIST]
 
     def keep_items(items: list[dict], cap: int, pre_relevance: bool = False) -> int:
@@ -390,8 +390,15 @@ def collect(store: dict, since: datetime, max_per_query: int) -> list[dict]:
                 continue
             key = norm_title(item["title"])
             if key in seen:
+                # A pinned query refetching an article first collected via an
+                # unpinned query must still mark the kept copy as must-keep —
+                # queries run in file order, and the old broad queries run
+                # before the newer pinned beats.
+                if item.get("_pinned") and key in by_key:
+                    by_key[key]["_pinned"] = True
                 continue
             seen.add(key)
+            by_key[key] = item
             out.append(item)
             kept += 1
         return kept
