@@ -327,8 +327,10 @@ def curate_with_claude(items: list[dict]) -> list[dict]:
     claude = find_claude()
     if not claude or not items:
         return items
-    numbered = "\n".join(f'{i}. [{it["region"]}] {it["title"]} ({it["source"]})'
-                         for i, it in enumerate(items))
+    numbered = "\n".join(
+        f'{i}. [{it["region"]}]{"[PINNED]" if it.get("_pinned") else ""} '
+        f'{it["title"]} ({it["source"]})'
+        for i, it in enumerate(items))
     prompt = (
         "These headlines were collected for a page tracking ATSC 3.0 / "
         "NextGen TV, Brazil TV 3.0 (DTV+), Broadcast RTK / eGPS, BPS "
@@ -336,16 +338,21 @@ def curate_with_claude(items: list[dict]) -> list[dict]:
         "spectrum policy (UHD/DMB/AM shutdown, 700 MHz refarming, spectrum "
         "sale/lease), 5G Broadcast, A/300 interoperability, "
         "broadcast-market indicators (ad revenue, ratings, license "
-        "evaluations), drone and unmanned-vehicle programs that need "
-        "precision positioning (드론배송/drone delivery, 드론 실증도시, "
-        "K-드론시스템, drone remote-ID regulation anywhere, 무인이동체 "
-        "industry events, delivery/mobile robots 배송로봇·이동로봇), "
-        "road-traffic info infrastructure (도로교통공단, 교통신호정보), and "
-        "Korea's Lane AI / digital-road AI program (디지털도로 AI, "
-        "lane-level traffic info, TPEG).\n\n"
+        "evaluations), the drone/unmanned-vehicle ecosystem (드론배송 and "
+        "municipal drone-delivery/실증도시/특별자유화구역 rollouts by any "
+        "city — these are ALWAYS on-topic even without any positioning "
+        "mention, K-드론시스템, drone remote-ID regulation anywhere, "
+        "무인이동체 industry events, delivery/mobile robots "
+        "배송로봇·이동로봇), road-traffic info infrastructure (도로교통공단, "
+        "교통신호정보), and Korea's Lane AI / digital-road AI program "
+        "(디지털도로 AI, lane-level traffic info, TPEG).\n\n"
         f"{numbered}\n\n"
         "List the numbers of items that are NOT meaningfully about these "
         "topics (consumer promos, sweepstakes, tangential mentions). "
+        "Items tagged [PINNED] come from user-designated must-keep "
+        "queries: NEVER list a [PINNED] item as off-topic — its number may "
+        "appear ONLY when it duplicates another listed item's story (keep "
+        "the best one) or is clearly a re-indexed years-old article. "
         "Respond with ONLY a JSON array of numbers, e.g. [2,7] or []."
     )
     try:
