@@ -106,6 +106,8 @@ RELEVANCE_PATTERNS = [
     (2, r"\blptv\b|part\s*74|wcrn-?ld|tyche\s*media|x1\s*mobile|\bxgn\b"),
     (2, r"드론\s*배송|드론\s*실증|특별자유화구역|원격식별|k-?드론|정밀\s*이착륙"),
     (2, r"lane\s*-?ai|디지털도로|tpeg|차로별|아이나비"),
+    (1, r"드론|무인이동체|무인\s*항공기|무인기|\buav\b|이동로봇|배송\s*로봇"
+        r"|로봇\s*배송|도로교통공단|교통신호|교통인프라"),
     (1, r"\bspectrum\b|ownership cap|starlink|echostar|offload"
         r"|direct-to-(device|mobile)|multicast|300\s*mhz|광고매출|방송평가"),
 ]
@@ -313,6 +315,10 @@ def relevance(item: dict) -> int:
     # don't let them lose the over-limit ranking to score-2 wire copy.
     if item.get("_watch") and score >= 1:
         score += 2
+    # Pinned-query items pass the min-score floor but don't outrank genuine
+    # keyword hits in the over-limit ranking.
+    if item.get("_pinned") and score < 1:
+        score = 1
     return score
 
 
@@ -330,10 +336,13 @@ def curate_with_claude(items: list[dict]) -> list[dict]:
         "spectrum policy (UHD/DMB/AM shutdown, 700 MHz refarming, spectrum "
         "sale/lease), 5G Broadcast, A/300 interoperability, "
         "broadcast-market indicators (ad revenue, ratings, license "
-        "evaluations), Korean drone programs that need precision "
-        "positioning (드론배송/drone delivery, 드론 실증도시, K-드론시스템, "
-        "remote ID), and Korea's Lane AI / digital-road AI program "
-        "(디지털도로 AI, lane-level traffic info, TPEG).\n\n"
+        "evaluations), drone and unmanned-vehicle programs that need "
+        "precision positioning (드론배송/drone delivery, 드론 실증도시, "
+        "K-드론시스템, drone remote-ID regulation anywhere, 무인이동체 "
+        "industry events, delivery/mobile robots 배송로봇·이동로봇), "
+        "road-traffic info infrastructure (도로교통공단, 교통신호정보), and "
+        "Korea's Lane AI / digital-road AI program (디지털도로 AI, "
+        "lane-level traffic info, TPEG).\n\n"
         f"{numbered}\n\n"
         "List the numbers of items that are NOT meaningfully about these "
         "topics (consumer promos, sweepstakes, tangential mentions). "
@@ -394,6 +403,14 @@ def collect(store: dict, since: datetime, max_per_query: int) -> list[dict]:
                 items += fetch_naver(query)
             except Exception as exc:
                 print(f"  ! naver '{query['q']}': {exc}", file=sys.stderr)
+        # User-designated (pinned) queries: the user asked for this beat by
+        # name, so its articles must survive the title-keyword score floor
+        # even when the headline carries none of the global patterns (e.g. a
+        # drone-delivery story titled "서산시 스마트도시 대도약"). Off-topic
+        # strays are still pruned by the Claude curation pass.
+        if query.get("pinned"):
+            for it in items:
+                it["_pinned"] = True
         kept = keep_items(items, max_per_query)
         print(f"  {query['region']:2} [{tag}] '{query['q'][:42]}' -> {kept} kept")
         if query["learned"]:
