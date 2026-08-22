@@ -13,4 +13,4 @@ title: KBS UHD 혁신서비스 현황 @ 미래방송미디어표준포럼 ‘202
 
 ![그림](/images/FBMF202111_Workshop.jpg)
 
-[발표자료](https://speakerdeck.com/sunghojeon/20211129-miraebangsongmidieopyojunporeom-2021nyeon-mirae-bangsong-pyojun-gisul-weokeusyob-at-zoom-truerain)
+[발표자료](https://drive.google.com/file/d/1hxSRbUp5cnM4BjAGoW43yj2UvhVQb3Lc/preview)

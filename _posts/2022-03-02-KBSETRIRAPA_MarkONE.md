@@ -24,4 +24,4 @@ title: 지상파 UHD 스마트폰 직접수신 시연 및 세미나 @ KBS 시청
 
 ![그림](/images/Markone_invitation.jpg)
 
-[발표자료](https://speakerdeck.com/sunghojeon/yangbanghyang-cujin-gyeonggwa-at)
+[발표자료](https://drive.google.com/file/d/1BkvLnizfSZoqdHJzJL0PYrXPljxUSnPr/preview)

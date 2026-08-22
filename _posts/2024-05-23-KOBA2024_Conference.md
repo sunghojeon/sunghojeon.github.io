@@ -18,5 +18,5 @@ title: 지상파 ATSC3.0 본방송 주요 성과 및 국내외 동향 @ KOBA 202
 
 ![그림](/images/KOBA2024_Conference2.jpg)
 
-[발표자료](https://speakerdeck.com/sunghojeon/20240523-jisangpa-atsc3-dot-0bonbangsong-juyo-seonggwa-mic-gugnaeoe-donghyang-at-koba-2024-midieo-keonpeoreonseu-bangsong-pyojun-sesyeon) 
+[발표자료](https://drive.google.com/file/d/1koga9TFwWn2vBlH8hwmUt9b2lNoqTUos/preview) 
 

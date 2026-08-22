@@ -16,4 +16,4 @@ title: 한국방송기술인연합회/방송기술교육원/KBS기술본부 'UHD
 
 **[발표자료]** 
 
-[한국 지상파 UHD 방송의 현재 , 새로운 시도](https://speakerdeck.com/sunghojeon/201120-hangug-jisangpa-uhd-bangsongyi-hyeonjae-saeroun-sido-at-kbs-bongwan-ts-4)
+[한국 지상파 UHD 방송의 현재 , 새로운 시도](https://drive.google.com/file/d/1w8dlo2iAucP5Pm-vMWgmMi10dnvllet1/preview)

@@ -15,7 +15,7 @@ slides: https://drive.google.com/file/d/1AeX3Dkd8NL71rb3QgBOdFLfG1hYzQ1r0/previe
 
  o 발표 제목: *Field Verification Case of Terrestrial DTV Broadcasting Station Antenna Patterns Using Drone*
 
- o 발표 자료: [IT-5-221r1 MBC_Drone_Measurement Korea 2026-02-27_r1](https://speakerdeck.com/sunghojeon/sungho-jeon-mbc-atsc-it-5-2026-02-27-r1)
+ o 발표 자료: [IT-5-221r1 MBC_Drone_Measurement Korea 2026-02-27_r1](https://drive.google.com/file/d/1AeX3Dkd8NL71rb3QgBOdFLfG1hYzQ1r0/preview)
 
  o Workgroup: [IT-5, Tower Network Implementation Team](https://members.atsc.org/wg/TN-IT/document/folder/2223)
 

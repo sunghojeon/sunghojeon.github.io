@@ -70,7 +70,7 @@ The complete list — author lists, volumes, and pages.
 
 #### 2025
 
-- **Sungho Jeon**, Seongman Min, Moonsun Kang, Jae Hun You, Sunhyoung Kwon and Sung-Ik Park, "[ATSC 3.0 STLTP Distribution over Multicast-Unsupported VPN](https://www.eeng.dcu.ie/~bmsb2025/program.html)," in *The 20th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2025), Dublin, Ireland, June 2025. [[Slide](https://speakerdeck.com/sunghojeon/ieee-bmsb-2025-at-dublin-ireland)]
+- **Sungho Jeon**, Seongman Min, Moonsun Kang, Jae Hun You, Sunhyoung Kwon and Sung-Ik Park, "[ATSC 3.0 STLTP Distribution over Multicast-Unsupported VPN](https://www.eeng.dcu.ie/~bmsb2025/program.html)," in *The 20th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2025), Dublin, Ireland, June 2025. [[Slide](https://drive.google.com/file/d/1f_sEdeYaDRjJ31MLFfScdsL-Fcb8pIet/preview)]
 
 - Haechan Kwon, Sungjun Ahn, **Sungho Jeon**, Dongwook Kim, Jongsub Kim and Sung-Ik Park, "[Performance Comparison of Different Antenna Types for Diversity Reception in SFN Environments](https://www.eeng.dcu.ie/~bmsb2025/program.html)," in *The 20th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2025), Dublin, Ireland, June 2025.
 
@@ -86,13 +86,13 @@ The complete list — author lists, volumes, and pages.
 
 #### 2023
 
-- **Sungho Jeon**, Seong-Man Min, Dawoon Chung, Kangsoo Kim, Jahoon Ku, Sunhyoung Kwon and Sung-Ik Park, "[Simple Anomaly Detection Technique from Long-term Time-series Data by ATSC 3.0 Single Frequency Broadcast Network Monitoring System](https://doi.org/10.1109/BMSB58369.2023.10211288)," in *The 18th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2023), Beijing, China, June 2023. [[Slide](https://speakerdeck.com/sunghojeon/20220615-ieee-bmsb-2023-at-beijing-china)]
+- **Sungho Jeon**, Seong-Man Min, Dawoon Chung, Kangsoo Kim, Jahoon Ku, Sunhyoung Kwon and Sung-Ik Park, "[Simple Anomaly Detection Technique from Long-term Time-series Data by ATSC 3.0 Single Frequency Broadcast Network Monitoring System](https://doi.org/10.1109/BMSB58369.2023.10211288)," in *The 18th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2023), Beijing, China, June 2023. [[Slide](https://drive.google.com/file/d/1GbqJO0yzgRm6oos9VSFFRkebe-R1auQB/preview)]
 
 - Sungjun Ahn, Seok-Ki Ahn, Sung-Ik Park, Jeongchang Kim, **Sungho Jeon**, Mats Ek, Sesh Simha, Mark Aitken, Anindya Saha, Prashant Maru, Parag Naik and Joonhyuk Kang, "[Adaptive Modification of Fading Channel Models for Terrestrial SFN Environments](https://www.bmsb2023.com/index.html)," in *The 18th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2023), Beijing, China, June 2023. [Best Student Paper Award](http://journal.kobeta.com/%ec%95%88%ec%84%b1%ec%a4%80-kaist-%eb%b0%95%ec%82%ac%ea%b3%bc%ec%a0%95-ieee-bmsb-2023-%ed%95%99%ec%88%a0%eb%8c%80%ed%9a%8c%ec%84%9c-%ec%88%98%ec%83%81/)
 
 #### 2022
 
-- **Sungho Jeon**, Seongman Min, Dawoon Chung, Doowon Kim, Sung-Ik Park, and Byung-Ho Lee, "[Nationwide Integrated 24/7 Monitoring System for ATSC 3.0 Single Frequency Broadcast Network](https://doi.org/10.1109/BMSB55706.2022.9828672)," in *The 17th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2022), Bilbao, Spain, June 2022. [[Slide](https://speakerdeck.com/sunghojeon/20220615-ieee-bmsb-2022-at-bilbao-spain)]
+- **Sungho Jeon**, Seongman Min, Dawoon Chung, Doowon Kim, Sung-Ik Park, and Byung-Ho Lee, "[Nationwide Integrated 24/7 Monitoring System for ATSC 3.0 Single Frequency Broadcast Network](https://doi.org/10.1109/BMSB55706.2022.9828672)," in *The 17th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2022), Bilbao, Spain, June 2022. [[Slide](https://drive.google.com/file/d/1is2X5ztxcJW6MNDyeeNhta74O2uszRHa/preview)]
 
 - Hoiyoon Jung, Sung-Ik Park, Bo-mi Lim, Haechan Kwon, Namho Hur, **Sungho Jeon**, Hyeongseok Kim and Jeongchang Kim, "[Core-Layer Performance Comparison of ATSC 3.0 LDM-MIMO System in Mobile Environment](https://doi.org/10.1109/BMSB55706.2022.9828776)," in *The 17th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2022), Bilbao, Spain, June 2022.
 
@@ -199,7 +199,7 @@ The complete list — author lists, volumes, and pages.
 
 #### 2018
 
-- **Sungho Jeon**, Jaekwon Lee, Sunhyoung Kwon, Bo-Mi Lim, Sungjun Ahn, Yoo-Sang Shin, Jae-Young Lee and Sung-Ik Park, "[Field Trial Results for ATSC 3.0 TxID Transmission and Detection in Single Frequency Network of Seoul](https://doi.org/10.1109/BMSB.2018.8436849)," in *The 13th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2018), Valencia, Spain, June 2018. [[Slide](https://speakerdeck.com/sunghojeon/180607-field-trial-results-for-atsc-3-dot-0-txid-transmission-and-detection-in-single-frequency-network-of-seoul)]
+- **Sungho Jeon**, Jaekwon Lee, Sunhyoung Kwon, Bo-Mi Lim, Sungjun Ahn, Yoo-Sang Shin, Jae-Young Lee and Sung-Ik Park, "[Field Trial Results for ATSC 3.0 TxID Transmission and Detection in Single Frequency Network of Seoul](https://doi.org/10.1109/BMSB.2018.8436849)," in *The 13th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2018), Valencia, Spain, June 2018. [[Slide](https://drive.google.com/file/d/1meky8EZI-1NqlZO9EKJwCl3nVJGW6wWg/preview)]
 
 - Sung-Ik Park, Jae-Young Lee, Sunhyoung Kwon, Bo-Mi Lim, Sungjun Ahn, Heung Mook Kim, **Sungho Jeon**, Jaekwon Lee, Michael Simon, Mark Aitken, Kevin Gage, Yiyan Wu, Liang Zhang, Wei Li and Jeongchang Kim, "[ATSC 3.0 Physical Layer Modulation and Coding Performance Analysis](https://doi.org/10.1109/BMSB.2018.8436876)," in *The 13th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2018), Valencia, Spain, June 2018. (Best Paper Award)
 
@@ -207,7 +207,7 @@ The complete list — author lists, volumes, and pages.
 
 #### 2017
 
-- **Sungho Jeon**, Junghyun Kim, Yoo-Sang Shin, Sanghoon Kim, Sangjin Hahm, Young-Woo Suh, Sung-Ik Park, Jae-young Lee, and Jong-Soo Seo, "[Preliminary Field Trial Results for DVB-T2 Indoor Reception in Seoul: A Single Transmitter Case](https://doi.org/10.1109/BMSB.2017.7986186)," in *The 12th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2017), Cagliari, Italy, June 2017. [[Slide](https://speakerdeck.com/sunghojeon/bmsb-2017-preliminary-field-trial-results-for-dvb-t2-indoor-reception-in-seoul-a-single-transmitter-case)]
+- **Sungho Jeon**, Junghyun Kim, Yoo-Sang Shin, Sanghoon Kim, Sangjin Hahm, Young-Woo Suh, Sung-Ik Park, Jae-young Lee, and Jong-Soo Seo, "[Preliminary Field Trial Results for DVB-T2 Indoor Reception in Seoul: A Single Transmitter Case](https://doi.org/10.1109/BMSB.2017.7986186)," in *The 12th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2017), Cagliari, Italy, June 2017. [[Slide](https://drive.google.com/file/d/1RYa1Y-q9diA9jDBdKgNqNaePN4cJ0LLL/preview)]
 - Jae-young Lee, Sung Ik Park, Sunhyoung Kwon, Bo-mi Lim, Heung Mook Kim, Namho Hur, Anthony Pesin, Jean-Claude Chevet, Joan Llach, Alan Stein, **Sungho Jeon**, and Yiyan Wu, "[Scalable HEVC over Layered Division Multiplexing for the Next Generation Terrestrial Broadcasting](https://doi.org/10.1109/BMSB.2017.7986176)," in *The 12th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2017), Cagliari, Italy, June 2017. (Best Paper Award)
 
 #### 2016
@@ -218,7 +218,7 @@ The complete list — author lists, volumes, and pages.
 
 #### 2015
 
-- **Sungho Jeon**, Junghyun Kim, Jae-Shin Han, Sang-Hun Kim, Jeong-Deok Kim, and Jong-Soo Seo, "[Numerical Analysis on the Net Gross MISO-SFNG in DVB-T2 System](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7177217)," in *The 10th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2015), Ghent, Belgium, June 2015. [[Slide](https://speakerdeck.com/sunghojeon/bmsb2015-numerical-analysis-on-the-net-gross-miso-sfng-in-dvb-t2-system)]
+- **Sungho Jeon**, Junghyun Kim, Jae-Shin Han, Sang-Hun Kim, Jeong-Deok Kim, and Jong-Soo Seo, "[Numerical Analysis on the Net Gross MISO-SFNG in DVB-T2 System](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7177217)," in *The 10th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2015), Ghent, Belgium, June 2015. [[Slide](https://drive.google.com/file/d/1FCHj_LYBex2rlroWGsQtD9dg4d_gJQeV/preview)]
 - Zifeng Kui, Jae-Shin Han, Jeong-Min Choi, **Sungho Jeon**, Youngho Oh and Jong-Soo Seo, "[Improved Preamble Scheme Utilizing Hybrid Differential Modulation in Polarized DVB-T2 MISO System](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7177210)," in *The 10th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2015), Ghent, Belgium, June 2015.
 - Jae-Shin Han, Jeong-Min Choi, **Sungho Jeon**, Robin Shrestha, and Jong-Soo Seo, "[Interference Suppression and Link Selection for Non-Regenerative Multiple Full Duplex Relaying](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7177201)," in *The 10th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2015), Ghent, Belgium, June 2015.
 - Sansung Kim, Byungsun Kim, Sangjin Hahm, Injoon Cho, Sanghoon Kim, and **Sungho Jeon**, "[The New Phase of Terrestrial UHD Service: Live 4K UHD Broadcasting via Terrestrial Channel](http://nab15.mapyourshow.com/6_0/sessions/session-details.cfm?ScheduleID=75)," in *NAB Broadcast Engineer Conference 2015*, Las Vegas, NV, April 2015.
@@ -226,14 +226,14 @@ The complete list — author lists, volumes, and pages.
 #### 2014
 
 - Yuting Tao, Hak-Jin Kim, **Sungho Jeon**, and Jong-Soo Seo, "[Low complexity adaptive soft demapper based on decision criterion for rotated QAM/APSK](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6873525)," in *The 9th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2014), Beijing, China, June 2014. (Best Student Paper Award)
-- **Sungho Jeon**, Jae-Shin Han, Hak-Jin Kim, Yuting Tao, Sung Ik Park, Zungkon Yim, Heung Mook Kim, and Jong-Soo Seo, "[Multiple-Input Multiple-Output Cloud Transmission for High Data Rate Contents Delivery](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6873521)," in *The 9th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2014), Beijing, China, June 2014. [[Slide](https://speakerdeck.com/sunghojeon/bmsb2014-multiple-input-multiple-output-cloud-transmission-for-high-data-rate-local-contents-delivery)]
+- **Sungho Jeon**, Jae-Shin Han, Hak-Jin Kim, Yuting Tao, Sung Ik Park, Zungkon Yim, Heung Mook Kim, and Jong-Soo Seo, "[Multiple-Input Multiple-Output Cloud Transmission for High Data Rate Contents Delivery](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6873521)," in *The 9th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2014), Beijing, China, June 2014. [[Slide](https://drive.google.com/file/d/10wmxCB1HqArFKBeCYu9bPgDEO7SYb5ne/preview)]
 
 #### 2013
 
 - Sangjin Hahm, Zungkon Yim, Byungsun Kim, **Sungho Jeon**, and Injoon Cho, "[Application of HEVC and DVB-T2 to Terrestrial 4K UHDTV Broadcast Over-the-Air Trials](http://www.researchgate.net/publication/269075260_Application_of_HEVC_and_DVB-T2_to_terrestrial_4K_UHDTV_broadcast_over-the-air_trials)," in *The 2013 International Broadcasting Convention* (IBC 2013) Conference, Amsterdam, Netherlands, September 2013. (Best Paper Award)
 - Young-Woo Suh, Yeong-Seok Jeong, **Sungho Jeon**, Il-Soo Kyung, Hae-Sul Yang, "[An Efficient Mobile Coverage Measurement System for ATSC DTV Network](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6621776)," in *The 8th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2013), West London, United Kingdom, June 2013.
 - Jae-Shin Han, Jong-Seob Baek, **Sungho Jeon**, and Jong-Soo Seo, "[Full-Duplex Multiple Relays: A High Data Rate Cooperative Communications over Rayleigh Fading Channels](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6621744)," in *The 8th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2013), West London, United Kingdom, June 2013.
-- **Sungho Jeon**, Zungkon Yim, Hyeun-Pil Jin, Jeong-Min Choi, and Jong-Soo Seo, "[Performance of maximal ratio combining digital on-channel repeater for terrestrial DMB/DAB](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6621748)," in *The 8th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2013), West London, United Kingdom, June 2013. [[Slide](https://speakerdeck.com/sunghojeon/dab)]
+- **Sungho Jeon**, Zungkon Yim, Hyeun-Pil Jin, Jeong-Min Choi, and Jong-Soo Seo, "[Performance of maximal ratio combining digital on-channel repeater for terrestrial DMB/DAB](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6621748)," in *The 8th IEEE International Symposium on Broadband Multimedia Systems and Broadcasting* (IEEE BMSB 2013), West London, United Kingdom, June 2013. [[Slide](https://drive.google.com/file/d/1Ef8-cme66TR-UkKzqs7h0AvqZxvMBB3e/preview)]
 
 #### 2012
 
@@ -337,7 +337,7 @@ The complete list — author lists, volumes, and pages.
 
 #### 2017
 
-- **전성호**, 임보미, 박성익, 이재권, 장진영, 이권익 (2017.11). [ATSC 3.0 기반 모바일HD 물리계층 필드테스트 결과: 제주테크노파크 100W 실험국과 제주시내 이동측정을 위주로](http://office.kbs.co.kr/tri/file_down.php?attach=/2017/11/ATSC3.0-%EA%B8%B0%EB%B0%98-%EB%AA%A8%EB%B0%94%EC%9D%BCHD-%EB%AC%BC%EB%A6%AC%EA%B3%84%EC%B8%B5-%ED%95%84%EB%93%9C%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B2%B0%EA%B3%BC.pdf). 『한국방송미디어공학회 추계학술대회』, 서울과학기술대학교 100주년기념관. [[Slide](https://speakerdeck.com/sunghojeon/atsc-3-dot-0-giban-mobailhd-mulrigyeceung-pildeuteseuteu-gyeolgwa-jejutekeunopakeu-100w-silheomguggwa-jejusinae-idongceugjeongeul-wijuro-at-2017-hangugbangsonggonghaghoe-cugyehagsuldaehoe)]
+- **전성호**, 임보미, 박성익, 이재권, 장진영, 이권익 (2017.11). [ATSC 3.0 기반 모바일HD 물리계층 필드테스트 결과: 제주테크노파크 100W 실험국과 제주시내 이동측정을 위주로](http://office.kbs.co.kr/tri/file_down.php?attach=/2017/11/ATSC3.0-%EA%B8%B0%EB%B0%98-%EB%AA%A8%EB%B0%94%EC%9D%BCHD-%EB%AC%BC%EB%A6%AC%EA%B3%84%EC%B8%B5-%ED%95%84%EB%93%9C%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B2%B0%EA%B3%BC.pdf). 『한국방송미디어공학회 추계학술대회』, 서울과학기술대학교 100주년기념관. [[Slide](https://drive.google.com/file/d/1wQrCt75uot-hwOTu1PqqCtBUNaVCioqy/preview)]
 
 - **전성호**, 이재권, 신유상, 최우식, 이헌주, 장진영, 오주봉, 이재호, 강대갑 (2017.6). [ATSC 3.0 기반 지상파 UHD 본방송을 위한 물리계층 필드테스트 결과](http://office.kbs.co.kr/tri/file_down.php?attach=/2017/07/ATSC-3.0-%EA%B8%B0%EB%B0%98-%EC%A7%80%EC%83%81%ED%8C%8C-UHD-%EB%B3%B8%EB%B0%A9%EC%86%A1%EC%9D%84-%EC%9C%84%ED%95%9C-%EB%AC%BC%EB%A6%AC%EA%B3%84%EC%B8%B5-%ED%95%84%EB%93%9C%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B2%B0%EA%B3%BC.pdf). 『한국방송미디어공학회 하계학술대회』, 제주한라대학교 금호세계교육관.
 
@@ -357,7 +357,7 @@ The complete list — author lists, volumes, and pages.
 
 #### 2012
 
-- **전성호**, 이재권, 임중곤, 전성상, 경일수 (2012.11). [KBS관악산UHDTV실험국 지상파 4K-UHDTV 실험방송 전송시스템](http://ocean.kisti.re.kr/IS_mvpopo001P.do?method=multMain&poid=ksbe). 『한국방송공학회 학술발표대회 논문집』, 77-80. [[Slide](https://speakerdeck.com/sunghojeon/hangugbangsonggonghaghoe-2012-cugyehagsuldaehoe-kbsgwanagsanuhdtvsilheomgug-jisangpa-4k-uhdtv-silheombangsong-jeonsongsiseutem)]
+- **전성호**, 이재권, 임중곤, 전성상, 경일수 (2012.11). [KBS관악산UHDTV실험국 지상파 4K-UHDTV 실험방송 전송시스템](http://ocean.kisti.re.kr/IS_mvpopo001P.do?method=multMain&poid=ksbe). 『한국방송공학회 학술발표대회 논문집』, 77-80. [[Slide](https://drive.google.com/file/d/1ux3RICy6gA-Hgf9fvgRjq6IcZmT5ysWj/preview)]
 
 #### 2010
 

@@ -12,6 +12,6 @@ title: The status of multi-channel/mobile/interactive services by KBS in Korea @
 
 ![그림](/images/RAPA202111_Seminar.jpg)
 
-[발표자료](https://speakerdeck.com/sunghojeon/20211130-je11hoe-casedae-bangsong-midieo-gisul-semina-at-sangamdong-seutaenpoteu-hotel)
+[발표자료](https://drive.google.com/file/d/15b3VEH2leTl_TEmuIFgwf1JtRPTILsx7/preview)
 
 [발표영상](https://www.youtube.com/watch?v=lkWgBbVP46o)

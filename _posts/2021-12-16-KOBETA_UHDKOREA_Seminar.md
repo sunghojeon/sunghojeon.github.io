@@ -15,4 +15,4 @@ title: UHD 혁신 서비스 경과 보고 @ 지상파 UHD 방송 세미나
 
 ![그림](/images/KOBETA_UHDKOREA_SEMINAR_2021-12.jpg)
 
-[발표자료](https://speakerdeck.com/sunghojeon/uhd-korea-jisangpa-uhd-bangsong-semina-at-hangugbangsonghoegwan-10ceung-bangsonggisulgyoyugweon)
+[발표자료](https://drive.google.com/file/d/1_PaorKX-VfJi112JcnYi6qsqSayXedB_/preview)

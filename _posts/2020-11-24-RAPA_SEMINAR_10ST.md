@@ -16,4 +16,4 @@ title: 차세대 ‘방송·미디어 기술 세미나’ @ 온라인
 
 **[발표자료]** 
 
-. [(재난메시지 전달 기술을 중심으로 살펴본) 포스트 코로나 시대의 차세대 모바일 방송 서비스](https://speakerdeck.com/sunghojeon/201124-jaenanmesiji-jeondal-gisuleul-jungsimeuro-salpyeobon-poseuteu-korona-sidaeyi-casedae-mobail-bangsong-seobiseu-at-truerain-zoom)
+. [(재난메시지 전달 기술을 중심으로 살펴본) 포스트 코로나 시대의 차세대 모바일 방송 서비스](https://drive.google.com/file/d/1AVz3L_jYRrqhGrdYqAnJw8H6bcFSCQVe/preview)

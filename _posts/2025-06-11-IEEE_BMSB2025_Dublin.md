@@ -14,7 +14,7 @@ title: ATSC 3.0 STLTP Distribution over Multicast-Unsupported VPN @ IEEE BMSB 20
 
  o 발표 제목: *ATSC 3.0 STLTP Distribution over Multicast-Unsupported VPN* (제1저자 구두 발표)
 
- o 발표 자료: [IEEE BMSB 2025 at Dublin, Ireland](https://speakerdeck.com/sunghojeon/ieee-bmsb-2025-at-dublin-ireland)
+ o 발표 자료: [IEEE BMSB 2025 at Dublin, Ireland](https://drive.google.com/file/d/1f_sEdeYaDRjJ31MLFfScdsL-Fcb8pIet/preview)
 
 
 □ 발표 핵심 내용

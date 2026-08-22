@@ -20,4 +20,4 @@ MBC Broadcast RTK는 전국 100개 GNSS 기준국과 DMB·ATSC 3.0 방송망, LT
 
 ![그림](/images/KOBA2026_Conference_web.png)
 
-[발표자료](https://speakerdeck.com/sunghojeon/20260514-koba2026-keonpeoreonseu-anseongjunetri-jeonseonghombc-upload)
+[발표자료](https://drive.google.com/file/d/11sKb9Spi-LfB4mn-aPr245o3KWc7-5xX/preview)
