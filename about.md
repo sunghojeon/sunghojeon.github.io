@@ -153,6 +153,7 @@ hide_page_title: true
 ### Best Paper Award
 
 <div class="svc">
+  <div class="svc-item"><span class="svc-label"><a href="http://journal.kobeta.com/etri%C2%B7mbc%C2%B7kbs-%EC%97%B0%EA%B5%AC%ED%8C%80-ieee-bmsb-%EC%B5%9C%EC%9A%B0%EC%88%98-%EB%85%BC%EB%AC%B8%EC%83%81-%EC%88%98%EC%83%81/">Best Paper Award (PHY)</a>, IEEE BMSB 2026 <span class="ko-gloss">최우수 논문상 — ATSC 3.0 종단 간 지연 연구(재난경보), ETRI·MBC·KBS 공동</span></span><span class="svc-date">2026.07</span></div>
   <div class="svc-item"><span class="svc-label"><a href="http://www.abu.org.my/Latest_News-@-GA_2015_ABU_Engineering_Awards_%E2%80%93_Winners_announced_in_Istanbul_.aspx">The Second Commended Article Prize</a>, ABU Technical Review 2015</span></div>
   <div class="svc-item"><span class="svc-label">Best Student Paper Award, IEEE BMSB 2014</span></div>
   <div class="svc-item"><span class="svc-label">The First Commended Article Prize, ABU Technical Review 2013</span></div>
