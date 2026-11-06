@@ -182,6 +182,10 @@ The complete list — author lists, volumes, and pages.
 
 ### Articles
 
+#### 2026
+
+- **전성호** (2026.10). [IEEE BMSB 2026 참가 후기: 국가 데이터 인프라로 가는 방송](https://www.kibme.org/resources/journal/20261106102353380.pdf). 『방송과 미디어』, 31(4), 96-113.
+
 #### 2015
 
 - Injoon Cho, Byungsun Kim, Sangjin Hahm, Sanghun Kim, and **Sungho Jeon**, "[Terrestrial 4K UHD Live Broadcasting of Sports Events](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=0CCMQFjABahUKEwiO152M8-THAhVh4qYKHaNKBHQ&url=http%3A%2F%2Fdata.abu.org.my%2Ftechnical%2Ftdwebsite%2Ftr%2F261%2520Q1%25202015.pdf&usg=AFQjCNEnlQaKtbLLVTo9_XcZo9vtf5luvQ&sig2=ksfmTKEYZq53LCMK3ZCesg&cad=rja)," *ABU Technical Review*, vol. 261, no. 1, pp. 2-8, January-March 2015. (The Second Commended Article Prize)

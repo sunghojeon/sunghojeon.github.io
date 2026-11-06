@@ -62,3 +62,7 @@ title: IEEE BMSB 2026 (João Pessoa) — ETRI·MBC·KBS 공동연구팀 최우�
 **□ 발표자료**
 
 - [IEEE BMSB 2026 발표자료 — *Coverage Overlap & Outage Bounding in Hybrid ATSC3.0/LTE RTK Delivery — A Four-Region Field Digest*](https://drive.google.com/file/d/1KYNJYx1FKDoI528iMg57-XRkMwc5wEFH/preview)
+
+**□ 참가 후기 — 『방송과 미디어』 제31권 4호**
+
+- 키노트 9편, 논문집 137편의 분류와 기술 동향, 패널토론, 한국 참가진의 성과를 정리한 참가 후기 「IEEE BMSB 2026 참가 후기: 국가 데이터 인프라로 가는 방송」이 한국방송·미디어공학회 학회지 『방송과 미디어』 제31권 4호(2026년 10월, 특별 리포트, 96–113쪽)에 실렸다. → [원고보기 (PDF)](https://www.kibme.org/resources/journal/20261106102353380.pdf) · [게재 소식]({{ site.baseurl }}/KIBME-Magazine-BMSB2026-Report/)
