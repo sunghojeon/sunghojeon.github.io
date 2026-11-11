@@ -518,6 +518,14 @@ th {
   border-color: $ink;
 }
 
+// Award badge that links to the announcement (Full Publication Archive)
+a.pub-badge--award:hover,
+a.pub-badge--award:focus {
+  color: $paper;
+  background: $accentStrong;
+  border-color: $accentStrong;
+}
+
 .pub-year {
   display: inline-block;
   min-width: 2.6em;
