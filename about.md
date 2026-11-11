@@ -136,30 +136,6 @@ hide_page_title: true
   <div class="svc-item"><span class="svc-label"><strong><a href="https://www.cq.or.kr/qh_acegm08_001.do">Restricted Radio Operator</a></strong> <span class="ko-gloss">제한무선통신사</span> · Reg. No. 163221164</span><span class="svc-date">2016.10.11</span></div>
 </div>
 
-## Awards
-
-### Achievement Award
-
-<div class="svc">
-  <div class="svc-item"><span class="svc-label">Minister's Commendation, Ministry of Science and ICT <span class="ko-gloss">표창장, 과학기술정보통신부 장관</span></span><span class="svc-date">2024.12</span></div>
-  <div class="svc-item"><span class="svc-label">Minister's Commendation, Ministry of Science and ICT <span class="ko-gloss">표창장, 과학기술정보통신부 장관</span></span><span class="svc-date">2020.12</span></div>
-  <div class="svc-item"><span class="svc-label">Commendation, Director General of the National Radio Research Agency <span class="ko-gloss">표창장, 국립전파연구원장</span></span><span class="svc-date">2020.12</span></div>
-  <div class="svc-item"><span class="svc-label"><a href="http://tta.or.kr/news/certify_view.jsp?notice_num=6442">Outstanding Committee Member Award</a>, TTA PG802 <span class="ko-gloss">표창패, 지상파방송프로젝트그룹 우수 위원상, 한국정보통신기술협회</span></span><span class="svc-date">2018.12</span></div>
-  <div class="svc-item"><span class="svc-label">Minister's Commendation, Ministry of Science and ICT <span class="ko-gloss">표창장, 과학기술정보통신부 장관</span></span><span class="svc-date">2017.12</span></div>
-  <div class="svc-item"><span class="svc-label">Commendation, National Radio Research Agency / MSIP <span class="ko-gloss">국립전파연구원장 표창, 미래창조과학부/국립전파연구원</span></span><span class="svc-date">2016.12</span></div>
-  <div class="svc-item"><span class="svc-label"><a href="http://www.kobeta.com/notice/?uid=2291&amp;mod=document">Grand Prize, 2016 Korea Broadcasting Technology Awards</a>, KOBETA <span class="ko-gloss">방송기술대상 최우수상, 한국방송기술인연합회</span></span><span class="svc-date">2016.11</span></div>
-</div>
-
-### Best Paper Award
-
-<div class="svc">
-  <div class="svc-item"><span class="svc-label"><a href="http://journal.kobeta.com/etri%C2%B7mbc%C2%B7kbs-%EC%97%B0%EA%B5%AC%ED%8C%80-ieee-bmsb-%EC%B5%9C%EC%9A%B0%EC%88%98-%EB%85%BC%EB%AC%B8%EC%83%81-%EC%88%98%EC%83%81/">Best Paper Award (PHY)</a>, IEEE BMSB 2026 <span class="ko-gloss">최우수 논문상 — ATSC 3.0 종단 간 지연 연구(재난경보), ETRI·MBC·KBS 공동</span></span><span class="svc-date">2026.07</span></div>
-  <div class="svc-item"><span class="svc-label"><a href="http://www.abu.org.my/Latest_News-@-GA_2015_ABU_Engineering_Awards_%E2%80%93_Winners_announced_in_Istanbul_.aspx">The Second Commended Article Prize</a>, ABU Technical Review 2015</span></div>
-  <div class="svc-item"><span class="svc-label">Best Student Paper Award, IEEE BMSB 2014</span></div>
-  <div class="svc-item"><span class="svc-label">The First Commended Article Prize, ABU Technical Review 2013</span></div>
-  <div class="svc-item"><span class="svc-label">Bronze Award, IEEE Seoul Section Student Paper Contest 2012</span></div>
-</div>
-
 ## Professional Activities
 
 ### Conference Service
