@@ -636,6 +636,11 @@ a.pub-badge--award:focus {
   border: none;
 }
 
+/* Awards page — commendations (표창) get a filled dot, paper awards keep the hollow one (2026-11-18) */
+.tl-item.tl-commend::before {
+  background: $inkMuted;
+}
+
 /* News & Talks timeline */
 .timeline {
   list-style: none;
