@@ -625,6 +625,17 @@ a.pub-badge--award:focus {
   font-weight: 600;
 }
 
+/* Awards page — year heading above each timeline block (/award/, 2026-11-18) */
+.tl-year {
+  font-family: $sans;
+  font-size: 1rem;
+  font-weight: 600;
+  color: $ink;
+  margin: 2.2rem 0 0;
+  padding: 0;
+  border: none;
+}
+
 /* News & Talks timeline */
 .timeline {
   list-style: none;
